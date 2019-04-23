@@ -1,0 +1,64 @@
+This is BibTeX, Version 0.99d (TeX Live 2018/W32TeX)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: report.aux
+The style file: biblatex.bst
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: report-blx.bib
+Database file #2: E:/OP18REFCS03/References/plantaudit.bib
+Biblatex version: 3.11
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+You've used 14 entries,
+            6304 wiz_defined-function locations,
+            1276 strings with 11083 characters,
+and the built_in function-call counts, 66941 in all, are:
+= -- 4165
+> -- 1707
+< -- 608
++ -- 1510
+- -- 583
+* -- 4359
+:= -- 6061
+add.period$ -- 0
+call.type$ -- 14
+change.case$ -- 362
+chr.to.int$ -- 40
+cite$ -- 26
+duplicate$ -- 7479
+empty$ -- 6094
+format.name$ -- 853
+if$ -- 14296
+int.to.chr$ -- 0
+int.to.str$ -- 42
+missing$ -- 0
+newline$ -- 414
+num.names$ -- 811
+pop$ -- 4436
+preamble$ -- 1
+purify$ -- 421
+quote$ -- 0
+skip$ -- 2861
+stack$ -- 0
+substring$ -- 5616
+swap$ -- 2060
+text.length$ -- 398
+text.prefix$ -- 13
+top$ -- 1
+type$ -- 452
+warning$ -- 0
+while$ -- 857
+width$ -- 0
+write$ -- 401

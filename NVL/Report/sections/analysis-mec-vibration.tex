@@ -1,0 +1,83 @@
+%\begin{document}
+%VIBRATION AND STRUCTURAL ASSESSMENT
+\section{Vibration and structural assessment}
+\label{45}
+
+\subsection{Measurement and spectrum reading}
+Rotating equipment generate vibration waveforms that are mathematical functions of machine dynamics, such as speed, alignment, and rotor balance, among others. Vibration analysis entails measurement and analysis of the amplitude of vibration at certain frequencies to gather useful information relating to the accuracy of shaft alignment and balance, the physical condition of bearings, and the possible effects of structural issues; in the case of Maynilad, the problem of impeller possible cavitation is an added and serious concern.
+
+Three main parameters are measured to determine the severity or amplitude of vibration; namely: displacement, velocity and acceleration. Along with temperature, the vibration level is a primary indicator of the physical condition of a machine. As a generally rule, higher vibration levels indicate greater defects. 
+
+Rotating speeds below 600 rpm (10 Hz) generate minimal acceleration, moderate velocity, but relatively high displacement. Hence, shaft displacement is a critical parameter for slow speed rotors, such as steam turbines. Between 600 – 60000 rpm (10 - 1000 Hz) velocity and acceleration levels provide useful indications of the severity of defects. While velocity as a parameter may indicate the presence or relative magnitude of a problem, it makes no distinction as to the source or cause. This is where an FFT vibration analyzer comes in. A fast Fourier transform algorithm converts acceleration waveforms into functions of frequency in a way suitable-trained humans can distinguish the component sources or causes of the vibration.
+
+By means of a OneProd Falcon high-resolution FFT analyzer equipped with tri-axial accelerometer with a linear frequency range of 2Hz-30kHz, vibration spectral readings were taken from four bearing locations in each motor-pump unit. Analysis and results are summarized as follows:
+
+\subsection{Data and analysis}
+
+Raw data of vibration measurement is provided in separately digital format. The raw data of each pump is used to generate a set of graphs provided in Appendix \ref{app_vibrationdata}.
+
+Analytical results on vibration are with the Appendix \ref{app_vibrationdata}. A summary of grading for each pump is given in Table \ref{ch045_tbl_vibration_data}.
+
+\input{tables/ch045_tbl_vibration_data}
+
+It is noted that the CS 2, and 3 shown in Table \ref{ch045_tbl_vibration_data} infers good and fair, respectively \footnote{The CS is slightly different from that defines in Table \ref{ch03:cs}}. 
+
+%It can be seen from Table \ref{ch045_tbl_vibration_data}, vibration on motor of BP1 and BP2 is with CS 2 inferring that they are still operating in acceptance level of vibration (good). However, vibration on motor of BP3 and BP4 are in fair condition. 
+%
+%However, vibration on pump is mostly with CS 3 (fair), except for BP4. Problems found from observation and vibration analysis are mainly due to shaft misalignment, impeller possible cavitation, and low lubrication at pump inboard (IB) and outboard (OB) bearing. 
+
+\subsection{Recommendations}
+
+%Pumping station comprising two vertical supply pumps and four vertical booster pumps were constructed with extremely short inlet and outlet pipe sections, leading to inefficient, if not incorrect, operation regimes. Increased power consumption and recurrent damage to impellers and bearings are natural consequences of the said design. From the analysis of vibration spectra, there is a high probability that cavitation has been with the three booster pump units in operation.
+
+Recommendations are shown in Table \ref{ch045_tbl_vibration_recommendation}
+
+\input{tables/ch045_tbl_vibration_recommendations}
+
+
+\begin{itemize}
+\item The pump head should be relatively free from loads other than the weight of the overhead motor. However, for pumps 1 and 2 (Figure \ref{fig_ch043_discharge_run} - a and Figure \ref{fig_ch043_discharge_run} - b) the immediate discharge has unsupported pipe run of considerable length which will impose undue load of the pump head. Ad-hoc solution of placing a small concrete cylinder on the floor and catching the weight of the pipe and water passing is shown in Figure \ref{fig_ch043_discharge_run} - c. 
+
+\paragraph{\underline{Recommendation}}
+\begin{itemize}
+	\item [$\checkmark$] Install proper supports along the discharge pipe segments. Additional support preferably under increaser be installed to carry weight of pipe.%(see conceptual design for details)
+\end{itemize}
+\end{itemize}
+
+\begin{itemize}
+\item The pump discharge heads lack proper isolation devices, such as flexible joints or couplings. 
+
+\paragraph{\underline{Recommendations}}
+\begin{itemize}
+	\item [$\checkmark$] Install flexible joints or couplings at the discharge heads.
+\end{itemize}
+\end{itemize}
+
+\begin{figure}
+	\begin{minipage}[b]{0.3\linewidth}
+		\centering
+		\includegraphics[width=\textwidth]{figures/fig_ch043_discharge_run_p1}
+		\caption*{a - P1 discharge pipe}
+		\label{ch043_discharge_run_p1}
+	\end{minipage}
+	\hspace{0.05cm}
+	\begin{minipage}[b]{0.3\linewidth}
+		\centering
+		\includegraphics[width=\textwidth]{figures/fig_ch043_discharge_run_p2}
+		\caption*{b - P2 discharge pipe}
+		\label{ch043_discharge_run_p2}
+	\end{minipage}
+	\hspace{0.05cm}
+	\begin{minipage}[b]{0.3\linewidth}
+		\centering
+		\includegraphics[width=\textwidth]{figures/fig_ch043_adhoc_support}
+		\caption*{c - concrete cylinder as support}
+		\label{ch043_adhoc_support}
+	\end{minipage}
+\caption{Discharge side piping}
+\label{fig_ch043_discharge_run}
+\end{figure}
+
+%This pumping station comprises four vertical turbine pump units (plus one unit being installed at the time of inspection) suffering a common flaw: the lack of proper, independent support at the immediate discharge pipe segments, which imposes undue strain on the pump discharge heads. Photo below shows a concrete cylinder inserted as a makeshift prop under a leaking flange.
+
+%indent line of Recommendations to align bullet and checkmark - do later

@@ -1,0 +1,94 @@
+%\begin{document}
+\section{Short circuit calculations and evaluation} \label{ch04_elecaudit_shortcuircuitanalysis}
+\subsection{Short circuit calculation}
+Short circuit calculation (SCC) has been done using the software ETAP version 16.2 under following considerations:
+\begin{itemize}
+\item \textbf{Available MVA Short Circuit}: Utility supplying normal power to the PS  via a 34.5 KV line is MERALCO. The maximum projected fault is to be requested by the owner from the utility.  In the calculation, 500MVA available short circuit was used;
+
+\item \textbf{Transformer}: The SCC was based on a  3 x 50kVA transformer  feeding the transfer switch going to the motors. Transformer impedance used in the calculation is per standard impedance in the absence of data;
+
+\item \textbf{GENSET}: 
+\begin{itemize}
+\item Emergency power will be supplied by 1 Genset, rated at 110 kVA feeding the transfer switch;% busduct;% to synchronizing  panel;
+
+\item The result of the short circuit value of the generator sets is slightly lower than the short circuit fault value produced on the bus during normal power mode. Subtransient value of the generator should be provided for a more accurate calculation. 
+
+\end{itemize}
+
+\item \textbf{Length of wires and cables}: Actual measured length of wires and cables.
+
+\end{itemize}
+
+Calculation has been done for both One Phase and Three Phase of short circuit current. Results of the calculations are summarized in Table \ref{tbl_ch04_elecaudit_scc}. Figure \ref{fig_ch04_elecaudit_scc_1phase} and Figure \ref{fig_ch04_elecaudit_scc_3phase} represent the graphical representation of Nodes and Links as well as associated values.
+
+\begin{table}[!htb]
+	\caption{Short circuit calculation - results}
+	\label{tbl_ch04_elecaudit_scc}
+	%	\resizebox{\columnwidth}{!}{%
+	{\scriptsize
+		
+	\begin{tabular}{c|p{4cm}|c|c|l|l|p{2.5cm}}
+		\hline
+		Item & Description & SCC (kA) & kAIC \& CB (kA) & CS &  IT  & Remarks  \\ 
+		\hline
+		A. & Three Phase &  &  & 1 & 1 &  \\ 
+		1 & 3 X 50 Kva Transformer-Secondary & 2.479 &            - & 1 & 1 & Protection Via Fuse Provided By Utility \\ 
+		2 & Transfer Switch & 2.418 & 18 & 1 & 1 &  Acceptable \\ 
+		3 & Main Mccb 250A \@460 & 2.418 & 18 & 1 & 1 &  Acceptable \\ 
+		&  &  &  & 1 & 1 &  \\ 
+		4 & Feeder Mccb-1 100A (30HP Motor) & 2.391 & 8 & 1 & 1 &  Acceptable \\ 
+		5 & Feeder Mccb-2 100A (30HP Motor) Alternate & 2.391 & 8 & 1 & 1 &  Acceptable \\ 
+		6 & Motorized Opening Valve Supply 1 & 2.391 & 8 & 1 & 1 & Acceptable \\ 
+		7 & Motorized Opening Valve Supply 2 & 2.391 & 8 & 1 & 1 & Acceptable \\ 
+		8 & Motor1 -30Hp & 0.143 & - & 1 & 1 & Protection Via Vfd \\ 
+		9 & Motor2-30 Hp & - & - & 1 & 1 & Alternate \\ 
+		\hline
+		B & Single Phase &  &  &  &  &  \\ 
+		1 & MCCB 30A  & 2.041 & 2.5 & 1 & 1 & Acceptable \\ 
+		2 & Dry Type Transformer 2.5 kVA & 0.411 & - & 1 & 1 & Protection Via Upstream  Mccb \\ 
+		3 & MCB 32A Ups (Lump 3) & 0.3964 & 2.5 & 1 & 1 &  Acceptable \\ 
+		4 & MCB 32A Light \& Conv Outlet (Lump 4) & 0.394 & 2.5 & 1 & 1 & Acceptable \\ 
+		5 & MCB 32A For Meter (Lump 5) & 0.394 & 2.5 & 1 & 1 & Acceptable \\ 
+		\hline
+	\end{tabular}
+	
+		
+	}%}
+\end{table}
+
+The values of SCC shown in the table indicates the followings:
+
+\begin{itemize}
+\item the values of the FAULT observed to be lower than the values of the protective devices. This infers that the existing protective devices are capable to protect the assets.
+\end{itemize}
+
+
+
+
+\begin{figure}[!htb]
+%	\includepdf[angle = 0]{sections/CHE_1PHSC_with_VFD.pdf}
+	\includegraphics[width=\textwidth]{figures/CHE_1PHSC_with_VFD.pdf} \\
+	\caption{One Phase SCC}
+	\label{fig_ch04_elecaudit_scc_1phase} 
+\end{figure}
+
+
+\begin{figure}[!htb]
+	
+	\includegraphics[width=\textwidth]{figures/CHE_3PHSC_with_VFD.pdf} \\
+	\caption{Three Phase SCC}
+	\label{fig_ch04_elecaudit_scc_3phase} 
+\end{figure}
+
+\subsection{Evaluation of protective devices and bus bars}
+It can be interpreted from the results of the SCC that 
+\begin{itemize}
+\item the protective devices and bus bars are still provided adequate level of services and performed per applied standards;
+
+\item there is no undersized electrical components.
+\end{itemize}
+
+
+
+
+

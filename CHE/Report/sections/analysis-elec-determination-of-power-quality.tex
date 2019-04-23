@@ -1,0 +1,401 @@
+%\begin{document}
+\section{Power quality analysis} \label{ch04_elecaudit_powerquality}
+The Power Quality Analysis (TQA) has been conducted on the Main system, VFD1, and VFD2 of this PS. The Power Quality Analyzer used is FLUKE 430-II. Figure \ref{fig_ch04_elecaudit_powerqualityanalyzer} shows the analyzer during the course of measurement for the station.
+
+\begin{figure}[!htb]
+	%	\includepdf[angle = 0]{sections/CHE_1PHSC_with_VFD.pdf}
+	\includegraphics[scale=0.5]{figures/fig_ch04_elecaudit_powerqualityanalyzer} \\
+	\caption{Power quality analyzer plugging during measurement}
+	\label{fig_ch04_elecaudit_powerqualityanalyzer} 
+\end{figure}
+
+
+\subsection{Objectives and expected outcomes}
+The preliminary objectives and expected outcomes from this analysis are
+\begin{itemize}
+\item Record the voltage and current profile on the load side of Circuit Breaker with the recording interval  set every five (10) minutes;
+
+\item 	Record power profile (KW, KVA, KVAR) on the load side of Circuit Breaker  with the recording interval  set every ten (10) minutes.
+
+\item	 Record Total Harmonic Distortion (THD);
+
+\item 	Record Values of Short Duration Voltage Variation that will exceed the limit set by Philippine Distribution code;
+
+\item 	Record values of Long Duration Voltage Variation that will exceed the limit set by the Philippine Distribution Code;
+
+\item 	Record values of Frequency Variation that will exceed the limit set by Philippine Distribution code;
+
+\item 	Record Transient voltage Surge defined by PDC and using Computer Business Equipment  Manufacturer’s Association(CBEMA) and Information Technology 	Industry Council (ITIC) Curve International Standard;
+
+\item 	Compute for Voltage Unbalance and compare it on the Voltage unbalance limit set by PDC;
+
+\item     Recommendations.
+
+\end{itemize}
+
+\subsection{Basic}
+
+The assessments made in this report are in accordance to IEEE Standard 1159-1995 “IEEE Recommended Practice for Monitoring Electric Power Quality”.
+
+The Philippine Distribution Code was used as the local reference for power quality standards. According to the Philippine Distribution Code, a power quality problem exists when at least one of the categories in the tables of following sections is present during the normal operation of the electrical system
+
+
+\subsection{Results}
+Any values outside these limits are noted in the report. Values within the limits are considered to be within safe operating range.
+
+\subsubsection{RMS Voltage compliance}
+
+The steady-state rms voltage must remain within the range of 90.00\% to 110.00\%.
+
+\begin{itemize}
+\item 	Over Voltage – if the RMS value of the voltage is greater than or equal to 110\% of the nominal value
+\item 	Under Voltage – if the RMS value of the voltage is less than or equal to 90\% of the nominal voltage
+\end{itemize}
+
+Results are shown in Table \ref{tbl_ch04_elecaudit_powerquality_rms}.
+
+\begin{table}[!htb]
+	\caption{Power quality - RMS Voltage compliance}
+	\label{tbl_ch04_elecaudit_powerquality_rms}
+	%	\resizebox{\columnwidth}{!}{%
+	{\scriptsize
+		
+	\begin{tabular}{l|l|l|l|l|p{2cm}|l}
+		\hline
+		RMS VOLTAGE & \multicolumn{1}{c|}{Phase} & \multicolumn{1}{c|}{Minimum} & \multicolumn{1}{c|}{Average} & \multicolumn{1}{c|}{Maximum} & \multicolumn{1}{c|}{Limits} & Remarks \\ 
+		(460 VOLTS) & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{} &  \\ 
+		\hline
+		Main 250A (Load side) & \multicolumn{1}{c|}{AB} & \multicolumn{1}{c|}{449.94} & \multicolumn{1}{c|}{465.3} & \multicolumn{1}{c|}{474.84} & \multicolumn{1}{c|}{} &  \\ 
+		& \multicolumn{1}{c|}{BC} & \multicolumn{1}{c|}{457.72} & \multicolumn{1}{c|}{471.4} & \multicolumn{1}{c|}{477.32} & \multicolumn{1}{c|}{$\pm $10\% (414-506V)} & Within  Limits \\ 
+		& \multicolumn{1}{c|}{CA} & \multicolumn{1}{c|}{449.94} & \multicolumn{1}{c|}{465.3} & \multicolumn{1}{c|}{474.84} & \multicolumn{1}{c|}{} &  \\ 
+		\hline
+		VFD-1 & \multicolumn{1}{c|}{AB} & \multicolumn{1}{c|}{449.68} & \multicolumn{1}{c|}{460.18} & \multicolumn{1}{c|}{474.76} & \multicolumn{1}{c|}{} &  \\ 
+		& \multicolumn{1}{c|}{BC} & \multicolumn{1}{c|}{\textcolor{red}{387.66*}} & \multicolumn{1}{c|}{\textcolor{red}{408.04}} & \multicolumn{1}{c|}{468.34} & \multicolumn{1}{c|}{$\pm $10\% (414-506V)} & Outside  Limits \\ 
+		& \multicolumn{1}{c|}{CA} & \multicolumn{1}{c|}{449.68} & \multicolumn{1}{c|}{460.18} & \multicolumn{1}{c|}{474.76} & \multicolumn{1}{c|}{} &  \\ 
+		\hline
+		VFD-2 & \multicolumn{1}{c|}{AB} & \multicolumn{1}{c|}{455.48} & \multicolumn{1}{c|}{466.18} & \multicolumn{1}{c|}{474.70} & \multicolumn{1}{c|}{} &  \\ 
+		& \multicolumn{1}{c|}{BC} & \multicolumn{1}{c|}{463.28} & \multicolumn{1}{c|}{470.61} & \multicolumn{1}{c|}{477.76} & \multicolumn{1}{c|}{$\pm $10\% (414-506V)} & Within Limits \\ 
+		& \multicolumn{1}{c|}{CA} & \multicolumn{1}{c|}{455.48} & \multicolumn{1}{c|}{466.18} & \multicolumn{1}{c|}{474.70} & \multicolumn{1}{c|}{} &  \\ 
+		\hline
+		\multicolumn{7}{c}{* Should be cause for concern. Value reached voltage limitation. The incident was recorded on 1/21/2019, 8:214:31PM } \\ 
+
+	\end{tabular}
+	
+	}%}
+\end{table}
+
+
+\subsubsection{Voltage unbalance compliance}
+
+Voltage Unbalance shall be defined as the maximum deviation from the average of the three phase voltages divided by the average of the three phase voltages expressed in 	percent.  The maximum voltage unbalance at the connection point of any user, excluding the voltage unbalance passed on from the grid shall not exceed 2.5\% during normal operating conditions.
+
+Results are shown in Table \ref{tbl_ch04_elecaudit_powerquality_voltageunbalance}.
+
+
+\begin{table}[!htb]
+	\caption{Power quality -Voltage unbalance}
+	\label{tbl_ch04_elecaudit_powerquality_voltageunbalance}
+	%	\resizebox{\columnwidth}{!}{%
+	{\scriptsize
+		
+		\begin{tabular}{l|l|l|l|l|p{2cm}|l}
+		\hline
+		Voltage unbalance & \multicolumn{1}{c|}{Phase} & \multicolumn{1}{c|}{Minimum} & \multicolumn{1}{c|}{Average} & \multicolumn{1}{c|}{Maximum} & \multicolumn{1}{c|}{Limits} & Remarks \\ 
+		& \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{(\%)} &  \\ 
+		\hline
+		Main 250A (Load side) & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{1.15} & \multicolumn{1}{c|}{0.87} & \multicolumn{1}{c|}{0.35} & \multicolumn{1}{c|}{2.5} & Within  Limits \\ 
+		\hline
+		VFD-1 & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{\textcolor{red}{9.64}} & \multicolumn{1}{c|}{\textcolor{red}{7.85}} & \multicolumn{1}{c|}{0.91} & \multicolumn{1}{c|}{2.5} & Outside limits \\ 
+		\hline
+		VFD-2 & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{1.14} & \multicolumn{1}{c|}{0.63} & \multicolumn{1}{c|}{0.43} & \multicolumn{1}{c|}{2.5} & Within  Limits \\ 
+		\hline
+						
+		\end{tabular}
+		
+	}%}
+\end{table}
+
+
+
+
+\subsubsection{Current unbalance compliance}
+
+Results are shown in Table \ref{tbl_ch04_elecaudit_powerquality_currentunbalance} with note that the current unbalance should not exceed 10\%.
+
+
+\begin{table}[!htb]
+	\caption{Power quality -Current unbalance}
+	\label{tbl_ch04_elecaudit_powerquality_currentunbalance}
+	%	\resizebox{\columnwidth}{!}{%
+	{\scriptsize
+		
+\begin{tabular}{l|c|c|c|c|c|l}
+	\hline
+	Current unbalance & Phase & Minimum & Average & Maximum & Limits & Remarks \\ 
+	&  &  &  &  & (\%) &  \\ 
+	\hline
+	Main 250A (Load side) & AB & 0.30 & 0.70 & 2.30 &  &  \\ 
+	& BC & 0.40 & 0.70 & 0.80 & $\leq$ 10\% & Within  Limits \\ 
+	& CA & 0.10 & 0.50 & 1.50 &  &  \\ 
+	& Overall & 1.15 & 1.20 & 2.68 &  &  \\ 
+	\hline
+	VFD-1 & AB & 1.33 & 1.60 & 2.57 &  &  \\ 
+	& BC & -0.27 & -0.70 & -0.73 & $\leq$ 10\% & Outside  Limits \\ 
+	& CA & -1.07 & -0.90 & -1.83 &  &  \\ 
+	& Overall & 3.40 & 3.88 & 4.60 &  &  \\ 
+	\hline
+	VFD-2 & AB & 0.50 & -0.23 & 0.90 &  &  \\ 
+	& BC & -0.20 & -0.23 & -0.30 & $\leq$ 10\% & Within Limits \\ 
+	& CA & -0.30 & -0.33 & -0.60 &  &  \\ 
+	& Overall & 2.18 & 1.36 & 2.83 &  &  \\ 
+	\hline
+\end{tabular}
+
+		
+	}%}
+\end{table}
+
+
+\subsubsection{Harmonic - THD compliance}
+
+Results are shown in Table \ref{tbl_ch04_elecaudit_powerquality_thdcompliance} with the following notes:
+
+\begin{itemize}
+\item Harmonics shall be defined as sinusoidal voltage and currents having frequencies that are integral multiples of the fundamental frequency;
+
+\item The total harmonic distortion (THD) shall be defined as the ratio of the RMS value of the harmonic content to the RMS value of the fundamental quantity, expressed in percent;
+
+\item PHILIPPINE DISTRIBUTION CODE sets the THD of the voltage at any user 		system to not exceed five percent (5\%) during normal operating conditions. 
+\end{itemize}
+
+
+
+
+
+\begin{table}[!htb]
+	\caption{Power quality -Harmonic THD compliance}
+	\label{tbl_ch04_elecaudit_powerquality_thdcompliance}
+	%	\resizebox{\columnwidth}{!}{%
+	{\scriptsize
+		
+		\begin{tabular}{l|c|c|c|c|c|l}
+			\hline
+			THD compliance & Phase & Minimum & Average & Maximum & Limits & Remarks \\ 
+			&  &  &  &  & (\%) &  \\ 
+			\hline
+			Main 250A (Load side) & AB & 1.44 & 3.36 & 3.90 &  &  \\ 
+			& BC & 1.27 & 2.56 & 2.86 & $\leq$ 5\% & Within  Limits \\ 
+			& CA & 1.53 & 3.36 & 3.90 &  & * \\ 
+			\hline
+			VFD-1 & AB & 3.22 & 3.36 & 3.90 &  &  \\ 
+			& BC & 2.89 & 3.01 & 3.37 & $\leq$ 5\% & Within Limits \\ 
+			& CA & 3.22 & 3.36 & 3.90 &  & * \\ 
+			\hline
+			VFD-2 & AB & 2.11 & 2.20 & 2.68 &  &  \\ 
+			& BC & 1.63 & 1.68 & 1.97 & $\leq$ 5\% & Within Limits \\ 
+			& CA & 2.11 & 2.20 & 2.68 &  & * \\ 
+			\hline
+			\multicolumn{7}{l}{* Probable problem as the harmonic at 3rd, 5th, and 7th orders were register dominent. } \\ 
+			\multicolumn{7}{l}{This might cause heating on equipment} \\ 
+			\multicolumn{7}{l}{} \\ 
+		\end{tabular}
+
+	
+		
+	}%}
+\end{table}
+
+
+
+
+
+\subsubsection{Harmonic - TDD compliance}
+
+Results are shown in Table \ref{tbl_ch04_elecaudit_powerquality_tddcompliance} with the following notes:
+
+\begin{itemize}
+	\item The Total Demand Distortion (TDD) shall be defined as the ratio of the RMS 		value of the harmonic content to the RMS value of the rated or maximum 			fundamental quantity, expressed 	in percent;
+	
+		\item PHILIPPINE 	DISTRIBUTION CODE sets the TDD of the current at any user of the system to not exceed five percent (5\%) during normal operating conditions.
+	  
+\end{itemize}
+
+It is important to note that the values obtained for the THD (refer to previous sections) might declare the parameter values within the limits. However, the overall conclusion shall be derived together with the TDD compliance as the values of the TDD coming from the asset while the THD values coming normally from the sources. 
+
+
+\begin{table}[!htb]
+	\caption{Power quality -Harmonic TDD compliance}
+	\label{tbl_ch04_elecaudit_powerquality_tddcompliance}
+	%	\resizebox{\columnwidth}{!}{%
+	{\scriptsize
+		
+\begin{tabular}{l|c|c|c|c|c|l}
+	\hline
+	TDD compliance & Phase & Minimum & Average & Maximum & Limits & Remarks \\ 
+	&  &  &  &  & (\%) &  \\ 
+	\hline
+	Main 250A (Load side) & AB & 4.98 & \textcolor{red}{15.38} & \textcolor{red}{39.19} &  &  \\ 
+	& BC & \textcolor{red}{5.24} & \textcolor{red}{15.77} & \textcolor{red}{41.65} & $\leq$ 5\% & Outside limits \\ 
+	& CA & 4.94 & \textcolor{red}{15.38} & \textcolor{red}{194.09} &  &  \\ 
+	\hline
+	VFD-1 & AB & 2.42 & \textcolor{red}{15.14} & \textcolor{red}{45.33} &  &  \\ 
+	& BC & 2.51 & \textcolor{red}{15.65} & \textcolor{red}{46.45} & $\leq$ 5\% & Outside limits \\ 
+	& CA & 2.30 & \textcolor{red}{15.12} & \textcolor{red}{193.54} &  &  \\ 
+	\hline
+	VFD-2 & AB & \textcolor{red}{17.88} & \textcolor{red}{19.76} & \textcolor{red}{46.72} &  &  \\ 
+	& BC & \textcolor{red}{18.62} & \textcolor{red}{20.69} & \textcolor{red}{45.28} & $\leq$ 5\% & Outside limits \\ 
+	& CA & \textcolor{red}{18.36} & \textcolor{red}{20.59} & \textcolor{red}{73.81} &  &  \\ 
+	\hline
+	\multicolumn{7}{l}{} \\ 
+\end{tabular}
+		
+	}%}
+\end{table}
+
+In this situation, results of TDD are significant higher than the limit of 5\%, indicating a certain degree of probability that there is an existing issue.
+
+
+
+\subsubsection{100\% Power frequency (HZ) compliance}
+
+Results are shown in Table \ref{tbl_ch04_elecaudit_powerquality_frequency} with the following notes:
+
+\begin{itemize}
+	\item A nominal fundamental frequency of 60HZ, PHILIPPINE DISTRIBUTION COCE set an acceptable limit of 59.7 HZ. for low frequency and 60.3 hz for high frequency.
+	
+\end{itemize}
+
+\begin{table}[!htb]
+	\caption{Power quality -Harmonic TDD compliance}
+	\label{tbl_ch04_elecaudit_powerquality_frequency}
+	%	\resizebox{\columnwidth}{!}{%
+	{\scriptsize
+		\begin{tabular}{l|l|l|l|l|l|l}
+			\hline
+			Frequency & \multicolumn{1}{c|}{Phase} & \multicolumn{1}{c|}{Minimum} & \multicolumn{1}{c|}{Average} & \multicolumn{1}{c|}{Maximum} & \multicolumn{1}{c|}{Limits} & Remarks \\ 
+			& \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{HZ} & \multicolumn{1}{c|}{HZ} & \multicolumn{1}{c|}{HZ} & \multicolumn{1}{c|}{HZ} &  \\ 
+			\hline
+			Main 250A (Load side) & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{59.71} & \multicolumn{1}{c|}{60.07} & \multicolumn{1}{c|}{60.30} & \multicolumn{1}{c|}{59.7-60.3} & Within  Limits \\ 
+			\hline
+			VFD-1 & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{59.71} & \multicolumn{1}{c|}{60.10} & \multicolumn{1}{c|}{60.30} & \multicolumn{1}{c|}{59.7-60.3} & Within  Limits \\ 
+			\hline
+			VFD-2 & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{59.68} & \multicolumn{1}{c|}{60.06} & \multicolumn{1}{c|}{60.30} & \multicolumn{1}{c|}{59.7-60.3} & Within  Limits \\ 
+			\hline
+		\end{tabular}
+		
+		
+	}%}
+\end{table}
+
+
+
+\subsubsection{Power factor}
+
+Results are shown in Table \ref{tbl_ch04_elecaudit_powerquality_powerfactor} with the following notes:
+
+\begin{itemize}
+	\item The ideal situation is a cos phi or DPF equal or close to 1. Utilities may charge additional cost (penalty when var readings are high because they need to provide apparent power (VA, kVA) that does not include both var and W).
+	
+\end{itemize}
+
+\begin{table}[!htb]
+	\caption{Power quality -powerfactor}
+	\label{tbl_ch04_elecaudit_powerquality_powerfactor}
+	%	\resizebox{\columnwidth}{!}{%
+	{\scriptsize
+	
+	\begin{tabular}{l|l|l|l|l|l|l}
+		\hline
+		Power factor & \multicolumn{1}{c|}{Phase} & \multicolumn{1}{c|}{Minimum} & \multicolumn{1}{c|}{Average} & \multicolumn{1}{c|}{Maximum} & \multicolumn{1}{c|}{Limits} & Remarks \\ 
+		& \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{} &  \\ 
+		\hline
+		Main 250A (Load side) & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{0.86} & \multicolumn{1}{c|}{0.92} & \multicolumn{1}{c|}{0.93} & \multicolumn{1}{c|}{>0.85} & Within  Limits \\ 
+		\hline
+		VFD-1 & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{\textcolor{red}{0.75}} & \multicolumn{1}{c|}{0.89} & \multicolumn{1}{c|}{0.90} & \multicolumn{1}{c|}{>0.85} & Outside limits \\ 
+		\hline
+		VFD-2 & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{\textcolor{red}{0.21}} & \multicolumn{1}{c|}{0.92} & \multicolumn{1}{c|}{0.92} & \multicolumn{1}{c|}{>0.85} & Outside limits \\ 
+	\hline
+\end{tabular}
+
+			
+		
+	}%}
+\end{table}
+
+
+
+
+\subsubsection{Flicker}
+
+Results are shown in Table \ref{tbl_ch04_elecaudit_powerquality_flicker} with the following notes:
+
+\begin{itemize}
+	\item A measuring period of 2 hours (Plt) is useful when there may be more than one interference source with irregular working cycles and for equipment such as welding machines. Plt $\leq$ 1.0 is the limit used in standards like EN15160;
+\item The 10 min (Pst) uses a longer measuring period to eliminate the influence of random voltage variations.
+
+	
+\end{itemize}
+%
+\begin{table}[!htb]
+	\caption{Power quality -powerfactor}
+	\label{tbl_ch04_elecaudit_powerquality_flicker}
+	%	\resizebox{\columnwidth}{!}{%
+	{\scriptsize
+	
+	\begin{tabular}{l|l|l|l|l|l|l}
+\hline
+Flicker & \multicolumn{1}{c|}{Parameter} & \multicolumn{1}{c|}{Minimum} & \multicolumn{1}{c|}{Average} & \multicolumn{1}{c|}{Maximum} & \multicolumn{1}{c|}{Limits} & Remarks \\ 
+ & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{} &  \\ 
+\hline
+Main 250A (Load side) & \multicolumn{1}{c|}{Plt} & \multicolumn{1}{c|}{0.194} & \multicolumn{1}{c|}{0.192} & \multicolumn{1}{c|}{0.183} & \multicolumn{1}{c|}{<=0.80} & Within  Limits \\ 
+ & \multicolumn{1}{c|}{Pst} & \multicolumn{1}{c|}{0.262} & \multicolumn{1}{c|}{0.261} & \multicolumn{1}{c|}{0.237} & \multicolumn{1}{c|}{<=1.0} & Within  Limits \\ 
+\hline
+VFD-1 & \multicolumn{1}{c|}{Plt} & \multicolumn{1}{c|}{0.257} & \multicolumn{1}{c|}{0.711} & \multicolumn{1}{c|}{\textcolor{red}{1.829}} & \multicolumn{1}{c|}{<=0.80} & Outside limits \\ 
+ & \multicolumn{1}{c|}{Pst} & \multicolumn{1}{c|}{0.365} & \multicolumn{1}{c|}{\textcolor{red}{1.62}} & \multicolumn{1}{c|}{\textcolor{red}{4.186}} & \multicolumn{1}{c|}{<=1.0} & Outside limits \\ 
+\hline
+VFD-2 & \multicolumn{1}{c|}{Plt} & \multicolumn{1}{c|}{0.202} & \multicolumn{1}{c|}{0.185} & \multicolumn{1}{c|}{0.195} & \multicolumn{1}{c|}{<=0.80} & Within  Limits \\ 
+ & \multicolumn{1}{c|}{Pst} & \multicolumn{1}{c|}{0.239} & \multicolumn{1}{c|}{0.234} & \multicolumn{1}{c|}{0.325} & \multicolumn{1}{c|}{<=1.0} & Within  Limits \\ 
+\hline
+\end{tabular}
+	
+	}%}
+\end{table}
+%
+\subsection{Conclusion and Recommendations}
+
+\begin{itemize}
+
+\item In general the most efficient way to troubleshoot electrical systems, is to begin at
+the load and work towards the building’s service entrance. Measurements are taken along the way to isolate faulty components or loads;
+
+\item 	Monitoring up to a period of one week is recommended to perform a quality check 
+That allows you to obtain a good impression of power quality; 
+
+\item 	According to IEEE 519. "Most motor loads are relatively tolerant of harmonics". However, IEEE 519-1992 states further that, "Even in the case of the least susceptible equipment, harmonics can be harmful. Harmonics, can cause dielectric thermal or voltage stress, which causes premature aging of electrical insulation. A major effect of harmonic voltages and currents in rotating machinery (induction and synchronous) is increased heating due to iron and copper losses at the harmonic frequencies. The harmonic components thus affect the machine efficiency, and can also affect the torque developed"; 
+
+\item  	In the case of this station, the total demand distortion is outside the limits set in the Philippine Distribution Code. From the application perspective, we're most concerned with the maximum harmonic current levels, and the impact they have on the distribution system. This makes TDD a much more useful metric for power inverter distortion; 
+           
+\item  	Voltage unbalance causes high unbalanced currents in stator windings resulting in overheating and reduced motor life. As in the case of VFD1, voltage deviation which is outside limit were recorded. Check cause of voltage unbalance which is often caused by current unbalance;
+
+\item 	Crest Factor – A high crest factor value for current was recorded to signify a   distorted current waveform. A CF of 1.8 or higher means high waveform distortion. This can be attributed on the current drawn by the rectifier;
+
+
+\begin{tabular}{l|l|l|l|l}
+\hline
+   Main & \multicolumn{2}{c|}{VOLTAGE} & \multicolumn{2}{c}{CURRENT} \\ 
+\cline{2-5}
+Phase & MIN & MAX & MIN & MAX \\ 
+\hline
+     A & 1.41 & 1.44 & 1.42 & 3.27 \\ 
+     B & 1.41 & 1.43 & 1.39 & 2.87 \\ 
+     C & 1.41 & 1.43 & 1.4 & 7.22 \\ 
+\hline
+\end{tabular}
+
+
+\item Since a filter is already in place (73A VLT, Advance Harmonic Filter AHF005) when the measurements were taken and current harmonics is still high, consider a one week monitoring to validate the values. A second filter may be considered to properly address  the 3rd, 5th and 7th       harmonics.  An active filter (cancellation of all harmonics) can be considered altogether. 
+
+
+\end{itemize}
+
+

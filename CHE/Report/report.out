@@ -1,0 +1,56 @@
+\BOOKMARK [0][-]{label:frontpage.0}{Front page}{}% 1
+\BOOKMARK [0][-]{label:titlepage_en.0}{English title page}{}% 2
+\BOOKMARK [0][-]{label:contents.0}{Contents}{}% 3
+\BOOKMARK [0][-]{chapter.1}{1 Preliminary Assessment and Data Gathering}{}% 4
+\BOOKMARK [1][-]{section.1.1}{1.1 Maynilad's data}{chapter.1}% 5
+\BOOKMARK [2][-]{subsection.1.1.1}{1.1.1 Asset hierarchy}{section.1.1}% 6
+\BOOKMARK [1][-]{section.1.2}{1.2 Preliminary assessment}{chapter.1}% 7
+\BOOKMARK [1][-]{section.1.3}{1.3 Summary of the inspection test plan \(ITP\)}{chapter.1}% 8
+\BOOKMARK [1][-]{section.1.4}{1.4 Database}{chapter.1}% 9
+\BOOKMARK [0][-]{chapter.2}{2 Methodology}{}% 10
+\BOOKMARK [1][-]{section.2.1}{2.1 The Integrated Asset Management Approach \(IAM\)}{chapter.2}% 11
+\BOOKMARK [1][-]{section.2.2}{2.2 Deterioration process and rating index}{chapter.2}% 12
+\BOOKMARK [1][-]{section.2.3}{2.3 Condition State \(CS\) definition}{chapter.2}% 13
+\BOOKMARK [1][-]{section.2.4}{2.4 Technical efficiency}{chapter.2}% 14
+\BOOKMARK [1][-]{section.2.5}{2.5 Reliability}{chapter.2}% 15
+\BOOKMARK [2][-]{subsection.2.5.1}{2.5.1 Qualitative and Operational Analysis}{section.2.5}% 16
+\BOOKMARK [2][-]{subsection.2.5.2}{2.5.2 Weibull model}{section.2.5}% 17
+\BOOKMARK [2][-]{subsection.2.5.3}{2.5.3 Markov model}{section.2.5}% 18
+\BOOKMARK [1][-]{section.2.6}{2.6 Intervention Strategy \(IS\)}{chapter.2}% 19
+\BOOKMARK [1][-]{section.2.7}{2.7 Determination of optimal intervention strategy}{chapter.2}% 20
+\BOOKMARK [2][-]{subsection.2.7.1}{2.7.1 Block Replacement Model}{section.2.7}% 21
+\BOOKMARK [2][-]{subsection.2.7.2}{2.7.2 Time-dependent replacement model}{section.2.7}% 22
+\BOOKMARK [0][-]{chapter.3}{3 Data and Analysis}{}% 23
+\BOOKMARK [1][-]{section.3.1}{3.1 Fire protection and safety \(FDAS\) audit}{chapter.3}% 24
+\BOOKMARK [2][-]{subsection.3.1.1}{3.1.1 Fire alarm and detection system}{section.3.1}% 25
+\BOOKMARK [2][-]{subsection.3.1.2}{3.1.2 Lighting protection system}{section.3.1}% 26
+\BOOKMARK [2][-]{subsection.3.1.3}{3.1.3 Ground-Fault circuit interrupter \(GFCI\) or electric leakage circuit breaker \(ELCB\) or Residual circuit devices \(RCD\)}{section.3.1}% 27
+\BOOKMARK [2][-]{subsection.3.1.4}{3.1.4 Electrical safety and protective devices}{section.3.1}% 28
+\BOOKMARK [1][-]{section.3.2}{3.2 Visual inspection on electrical assets}{chapter.3}% 29
+\BOOKMARK [1][-]{section.3.3}{3.3 Short circuit calculations and evaluation}{chapter.3}% 30
+\BOOKMARK [2][-]{subsection.3.3.1}{3.3.1 Short circuit calculation}{section.3.3}% 31
+\BOOKMARK [2][-]{subsection.3.3.2}{3.3.2 Evaluation of protective devices and bus bars}{section.3.3}% 32
+\BOOKMARK [1][-]{section.3.4}{3.4 Voltage drop calculation}{chapter.3}% 33
+\BOOKMARK [1][-]{section.3.5}{3.5 Load flow study}{chapter.3}% 34
+\BOOKMARK [2][-]{subsection.3.5.1}{3.5.1 Analysis based on design}{section.3.5}% 35
+\BOOKMARK [2][-]{subsection.3.5.2}{3.5.2 Analysis based on measured data from the PQA}{section.3.5}% 36
+\BOOKMARK [1][-]{section.3.6}{3.6 Protection coordination study}{chapter.3}% 37
+\BOOKMARK [1][-]{section.3.7}{3.7 Harmonic study}{chapter.3}% 38
+\BOOKMARK [2][-]{subsection.3.7.1}{3.7.1 As per design}{section.3.7}% 39
+\BOOKMARK [2][-]{subsection.3.7.2}{3.7.2 Per actual}{section.3.7}% 40
+\BOOKMARK [1][-]{section.3.8}{3.8 Power quality analysis}{chapter.3}% 41
+\BOOKMARK [2][-]{subsection.3.8.1}{3.8.1 Objectives and expected outcomes}{section.3.8}% 42
+\BOOKMARK [2][-]{subsection.3.8.2}{3.8.2 Basic}{section.3.8}% 43
+\BOOKMARK [2][-]{subsection.3.8.3}{3.8.3 Results}{section.3.8}% 44
+\BOOKMARK [2][-]{subsection.3.8.4}{3.8.4 Conclusion and Recommendations}{section.3.8}% 45
+\BOOKMARK [1][-]{section.3.9}{3.9 Grounding system study}{chapter.3}% 46
+\BOOKMARK [1][-]{section.3.10}{3.10 Electrical system design and analysis}{chapter.3}% 47
+\BOOKMARK [2][-]{subsection.3.10.1}{3.10.1 Basics}{section.3.10}% 48
+\BOOKMARK [2][-]{subsection.3.10.2}{3.10.2 Results}{section.3.10}% 49
+\BOOKMARK [2][-]{subsection.3.10.3}{3.10.3 Recommendations}{section.3.10}% 50
+\BOOKMARK [0][-]{chapter.4}{4 Conceptual Design and Reliability Study}{}% 51
+\BOOKMARK [1][-]{section.4.1}{4.1 Basis of Design}{chapter.4}% 52
+\BOOKMARK [2][-]{subsection.4.1.1}{4.1.1 As-built drawings}{section.4.1}% 53
+\BOOKMARK [2][-]{subsection.4.1.2}{4.1.2 Conceptual design}{section.4.1}% 54
+\BOOKMARK [0][-]{chapter*.64}{Bibliography}{}% 55
+\BOOKMARK [0][-]{appendix.A}{A Load Flow Analysis}{}% 56

@@ -1,0 +1,42 @@
+%\begin{document}
+\section{Voltage drop calculation} \label{ch04_elecaudit_voltagedropcalculation}
+Voltage drop calculation (VDC) has been conducted in compliance with the code (PEC 2017 ARTICLE 2.15.1.2(A)(1)(b)FPN NO.2) which states the following
+
+\begin{itemize}
+\item Conductors  for feeders, as defined in Article1.1, sized to prevent a voltage drop exceeding 3\% at the farthest outlet of power, heating and lighting loads, or combinations of such
+loads, and where the maximum total voltage drop on both feeders and branch circuits to the  
+farthest outlet does not exceed 5\% , will provide reasonable efficiency.
+
+\end{itemize}
+
+Results of the VDC is presented in Table \ref{tbl_ch04_elecaudit_vdc}
+
+\begin{table}[!htb]
+	\caption{Voltage drop calculation - results}
+	\label{tbl_ch04_elecaudit_vdc}
+		\resizebox{\columnwidth}{!}{%
+	{\scriptsize
+
+\begin{tabular}{c|p{2cm}|p{2cm}|c|c|c|c|c|c|c|p{1.5cm}}
+	\hline
+	Item & From & To & Wire Size & I & L & R & X &  Vd  & \%Vd & Remarks \\ 
+	&  &  & $mm^2$ & Ampe & m & $\Omega$/305 m & $\Omega$/305 m &  &  &  \\ 
+	\hline
+	1 & Pole Mounted Transformer 50Kva,3 $\Phi$ & Ats Panel & 250 & 425 & 15.52 & 0.048 & 0.027 & 2.06 & 0.0043 & Within Limits \\ 
+	2 & MTS Panel & Ecb 250A & 250 & 425 & 7 & 0.048 & 0.027 & 0.929 & 0.0019 & Within Limits \\ 
+	3 & ECB 30A, 2P & Dry Type Transformer 2.5Kva & 5.5 & 40 & 4.2 & 1.2 & 0.063 & 1.324 & 0.0055 & Within Limits \\ 
+	4 & Dry Type Transformer 2.5Kva, 1$\Phi$ & UPS Panel & 5.5 & 40 & 4 & 1.2 & 0.063 & 1.261 & 0.0053 & Within Limits \\ 
+	5 & MCCB 100A, 3P & 30Hp Motor & 30 & 115 & 10 & 0.2 & 0.057 & 1.357 & 0.0028 & Within Limits \\ 
+	\hline
+	 & Pole mounted to 30 HP motor &  &  &  &  &  &  & 3.417 &  0.71  & Within Limits \\ 
+	\hline
+\end{tabular}
+	}}
+\end{table}
+
+It can be interpreted from the values of the calculation that the VDC is within the limits defined in the applied standard.
+
+
+
+
+

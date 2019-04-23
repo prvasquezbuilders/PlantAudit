@@ -1,0 +1,87 @@
+%{\color{red}
+
+\section{Energy management audit}
+\label{46}
+\subsection{Production and power data}
+Production data for this station has been recorded in excel files. Each file represents a month with 24 hours of daily records. Maynilad provided this set of data from 2014 to 2018 per GHD' request. Initial verification on this set was conducted with following conclusions
+
+\begin{itemize}
+%	\item Data of 2014 and 2015 is not usable due to its incompatibility to the later data. Fundamentally, we found a great number of errors on this data. In addition, the data itself is incomplete and only reflects aggregate value, which makes impossible to compare with the later set;
+	\item The structure of data is not homogeneous with many numerical errors. This problem is due to the fact that excel file is not suitable for recording a large volume of data, particularly cells are not set up to reject string and value outside the lower and upper bounds.
+	content.
+\end{itemize}
+
+%When excluding the data of 2012 and 2013, the set used for compilation has following statistics
+
+In order to compile such a huge data set, it is not possible with manual inputting, instead, GHD has developed a hybrid program consisting of Visual Basic (VBA) Code and MySQL code for fast compilation. VBA code is used to add header, fill up missing information in excel file, and ignore rows and columns that should not exist with regard to database structure. MySQL codes are used to eliminate measurement errors and bring together all individual files to one file that allows statistical analysis with R.
+\subsection{Measurement errors}
+Following measurement errors are with the provided excel files
+\begin{itemize}
+\item String/text values are found numerous in columns that shall be only numerical values;
+\item Extreme values are found numerous;
+\item Negative values are found in many places that shall only be positive
+\end{itemize}
+%\subsection{Summary of statistics}
+\subsection{Data compilation for analysis}
+Out of all recorded attributes, useful attributes that can be used for energy audit are total production per hour and total power consumption per hour. There is no record on production and power consumption for individual pump.
+
+After data filtering, data correction, and compilation, the obtained set of data includes 43,740 records (equivalent to 1458 days in total 5 years). Final data set is saved in MySQL server.
+
+\subsection{Analysis}
+
+As a matter of fact, power consumption of a PS is mostly contributed by the operation of pumps. Thus, the audit has been centralized on 
+\begin{itemize}
+	\item Analyzing given production and power consumption data to understand the trend and establish a benchmark ratio of production vs power for future audit and management;
+	\item Evaluating other part of the audit such as pump efficiency and reliability in order to derive better intervention program that will eventually beneficial to the Client to maintain a benchmark level of power consumption against the production. 
+\end{itemize}
+
+Figure \ref{ch05_fig_energy_correlation} shows the statistical correlation between production and power. It can be seen from the correlation graph and correlation value that there is relatively strong correlation among these two values (coefficient is 0.63). This infers more or less that there is less breakdown of components of this station. This conclusion is also supported by the fact that there has been little historical record on both preventive and corrective intervention of this station.
+
+\begin{figure}[!htb]
+	\includegraphics[scale=0.6]{figures/ch05_fig_energy_correlation} \\
+	\caption{Correlation between production and power consumption}
+	\label{ch05_fig_energy_correlation} 
+\end{figure}
+
+Figure \ref{ch05_fig_energy_production} shows a trend in time series production since 2014. It can be seen from the graph that the production has kept decreasing slightly over the year. 
+
+\begin{figure}[!htb]
+	\includegraphics[scale=0.6]{figures/ch05_fig_energy_production} \\
+	\caption{Time series production/hour}
+	\label{ch05_fig_energy_production} 
+\end{figure}
+
+Figure \ref{ch05_fig_energy_power} shows a trend in time series power consumption since 2014. It can be seen from the graph that the power has kept increasing over the year. 
+
+\begin{figure}[!htb]
+	\includegraphics[scale=0.6]{figures/ch05_fig_energy_power} \\
+	\caption{Time series power/hour}
+	\label{ch05_fig_energy_power} 
+\end{figure}
+Figure \ref{ch05_fig_energy_ratio} shows time series of ratio between power and production. As the production decreases and power increase, the ratio keeps increasing over time. 
+
+\begin{figure}[!htb]
+	
+	\includegraphics[scale=0.6]{figures/ch05_fig_energy_ratio} \\
+	\caption{Time series ratio between production and power}
+	\label{ch05_fig_energy_ratio} 
+\end{figure}
+
+Interpretation from these graphs can be summarized as follows
+
+\begin{itemize}
+	\item There is a relatively strong correlation between the production and power, inferring that there has been less breakdown in this station;
+	\item There has been a few number of peaks at which the ratio between power and production were significantly high compared to average value. These peaks seem to be repeated at least one in a year. The reason causing that peaks are unknown;
+	\item There are a number of outliners which should not be an actual cases;
+	\item There was a high peak in ratio in the first quarter of 2018. The ratio has reached between 300 and 400 for 3 months period, inferring an abnormal operation.
+	%\item Power pressure of suction
+\end{itemize}
+
+\subsection{Recommendation}
+In order to operate the PS in a manner that is energy efficient, it is advisable to 
+
+\begin{itemize}
+\item Establish an optimal operation scheme;
+\item Establish a benchmark energy efficiency ratio for continuous monitoring and reporting. This ratio shall become a Key Performance Indicator (KPI) used for managerial purpose. GHD suggests to establish a benchmark ratio at an optimal value below 200.
+\end{itemize}
+%}

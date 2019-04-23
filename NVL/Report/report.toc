@@ -1,0 +1,246 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {english}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.1}General introduction}{1}{section.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.2}Objectives}{1}{section.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.3}Scope of Work}{2}{section.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.4}Limitations}{2}{section.1.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.5}Glossaries}{2}{section.1.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\textbf {Level of Services (LOS)}}{2}{paragraph*.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\textbf {Intervention}}{2}{paragraph*.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\textbf {Corrective Intervention (CI)}}{2}{paragraph*.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\textbf {Preventive Intervention (PI)}}{2}{paragraph*.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\textbf {Intervention Type}}{3}{paragraph*.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\textbf {Intervention Strategy (IS)}}{3}{paragraph*.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\textbf {Intervention Program (IP)}}{3}{paragraph*.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\textbf {Work Program (WP)}}{3}{paragraph*.10}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}Preliminary Assessment and Data Gathering}{5}{chapter.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}Maynilad's data}{5}{section.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.1}Intervention records}{5}{subsection.2.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.2}Interview data}{6}{subsection.2.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.3}Asset hierarchy}{7}{subsection.2.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.2}Preliminary assessment}{7}{section.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.3}Summary of the inspection test plan (ITP)}{8}{section.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.1}Mechanical Audit}{8}{subsection.2.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.3.1.1}Structural Inspection for Pump Discharge and Suction Line}{8}{subsubsection.2.3.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Step 1: Locate and mark testing points}{8}{paragraph*.15}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Step 2: Prepare test point surfaces}{8}{paragraph*.17}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Step 3: Apply sufficient couplant on test point surface}{8}{paragraph*.18}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Step 4: Set transducer probe on test point}{9}{paragraph*.19}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Step 5: Read and record value as indicated on module display}{9}{paragraph*.20}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Step 6: Clean test point after reading}{9}{paragraph*.21}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.3.1.2}Unit Flow Measurement}{9}{subsubsection.2.3.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Step 1: Locate Sensor Position Point Area and mark all points to be taken.}{9}{paragraph*.22}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Step 2: Pipe Specification Input on the Flow Meter.}{9}{paragraph*.24}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Step 3: Prepare test point surfaces}{9}{paragraph*.25}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Step 4: Install transducers at set points}{9}{paragraph*.26}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Step 5: Data gathering}{10}{paragraph*.27}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Step 6: Remove transducers and restore paints}{10}{paragraph*.29}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.3.1.3}Suction and Discharge Pressure Measurement}{10}{subsubsection.2.3.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Step 1: Disassembly of existing Pressure Gauge}{10}{paragraph*.30}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Step 2: Installing the Pressure Gauge}{10}{paragraph*.31}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Step 3: Reading the pressure}{10}{paragraph*.32}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Step 4: Restoring the earlier gauge}{11}{paragraph*.33}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.3.1.4}Parameters}{11}{subsubsection.2.3.1.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.2}Vibration and structural assessment}{11}{subsection.2.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Step 1: Test location identification}{11}{paragraph*.35}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Step 2: Set transducer probe on test point. Observe HIRAC for access to elevated positions}{11}{paragraph*.36}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Step 3: Read and record value as indicated on module display}{11}{paragraph*.37}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.3}Workplace environment management}{11}{subsection.2.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.4}Database}{12}{section.2.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Methodology}{15}{chapter.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}The Integrated Asset Management Approach (IAM)}{15}{section.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}Deterioration process and rating index}{15}{section.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.3}Condition State (CS) definition}{18}{section.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.4}Technical efficiency}{18}{section.3.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.5}Reliability}{19}{section.3.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.5.1}Qualitative and Operational Analysis}{19}{subsection.3.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.5.1.1}Failure Mode and Effects Analysis (FMEA)}{19}{subsubsection.3.5.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.5.1.2}Reliability Centered Maintenance (RCM) }{19}{subsubsection.3.5.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.5.2}Weibull model}{20}{subsection.3.5.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.5.3}Markov model}{21}{subsection.3.5.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.6}Intervention Strategy (IS)}{22}{section.3.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.7}Determination of optimal intervention strategy}{22}{section.3.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.7.1}Block Replacement Model}{22}{subsection.3.7.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.7.2}Time-dependent replacement model}{24}{subsection.3.7.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.7.2.1}Minimize impact}{25}{subsubsection.3.7.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.7.2.2}Maximize availability}{25}{subsubsection.3.7.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Data and Analysis}{27}{chapter.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}Qualitative and Operational Analysis}{27}{section.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1.1}Facts and Data}{27}{subsection.4.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.1.1.1}Operation Scenario}{27}{subsubsection.4.1.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.1.1.2}Spares Policy}{27}{subsubsection.4.1.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.1.1.3}Emergency Situation (loss of electrical power from Meralco)}{27}{subsubsection.4.1.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.1.1.4}Maintenance}{27}{subsubsection.4.1.1.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.1.1.5}Current Problems}{28}{subsubsection.4.1.1.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1.2}Recommendations}{28}{subsection.4.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.2}Pump discharge pipe - thickness}{28}{section.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.1}Data and measurement}{28}{subsection.4.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.2}Analysis}{28}{subsection.4.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\relax $\@@underline {\hbox {BP1}}\mathsurround \z@ $\relax }{28}{paragraph*.50}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\relax $\@@underline {\hbox {BP2}}\mathsurround \z@ $\relax }{29}{paragraph*.51}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\relax $\@@underline {\hbox {BP3}}\mathsurround \z@ $\relax }{30}{paragraph*.52}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\relax $\@@underline {\hbox {BP4}}\mathsurround \z@ $\relax }{30}{paragraph*.53}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.2.2.1}Assumptions}{30}{subsubsection.4.2.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.2.2.2}Limitations}{30}{subsubsection.4.2.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.2.2.3}Parameter values for thickness estimation}{30}{subsubsection.4.2.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.2.2.4}Required thickness}{31}{subsubsection.4.2.2.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.2.2.5}Recommendations}{31}{subsubsection.4.2.2.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.3}Visual Inspection on Pipe, valves, fittings, supports, expansions, and appurtenances}{32}{section.4.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3.1}Highlights}{32}{subsection.4.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3.2}Visual inspection data}{35}{subsection.4.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3.3}Recommendations}{35}{subsection.4.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\relax $\@@underline {\hbox {Recommendations}}\mathsurround \z@ $\relax }{35}{paragraph*.66}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.4}Vibration and structural assessment}{36}{section.4.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.4.1}Measurement and spectrum reading}{36}{subsection.4.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.4.2}Data and analysis}{36}{subsection.4.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.4.3}Recommendations}{36}{subsection.4.4.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\relax $\@@underline {\hbox {Recommendation}}\mathsurround \z@ $\relax }{37}{paragraph*.69}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\relax $\@@underline {\hbox {Recommendations}}\mathsurround \z@ $\relax }{37}{paragraph*.70}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.5}Workplace environment management}{37}{section.4.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.5.1}Temperature and relative humidity}{37}{subsection.4.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.5.1.1}Data}{37}{subsubsection.4.5.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.5.1.2}Data and Analysis}{37}{subsubsection.4.5.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.5.1.3}Recommendation}{38}{subsubsection.4.5.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.5.2}Air quality}{39}{subsection.4.5.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.5.2.1}Data and analysis}{39}{subsubsection.4.5.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.5.2.2}Recommendation}{39}{subsubsection.4.5.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.5.3}Illumination}{39}{subsection.4.5.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.5.3.1}Data and analysis}{39}{subsubsection.4.5.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.5.3.2}Recommendations}{41}{subsubsection.4.5.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.5.4}Industrial ventilation}{41}{subsection.4.5.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.5.4.1}Data and analysis}{41}{subsubsection.4.5.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.5.4.2}Recommendation}{41}{subsubsection.4.5.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.5.5}Housekeeping}{41}{subsection.4.5.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.5.5.1}Documentation}{41}{subsubsection.4.5.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.5.5.2}Waste management and environmental control}{41}{subsubsection.4.5.5.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.5.5.3}Office arrangement and ergonomic}{42}{subsubsection.4.5.5.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.5.5.4}Recommendations}{42}{subsubsection.4.5.5.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.5.6}Noise}{42}{subsection.4.5.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.5.6.1}Data and analysis}{42}{subsubsection.4.5.6.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.5.6.2}Recommendations}{43}{subsubsection.4.5.6.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliography}{47}{chapter*.82}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}Recommended Maintenance Program}{49}{appendix.A}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {B}Vibration Data}{67}{appendix.B}

@@ -1,0 +1,25 @@
+\begin{table}[!htb]
+	\caption{MCCB coordination}
+	\label{ch04_elecaudit_protectioncoordination03}
+	\resizebox{\columnwidth}{!}{%
+		{\scriptsize
+			
+		\begin{tabular}{l|l|l|l|l|l|l|l|l|l|p{4cm}}
+	\hline
+	\multicolumn{2}{c|}{Zone} & \multicolumn{2}{c|}{Stream} & \multicolumn{2}{c|}{Max Fault} & Ref.  & Coord. & \multicolumn{2}{c|}{Amp Range} & Condition \\ 
+	\cline{1-6}\cline{9-10}
+	ID & type & up & down & type & Amp & kV & status & From & To &  \\ 
+	&  & PD & PD &  &  &  &  &  &  &  \\ 
+	\hline
+	Bus4 & Bus & CB3 & CB5 & 3Ph & 1201 & 0.46 & Pass & 317.9 & 1201 & Devices are coordinated between amp range of 317.9 A to 1201A \@ 0.46 kV \\ 
+	& Bus & CB3 & CB7 & 3Ph & 1248 & 0.46 & Pass & 282.4 & 1248 & Devices are coordinated between amp range of 282.4 A to 1248A \@ 0.46 kV \\ 
+	& Bus & CB3 & CB12 & 3Ph & 1138 & 0.46 & Alert & 528.5 & 1138 & Miscoordination, downstream trip curve is above and right of upstream \\ 
+	\hline
+	Bus8 & Bus & CB7 & CB9 & 3Ph & 1248 & 0.46 & Alert & 1125 & 1125 & Miscoordination, the time gap is smaller than 0.001 sec margin at I=1125 A, Plot Ref. kV=0.46 \\ 
+	& Bus & CB7 & CB8 & 3Ph & 1248 & 0.46 & Alert & 1125 & 1125 & Miscoordination, the time gap is smaller than 0.001 sec margin at I=1125 A, Plot Ref. kV=0.46 \\ 
+	\hline
+		\end{tabular}
+			
+		}
+	}
+\end{table}

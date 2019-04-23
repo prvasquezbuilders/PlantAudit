@@ -1,0 +1,130 @@
+%\begin{document}
+\section{Harmonic study} \label{ch04_elecaudit_harmonicstudy}
+Harmonic study has been conducted under the following basics
+\begin{itemize}
+\item Harmonics shall be defined as sinusoidal voltage and currents having frequencies that are integral multiples of the fundamental frequency;
+
+\item The total harmonic distortion (THD) shall be defined as the ratio of the RMS value of the harmonic content to the RMS value of the fundamental quantity, expressed in percent;
+
+\item PHILIPPINE DISTRIBUTION CODE sets the THD of the voltage at any user 	system to not exceed 5\% during normal operating conditions.
+\end{itemize}
+
+\subsection{As per design}
+Results of the study as per design are shown in Figure \ref{fig_ch04_elecaudit_che_bus_harmonic_waveform}, Figure \ref{fig_ch04_elecaudit_che_cable_harmonic_waveform}, and Figure \ref{fig_ch04_elecaudit_che_harmonic_load_flow}
+
+
+\begin{figure}[!htb]
+	%	\includepdf[angle = 0]{sections/CHE_1PHSC_with_VFD.pdf}
+	\includegraphics[width=\textwidth]{figures/che_bus_harmonic_waveform.pdf} \\
+	\caption{Bus wave form}
+	\label{fig_ch04_elecaudit_che_bus_harmonic_waveform} 
+\end{figure}
+
+
+\begin{figure}[!htb]
+	%	\includepdf[angle = 0]{sections/CHE_1PHSC_with_VFD.pdf}
+	\includegraphics[width=\textwidth]{figures/che_cable_harmonic_waveform.pdf} \\
+	\caption{Cable waveform}
+	\label{fig_ch04_elecaudit_che_cable_harmonic_waveform} 
+\end{figure}
+
+\begin{figure}[!htb]
+	%	\includepdf[angle = 0]{sections/CHE_1PHSC_with_VFD.pdf}
+	\includegraphics[width=\textwidth]{figures/che_harmonic_load_flow.pdf} \\
+	\caption{Load flow}
+	\label{fig_ch04_elecaudit_che_harmonic_load_flow} 
+\end{figure}
+
+It can be seen from the figures that there are a number of distortions, which are connected to bus 4. It is notable to observe that the percentage of the THD is 4.96\%, which is very close to the margin of 5\%.
+
+
+\subsection{Per actual}
+Results of the study based on the PQA are presented in Figures \ref{fig_ch04_elecaudit_harmonicstudy01}, \ref{fig_ch04_elecaudit_harmonicstudy02}, \ref{fig_ch04_elecaudit_harmonicstudy03}, \ref{fig_ch04_elecaudit_harmonicstudy04}, \ref{fig_ch04_elecaudit_harmonicstudy05}, and \ref{fig_ch04_elecaudit_harmonicstudy06}
+
+\begin{figure}[!htb]
+	%	\includepdf[angle = 0]{sections/CHE_1PHSC_with_VFD.pdf}
+	\includegraphics[width=\textwidth]{figures/fig_ch04_elecaudit_harmonicstudy01} \\
+	\caption{Voltage harmonic - AB}
+	\label{fig_ch04_elecaudit_harmonicstudy01} 
+\end{figure}
+
+\begin{figure}[!htb]
+	%	\includepdf[angle = 0]{sections/CHE_1PHSC_with_VFD.pdf}
+	\includegraphics[width=\textwidth]{figures/fig_ch04_elecaudit_harmonicstudy02} \\
+	\caption{Voltage harmonic - BC}
+	\label{fig_ch04_elecaudit_harmonicstudy02} 
+\end{figure}
+
+\begin{figure}[!htb]
+	%	\includepdf[angle = 0]{sections/CHE_1PHSC_with_VFD.pdf}
+	\includegraphics[width=\textwidth]{figures/fig_ch04_elecaudit_harmonicstudy03} \\
+	\caption{Voltage harmonic - CA}
+	\label{fig_ch04_elecaudit_harmonicstudy03} 
+\end{figure}
+
+\begin{figure}[!htb]
+	%	\includepdf[angle = 0]{sections/CHE_1PHSC_with_VFD.pdf}
+	\includegraphics[width=\textwidth]{figures/fig_ch04_elecaudit_harmonicstudy04} \\
+	\caption{Current harmonic -AB}
+	\label{fig_ch04_elecaudit_harmonicstudy04} 
+\end{figure}
+
+
+\begin{figure}[!htb]
+	%	\includepdf[angle = 0]{sections/CHE_1PHSC_with_VFD.pdf}
+	\includegraphics[width=\textwidth]{figures/fig_ch04_elecaudit_harmonicstudy05} \\
+	\caption{Current harmonic -BC}
+	\label{fig_ch04_elecaudit_harmonicstudy05} 
+\end{figure}
+
+
+\begin{figure}[!htb]
+	%	\includepdf[angle = 0]{sections/CHE_1PHSC_with_VFD.pdf}
+	\includegraphics[width=\textwidth]{figures/fig_ch04_elecaudit_harmonicstudy06} \\
+	\caption{Current harmonic -CA}
+	\label{fig_ch04_elecaudit_harmonicstudy06} 
+\end{figure}
+
+Table \ref{tbl_ch04_elecaudit_harmonicstudy} shows also the summary of the study, in which the min, average, and max values are presented along with the limit of 5\%.
+
+\begin{table}[!htb]
+	\caption{Harmonic study}
+	\label{tbl_ch04_elecaudit_harmonicstudy}
+	%	\resizebox{\columnwidth}{!}{%
+	{\scriptsize
+	
+\begin{tabular}{l|l|l|l|l|l|l}
+	\hline
+	Total Harmonic Distortion & \multicolumn{1}{c|}{Phase} & \multicolumn{1}{c|}{Minimum} & \multicolumn{1}{c|}{Average} & \multicolumn{1}{c|}{Maximum} & \multicolumn{1}{c|}{Limits} & Remarks \\ 
+	(\%) & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{(5\%)} &  \\ 
+	\hline
+	Main 250A (Load side) & \multicolumn{1}{c|}{AB} & \multicolumn{1}{c|}{1.44} & \multicolumn{1}{c|}{3.36} & \multicolumn{1}{c|}{3.90} & \multicolumn{1}{c|}{} &  \\ 
+	& \multicolumn{1}{c|}{BC} & \multicolumn{1}{c|}{1.27} & \multicolumn{1}{c|}{2.56} & \multicolumn{1}{c|}{2.86} & \multicolumn{1}{c|}{5} & Within  Limits \\ 
+	& \multicolumn{1}{c|}{CA} & \multicolumn{1}{c|}{1.53} & \multicolumn{1}{c|}{3.36} & \multicolumn{1}{c|}{3.90} & \multicolumn{1}{c|}{} &  \\ 
+	\hline
+	VFD-1 & \multicolumn{1}{c|}{AB} & \multicolumn{1}{c|}{3.22} & \multicolumn{1}{c|}{3.36} & \multicolumn{1}{c|}{3.90} & \multicolumn{1}{c|}{} &  \\ 
+	& \multicolumn{1}{c|}{BC} & \multicolumn{1}{c|}{2.89} & \multicolumn{1}{c|}{3.01} & \multicolumn{1}{c|}{3.37} & \multicolumn{1}{c|}{5} & Within  Limits \\ 
+	& \multicolumn{1}{c|}{CA} & \multicolumn{1}{c|}{3.22} & \multicolumn{1}{c|}{3.36} & \multicolumn{1}{c|}{3.90} & \multicolumn{1}{c|}{} &  \\ 
+	\hline
+	VFD-2 & \multicolumn{1}{c|}{AB} & \multicolumn{1}{c|}{2.11} & \multicolumn{1}{c|}{2.20} & \multicolumn{1}{c|}{2.68} & \multicolumn{1}{c|}{} &  \\ 
+	& \multicolumn{1}{c|}{BC} & \multicolumn{1}{c|}{1.63} & \multicolumn{1}{c|}{1.68} & \multicolumn{1}{c|}{1.97} & \multicolumn{1}{c|}{5} & Within Limits \\ 
+	& \multicolumn{1}{c|}{CA} & \multicolumn{1}{c|}{2.11} & \multicolumn{1}{c|}{2.20} & \multicolumn{1}{c|}{2.68} & \multicolumn{1}{c|}{} &  \\ 
+	\hline
+\end{tabular}
+
+		
+	}%}
+\end{table}
+
+It can be interpreted from the table that values Main and VFD1 infer that there might be a concern, particularly for the harmonic orders of 3rd, 5th, and 7th being dominant registers. This might cause heating on the equipment.
+
+Recommendation shall be realized together with the recommendation from the study of Power Quality Analysis (refer to subsection \ref{ch04_elecaudit_powerquality})
+
+%\begin{itemize}
+%	\item XXX and YYY;
+%	\item XXX and YYY;
+%	\item XXX and YYY;
+%	\item XXX and YYY.
+%\end{itemize}
+
+

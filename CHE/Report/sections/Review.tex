@@ -1,0 +1,144 @@
+\chapter{Preliminary Assessment and Data Gathering} % Write in your own chapter title
+\label{Chapter2}
+GHD did conduct preliminary assessment on a set of data provided by Maynilad. The data set includes a number of records on daily production and power consumption and intervention reports issued after Maynilad experienced failure/breakdown of assets.
+
+The assessment provided a base for GHD to generate the Inspection Testing Plan (ITP) \cite{GHD2018n} aiming to gather necessary data for conducting reliability study. The ITP has been reviewed by Maynilad, together with the Work Safety Permit (WSP), prior to execution of visual inspections and testings at the site.
+
+\section{Maynilad's data}
+\label{21}
+Initial assessment on historical data confirmed that the information for reliability study is not available.
+
+\subsection{Asset hierarchy}
+\label{214}
+During the bidding phase, Maynilad did provide the first draft of the Asset Registry (AR) that describes a hierarchy of eight (8) levels. Figure \ref{ch02_assethierachy} visualizes the hierarchy with brief description presented in Table \ref{ch02_tbl_assethierachy}.
+
+\begin{figure}[!htb]
+	\includegraphics[scale=1.3]{figures/ch02_assethierarchy} \\
+	\caption{Asset Hierarchy}
+	\label{ch02_assethierachy} 
+\end{figure}
+
+\begin{table}[h]
+	\caption{Condition state definition - Multiple.}
+	\label{ch02_tbl_assethierachy}
+	{\footnotesize
+\begin{tabular}{l|p{10cm}}
+	\hline
+	\multicolumn{1}{c|}{Asset hierarchy} & Description \\ 
+	\hline
+	\multicolumn{1}{c|}{Level 1} & Stakeholder level. For example, an pump station belongs to MWSI \\ 
+	\multicolumn{1}{c|}{Level 2} & Geographical locations/ or administrative zone (e.g. a pump station belong to Quezon city or Makati) \\ 
+	\multicolumn{1}{c|}{Level 3} & System (e.g. the entire pump stations and reservoir system) \\ 
+	\multicolumn{1}{c|}{Level 4} & Sub-system (e.g. one specific pump station and reservoir such as the Lamesa PSR) \\ 
+	\multicolumn{1}{c|}{Level 5} & Functional system (e.g. booster system or storage system) \\ 
+	\multicolumn{1}{c|}{Level 6} & Component (e.g. Suction line, Reservoir line and Tank) \\ 
+	\multicolumn{1}{c|}{Level 7} & Sub-component (e.g. Suction pipe and fittings, Concrete reservoir, pump) \\ 
+	\multicolumn{1}{c|}{Level 8} & Items (e.g. valve, bearing, motor) \\ 
+	\hline
+\end{tabular}		
+	}
+\end{table}
+
+GHD received the latest version of the AR with 101 assets for this PS. The full list of assets is given in the excel file provided by Maynilad in 2018. GHD has developed a MySQL program to convert the data in the excel file to a relational database structure. Per agreement with Maynilad, GHD will only verify level 7 of the AR with the actual site condition for the study \cite{GHD2018m}. 
+\section{Preliminary assessment}
+\label{22}
+Assessment on the lastest provided intervention records reveals that the provided pertinent data is incomplete and cannot be used as representative data for a complete reliability study. %However, the behaviour of the data can give a glimmer on the reliability of the PS. This glim can be seen in Figure  \ref{ch02_distributionofintervention2017} 
+
+%The statistics infers that there are numerous major CIs that did incurred in just one year. CI also infers that there are loss in Revenue, Reputation, and Regulatory (3Rs) that Maynilad could have been suffered. This 3Rs has not been addressed in the historical data.
+
+%Further table study indicates that the pump system fails due to a number of failures of its items, which are shown in Table \ref{ch02_tbl_failure}.
+%
+%\begin{table}[h]
+%	\caption{Summary of breakdown of items.}
+%	\label{ch02_tbl_failure}
+%	{\footnotesize
+%\begin{tabular}{l|l|c}
+%	\hline
+%	Category & Items & Numbers \\ 
+%	\hline
+%	Pump system &  & 82 \\ 
+%	& Valve & 10 \\ 
+%	& Seal & 12 \\ 
+%	& Bearing & 17 \\ 
+%	& Bolts and/or Coupling & 12 \\ 
+%	& Alignment & 7 \\ 
+%	& Vibration & 13 \\ 
+%	& MCC & 3 \\ 
+%	& VFD & 5 \\ 
+%	& Pressure gauge & 2 \\ 
+%	& Impeller & 0 \\ 
+%	& MOV & 1 \\ 
+%	\hline
+%	Other Assets &  &  \\ 
+%	& Lighting & 4 \\ 
+%	& Ventilation & 0 \\ 
+%	& Lifting & 0 \\ 
+%	\hline
+%\end{tabular}
+%		
+%	}
+%\end{table}
+
+It is also confirmed from the provided data that the Client has done regularly check-up on GENSETs to ensure that it provides adequate level of services in case of emergency. To date, no failure records has been observed for the GENSET. Thus, testing on GENSET is not needed. This is also to save cost for Maynilad per unit rate quoted in the Financial Proposal.%The statistic on check-up and routine cleaning and inspection of the GENSETs is shown in Table \ref{ch02_tbl_gensets}
+
+%\begin{table}[h]
+%	\caption{Summary of 2017 GENSETS routine cleaning and check-up.}
+%	\label{ch02_tbl_gensets}
+%	{\footnotesize
+%\begin{tabular}{l|l|c}
+%	\hline
+%	Category & Items & Numbers \\ 
+%	\hline
+%	Genset &  & 39 \\ 
+%	& Oil  & 10 \\ 
+%	& Coolant & 10 \\ 
+%	& Battery & 10 \\ 
+%	& Filters & 10 \\ 
+%	& Belt & 4 \\ 
+%	& Electrical connections & 4 \\ 
+%	& Hoses & 4 \\ 
+%	\hline
+%\end{tabular}
+%	}
+%\end{table}
+
+%As can be seen from Table \ref{ch02_tbl_failure}, majority of pump maintenance involves vibration both as a source and/or a result. Problems with alignment, bearings and couplings make up more than half of the maintenance work and are mostly associated with vibration (Figure \ref{ch02_interventionitem2017}). Minimizing vibration will lead to less damage to components and better maintenance of components will reduce unwanted vibrations during pump operation. A thought to be noted is the association of failures between pump parts in that failure in one promotes succeeding failures of the others.
+
+%From reliability point of view, having frequency CIs indicates a level of uncertainty that the PS does not provide adequate level of services (LOS).
+
+Further evaluations and tests have to be conducted to identify the areas for improvement of preventive measures in mitigating corrective measures and study the ways to strengthen preventive measures to improve operating conditions and life of pump components. 
+
+Improving the reliability of the pump stations for the next coming years require evaluation of the existing pump station conditions and maintenance practices, particularly assessment of the pump and its components. With that, areas for improvement of operation and maintenance be addressed through action items that come from the resulting recommendations.
+
+In order to capture a relatively good picture on the reliability of the pump system and its associated assets, a number of tests shall be conducted. 
+
+\section{Summary of the inspection test plan (ITP)}
+\label{231}
+A complete write-up on testing shall be referred to the ITP \cite{GHD2018n}, which has been submitted, reviewed, and approved by the Client. This section only provides highlights to help readers keeping abread of the flow of the report.
+
+
+
+
+\section{Database}
+\label{24}
+GHD developed an MySQL program that functions as a database used to record data collected from visual inspections and testings. The database has been developed using the concept of Relational Database Management System (RDMS), which is a must to record data systematically. The benefits of using the database are
+
+\begin{itemize}
+\item Eliminate redundancy and repeatition of same data
+\item Eliminate incorrect data entry that is often found when working with excel files
+\item Provide linkages among asset hierarchy
+\item Provide ease for programing (e.g. reliability modeling and life cycle cost analysis)
+\item Support Maynilad AIM team to learn the benefits of using RDMS in developing an integrated Asset Management System for now and future
+\item Provide compatibility with any CMMS that is often using other RDMS such as Microsoft SQL Server, Oracle SQL server, or MySQL platform
+\item Provide ease for compilation of desire tables for further analysis using SQL (Structure Query Language)
+\item Provide ease for importing/exporting to different extension formats (e.g. flat, csv, xlsx)
+\item Provide a strong background for Maynilad team to migrate recording practices to Web-based that will be part of GHD's recommendation for future usage.
+\end{itemize}
+
+The program is then migrated into MySQL server, which is a powerful database system that is used also to migrate, compile, and store all production and power consumption data into a single table. Main reasons behind the development of the MySQL server are for statistical computing with R and for faster compilation of queries.
+
+GHD will provide these two sets of database as part of our deliverable and will provide training for Maynilad team to learn how to use the database in an efficient approach.
+
+
+
+

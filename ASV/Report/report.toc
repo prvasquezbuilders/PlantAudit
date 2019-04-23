@@ -1,0 +1,252 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {english}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.1}General introduction}{1}{section.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.2}Objectives}{2}{section.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.3}Scope of Work}{2}{section.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.4}Limitations}{2}{section.1.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.5}Glossaries}{2}{section.1.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\textbf {Level of Services (LOS)}}{2}{paragraph*.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\textbf {Intervention}}{3}{paragraph*.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\textbf {Corrective Intervention (CI)}}{3}{paragraph*.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\textbf {Preventive Intervention (PI)}}{3}{paragraph*.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\textbf {Intervention Type}}{3}{paragraph*.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\textbf {Intervention Strategy (IS)}}{3}{paragraph*.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\textbf {Intervention Program (IP)}}{3}{paragraph*.10}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\textbf {Work Program (WP)}}{3}{paragraph*.11}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}Preliminary Assessment and Data Gathering}{5}{chapter.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}Maynilad's data}{5}{section.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.1}Intervention records}{5}{subsection.2.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.2}Interview data}{6}{subsection.2.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.3}Asset hierarchy}{6}{subsection.2.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.2}Preliminary assessment}{7}{section.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.3}Summary of the inspection test plan (ITP)}{7}{section.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.1}Mechanical Audit}{8}{subsection.2.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.3.1.1}Structural Inspection for Pump Discharge and Suction Line}{8}{subsubsection.2.3.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Step 1: Locate and mark testing points}{8}{paragraph*.16}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Step 2: Prepare test point surfaces}{8}{paragraph*.17}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Step 3: Apply sufficient couplant on test point surface}{8}{paragraph*.18}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Step 4: Set transducer probe on test point}{8}{paragraph*.19}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Step 5: Read and record value as indicated on module display}{8}{paragraph*.20}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Step 6: Clean test point after reading}{8}{paragraph*.21}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.3.1.2}Unit Flow Measurement}{8}{subsubsection.2.3.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Step 1: Locate Sensor Position Point Area and mark all points to be taken.}{8}{paragraph*.22}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Step 2: Pipe Specification Input on the Flow Meter.}{9}{paragraph*.24}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Step 3: Prepare test point surfaces}{9}{paragraph*.25}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Step 4: Install transducers at set points}{9}{paragraph*.26}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Step 5: Data gathering}{9}{paragraph*.27}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Step 6: Remove transducers and restore paints}{9}{paragraph*.29}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.3.1.3}Suction and Discharge Pressure Measurement}{10}{subsubsection.2.3.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Step 1: Disassembly of existing Pressure Gauge}{10}{paragraph*.30}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Step 2: Installing the Pressure Gauge}{10}{paragraph*.31}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Step 3: Reading the pressure}{10}{paragraph*.32}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Step 4: Restoring the earlier gauge}{10}{paragraph*.33}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.3.1.4}Parameters}{10}{subsubsection.2.3.1.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.2}Vibration and structural assessment}{11}{subsection.2.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Step 1: Test location identification}{11}{paragraph*.35}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Step 2: Set transducer probe on test point. Observe HIRAC for access to elevated positions}{11}{paragraph*.36}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Step 3: Read and record value as indicated on module display (Figure \ref {fig_ch02_vib} - d)}{11}{paragraph*.37}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.3}Workplace environment management}{11}{subsection.2.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.4}Fire protection and safety (FDAS) audit}{12}{subsection.2.3.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Step 1: Assign (1) one person on the Fire Alarm Control Panel to operate / accept the fire alarm activation and another group/person to conduct spraying on the device, communicate using two way radio.}{13}{paragraph*.41}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Step 2: Conduct spray of smoke detector tester (SOLO brand or any) directly on the smoke detector device for not more than 1 sec, repeat action until detector is activated. Note : If detector fails to respond after 3 tries, device will declared faulty (Figure \ref {ch02_fdas}-a).}{13}{paragraph*.42}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Step 3: Hear and visually check strobe light and sounder every time you activated the smoke detectors.}{13}{paragraph*.43}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Step 4: Remove device and clean, allow particles to disperse. Then return to socket (Figure \ref {ch02_fdas}-b).}{13}{paragraph*.44}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Step 5: Check that strobe light is functioning/ blinking after returning. Note original status if no light is visible. Check that the control panel breaker feeding the device is reset}{13}{paragraph*.45}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Step 6: Repeat steps 2, 3, and 4 on different locations until all the devices are tested.}{13}{paragraph*.46}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Step 7: Conduct testing for manual call point /manual pull station by pressing the device, hear if the alarm bell / buzzer is activate after you trigger the device}{13}{paragraph*.47}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Step 8: Check bells and buzzer audibility.}{13}{paragraph*.48}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Step 9: Return Manual Call Point /Manual Pull Station on stand by position. Repeat it on all device.}{13}{paragraph*.49}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Step 10: Make a record for the fault device.}{13}{paragraph*.50}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Step 11: Record the status of FACP and reset the panel until the fault clear on trouble.}{13}{paragraph*.51}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Step 12: Conduct closing of activities to all concerned .}{13}{paragraph*.52}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.4}Electrical Audit}{13}{section.2.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.5}Database}{13}{section.2.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Data and Analysis}{15}{chapter.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}Visual inspection on electrical assets}{15}{section.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}Short circuit calculations and evaluation}{17}{section.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.1}Short circuit calculation}{17}{subsection.3.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.2}Evaluation of protective devices and bus bars}{17}{subsection.3.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.3}Voltage drop calculation}{20}{section.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.4}Load flow study}{20}{section.3.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.4.1}Analysis based on design}{21}{subsection.3.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.4.2}Analysis based on measured data from the PQA}{21}{subsection.3.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.5}Protection coordination study}{25}{section.3.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.6}Harmonic study}{27}{section.3.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.6.1}As per design}{28}{subsection.3.6.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.6.2}Per actual}{28}{subsection.3.6.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.7}Power quality analysis}{28}{section.3.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.7.1}Objectives and expected outcomes}{33}{subsection.3.7.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.7.2}Basic}{33}{subsection.3.7.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.7.3}Results}{33}{subsection.3.7.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.7.3.1}RMS Voltage compliance}{34}{subsubsection.3.7.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.7.3.2}Voltage unbalance compliance}{34}{subsubsection.3.7.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.7.3.3}Current unbalance compliance}{34}{subsubsection.3.7.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.7.3.4}Harmonic - THD compliance}{34}{subsubsection.3.7.3.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.7.3.5}Harmonic - TDD compliance}{35}{subsubsection.3.7.3.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.7.3.6}100\% Power frequency (HZ) compliance}{35}{subsubsection.3.7.3.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.7.3.7}Power factor}{36}{subsubsection.3.7.3.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.7.3.8}Flicker}{36}{subsubsection.3.7.3.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.7.4}Conclusion and Recommendations}{36}{subsection.3.7.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.8}Grounding system study}{37}{section.3.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.9}Electrical system design and analysis}{38}{section.3.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.9.1}Basics}{38}{subsection.3.9.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.9.2}Results}{39}{subsection.3.9.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.9.2.1}Branch circuits, sub-feeders, feeders and service entrance}{39}{subsubsection.3.9.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.9.2.2}Types, ratings, and trip settings of overload protective device}{39}{subsubsection.3.9.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.9.2.3}Calculation of voltage drops }{39}{subsubsection.3.9.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.9.2.4}Calculation of short circuit current 3-PHASE}{39}{subsubsection.3.9.2.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.9.2.5}Protection coordination of overcurrent protective devices}{41}{subsubsection.3.9.2.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.9.2.6}Arc-flash Hazard Analysis }{41}{subsubsection.3.9.2.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.9.3}Recommendations}{41}{subsection.3.9.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.10}Fire protection and safety (FDAS) audit}{41}{section.3.10}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.10.1}Fire alarm and detection system}{41}{subsection.3.10.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.10.1.1}Data and analysis}{41}{subsubsection.3.10.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\relax $\@@underline {\hbox {Recommendations}}\mathsurround \z@ $\relax }{46}{paragraph*.104}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\relax $\@@underline {\hbox {System Testing }}\mathsurround \z@ $\relax }{46}{paragraph*.105}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\relax $\@@underline {\hbox {Records }}\mathsurround \z@ $\relax }{48}{paragraph*.106}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.10.2}Lighting protection system}{49}{subsection.3.10.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.10.2.1}Data and analysis}{49}{subsubsection.3.10.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.10.2.2}Recommendations}{49}{subsubsection.3.10.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\relax $\@@underline {\hbox {Short term Recommendations}}\mathsurround \z@ $\relax }{49}{paragraph*.107}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\relax $\@@underline {\hbox {Long term Recommendations}}\mathsurround \z@ $\relax }{49}{paragraph*.108}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.10.3}Ground-Fault circuit interrupter (GFCI) or electric leakage circuit breaker (ELCB) or Residual circuit devices (RCD)}{50}{subsection.3.10.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.10.3.1}Data and analysis}{50}{subsubsection.3.10.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.10.3.2}Recommendations}{50}{subsubsection.3.10.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.10.4}Electrical safety and protective devices}{50}{subsection.3.10.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.10.4.1}Data and analysis}{50}{subsubsection.3.10.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.10.4.2}Recommendations}{50}{subsubsection.3.10.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Conceptual Design and Reliability Study}{53}{chapter.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}Basis of Design}{53}{section.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1.1}As-built drawings}{53}{subsection.4.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1.2}Electrical design}{53}{subsection.4.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.2}Bill of Materials}{53}{section.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}Load Flow Analysis}{55}{appendix.A}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {B}Power Quality Study}{63}{appendix.B}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {C}Drawings}{107}{appendix.C}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {D}Bill of Quantity}{111}{appendix.D}

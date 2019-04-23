@@ -1,0 +1,150 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {english}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}Preliminary Assessment and Data Gathering}{1}{chapter.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.1}Maynilad's data}{1}{section.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.1.1}Asset hierarchy}{1}{subsection.1.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.2}Preliminary assessment}{2}{section.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.3}Summary of the inspection test plan (ITP)}{2}{section.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.4}Database}{2}{section.1.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}Methodology}{5}{chapter.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}The Integrated Asset Management Approach (IAM)}{5}{section.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.2}Deterioration process and rating index}{5}{section.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.3}Condition State (CS) definition}{8}{section.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.4}Technical efficiency}{8}{section.2.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.5}Reliability}{9}{section.2.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.5.1}Qualitative and Operational Analysis}{9}{subsection.2.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.5.1.1}Failure Mode and Effects Analysis (FMEA)}{9}{subsubsection.2.5.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.5.1.2}Reliability Centered Maintenance (RCM) }{9}{subsubsection.2.5.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.5.2}Weibull model}{10}{subsection.2.5.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.5.3}Markov model}{11}{subsection.2.5.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.6}Intervention Strategy (IS)}{12}{section.2.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.7}Determination of optimal intervention strategy}{12}{section.2.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.7.1}Block Replacement Model}{12}{subsection.2.7.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.7.2}Time-dependent replacement model}{14}{subsection.2.7.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.7.2.1}Minimize impact}{15}{subsubsection.2.7.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.7.2.2}Maximize availability}{15}{subsubsection.2.7.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Data and Analysis}{17}{chapter.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}Fire protection and safety (FDAS) audit}{17}{section.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.1}Fire alarm and detection system}{17}{subsection.3.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.2}Lighting protection system}{17}{subsection.3.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.3}Ground-Fault circuit interrupter (GFCI) or electric leakage circuit breaker (ELCB) or Residual circuit devices (RCD)}{17}{subsection.3.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.1.3.1}Data and analysis}{17}{subsubsection.3.1.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.1.3.2}Recommendations}{18}{subsubsection.3.1.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.4}Electrical safety and protective devices}{18}{subsection.3.1.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.1.4.1}Data and analysis}{18}{subsubsection.3.1.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}Visual inspection on electrical assets}{18}{section.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.3}Short circuit calculations and evaluation}{18}{section.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3.1}Short circuit calculation}{18}{subsection.3.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3.2}Evaluation of protective devices and bus bars}{19}{subsection.3.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.4}Voltage drop calculation}{20}{section.3.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.5}Load flow study}{21}{section.3.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.5.1}Analysis based on design}{22}{subsection.3.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.5.2}Analysis based on measured data from the PQA}{23}{subsection.3.5.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.6}Protection coordination study}{24}{section.3.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.7}Harmonic study}{26}{section.3.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.7.1}As per design}{28}{subsection.3.7.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.7.2}Per actual}{29}{subsection.3.7.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.8}Power quality analysis}{31}{section.3.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.8.1}Objectives and expected outcomes}{32}{subsection.3.8.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.8.2}Basic}{34}{subsection.3.8.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.8.3}Results}{34}{subsection.3.8.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.8.3.1}RMS Voltage compliance}{34}{subsubsection.3.8.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.8.3.2}Voltage unbalance compliance}{35}{subsubsection.3.8.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.8.3.3}Current unbalance compliance}{36}{subsubsection.3.8.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.8.3.4}Harmonic - THD compliance}{36}{subsubsection.3.8.3.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.8.3.5}Harmonic - TDD compliance}{37}{subsubsection.3.8.3.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.8.3.6}100\% Power frequency (HZ) compliance}{37}{subsubsection.3.8.3.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.8.3.7}Power factor}{38}{subsubsection.3.8.3.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.8.3.8}Flicker}{38}{subsubsection.3.8.3.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.8.4}Conclusion and Recommendations}{38}{subsection.3.8.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.9}Grounding system study}{39}{section.3.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.10}Electrical system design and analysis}{39}{section.3.10}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.10.1}Basics}{39}{subsection.3.10.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.10.2}Results}{41}{subsection.3.10.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.10.2.1}Branch circuits, sub-feeders, feeders and service entrance}{41}{subsubsection.3.10.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.10.2.2}Types, ratings, and trip settings of overload protective device}{41}{subsubsection.3.10.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.10.2.3}Calculation of voltage drops }{41}{subsubsection.3.10.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.10.2.4}Calculation of short circuit current 3-PHASE \& 1-PHASE}{41}{subsubsection.3.10.2.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.10.2.5}Protection coordination of overcurrent protective devices}{42}{subsubsection.3.10.2.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.10.2.6}Arc-flash Hazard Analysis }{43}{subsubsection.3.10.2.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.10.3}Recommendations}{43}{subsection.3.10.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Conceptual Design and Reliability Study}{47}{chapter.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}Basis of Design}{47}{section.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1.1}As-built drawings}{47}{subsection.4.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1.2}Conceptual design}{47}{subsection.4.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliography}{49}{chapter*.64}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}Load Flow Analysis}{51}{appendix.A}

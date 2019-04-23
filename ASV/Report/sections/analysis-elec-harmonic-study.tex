@@ -1,0 +1,138 @@
+%\begin{document}
+\section{Harmonic study} \label{ch04_elecaudit_harmonicstudy}
+Harmonic study has been conducted under the following basics
+\begin{itemize}
+\item Harmonics shall be defined as sinusoidal voltage and currents having frequencies that are integral multiples of the fundamental frequency;
+
+\item The total harmonic distortion (THD) shall be defined as the ratio of the RMS value of the harmonic content to the RMS value of the fundamental quantity, expressed in percent;
+
+\item PHILIPPINE DISTRIBUTION CODE sets the THD of the voltage at any user 	system to not exceed 5\% during normal operating conditions.
+\end{itemize}
+
+\subsection{As per design}
+Results of the study as per design are shown in Figure \ref{fig_ch04_elecaudit_harmonic_waveform} and Figure \ref{fig_ch04_elecaudit_harmonic_load_flow}
+
+
+\begin{figure}
+	\begin{minipage}[b]{0.4\linewidth}
+		\centering
+		\includegraphics[width=\textwidth]{figures/fig_ch04_elecaudit_bus_harmonic_waveform16}
+		\caption*{a - bus 1-6}
+		%		\label{pagcorlocation}
+	\end{minipage}
+	\hspace{0.05cm}
+	\begin{minipage}[b]{0.4\linewidth}
+		\centering
+		\includegraphics[width=\textwidth]{figures/fig_ch04_elecaudit_bus_harmonic_waveform712}
+		\caption*{b - bus 7-12}
+		%		\label{ch01_pumpgallery}
+	\end{minipage}
+	\hspace{0.05cm}
+	\begin{minipage}[b]{0.4\linewidth}
+		\centering
+		\includegraphics[width=\textwidth]{figures/fig_ch04_elecaudit_bus_harmonic_waveform1418}
+		\caption*{c - bus 14-18}
+		%		\label{ch01_pumpgallery}
+	\end{minipage}
+	\hspace{0.05cm}
+\begin{minipage}[b]{0.4\linewidth}
+	\centering
+	\includegraphics[width=\textwidth]{figures/fig_ch04_elecaudit_cable_harmonic_waveform14}
+	\caption*{d - cable 1-4}
+	%		\label{ch01_pumpgallery}
+\end{minipage}
+	\hspace{0.05cm}
+\begin{minipage}[b]{0.4\linewidth}
+	\centering
+	\includegraphics[width=\textwidth]{figures/fig_ch04_elecaudit_cable_harmonic_waveform59}
+	\caption*{e - cable5-9}
+	%		\label{ch01_pumpgallery}
+\end{minipage}
+	\hspace{0.05cm}
+\begin{minipage}[b]{0.45\linewidth}
+	\centering
+	\includegraphics[width=\textwidth]{figures/fig_ch04_elecaudit_harmonic_waveformt1t4}
+	\caption*{f - t1-t4}
+	%		\label{ch01_pumpgallery}
+\end{minipage}
+
+	\caption{Harmonic wave form}
+	\label{fig_ch04_elecaudit_harmonic_waveform}
+\end{figure}
+
+
+
+\begin{figure}
+	%	\includepdf[angle = 0]{sections/CHE_1PHSC_with_VFD.pdf}
+	\includegraphics[width=\textwidth]{figures/fig_ch04_elecaudit_harmonic_load_flow.pdf} \\
+	\caption{Load flow}
+	\label{fig_ch04_elecaudit_harmonic_load_flow} 
+\end{figure}
+
+It can be seen from the figures that there are a number of distortions, which are connected to bus 4. It is notable to observe that the percentage of the THD is 23.48\%, which is very close to the margin of 5\%.
+
+
+\subsection{Per actual}
+Results of the study based on the PQA are presented in Figures \ref{fig_ch04_elecaudit_harmonicstudy01}, \ref{fig_ch04_elecaudit_harmonicstudy02}, \ref{fig_ch04_elecaudit_harmonicstudy03}, \ref{fig_ch04_elecaudit_harmonicstudy04}, \ref{fig_ch04_elecaudit_harmonicstudy05}, and \ref{fig_ch04_elecaudit_harmonicstudy06}
+
+\begin{figure}
+	%	\includepdf[angle = 0]{sections/CHE_1PHSC_with_VFD.pdf}
+	\includegraphics[width=\textwidth]{figures/fig_ch04_elecaudit_harmonicstudy01} \\
+	\caption{Voltage harmonic - AB}
+	\label{fig_ch04_elecaudit_harmonicstudy01} 
+\end{figure}
+
+\begin{figure}
+	%	\includepdf[angle = 0]{sections/CHE_1PHSC_with_VFD.pdf}
+	\includegraphics[width=\textwidth]{figures/fig_ch04_elecaudit_harmonicstudy02} \\
+	\caption{Voltage harmonic - BC}
+	\label{fig_ch04_elecaudit_harmonicstudy02} 
+\end{figure}
+
+\begin{figure}
+	%	\includepdf[angle = 0]{sections/CHE_1PHSC_with_VFD.pdf}
+	\includegraphics[width=\textwidth]{figures/fig_ch04_elecaudit_harmonicstudy03} \\
+	\caption{Voltage harmonic - CA}
+	\label{fig_ch04_elecaudit_harmonicstudy03} 
+\end{figure}
+
+\begin{figure}
+	%	\includepdf[angle = 0]{sections/CHE_1PHSC_with_VFD.pdf}
+	\includegraphics[width=\textwidth]{figures/fig_ch04_elecaudit_harmonicstudy04} \\
+	\caption{Current harmonic -AB}
+	\label{fig_ch04_elecaudit_harmonicstudy04} 
+\end{figure}
+
+
+\begin{figure}
+	%	\includepdf[angle = 0]{sections/CHE_1PHSC_with_VFD.pdf}
+	\includegraphics[width=\textwidth]{figures/fig_ch04_elecaudit_harmonicstudy05} \\
+	\caption{Current harmonic -BC}
+	\label{fig_ch04_elecaudit_harmonicstudy05} 
+\end{figure}
+
+
+\begin{figure}
+	%	\includepdf[angle = 0]{sections/CHE_1PHSC_with_VFD.pdf}
+	\includegraphics[width=\textwidth]{figures/fig_ch04_elecaudit_harmonicstudy06} \\
+	\caption{Current harmonic -CA}
+	\label{fig_ch04_elecaudit_harmonicstudy06} 
+\end{figure}
+
+Table \ref{tbl_ch04_elecaudit_harmonicstudy} shows also the summary of the study, in which the min, average, and max values are presented along with the limit of 5\%.
+
+
+\input{tables/tbl_ch04_elecaudit_harmonicstudy}
+
+It can be interpreted from the table that values Main and VFD1 infer that there might be a concern, particularly for the harmonic orders of 3rd, 5th, and 7th being dominant registers. This might cause heating on the equipment.
+
+Recommendation shall be realized together with the recommendation from the study of Power Quality Analysis (refer to subsection \ref{ch04_elecaudit_powerquality})
+
+%\begin{itemize}
+%	\item XXX and YYY;
+%	\item XXX and YYY;
+%	\item XXX and YYY;
+%	\item XXX and YYY.
+%\end{itemize}
+
+

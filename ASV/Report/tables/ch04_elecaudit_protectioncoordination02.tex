@@ -1,0 +1,44 @@
+\begin{table}[!htb]
+	\caption{Cable-circuit breaker coordination}
+	\label{ch04_elecaudit_protectioncoordination02}
+		\resizebox{\columnwidth}{!}{
+	{\scriptsize
+	\begin{tabular}{l|l|l|p{2cm}|p{1cm}|p{1cm}|p{1cm}|p{3cm}|p{2cm}|p{1cm}}
+\hline
+Items & \multicolumn{3}{c|}{Protective Device} & \multicolumn{4}{c|}{Cable Protection} & Max Fault 3Ph-Amps & Refe-rence kV \\ 
+\cline{2-8}
+& Location & ID & Type & Pickup Limit & Ampacity & Damage Curve & Condition &  &  \\ 
+\hline
+Cable1 & Load & CB1 & TM-Thermal & Pass & Warning & Pass & Cable is underutilized due to Therm. Trip 500 A < 18161 A (242.1 A \@ 34.5 kV) = Ampacity x 80\% & 1094 & 0.46 \\ 
+Cable1 & Load & CB1 & TM-Thermal & Pass & Warning & Pass & Therm. Trip 500 A is within 22701 A (302.7 A \@ 34.5 kV) = Ampacity & 1094 & 0.46 \\ 
+Cable1 & Load & CB1 & TM-Thermal & Pass & Warning & Pass & Therm. Trip 500 A is within max. limit of 22701 A (302.7 A \@ 34.5 kV) = Ampacity x 100\% & 1094 & 0.46 \\ 
+Cable1 & Load & CB1 & TM-Thermal & Pass & Warning & Pass & Trip curve protects the damage curve & 1094 & 0.46 \\ 
+\hline
+Cable2 & Load & CB1 & TM-Thermal & Alert & Alert & Pass & Therm. Trip 500 A above max. limit of 302.7 A = Ampacity x 100\% & 1094 & 0.46 \\ 
+Cable2 & Load & CB1 & TM-Thermal & Alert & Alert & Pass & Therm. Trip 500 A is set above 302.7 A = Ampacity & 1094 & 0.46 \\ 
+Cable2 & Load & CB1 & TM-Thermal & Alert & Alert & Pass & Trip curve protects the damage curve & 1094 & 0.46 \\ 
+\hline
+Cable3 & Load & CB3 & TM-Thermal & Alert & Alert & Pass & Therm. Trip 500 A above max. limit of 138.9 A = Ampacity x 100\% & 1086 & 0.46 \\ 
+Cable3 & Load & CB3 & TM-Thermal & Alert & Alert & Pass & Therm. Trip 500 A is set above 138.9 A = Ampacity & 1086 & 0.46 \\ 
+Cable3 & Load & CB3 & TM-Thermal & Alert & Alert & Pass & Trip curve protects the damage curve & 1086 & 0.46 \\ 
+\hline
+Cable6 & Load & CB12 & TM-Thermal & Alert & Alert & Pass & Therm. Trip 400 A above max. limit of 138.9 A = Ampacity x 100\% & 1138 & 0.46 \\ 
+Cable6 & Load & CB12 & TM-Thermal & Alert & Alert & Pass & Therm. Trip 400 A is set above 138.9 A = Ampacity & 1138 & 0.46 \\ 
+Cable6 & Load & CB12 & TM-Thermal & Alert & Alert & Pass & Trip curve protects the damage curve & 1138 & 0.46 \\ 
+\hline
+Cable7 & Load & CB7 & TM-Magnetic & - & - & Pass & Trip curve protects the damage curve & 1248 & 0.46 \\ 
+Cable7 & Load & CB7 & TM-Thermal & Alert & Alert & Pass & Therm. Trip 225 A above max. limit of 91.4 A = Ampacity x 100\% & 1248 & 0.46 \\ 
+Cable7 & Load & CB7 & TM-Thermal & Alert & Alert & Pass & Therm. Trip 225 A is set above 91.4 A = Ampacity & 1248 & 0.46 \\ 
+Cable7 & Load & CB7 & TM-Thermal & Alert & Alert & Pass & Trip curve protects the damage curve & 1248 & 0.46 \\ 
+\hline
+Cable8 & Load & CB10 & TM-Thermal & Pass & Warning & Pass & Cable is underutilized due to Therm. Trip 150 A < 222.3 A (111.1 A \@ 0.46 kV) = Ampacity x 80\% & 1862 & 0.23 \\ 
+Cable8 & Load & CB10 & TM-Thermal & Pass & Warning & Pass & Therm. Trip 150 A is within 277.9 A (138.9 A \@ 0.46 kV) = Ampacity & 1862 & 0.23 \\ 
+Cable8 & Load & CB10 & TM-Thermal & Pass & Warning & Pass & Therm. Trip 150 A is within max. limit of 277.9 A (138.9 A \@ 0.46 kV) = Ampacity x 100\% & 1862 & 0.23 \\ 
+Cable8 & Load & CB10 & TM-Thermal & Pass & Warning & Pass & Trip curve protects the damage curve & 1862 & 0.23 \\ 
+\hline
+	\end{tabular}	
+		
+	}
+}
+\end{table}
+

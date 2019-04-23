@@ -1,0 +1,215 @@
+%\begin{document}
+\section{Power quality analysis} \label{ch04_elecaudit_powerquality}
+The Power Quality Analysis (TQA) has been conducted on the Main system, VFD1, and VFD2 of this PS. The Power Quality Analyzer used is FLUKE 430-II. Figure \ref{fig_ch04_elecaudit_powerqualityanalyzer} shows the analyzer during the course of measurement for the station.
+
+
+\begin{figure}
+	%	\includepdf[angle = 0]{sections/CHE_1PHSC_with_VFD.pdf}
+	\includegraphics[scale=0.5]{figures/fig_ch04_elecaudit_powerqualityanalyzer} \\
+	\caption{Power quality analyzer plugging during measurement}
+	\label{fig_ch04_elecaudit_powerqualityanalyzer} 
+\end{figure}
+
+
+\subsection{Objectives and expected outcomes}
+The preliminary objectives and expected outcomes from this analysis are
+\begin{itemize}
+	\item Record the voltage and current profile on the load side of Circuit Breaker with the recording interval  set every five (10) minutes;
+	
+	\item 	Record power profile (KW, KVA, KVAR) on the load side of Circuit Breaker  with the recording interval  set every ten (10) minutes.
+	
+	\item	 Record Total Harmonic Distortion (THD);
+	
+	\item 	Record Values of Short Duration Voltage Variation that will exceed the limit set by Philippine Distribution code;
+	
+	\item 	Record values of Long Duration Voltage Variation that will exceed the limit set by the Philippine Distribution Code;
+	
+	\item 	Record values of Frequency Variation that will exceed the limit set by Philippine Distribution code;
+	
+	\item 	Record Transient voltage Surge defined by PDC and using Computer Business Equipment  Manufacturer’s Association(CBEMA) and Information Technology 	Industry Council (ITIC) Curve International Standard;
+	
+	\item 	Compute for Voltage Unbalance and compare it on the Voltage unbalance limit set by PDC;
+	
+	\item     Recommendations.
+	
+\end{itemize}
+
+\subsection{Basic}
+
+The assessments made in this report are in accordance to IEEE Standard 1159-1995 “IEEE Recommended Practice for Monitoring Electric Power Quality”.
+
+The Philippine Distribution Code was used as the local reference for power quality standards. According to the Philippine Distribution Code, a power quality problem exists when at least one of the categories in the tables of following sections is present during the normal operation of the electrical system
+
+
+\subsection{Results}
+
+Results are summarized in this section together with the enclosed tables and graphs in the Appendix \ref{app_pqa}
+
+Any values outside these limits are noted in the report. Values within the limits are considered to be within safe operating range.
+
+\subsubsection{RMS Voltage compliance}
+
+The steady-state rms voltage must remain within the range of 90.00\% to 110.00\%.
+
+\begin{itemize}
+	\item 	Over Voltage – if the RMS value of the voltage is greater than or equal to 110\% of the nominal value
+	\item 	Under Voltage – if the RMS value of the voltage is less than or equal to 90\% of the nominal voltage
+\end{itemize}
+
+Results are shown in Table \ref{tbl_ch04_elecaudit_powerquality_rms}.
+
+\input{tables/tbl_ch04_elecaudit_powerquality_rms}
+
+
+\subsubsection{Voltage unbalance compliance}
+
+Voltage Unbalance shall be defined as the maximum deviation from the average of the three phase voltages divided by the average of the three phase voltages expressed in percent.  The maximum voltage unbalance at the connection point of any user, excluding the voltage unbalance passed on from the grid shall not exceed 2.5\% during normal operating conditions.
+
+Results are shown in Table \ref{tbl_ch04_elecaudit_powerquality_voltageunbalance}.
+
+\input{tables/tbl_ch04_elecaudit_powerquality_voltageunbalance}
+
+\subsubsection{Current unbalance compliance}
+
+Results are shown in Table \ref{tbl_ch04_elecaudit_powerquality_currentunbalance} with note that the current unbalance should not exceed 10\%.
+
+\input{tables/tbl_ch04_elecaudit_powerquality_currentunbalance}
+
+
+\subsubsection{Harmonic - THD compliance}
+
+Results are shown in Table \ref{tbl_ch04_elecaudit_powerquality_thdcompliance} with the following notes:
+
+\begin{itemize}
+	\item Harmonics shall be defined as sinusoidal voltage and currents having frequencies that are integral multiples of the fundamental frequency;
+	
+	\item The total harmonic distortion (THD) shall be defined as the ratio of the RMS value of the harmonic content to the RMS value of the fundamental quantity, expressed in percent;
+	
+	\item PHILIPPINE DISTRIBUTION CODE sets the THD of the voltage at any user system to not exceed five percent (5\%) during normal operating conditions. 
+\end{itemize}
+
+\input{tables/tbl_ch04_elecaudit_powerquality_thdcompliance}
+
+
+
+\subsubsection{Harmonic - TDD compliance}
+
+Results are shown in Table \ref{tbl_ch04_elecaudit_powerquality_tddcompliance} with the following notes:
+
+\begin{itemize}
+	\item The Total Demand Distortion (TDD) shall be defined as the ratio of the RMS 		value of the harmonic content to the RMS value of the rated or maximum 			fundamental quantity, expressed 	in percent;
+	
+	\item PHILIPPINE DISTRIBUTION CODE sets the TDD of the current at any user of the system to not exceed five percent (5\%) during normal operating conditions.
+	
+\end{itemize}
+
+It is important to note that the values obtained for the THD (refer to previous sections) might declare the parameter values within the limits. However, the overall conclusion shall be derived together with the TDD compliance as the values of the TDD coming from the asset while the THD values coming normally from the sources. 
+
+\input{tables/tbl_ch04_elecaudit_powerquality_tddcompliance}
+
+
+In this situation, results of TDD are significant higher than the limit of 5\%, indicating a certain degree of probability that there is an existing issue.
+
+
+
+\subsubsection{100\% Power frequency (HZ) compliance}
+
+Results are shown in Table \ref{tbl_ch04_elecaudit_powerquality_frequency} with the following notes:
+
+\begin{itemize}
+	\item A nominal fundamental frequency of 60HZ, PHILIPPINE DISTRIBUTION COCE set an acceptable limit of 59.7 HZ. for low frequency and 60.3 hz for high frequency.
+	
+\end{itemize}
+
+\input{tables/tbl_ch04_elecaudit_powerquality_frequency}
+
+
+\subsubsection{Power factor}
+
+Results are shown in Table \ref{tbl_ch04_elecaudit_powerquality_powerfactor} with the following notes:
+
+\begin{itemize}
+	\item The ideal situation is a cos phi or DPF equal or close to 1. Utilities may charge additional cost (penalty when var readings are high because they need to provide apparent power (VA, kVA) that does not include both var and W).
+	
+\end{itemize}
+
+\input{tables/tbl_ch04_elecaudit_powerquality_powerfactor}
+
+\subsubsection{Flicker}
+
+Results are shown in Table \ref{tbl_ch04_elecaudit_powerquality_flicker} with the following notes:
+
+\begin{itemize}
+	\item A measuring period of 2 hours (Plt) is useful when there may be more than one interference source with irregular working cycles and for equipment such as welding machines. Plt $\leq$ 1.0 is the limit used in standards like EN15160;
+	\item The 10 min (Pst) uses a longer measuring period to eliminate the influence of random voltage variations.
+	
+	
+\end{itemize}
+%
+\input{tables/tbl_ch04_elecaudit_powerquality_flicker}
+
+
+%
+\subsection{Conclusion and Recommendations}
+
+\begin{itemize}
+	
+	\item In general the most efficient way to troubleshoot electrical systems, is to begin at
+	the load and work towards the building’s service entrance. Measurements are taken along the way to isolate faulty components or loads;
+	
+	\item 	Monitoring up to a period of one week is recommended to perform a quality check 
+	That allows you to obtain a good impression of power quality; 
+	
+	\item 	According to IEEE 519. "Most motor loads are relatively tolerant of harmonics". However, IEEE 519-1992 states further that, "Even in the case of the least susceptible equipment, harmonics can be harmful. Harmonics, can cause dielectric thermal or voltage stress, which causes premature aging of electrical insulation. A major effect of harmonic voltages and currents in rotating machinery (induction and synchronous) is increased heating due to iron and copper losses at the harmonic frequencies. The harmonic components thus affect the machine efficiency, and can also affect the torque developed"; 
+	
+	\item  	In the case of this station, the total demand distortion is outside the limits set in the Philippine Distribution Code. From the application perspective, we're most concerned with the maximum harmonic current levels, and the impact they have on the distribution system. This makes TDD a much more useful metric for power inverter distortion; 
+	
+	\item  the current unbalance occurred in the absence of voltage unbalance, hence it is recommended to look for the cause of current unbalance which could be faulty insulation or a phase shorted to ground. Correcting the current unbalance helps prevent overheating and deterioration of motor-winding insulation and other equipment. Thermal scanning of motor is recommended;
+	
+	\item The measured power factor is low for VFD-1. Consider addressing first the issues on harmonics before improving the power factor
+	
+	\item 	Crest Factor – A high crest factor value for current was recorded to signify a   distorted current waveform. A CF of 1.8 or higher means high waveform distortion. This can be attributed on the current drawn by the variable frequency drive;
+	
+	
+\begin{tabular}{l|l|l|l|l}
+	\hline
+	\multicolumn{1}{c|}{Main} & \multicolumn{2}{c|}{VOLTAGE} & \multicolumn{2}{c}{CURRENT} \\ 
+	\cline{2-5}
+	\multicolumn{1}{c|}{Phase} & MIN & MAX & MIN & MAX \\ 
+	\hline
+	A & 1.36 & 1.46 & 1.50 & 5.65 \\ 
+	B & 1.37 & 1.72 & 1.36 & 6.23 \\ 
+	C & 1.41 & 1.58 & 1.29 & 6.41 \\ 
+	\hline
+\end{tabular}
+	
+\begin{tabular}{l|l|l|l|l}
+	\hline
+	\multicolumn{1}{c|}{VFD-1} & \multicolumn{2}{c|}{VOLTAGE} & \multicolumn{2}{c}{CURRENT} \\ 
+	\cline{2-5}
+	\multicolumn{1}{c|}{phase} & MIN & MAX & MIN & MAX \\ 
+	\hline
+	A & 1.36 & 1.42 & 1.32 & 10.37 \\ 
+	B & 1.37 & 1.58 & 1.04 & 9.13 \\ 
+	C & 1.41 & 1.49 & 1.24 & 9.89 \\ 
+	\hline
+\end{tabular}
+
+
+\begin{tabular}{l|l|l|l|l}
+	\hline
+	\multicolumn{1}{c|}{Soft} & \multicolumn{2}{c|}{VOLTAGE} & \multicolumn{2}{c}{CURRENT} \\ 
+	\cline{2-5}
+	\multicolumn{1}{c|}{starter} & MIN & MAX & MIN & MAX \\ 
+	\hline
+	A & 1.36 & 1.42 & 1.27 & 5.27 \\ 
+	B & 1.37 & 1.42 & 1.18 & 28.75 \\ 
+	C & 1.43 & 1.50 & 1.25 & 4.70 \\ 
+	\hline
+\end{tabular}
+	
+	\item When second measurements will be taken and current harmonics is still high, consider an active filter to properly address  the 3rd, 5th and 7th  harmonics.  An active filter (cancellation of all harmonics) can be considered altogether.
+	
+\end{itemize}
+
+

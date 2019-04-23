@@ -1,0 +1,120 @@
+%\begin{document}
+\section{Load flow study} \label{ch04_elecaudit_loadflow}
+The load flow study (analysis) has been conducted per applied standard. Following Terms are important in the study, thus being extracted from the Philippines Distribution Code for ease of readers.
+
+\begin{itemize}
+\item \textbf{Active Power}: The time average of the instantaneous power over one period of the electrical wave, measured in watts  (W) or multiples thereof. For AC circuit or Systems , it is the product of the root-mean –square (RMS) or Effective value of the voltage and the RMS value of the in-phase component of the current. In a three phase system, it is the sum of the Active Power of the individual phases;
+
+\item \textbf{Apparent Power}: The product of the root-mean –square (RMS) or  Effective value of the current and root 	–mean –square of the voltage. For AC circuit Systems, it is the square root of the sum of the squares of the Active Power and Reactive power, measured in volt-amperes (VA) or multiples thereof;
+
+
+\item \textbf{Reactive Power}: The component of the electrical power representing the alternating exchange of stored energy  (inductive or capacitive) between sources and loads or between two systems, measured in VAR, or multiples thereof. For AC circuits or systems, it is the product of the RMS voltage and the RMS value of the quadrature component of alternating current. In a three phase system, it is the sum of the Reactive power of the individual phases;
+
+
+\item \textbf{Harmonics (THD)}: Harmonics shall be defined as sinusoidal voltage and currents having frequencies that are integral multiples of the fundamental frequency.
+
+\end{itemize}
+
+\subsection{Analysis based on design}
+The analysis has been conducted under the assumption of the Alerting Setting shown in Table \ref{tbl_ch04_elecaudit_load_flow_alertsetting01}. Results of the analysis are shown in the diagram (refer to Figure \ref{LF_ANALYSIS}) with all details summarized in tabular forms (refer to the Appendix \ref{app_lfsummary})
+
+\begin{table}[]
+	\caption{Alert setting}
+	\label{tbl_ch04_elecaudit_load_flow_alertsetting01}
+	%	\resizebox{\columnwidth}{!}{%
+	\includegraphics[scale=0.3]{tables/tbl_ch04_elecaudit_load_flow_alertsetting01}
+\end{table}
+
+
+\begin{figure}[]
+	\includegraphics[width=\textwidth]{figures/R1P_LF_analysis.pdf} \\
+	\caption{Load flow analysis}
+	\label{LF_ANALYSIS} 
+\end{figure}
+
+%As can be seen from the figure, parameter values are all acceptable. However, there is an indication in pink color for VFD1, inferring that this asset might have reached the marginal setting, but not critical. It is recommended that this asset shall be closely monitored. The conclusion on this asset will be validated together with the analysis on the Power Quality which is in subsection \ref{ch04_elecaudit_powerquality}.
+
+Summaries on the results are also shown in Table \ref{tbl_ch04_elecaudit_load_flow_analysis01}, Table \ref{tbl_ch04_elecaudit_load_flow_analysis02}, and Table \ref{tbl_ch04_elecaudit_load_flow_analysis03}.
+
+
+\begin{table}[]
+	\caption{Summary of total generation, loading, and demand}
+	\label{tbl_ch04_elecaudit_load_flow_analysis01}
+	%	\resizebox{\columnwidth}{!}{%
+	\includegraphics[width=\textwidth]{tables/tbl_ch04_elecaudit_load_flow_analysis01.pdf}		
+\end{table}
+
+
+\begin{table}[]
+	\caption{Bus loading}
+	\label{tbl_ch04_elecaudit_load_flow_analysis02}
+	%	\resizebox{\columnwidth}{!}{%
+	\includegraphics[width=\textwidth]{tables/tbl_ch04_elecaudit_load_flow_analysis02.pdf}		
+\end{table}
+
+
+\begin{table}[]
+	\caption{Branch loading}
+	\label{tbl_ch04_elecaudit_load_flow_analysis03}
+	%	\resizebox{\columnwidth}{!}{%
+	\includegraphics[width=\textwidth]{tables/tbl_ch04_elecaudit_load_flow_analysis03.pdf}		
+\end{table}
+
+It is concluded from this analysis that all parameter values are within the acceptable ranges.
+
+%Following conclusions can be derived from analysis based on the current design.
+%
+%\begin{itemize}
+%	\item XXX and YYY;
+%	\item XXX and YYY;
+%	\item XXX and YYY;
+%	\item XXX and YYY.
+%\end{itemize}
+
+
+\subsection{Analysis based on measured data from the PQA}
+Analysis has been conducted for the overall system (refer herein as MAIN), for Feeder to motor with VFD1, VFD2, and softstarter, respectively. The detailed reports were obtained from the analytical software (refer to Appendix) with highlights presented in Figure \ref{fig_ch04_elecaudit_load_flow_main}, Figure \ref{fig_ch04_elecaudit_load_flow_vfd1}, and Figure \ref{fig_ch04_elecaudit_load_flow_softstarter}.
+
+\begin{figure}
+	%	\includepdf[angle = 0]{sections/CHE_1PHSC_with_VFD.pdf}
+	\includegraphics[width=\textwidth]{figures/fig_ch04_elecaudit_load_flow_main.pdf} \\
+	\caption{Main}
+	\label{fig_ch04_elecaudit_load_flow_main} 
+\end{figure}
+
+\begin{figure}[]
+	%	\includepdf[angle = 0]{sections/CHE_1PHSC_with_VFD.pdf}
+	\includegraphics[width=\textwidth]{figures/fig_ch04_elecaudit_load_flow_vfd1.pdf} \\
+	\caption{VFD-1 }
+	\label{fig_ch04_elecaudit_load_flow_vfd1} 
+\end{figure}
+
+\begin{figure}[]
+	%	\includepdf[angle = 0]{sections/CHE_1PHSC_with_VFD.pdf}
+		\includegraphics[width=\textwidth]{figures/fig_ch04_elecaudit_load_flow_vfd2.pdf} \\
+	\caption{VFD-2 }
+	\label{fig_ch04_elecaudit_load_flow_vfd2} 
+\end{figure}
+
+
+\begin{figure}
+	%	\includepdf[angle = 0]{sections/CHE_1PHSC_with_VFD.pdf}
+	\includegraphics[width=\textwidth]{figures/fig_ch04_elecaudit_load_flow_softstarter.pdf} \\
+	\caption{soft starter}
+	\label{fig_ch04_elecaudit_load_flow_softstarter} 
+\end{figure}
+
+Conclusion on the load flow analysis shall be in combination with the power quality analysis, which is presented in the following subsections.
+
+%\begin{itemize}
+%\item For the overall system, the maximum loading reached about about Phase A :75.1A, Phase B:67.7A, and Phase C: 68.6 (Figure \ref{fig_ch04_elecaudit_load_flow_main}), which is close to the theoretical values (66.4 A)obtained from ETAB software (Figure \ref{LF_ANALYSIS}). This indicates that actual parameter values are within the acceptance range;
+%
+%\item For the VFD1, the maximum loading reached about Phase A:18.4A, Phase B: 9.9A, Phase C: 18.5 A  (Figure \ref{fig_ch04_elecaudit_load_flow_vfd1}), which is higher than the theoretical values (16.98 A)obtained from ETAB software (Figure \ref{LF_ANALYSIS}). This indicates that actual parameter values are not within the acceptance range due to very low phase B value;
+%
+%\item For the softstarter, the maximum loading reached about Phase A: 20.6 A, Phase B: 18.5A, Phase C:  (Figure \ref{fig_ch04_elecaudit_load_flow_softstarter}), which is lower than the theoretical values (33.9 A) obtained from ETAB software (Figure \ref{LF_ANALYSIS}). This indicates that actual parameter values are within the acceptance range.
+%
+%\end{itemize}
+%
+%From this analysis, it is recommended that continuous monitoring on VFD1 and VFD2 shall be implemented to ensure that the loading is not going to exceed the limit. Furthermore, continuity test on VFD shall be conducted to determine the probable issue in phase B. 
+
+

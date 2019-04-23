@@ -1,0 +1,27 @@
+\begin{table}[!htb]
+	\caption{Short circuit calculation - results}
+	\label{tbl_ch04_elecaudit_scc}
+	%	\resizebox{\columnwidth}{!}{%
+	{\scriptsize
+		
+	\begin{tabular}{c|p{4cm}|c|p{3cm}|p{5cm}}
+\hline
+Item & Description & SCC (kA) & Kaic \& CB (kA) & remarks \\ 
+\hline
+1 & From Utility to tansformer & 8.357 & Utility owned trafo & Protection c/o Utility \\ 
+2 & Pole Mounted transformer to main disconnect switch & 1.295 & Rating of CB is 400A per nameplate & Cover of MDS stuck. Advised not to open due to arc flash \\ 
+3 & Main disconnect switch 400A to Automatic transfer switch panel & 1.266 & Rating not visible & n/a \\ 
+4 & Automatic transfer switch panel to MDP-P 460V & 1.258 & 35 & Existing acceptable \\ 
+5 & MDP-P 460V to Enclosed CB 200A & 1.233 & 25 & Existing acceptable \\ 
+6 & Enclosed CB 200A to dry type transformer 112.5 kVA & 1.882 & 25 & Upstream protection is ECB 200A \\ 
+7 & Dry type transformer 112.5 kVA to MDP-S 230V & 1.781 & 42 & Existing acceptable \\ 
+8 & MDP-S 230V to MCC 230V & 1.781 & 65 & Existing acceptable \\ 
+9 & MDP-P 460V to MCC 460V & 1.254 & 65 & Existing acceptable \\ 
+10 & MDP-P 460V to MCC 440V & 1.248 & 35 & Existing acceptable \\ 
+11 & MDP-P 460V to dry type transformer 75kVA & 1.252 & None & N/a \\ 
+12 & Dry type transformer 75 kVA to Enclosed CB 150A  & 1.862 & 22 & Existing acceptable \\ 
+13 & Enclosed CB 150A  to Lighting Panel & 1.754 & 10 & Existing acceptable \\ 
+\hline
+	\end{tabular}
+	}%}
+\end{table}

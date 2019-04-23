@@ -1,0 +1,56 @@
+%\begin{document}
+\section{Short circuit calculations and evaluation} \label{ch04_elecaudit_shortcuircuitanalysis}
+\subsection{Short circuit calculation}
+Short circuit calculation (SCC) has been done using the software ETAP version 16.2 under following considerations:
+\begin{itemize}
+\item \textbf{Available MVA Short Circuit}: Utility supplying normal power to the PS  via a 34.5 KV line is MERALCO. The maximum projected fault is to be requested by the owner from the utility. In the calculation, 500MVA available short circuit was used;
+
+\item \textbf{Transformer}: The SCC was based on a  65kVA transformer  feeding the transfer switch going to the motors. Transformer impedance used in the calculation is per standard;
+
+\item \textbf{GENSET}: 
+\begin{itemize}
+\item Emergency power will be supplied by 1 Genset, rated at 165 kVA feeding downstream distribution power lines;% busduct;% to synchronizing  panel;
+
+\item Subtransient value of the generator should be provided for a more  accurate calculation. 
+
+\end{itemize}
+
+\item \textbf{Length of wires and cables}: Actual measured length of wires and cables.
+
+\end{itemize}
+
+Calculation has been done for Three Phase of short circuit current. Results of the calculations are summarized in Table \ref{tbl_ch04_elecaudit_scc}. Figure \ref{fig_ch04_elecaudit_scc_lgfault} and Figure \ref{fig_ch04_elecaudit_scc_3phase} represent the graphical representation of Nodes and Links as well as associated values.
+
+\input{tables/tbl_ch04_elecaudit_scc}
+
+The values of SCC shown in the table indicates the followings:
+
+\begin{itemize}
+\item the values of the FAULT observed to be lower than the values of the protective devices. This infers that the existing protective devices are capable to protect the assets.
+\end{itemize}
+
+\begin{figure}
+%	\includepdf[angle = 0]{sections/CHE_1PHSC_with_VFD.pdf}
+	\includegraphics[width=\textwidth]{figures/ASV_shortcircuit_L_GFAULT.pdf} \\
+	\caption{LGfault}
+	\label{fig_ch04_elecaudit_scc_lgfault} 
+\end{figure}
+
+\begin{figure}
+	\includegraphics[width=\textwidth]{figures/asv_shortcircuit_3PHASEFAULT.pdf} \\
+	\caption{Three Phase SCC}
+	\label{fig_ch04_elecaudit_scc_3phase} 
+\end{figure}
+
+\subsection{Evaluation of protective devices and bus bars}
+It can be interpreted from the results of the SCC that 
+\begin{itemize}
+\item the protective devices and bus bars are still provided adequate level of services and performed per applied standards;
+
+\item there is no undersized electrical components.
+\end{itemize}
+
+
+
+
+

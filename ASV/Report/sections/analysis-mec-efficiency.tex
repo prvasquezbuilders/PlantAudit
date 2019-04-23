@@ -1,0 +1,151 @@
+\begin{document}
+\section{Pump efficiency} \label{ch04mech03}
+Data on flow and head were measured for each pump. However, there was no measured data of motor/pump assembly regarding power ratings of all pumps. This was due to the fact that electrical audit is not part of the scope of work.
+
+GHD/RBSanchez did verify on the provided electrical audit to see if there is available power rating for individual motor/pump assembly. However, the electrical audit does not include measured data for individual pump. Thus, cannot be used as a reference to more or less correlate with measured flow and head for computation of pump efficiency as desired.
+
+\subsection{Unit flow measurement} \label{ch04mech04}
+Data on measured flow (Q) was recorded with min and max values is shown in Table \ref{ch04_tbl_flow01} for each pumps. %Raw data is provided in the Appendix \ref{appflow}.
+
+\begin{table}[!h]
+	\caption{Unit flow measurement (cubic meter per second - cms).}
+	\label{ch04_tbl_flow01}
+	{\footnotesize
+\begin{tabular}{c|c|c|c|c|c|l}
+	\hline
+	Assets & $\Phi$  & \multicolumn{4}{c|}{Flow Q (cms)} & Remarks \\ 
+	\cline{3-6}
+	& (mm) & Design & \multicolumn{3}{c|}{Measure} &  \\ 
+	\cline{4-6}
+	&  &  & Min & Max & Ave. &  \\ 
+	\hline
+	BP1 & 700 & 0.6365 & 0.3407 & 0.3533 & 0.3470  &  \\ 
+	BP2 & 700 & 0.6365 & 0.3028 & 0.3343 & 0.3186  &  \\ 
+	BP3 & 700 & 0.6365 & 0.5930 & 0.6119 & 0.6024  &  \\ 
+	BP4 & 700 & 0.6365 & 0.5110 & 0.5614 & 0.5362  &  \\ 
+	BP5 & 700 & 0.6365 & 0.6939 & 0.7128 & 0.7034  &  \\ 
+	BP6 & 700 & 0.6365 & 0.6119 & 0.6561 & 0.6340  &  \\ 
+	SP1 & 600 & 0.5324 & 0.3583 & 0.3659 & 0.3621  &  \\ 
+	SP2 & 600 & 0.5324 & 0.3785 & 0.3848 & 0.3817  &  \\ 
+	\hline
+\end{tabular}
+	}
+\end{table}
+
+\subsection{Pressure measurement} \label{ch04pressure}
+
+Data on measured flow (Q) was recorded with min and max values is shown in Table \ref{ch04_tbl_flow02} for each pumps. %Raw data is provided in the Appendix \ref{appflow}.
+
+\begin{table}[!h]
+	\caption{Head ($mH_2O$).}
+	\label{ch04_tbl_flow02}
+	{\footnotesize
+\begin{tabular}{c|c|c|c|l}
+	\hline
+	Assets & \multicolumn{3}{c|}{Head (H - $mH_2O$)} & Remarks \\ 
+	\cline{2-4}
+	& Design & Discharge & Suction &  \\ 
+	\hline
+	BP1 & 40 & 42.1581 & 2.4592 &  \\ 
+	BP2 & 40 & 42.1581 & 2.7403 &  \\ 
+	BP3 & 40 & 42.1581 & 2.4592 &  \\ 
+	BP4 & 40 & 40.7529 & 2.7403 &  \\ 
+	BP5 & 40 & 42.1581 & 2.9511 &  \\ 
+	BP6 & 40 & 40.7529 & 2.8105 &  \\ 
+	SP1 & 50 & 37.8088 & 0.7026 &  \\ 
+	SP2 & 50 & 36.5371 & 0.7026 &  \\ 
+	\hline
+\end{tabular}
+	}
+\end{table}
+
+
+\subsection{Efficiency}
+
+Pump efficiency is computed based on the flow/head measurement and the assumed value of power rating (Table \ref{ch05_tbl_efficiency}). 
+\begin{table}[!h]
+	\caption{Pump efficiency (\%).}
+	\label{ch05_tbl_efficiency}
+	{\footnotesize
+\begin{tabular}{c|c|c|c|c|c|l|l}
+	\hline
+	Assets & Flow & Head & Input Power & Water Power & \multicolumn{3}{c}{Efficiency (\%)} \\ 
+	\cline{6-8}
+	& $m^3/s$ & $mH_2O$ & kW & kW & Tested & Design & Diff. \\ 
+	\hline
+	BP1 & 0.347 & 41.68 & 181 & 142 & 78.60 & \multicolumn{1}{c|}{85.67} & \multicolumn{1}{c}{-7.07} \\ 
+	BP2 & 0.319 & 41.4 & 181 & 129 & 71.70 & \multicolumn{1}{c|}{85.67} & \multicolumn{1}{c}{-13.97} \\ 
+	BP3 & 0.602 & 41.68 & 283 & 246 & 86.90 & \multicolumn{1}{c|}{85.67} & \multicolumn{1}{c}{1.23} \\ 
+	BP4 & 0.536 & 40 & 283 & 210 & 74.20 & \multicolumn{1}{c|}{85.67} & \multicolumn{1}{c}{-11.47} \\ 
+	BP5 & 0.703 & 41.19 & 283 & 242 & - & \multicolumn{1}{c|}{85.67} & \multicolumn{1}{c}{} \\ 
+	BP6 & 0.634 & 39.93 & 283 & 248 & 87.60 & \multicolumn{1}{c|}{85.67} & \multicolumn{1}{c}{1.93} \\ 
+	SP1 & 0.362 & 45.33 & 185 & 161 & 87.00 & \multicolumn{1}{c|}{86.89} & \multicolumn{1}{c}{0.11} \\ 
+	SP2 & 0.382 & 44.06 & 185 & 165 & 89.10 & \multicolumn{1}{c|}{86.89} & \multicolumn{1}{c}{2.21} \\ 
+	\hline
+\end{tabular}
+	}
+\end{table}
+
+It is important to note that the values of input power is an assumed values which might not perfectly reflect the actual value in actual situation. This assumption is a limitation of the study, particularly for this station, since the electrical audit was carried out without actual records on power for individual pump. The design pump efficiencies are taken from the test report of the KSB \cite{KSB2010}. 
+
+In Table \ref{ch05_tbl_efficiency}, efficiency for BP5 is not estimated due to the fact that the measured flow is beyond the maximum allowable flow of the pump. This infers that the pump has been operated inappropriately pursuant to its design specification. As a consequence, the operation of the pump might have already incurred more power than it should be. If this scheme of operation is continues, highly likely that the failure probability will increase. 
+
+Figure \ref{ch04_efficiencycurves}-a, and \ref{ch04_efficiencycurves}-b presents the efficiency curves for booster pumps and storage pumps, respectively. The curves are created based on the recorded data provided in the test record of KSB \cite{KSB2010}. 
+
+
+\begin{figure}[!htb]
+	\begin{minipage}[b]{0.5\linewidth}
+		\centering
+		\includegraphics[width=\textwidth]{figures/ch04_fig_efficiency01}
+		\caption*{a - Booster pumps}% \label{peter1}
+	\end{minipage}
+	\hspace{0.05cm}
+	\begin{minipage}[b]{0.5\linewidth}
+		\centering
+		\includegraphics[width=\textwidth]{figures/ch04_fig_efficiency02}
+		\caption*{b -Storage Pumps} %\label{peter2}
+	\end{minipage}
+		\caption{Efficiency curves}
+		\label{ch04_efficiencycurves}
+\end{figure}
+
+Figure \ref{ch04_efficiencycurves}-a shows that BP1 and BP2 deviates away from the curve. In this case, BP1 and BP2 possibly operates at underflow condition, and at higher friction loss. The pump operates at lower efficiency based on the plot curve, and backed up to have an efficiency of 78.6\% and 71.7\%, respectively. This also constitutes to the “fair” condition of the pump with possible cavitation at the suction head. Moreover, BP3, BP5, and BP6 have efficiencies higher than 85\%. As shown at the shaded region, these pumps operate under the 10\% tolerance BEP range, thereby operating at considerably good operation point although BP5 has overflow-measured flow. In the contrary, these pumps were diagnosed to have a “fair” pump condition state. This is due to pump possible cavitation from the suction and carried throughout the discharged side of the pumps. In the other hand, BP4 has an efficiency of 74.2\% and deviates slightly away to the curve with the operating point of BP4 is under the 20\% tolerance BEP range. The pump operates at lower head and possibly in underflow condition. The pump have a diagnosis of having a good pump health that means lower vibration and possible cavitation occurred / occurring within pump impellers
+
+Figure \ref{ch04_efficiencycurves}-b shows that the operating point of SP1 and SP2 deviates away from the pump curve. This may possibly means that the pump is operating at higher friction head, and either overflow and underflow. Operating points of both pumps are within the 20\% tolerance range (shaded region) based on the GPM* (best GPM point), and has slight increase in pressure head. This can be associated in why is their efficiency is still above 80\% even operating at deviated operation conditions. In the other hand, it would affect the system performance when operated over time, thereby having an initial diagnosis of “fair” pump health based on the vibration analysis standpoint. 
+
+Generally, VFD controlled-pumps deviates greatly away to the curve than the fixed-speed pumps (BP3 to BP6). This could possibly means that the operating duty points of the pumps when controlled by VFD is out of the best efficiency range of the pumps, thereby may incur higher power consumptions. 
+
+\paragraph{\underline{Recommendations}}
+
+\begin{itemize}
+\item	Proper operating condition shall be established for the VFD Pumps in a given time to avoid them operating beyond their BEP for a long period of time. Also include the proper combinations of running pumps in a given time.
+\item	Multiple tests and conditions is still recommended to have a holistic approach on the pump assessment.
+\item	Measurement of important pump performance parameters shall also be included in the modifications (refer to the conceptual design in Chapter \ref{Chapter6}).
+\end{itemize}
+
+
+%\section{Electrical Audit}\label{43}
+%\subsection{Visual inspection} \label{ch04elec01}
+%\textcolor{blue}{APSI to write here the summary of raw data collected from visual inspection and testing. Tables shall be used as much as we can. Note that no analysis in this session. This session is purely the high level presentation of data. Raw data can be linked as an Appendix}
+%\subsection{Short circuit calculation} \label{ch04elec02}
+%\textcolor{blue}{APSI to write here the summary of raw data collected from visual inspection and testing. Tables shall be used as much as we can. Note that no analysis in this session. This session is purely the high level presentation of data. Raw data can be linked as an Appendix}
+%\subsection{Voltage drop calculation} \label{ch04elec03}
+%\textcolor{blue}{APSI to write here the summary of raw data collected from visual inspection and testing. Tables shall be used as much as we can. Note that no analysis in this session. This session is purely the high level presentation of data. Raw data can be linked as an Appendix}
+%\subsection{Protection coordination study} \label{ch04elec04}
+%\textcolor{blue}{APSI to write here the summary of raw data collected from visual inspection and testing. Tables shall be used as much as we can. Note that no analysis in this session. This session is purely the high level presentation of data. Raw data can be linked as an Appendix}
+%\subsection{Harmonic analysis} \label{ch04elec05}
+%\textcolor{blue}{APSI to write here the summary of raw data collected from visual inspection and testing. Tables shall be used as much as we can. Note that no analysis in this session. This session is purely the high level presentation of data. Raw data can be linked as an Appendix}
+%\subsection{Power quality} \label{ch04elec06}
+%\textcolor{blue}{APSI to write here the summary of raw data collected from visual inspection and testing. Tables shall be used as much as we can. Note that no analysis in this session. This session is purely the high level presentation of data. Raw data can be linked as an Appendix}
+%\subsection{Grounding system} \label{ch04elec07}
+%\textcolor{blue}{APSI to write here the summary of raw data collected from visual inspection and testing. Tables shall be used as much as we can. Note that no analysis in this session. This session is purely the high level presentation of data. Raw data can be linked as an Appendix}
+%\subsection{Asset registry} \label{ch04elec08}
+%\textcolor{blue}{APSI to write here the summary of raw data collected from visual inspection and testing. Tables shall be used as much as we can. Note that no analysis in this session. This session is purely the high level presentation of data. Raw data can be linked as an Appendix}
+%\subsection{Electrical system design analysis}\label{ch04elec09}
+%\textcolor{blue}{APSI to write here the summary of raw data collected from visual inspection and testing. Tables shall be used as much as we can. Note that no analysis in this session. This session is purely the high level presentation of data. Raw data can be linked as an Appendix}
+%
+%\subsection{Electrical integrity system} \label{ch04elec11}
+%\textcolor{blue}{APSI to write here the summary of raw data collected from visual inspection and testing. Tables shall be used as much as we can. Note that no analysis in this session. This session is purely the high level presentation of data. Raw data can be linked as an Appendix}
+%\subsection{Outdoor electrical equipment} \label{ch04elec12}
+%\textcolor{blue}{APSI to write here the summary of raw data collected from visual inspection and testing. Tables shall be used as much as we can. Note that no analysis in this session. This session is purely the high level presentation of data. Raw data can be linked as an Appendix}
+\end{document}
