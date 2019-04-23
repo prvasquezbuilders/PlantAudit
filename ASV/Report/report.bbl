@@ -16,5 +16,127 @@
   {}
 \endgroup
 
-\datalist[entry]{nty/global//global/global}\enddatalist
+\datalist[entry]{nty/global//global/global}
+  \entry{DOLE2016}{book}{}
+    \name{author}{1}{}{%
+      {{hash=D}{%
+         family={DOLE},
+         familyi={D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {DOLE}%
+    }
+    \strng{namehash}{D1}
+    \strng{fullhash}{D1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{title}{Rule 1075.04 Illumination - Occupational Safety and Health
+  Standards}
+    \field{year}{2016}
+  \endentry
+
+  \entry{GHD2018l}{report}{}
+    \name{author}{2}{}{%
+      {{hash=G}{%
+         family={GHD},
+         familyi={G\bibinitperiod},
+      }}%
+      {{hash=M}{%
+         family={Maynilad},
+         familyi={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GM1}
+    \strng{fullhash}{GM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{number}{OP18REFCS03-MOM-1000-G005B}
+    \field{title}{Minutes - Project Progress Meeting and Interview Session at
+  Operation Center}
+    \list{institution}{2}{%
+      {GHD}%
+      {Maynilad}%
+    }
+    \verb{file}
+    \verb :E\:/OP18REFCS03/Project Management/Minutes/OP18REFCS03-MOM-1000-G006
+    \verb A.pdf:PDF
+    \endverb
+    \field{type}{Minutes}
+    \field{year}{2018}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{GHD2018m}{report}{}
+    \name{author}{2}{}{%
+      {{hash=G}{%
+         family={GHD},
+         familyi={G\bibinitperiod},
+      }}%
+      {{hash=M}{%
+         family={Maynilad},
+         familyi={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GM1}
+    \strng{fullhash}{GM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{number}{OP18REFCS03-MOM-1000-G005B}
+    \field{title}{Minutes - Project Progress Meeting and Technical Presentation
+  on Report Structure and Asset Registry}
+    \list{institution}{2}{%
+      {GHD}%
+      {Maynilad}%
+    }
+    \verb{file}
+    \verb :E\:/OP18REFCS03/Project Management/Minutes/OP18REFCS03-MOM-1000-G007
+    \verb A.pdf:PDF
+    \endverb
+    \field{type}{Minutes}
+    \field{year}{2018}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{GHD2018j}{report}{}
+    \name{author}{3}{}{%
+      {{hash=G}{%
+         family={GHD},
+         familyi={G\bibinitperiod},
+      }}%
+      {{hash=R}{%
+         family={RBSanchez},
+         familyi={R\bibinitperiod},
+      }}%
+      {{hash=A}{%
+         family={APSI},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GRA1}
+    \strng{fullhash}{GRA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{number}{OP18REFCS03-ITP-ASV-G001A}
+    \field{title}{Inspection Testing Plan for Ayala Southvale PSR}
+    \list{institution}{1}{%
+      {GHD}%
+    }
+    \verb{file}
+    \verb :E\:/OP18REFCS03/ITPs/OP18REFCS03-ITP-ASV-G001A Inspection Test Plan.
+    \verb pdf:PDF
+    \endverb
+    \field{type}{techreport}
+    \field{year}{2018}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+\enddatalist
 \endinput
