@@ -1,0 +1,47 @@
+%  A simple proposal template.
+%  2017-March-16 v. 1.0.0
+%  Copyright 2017 by Nam Lethanh <namlt@protonmail.ch>
+%
+%
+\input{setup/preamble.tex}% package inclusion and set up of the document
+\input{setup/hyphenations.tex}% 
+\input{setup/macros.tex}% my new macros
+%\newwatermark[allpages,color=red!10,angle=45,scale=3,xpos=0,ypos=0]{Preliminary}
+
+
+\begin{document}
+%frontmatter
+\pagestyle{empty} %disable headers and footers
+\pagenumbering{roman} %use roman page numbering in the frontmatter
+\input{sections/frontpage.tex}
+\input{sections/colophon.tex}
+\input{sections/titlepages.tex}
+\cleardoublepage
+\pdfbookmark[0]{Contents}{label:contents}
+\pagestyle{fancy} %enable headers and footers again
+\tableofcontents
+%\listoftodos
+%\input{sections/preface.tex}
+\cleardoublepage
+%mainmatter
+\pagenumbering{arabic} %use arabic page numbering in the mainmatter
+\input{sections/Introduction.tex}
+\input{sections/Review.tex}
+\input{sections/Methodology.tex}
+\input{sections/Analysis.tex}
+%\input{sections/Chapter5.tex}
+\input{sections/DesignLCC.tex}
+\input{sections/Conclusion.tex}
+\printbibliography[heading=bibintoc]
+%\bibliographystyle{plainnat}
+\label{bib:mybiblio}
+\appendix
+%\input{sections/app1.tex}
+%\input{sections/app2.tex}
+\input{sections/app_vibration.tex}
+%\input{sections/app3.tex}
+%\input{sections/app4.tex}
+%\input{sections/app5.tex}
+\input{sections/app6.tex}
+\input{sections/app7.tex}
+\end{document}

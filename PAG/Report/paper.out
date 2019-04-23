@@ -1,0 +1,19 @@
+\BOOKMARK [1][-]{section.1}{The Integrated Asset Management Approach \(IAM\)}{}% 1
+\BOOKMARK [1][-]{section.2}{Deterioration process and rating index}{}% 2
+\BOOKMARK [1][-]{section.3}{Condition State \(CS\) definition}{}% 3
+\BOOKMARK [1][-]{section.4}{Technical efficiency}{}% 4
+\BOOKMARK [1][-]{section.5}{Reliability}{}% 5
+\BOOKMARK [2][-]{subsection.5.1}{Qualitative and Operational Analysis}{section.5}% 6
+\BOOKMARK [3][-]{subsubsection.5.1.1}{Failure Mode and Effects Analysis \(FMEA\)}{subsection.5.1}% 7
+\BOOKMARK [3][-]{subsubsection.5.1.2}{Reliability Centered Maintenance \(RCM\) }{subsection.5.1}% 8
+\BOOKMARK [2][-]{subsection.5.2}{Fault Tree Analysis \(FTA\)}{section.5}% 9
+\BOOKMARK [2][-]{subsection.5.3}{Herz model}{section.5}% 10
+\BOOKMARK [2][-]{subsection.5.4}{Weibull model}{section.5}% 11
+\BOOKMARK [2][-]{subsection.5.5}{Markov model}{section.5}% 12
+\BOOKMARK [1][-]{section.6}{Intervention Strategy \(IS\)}{}% 13
+\BOOKMARK [1][-]{section.7}{Determination of optimal intervention strategy}{}% 14
+\BOOKMARK [2][-]{subsection.7.1}{Block Replacement Model}{section.7}% 15
+\BOOKMARK [2][-]{subsection.7.2}{Time-dependent replacement model}{section.7}% 16
+\BOOKMARK [3][-]{subsubsection.7.2.1}{Minimize impact}{subsection.7.2}% 17
+\BOOKMARK [3][-]{subsubsection.7.2.2}{Maximize availability}{subsection.7.2}% 18
+\BOOKMARK [1][-]{section.8}{Return on Investment \(ROI\)}{}% 19

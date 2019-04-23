@@ -1,0 +1,1460 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.0 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{nty/global//global/global}
+  \entry{Bellman1962}{book}{}
+    \name{author}{2}{}{%
+      {{hash=BR}{%
+         family={Bellman},
+         familyi={B\bibinitperiod},
+         given={R.E.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=DS}{%
+         family={Dreyfus},
+         familyi={D\bibinitperiod},
+         given={S.E.},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Princeton University Press}%
+    }
+    \strng{namehash}{BRDS1}
+    \strng{fullhash}{BRDS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{title}{Applied Dynamic Programing}
+    \list{location}{1}{%
+      {New Jersey}%
+    }
+    \field{year}{1962}
+  \endentry
+
+  \entry{Berkman2015}{report}{}
+    \name{author}{1}{}{%
+      {{hash=B}{%
+         family={Berkman},
+         familyi={B\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{B1}
+    \strng{fullhash}{B1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{title}{Workplace Environmental Measurement Report}
+    \list{institution}{1}{%
+      {Berkman System Inc.}%
+    }
+    \field{type}{techreport}
+    \field{year}{2015}
+  \endentry
+
+  \entry{Berkman2016}{report}{}
+    \name{author}{1}{}{%
+      {{hash=B}{%
+         family={Berkman},
+         familyi={B\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{B1}
+    \strng{fullhash}{B1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{title}{Workplace Environmental Measurement Report}
+    \list{institution}{1}{%
+      {Berkman System Inc.}%
+    }
+    \field{type}{techreport}
+    \field{year}{2016}
+  \endentry
+
+  \entry{Dodson2006}{book}{}
+    \name{author}{1}{}{%
+      {{hash=DB}{%
+         family={Dodson},
+         familyi={D\bibinitperiod},
+         given={Bryan},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Quality Press, American Society for Quality}%
+    }
+    \strng{namehash}{DB1}
+    \strng{fullhash}{DB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{title}{The Weibull Analysis Handbook}
+    \field{year}{2006}
+  \endentry
+
+  \entry{DOLE2016}{book}{}
+    \name{author}{1}{}{%
+      {{hash=D}{%
+         family={DOLE},
+         familyi={D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {DOLE}%
+    }
+    \strng{namehash}{D1}
+    \strng{fullhash}{D1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{title}{Rule 1075.04 Illumination - Occupational Safety and Health
+  Standards}
+    \field{year}{2016}
+  \endentry
+
+  \entry{GHD2018e}{report}{}
+    \name{author}{2}{}{%
+      {{hash=G}{%
+         family={GHD},
+         familyi={G\bibinitperiod},
+      }}%
+      {{hash=M}{%
+         family={Maynilad},
+         familyi={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GM1}
+    \strng{fullhash}{GM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{number}{OP18REFCS03-MOM-1000-G003B}
+    \field{title}{Minutes - Project Meeting for ITP of Villamor and Pagcor
+  PSRs}
+    \list{institution}{2}{%
+      {GHD}%
+      {Maynilad}%
+    }
+    \verb{file}
+    \verb :E\:/OP18REFCS03/Project Management/Minutes/OP18REFCS03-MOM-1000-G003
+    \verb B.pdf:PDF
+    \endverb
+    \field{type}{Minutes}
+    \field{year}{2018}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{GHD2018l}{report}{}
+    \name{author}{2}{}{%
+      {{hash=G}{%
+         family={GHD},
+         familyi={G\bibinitperiod},
+      }}%
+      {{hash=M}{%
+         family={Maynilad},
+         familyi={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GM1}
+    \strng{fullhash}{GM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{number}{OP18REFCS03-MOM-1000-G005B}
+    \field{title}{Minutes - Project Progress Meeting and Interview Session at
+  Operation Center}
+    \list{institution}{2}{%
+      {GHD}%
+      {Maynilad}%
+    }
+    \verb{file}
+    \verb :E\:/OP18REFCS03/Project Management/Minutes/OP18REFCS03-MOM-1000-G006
+    \verb A.pdf:PDF
+    \endverb
+    \field{type}{Minutes}
+    \field{year}{2018}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{GHD2018m}{report}{}
+    \name{author}{2}{}{%
+      {{hash=G}{%
+         family={GHD},
+         familyi={G\bibinitperiod},
+      }}%
+      {{hash=M}{%
+         family={Maynilad},
+         familyi={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GM1}
+    \strng{fullhash}{GM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{number}{OP18REFCS03-MOM-1000-G005B}
+    \field{title}{Minutes - Project Progress Meeting and Technical Presentation
+  on Report Structure and Asset Registry}
+    \list{institution}{2}{%
+      {GHD}%
+      {Maynilad}%
+    }
+    \verb{file}
+    \verb :E\:/OP18REFCS03/Project Management/Minutes/OP18REFCS03-MOM-1000-G007
+    \verb A.pdf:PDF
+    \endverb
+    \field{type}{Minutes}
+    \field{year}{2018}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{GHD2018}{report}{}
+    \name{author}{3}{}{%
+      {{hash=G}{%
+         family={GHD},
+         familyi={G\bibinitperiod},
+      }}%
+      {{hash=R}{%
+         family={RBSanchez},
+         familyi={R\bibinitperiod},
+      }}%
+      {{hash=A}{%
+         family={APSI},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GRA1}
+    \strng{fullhash}{GRA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{number}{OP18REFCS03-ITP-VIL-G001B}
+    \field{title}{Inspection Testing Plan for Pagcor PSR}
+    \list{institution}{1}{%
+      {GHD}%
+    }
+    \verb{file}
+    \verb :E\:/OP18REFCS03/ITPs/OP18REFCS03-ITP-PAG-G001A Inspection Test Plan.
+    \verb pdf:PDF
+    \endverb
+    \field{type}{techreport}
+    \field{year}{2018}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Girdhar2005}{book}{}
+    \name{author}{2}{}{%
+      {{hash=GP}{%
+         family={Girdhar},
+         familyi={G\bibinitperiod},
+         given={Paresh},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=MO}{%
+         family={Moniz},
+         familyi={M\bibinitperiod},
+         given={Octo},
+         giveni={O\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{GPMO1}
+    \strng{fullhash}{GPMO1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{title}{Practical Centrifugal Pumps - Design Operation and
+  Maintenance}
+    \field{year}{2005}
+  \endentry
+
+  \entry{Herz1996a}{article}{}
+    \name{author}{1}{}{%
+      {{hash=HR}{%
+         family={Herz},
+         familyi={H\bibinitperiod},
+         given={Raimund},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HR1}
+    \strng{fullhash}{HR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{number}{45}
+    \field{title}{Ageing processes and rehabilitation needs of drinking water}
+    \field{volume}{5}
+    \field{journaltitle}{Journal of Water Supply: Research and Technology -
+  AQUA}
+    \field{year}{1996}
+  \endentry
+
+  \entry{Herz1996}{article}{}
+    \name{author}{1}{}{%
+      {{hash=HR}{%
+         family={Herz},
+         familyi={H\bibinitperiod},
+         given={Raimund},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HR1}
+    \strng{fullhash}{HR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{number}{23}
+    \field{pages}{21\bibrangedash 36}
+    \field{title}{Dégradation et renouvellement des infrastructures : un
+  modèle de survie par cohorte}
+    \verb{file}
+    \verb :Herz1996.pdf:PDF
+    \endverb
+    \field{journaltitle}{FLUX}
+    \field{year}{1996}
+  \endentry
+
+  \entry{Herz1998}{article}{}
+    \name{author}{1}{}{%
+      {{hash=HR}{%
+         family={Herz},
+         familyi={H\bibinitperiod},
+         given={Raimund},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HR1}
+    \strng{fullhash}{HR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{pages}{275 \bibrangedash  283}
+    \field{title}{Exploring rehabilitation needs and strategies for drinking
+  water distribution networks}
+    \field{volume}{74}
+    \field{journaltitle}{Journal of Water Supply: Research and Technology -
+  AQUA}
+    \field{year}{1998}
+  \endentry
+
+  \entry{jeffgill}{book}{}
+    \name{author}{1}{}{%
+      {{hash=JG}{%
+         family={Jeff},
+         familyi={J\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{3}{%
+      {Chapman}%
+      {Hall/CRC Taylor}%
+      {Francis Group}%
+    }
+    \strng{namehash}{JG1}
+    \strng{fullhash}{JG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{J}
+    \field{sortinithash}{J}
+    \field{edition}{2}
+    \field{title}{Bayesian Methods: A Social and Behavioral Sciences Approach}
+    \field{year}{2006}
+  \endentry
+
+  \entry{Kaio1984}{article}{}
+    \name{author}{2}{}{%
+      {{hash=KN}{%
+         family={Kaio},
+         familyi={K\bibinitperiod},
+         given={Naoko},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=OS}{%
+         family={Osaki},
+         familyi={O\bibinitperiod},
+         given={Shunji},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KNOS1}
+    \strng{fullhash}{KNOS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{number}{1}
+    \field{pages}{59\bibrangedash 70}
+    \field{title}{Extended Block Replacement Models}
+    \field{volume}{18}
+    \verb{file}
+    \verb Kaio1984.pdf:Kaio1984.pdf:PDF
+    \endverb
+    \field{journaltitle}{Operations Research}
+    \field{year}{1984}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Kobayashi2012}{article}{}
+    \name{author}{3}{}{%
+      {{hash=KK}{%
+         family={Kobayashi},
+         familyi={K\bibinitperiod},
+         given={Kiyoshi},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=KK}{%
+         family={Kaito},
+         familyi={K\bibinitperiod},
+         given={Kiyoyuki},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=LN}{%
+         family={Lethanh},
+         familyi={L\bibinitperiod},
+         given={Nam},
+         giveni={N\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KKKKLN1}
+    \strng{fullhash}{KKKKLN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{number}{1}
+    \field{pages}{1\bibrangedash 13}
+    \field{title}{A Bayesian Estimation Method to Improve Deterioration
+  Prediction for Infrastructure System with Markov Chain Model}
+    \field{volume}{1}
+    \verb{file}
+    \verb Kobayashi2012.pdf:Kobayashi2012.pdf:PDF
+    \endverb
+    \field{journaltitle}{International Journal of Architecture, Engineering and
+  Construction}
+    \field{year}{2012}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Kobayashi2010a}{article}{}
+    \name{author}{3}{}{%
+      {{hash=KK}{%
+         family={Kobayashi},
+         familyi={K\bibinitperiod},
+         given={Kiyoshi},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=KK}{%
+         family={Kaito},
+         familyi={K\bibinitperiod},
+         given={Kiyoyuki},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=LN}{%
+         family={Lethanh},
+         familyi={L\bibinitperiod},
+         given={Nam},
+         giveni={N\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {ASCE}%
+    }
+    \keyw{Infrastructure; Stochastic models; Probability distribution;
+  Reliability; Optimization; Predictions; Deterioration}
+    \strng{namehash}{KKKKLN1}
+    \strng{fullhash}{KKKKLN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \verb{doi}
+    \verb 10.1061/(ASCE)IS.1943-555X.0000033
+    \endverb
+    \field{number}{4}
+    \field{pages}{282\bibrangedash 291}
+    \field{title}{Deterioration Forecasting Model with Multistage {Weibull}
+  Hazard Functions}
+    \verb{url}
+    \verb http://link.aip.org/link/?QIS/16/282/1
+    \endverb
+    \field{volume}{16}
+    \verb{file}
+    \verb Kobayashi2010a.pdf:Kobayashi2010a.pdf:PDF
+    \endverb
+    \field{journaltitle}{Journal of Infrastructure Systems}
+    \field{year}{2010}
+  \endentry
+
+  \entry{KSB2010}{report}{}
+    \name{author}{1}{}{%
+      {{hash=K}{%
+         family={KSB},
+         familyi={K\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{K1}
+    \strng{fullhash}{K1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{note}{TEST}
+    \field{title}{Test Record for pump efficiency - Technical Specifications}
+    \list{institution}{1}{%
+      {KSB AG}%
+    }
+    \field{type}{techreport}
+    \field{month}{04}
+    \field{year}{2010}
+  \endentry
+
+  \entry{lancaster90}{book}{}
+    \name{author}{1}{}{%
+      {{hash=LT}{%
+         family={Lancaster},
+         familyi={L\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Cambridge University Press}%
+    }
+    \strng{namehash}{LT1}
+    \strng{fullhash}{LT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{title}{The econometric analysis of transition data}
+    \field{year}{1990}
+  \endentry
+
+  \entry{Larsen1974}{report}{}
+    \name{author}{1}{}{%
+      {{hash=LWF}{%
+         family={Larsen},
+         familyi={L\bibinitperiod},
+         given={Waldermar\bibnamedelima F.},
+         giveni={W\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LWF1}
+    \strng{fullhash}{LWF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{number}{4556}
+    \field{title}{Fault Tree Analysis}
+    \list{institution}{1}{%
+      {Department of the Army}%
+    }
+    \verb{file}
+    \verb :Larsen1974 - Fault Tree Analysis.pdf:PDF;:Larsen1974.pdf:PDF
+    \endverb
+    \field{type}{techreport}
+    \field{year}{1974}
+  \endentry
+
+  \entry{Lethanh2009c}{thesis}{}
+    \name{author}{1}{}{%
+      {{hash=LN}{%
+         family={Lethanh},
+         familyi={L\bibinitperiod},
+         given={Nam},
+         giveni={N\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LN1}
+    \strng{fullhash}{LN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{title}{Stochastic Optimization Methods for Infrastructure Management
+  with Incomplete Monitoring Data}
+    \verb{url}
+    \verb http://hdl.handle.net/2433/85384
+    \endverb
+    \list{institution}{1}{%
+      {Graduate School of Engineering, Kyoto University}%
+    }
+    \field{type}{phdthesis}
+    \field{year}{2009}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Maynilad2014b}{report}{}
+    \name{author}{1}{}{%
+      {{hash=M}{%
+         family={Maynilad},
+         familyi={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{M1}
+    \strng{fullhash}{M1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{note}{CI}
+    \field{title}{Activity Report - Energization of High Voltage 2 at Pagcor
+  PS}
+    \list{institution}{1}{%
+      {Maynilad}%
+    }
+    \verb{file}
+    \verb :Maynilad2018a.pdf:PDF
+    \endverb
+    \field{type}{techreport}
+    \field{year}{2014}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Maynilad2014a}{report}{}
+    \name{author}{1}{}{%
+      {{hash=M}{%
+         family={Maynilad},
+         familyi={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{M1}
+    \strng{fullhash}{M1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{note}{CI}
+    \field{title}{Activity Report - GENSET Controller Reconfiguration}
+    \list{institution}{1}{%
+      {Maynilad}%
+    }
+    \verb{file}
+    \verb :Maynilad2014a.pdf:PDF
+    \endverb
+    \field{type}{techreport}
+    \field{year}{2014}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Maynilad2016a}{report}{}
+    \name{author}{1}{}{%
+      {{hash=M}{%
+         family={Maynilad},
+         familyi={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{M1}
+    \strng{fullhash}{M1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{note}{CI}
+    \field{title}{Activity Report - Installation of Spare Medium Voltage Soft
+  Starter Motor Drive at Pagcor PSR}
+    \list{institution}{1}{%
+      {Maynilad}%
+    }
+    \verb{file}
+    \verb :Maynilad2016a.pdf:PDF
+    \endverb
+    \field{type}{techreport}
+    \field{year}{2016}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Maynilad2016l}{report}{}
+    \name{author}{1}{}{%
+      {{hash=M}{%
+         family={Maynilad},
+         familyi={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{M1}
+    \strng{fullhash}{M1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{note}{CI}
+    \field{title}{Activity Report - Repair of BP2 MOV at Pagcor PS}
+    \list{institution}{1}{%
+      {Maynilad}%
+    }
+    \verb{file}
+    \verb :Maynilad2016l.pdf:PDF
+    \endverb
+    \field{type}{techreport}
+    \field{year}{2016}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Maynilad2014}{report}{}
+    \name{author}{1}{}{%
+      {{hash=M}{%
+         family={Maynilad},
+         familyi={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{M1}
+    \strng{fullhash}{M1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{note}{CI}
+    \field{title}{Activity Report - Repair of VFD2}
+    \list{institution}{1}{%
+      {Maynilad}%
+    }
+    \verb{file}
+    \verb :Maynilad2014.docx:Word 2007+
+    \endverb
+    \field{type}{techreport}
+    \field{year}{2014}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Maynilad2015a}{report}{}
+    \name{author}{1}{}{%
+      {{hash=M}{%
+         family={Maynilad},
+         familyi={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{M1}
+    \strng{fullhash}{M1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{note}{CI}
+    \field{title}{Activity Report - Replacement of BP1, BP2, BP3, and BP4 Check
+  Valve Assembly at Pagcor PSR}
+    \list{institution}{1}{%
+      {Maynilad}%
+    }
+    \verb{file}
+    \verb :Maynilad2015a.doc:Word
+    \endverb
+    \field{type}{techreport}
+    \field{year}{2015}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Maynilad2016d}{report}{}
+    \name{author}{1}{}{%
+      {{hash=M}{%
+         family={Maynilad},
+         familyi={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{M1}
+    \strng{fullhash}{M1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{note}{CI}
+    \field{title}{Activity Report - Replacement of BP1 Coupling at Pagcor PS}
+    \list{institution}{1}{%
+      {Maynilad}%
+    }
+    \verb{file}
+    \verb :Maynilad2016d.pdf:PDF
+    \endverb
+    \field{type}{techreport}
+    \field{year}{2016}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Maynilad2015}{report}{}
+    \name{author}{1}{}{%
+      {{hash=M}{%
+         family={Maynilad},
+         familyi={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{M1}
+    \strng{fullhash}{M1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{note}{CI}
+    \field{title}{Activity Report - Replacement of BP3 and BP4 Check Valve
+  Assembly at Pagcor PSR}
+    \list{institution}{1}{%
+      {Maynilad}%
+    }
+    \verb{file}
+    \verb :Maynilad2015.pdf:PDF
+    \endverb
+    \field{type}{techreport}
+    \field{year}{2015}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Maynilad2016e}{report}{}
+    \name{author}{1}{}{%
+      {{hash=M}{%
+         family={Maynilad},
+         familyi={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{M1}
+    \strng{fullhash}{M1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{note}{CI}
+    \field{title}{Activity Report - Replacement of BP5 Coupling at Pagcor PS}
+    \list{institution}{1}{%
+      {Maynilad}%
+    }
+    \verb{file}
+    \verb :Maynilad2016e.pdf:PDF
+    \endverb
+    \field{type}{techreport}
+    \field{year}{2016}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Maynilad2016c}{report}{}
+    \name{author}{1}{}{%
+      {{hash=M}{%
+         family={Maynilad},
+         familyi={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{M1}
+    \strng{fullhash}{M1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{note}{CI}
+    \field{title}{Activity Report - Replacement of Defective MOV 5 800 mm
+  Butterfly Valve at Pagcor PS}
+    \list{institution}{1}{%
+      {Maynilad}%
+    }
+    \verb{file}
+    \verb :Maynilad2016c.pdf:PDF
+    \endverb
+    \field{type}{techreport}
+    \field{year}{2016}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Maynilad2014d}{report}{}
+    \name{author}{1}{}{%
+      {{hash=M}{%
+         family={Maynilad},
+         familyi={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{M1}
+    \strng{fullhash}{M1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{note}{CI}
+    \field{title}{Activity Report - Replacement of OVVP board at Pagcor PS}
+    \list{institution}{1}{%
+      {Maynilad}%
+    }
+    \verb{file}
+    \verb :Maynilad2014d.pdf:PDF
+    \endverb
+    \field{type}{techreport}
+    \field{year}{2014}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Maynilad2014c}{report}{}
+    \name{author}{1}{}{%
+      {{hash=M}{%
+         family={Maynilad},
+         familyi={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{M1}
+    \strng{fullhash}{M1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{note}{CI}
+    \field{title}{Activity Report - Replacement of VCB Burnt Solenoid (BP2) at
+  Pagcor PS}
+    \list{institution}{1}{%
+      {Maynilad}%
+    }
+    \verb{file}
+    \verb :Maynilad2014c.pdf:PDF
+    \endverb
+    \field{type}{techreport}
+    \field{year}{2014}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Maynilad2016m}{report}{}
+    \name{author}{1}{}{%
+      {{hash=M}{%
+         family={Maynilad},
+         familyi={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{M1}
+    \strng{fullhash}{M1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{note}{CI}
+    \field{title}{Activity Report - SP1 unusual Sound and Strong Vibration at
+  Pagcor PS}
+    \list{institution}{1}{%
+      {Maynilad}%
+    }
+    \verb{file}
+    \verb :Maynilad2016m.pdf:PDF
+    \endverb
+    \field{type}{techreport}
+    \field{year}{2016}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Maynilad2017c}{report}{}
+    \name{author}{1}{}{%
+      {{hash=M}{%
+         family={Maynilad},
+         familyi={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{M1}
+    \strng{fullhash}{M1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{note}{CI}
+    \field{title}{Activity Report - Testing of Newly Purchased Motortonics Soft
+  Starter}
+    \list{institution}{1}{%
+      {Maynilad}%
+    }
+    \verb{file}
+    \verb :Maynilad2017c.pdf:PDF
+    \endverb
+    \field{type}{techreport}
+    \field{year}{2017}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Maynilad2016i}{report}{}
+    \name{author}{1}{}{%
+      {{hash=M}{%
+         family={Maynilad},
+         familyi={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{M1}
+    \strng{fullhash}{M1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{note}{CI}
+    \field{title}{Corrective Maintenance Report - Alignment of BP5 at Pagcor
+  PS}
+    \list{institution}{1}{%
+      {Maynilad}%
+    }
+    \verb{file}
+    \verb :Maynilad2016i.doc:Word
+    \endverb
+    \field{type}{techreport}
+    \field{year}{2016}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Maynilad2017d}{report}{}
+    \name{author}{1}{}{%
+      {{hash=M}{%
+         family={Maynilad},
+         familyi={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{M1}
+    \strng{fullhash}{M1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{note}{CI}
+    \field{title}{Corrective Maintenance Report - Replacement of BP1 Pump Outer
+  Bearing Pagcor PS}
+    \list{institution}{1}{%
+      {Maynilad}%
+    }
+    \verb{file}
+    \verb :Maynilad2017d.pdf:PDF
+    \endverb
+    \field{type}{techreport}
+    \field{year}{2017}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Maynilad2017}{report}{}
+    \name{author}{1}{}{%
+      {{hash=M}{%
+         family={Maynilad},
+         familyi={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{M1}
+    \strng{fullhash}{M1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{note}{CI}
+    \field{title}{Corrective Maintenance Report - Replacement of BP3 Pump Inner
+  and Outer Bearing at Pagcor}
+    \list{institution}{1}{%
+      {Maynilad}%
+    }
+    \verb{file}
+    \verb :Maynilad2017.doc:Word
+    \endverb
+    \field{type}{techreport}
+    \field{year}{2017}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Maynilad2017a}{report}{}
+    \name{author}{1}{}{%
+      {{hash=M}{%
+         family={Maynilad},
+         familyi={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{M1}
+    \strng{fullhash}{M1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{note}{CI}
+    \field{title}{Corrective Maintenance Report - Replacement of BP3 Pump Inner
+  Bearing and Mechanical Seal at Pagcor PS}
+    \list{institution}{1}{%
+      {Maynilad}%
+    }
+    \verb{file}
+    \verb :Maynilad2017a.pdf:PDF
+    \endverb
+    \field{type}{techreport}
+    \field{year}{2017}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Maynilad2017f}{report}{}
+    \name{author}{1}{}{%
+      {{hash=M}{%
+         family={Maynilad},
+         familyi={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{M1}
+    \strng{fullhash}{M1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{note}{CI}
+    \field{title}{Corrective Maintenance Report - Replacement of BP3 Pump Inner
+  Bearing and Outer Bearing at Pagcor PS}
+    \list{institution}{1}{%
+      {Maynilad}%
+    }
+    \verb{file}
+    \verb :Maynilad2017f.pdf:PDF
+    \endverb
+    \field{type}{techreport}
+    \field{year}{2017}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Maynilad2017e}{report}{}
+    \name{author}{1}{}{%
+      {{hash=M}{%
+         family={Maynilad},
+         familyi={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{M1}
+    \strng{fullhash}{M1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{note}{CI}
+    \field{title}{Corrective Maintenance Report - Replacement of BP3 Pump Outer
+  Mechanical Seal and Bearing at Pagcor PS}
+    \list{institution}{1}{%
+      {Maynilad}%
+    }
+    \verb{file}
+    \verb :Maynilad2017e.pdf:PDF
+    \endverb
+    \field{type}{techreport}
+    \field{year}{2017}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Maynilad2017b}{report}{}
+    \name{author}{1}{}{%
+      {{hash=M}{%
+         family={Maynilad},
+         familyi={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{M1}
+    \strng{fullhash}{M1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{note}{CI}
+    \field{title}{Corrective Maintenance Report - Replacement of Mechanical
+  Seal Pump 2 Outer at Pagcor PS}
+    \list{institution}{1}{%
+      {Maynilad}%
+    }
+    \verb{file}
+    \verb :Maynilad2017b.pdf:PDF
+    \endverb
+    \field{type}{techreport}
+    \field{year}{2017}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Maynilad2016f}{report}{}
+    \name{author}{1}{}{%
+      {{hash=M}{%
+         family={Maynilad},
+         familyi={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{M1}
+    \strng{fullhash}{M1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{note}{CI}
+    \field{title}{Corrective Maintenance Report - Replacement of SP1 Pump Outer
+  Mechanical Seal at Pagcor}
+    \list{institution}{1}{%
+      {Maynilad}%
+    }
+    \verb{file}
+    \verb :Maynilad2016f.doc:Word
+    \endverb
+    \field{type}{techreport}
+    \field{year}{2016}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Maynilad2016g}{report}{}
+    \name{author}{1}{}{%
+      {{hash=M}{%
+         family={Maynilad},
+         familyi={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{M1}
+    \strng{fullhash}{M1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{note}{CI}
+    \field{title}{Corrective Maintenance Report - Replacement of SP2 Pump
+  Mechanical Seal at Pagcor}
+    \list{institution}{1}{%
+      {Maynilad}%
+    }
+    \verb{file}
+    \verb :Maynilad2016g.pdf:PDF
+    \endverb
+    \field{type}{techreport}
+    \field{year}{2016}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Maynilad2016}{report}{}
+    \name{author}{1}{}{%
+      {{hash=M}{%
+         family={Maynilad},
+         familyi={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{M1}
+    \strng{fullhash}{M1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{note}{CI}
+    \field{title}{Corrective Maintenance Report - Strong Vibration at Pump of
+  SP1 at Pagcor PSR}
+    \list{institution}{1}{%
+      {Maynilad}%
+    }
+    \verb{file}
+    \verb :Maynilad2016.pdf:PDF
+    \endverb
+    \field{type}{techreport}
+    \field{year}{2016}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Maynilad2016h}{report}{}
+    \name{author}{1}{}{%
+      {{hash=M}{%
+         family={Maynilad},
+         familyi={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{M1}
+    \strng{fullhash}{M1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{note}{CI}
+    \field{title}{Corrective Maintenance Report - Strong Vibration at SP2 at
+  Pagcor PS - Replacement of Pump Shalft Keyway and Lock}
+    \list{institution}{1}{%
+      {Maynilad}%
+    }
+    \verb{file}
+    \verb :Maynilad2016h.doc:Word
+    \endverb
+    \field{type}{techreport}
+    \field{year}{2016}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Maynilad2016b}{report}{}
+    \name{author}{1}{}{%
+      {{hash=M}{%
+         family={Maynilad},
+         familyi={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{M1}
+    \strng{fullhash}{M1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{note}{CI}
+    \field{title}{Corrective Maintenance Report - Trouble Shooting of VFD1 at
+  Pagcor PSR}
+    \list{institution}{1}{%
+      {Maynilad}%
+    }
+    \verb{file}
+    \verb :Maynilad2016b.pdf:PDF
+    \endverb
+    \field{type}{techreport}
+    \field{year}{2016}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Maynilad2012}{report}{}
+    \name{author}{1}{}{%
+      {{hash=M}{%
+         family={Maynilad},
+         familyi={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{M1}
+    \strng{fullhash}{M1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{note}{CI}
+    \field{title}{Guidelines in Replacement of Bearing}
+    \list{institution}{1}{%
+      {Maynilad}%
+    }
+    \verb{file}
+    \verb :Maynilad2012.pdf:PDF
+    \endverb
+    \field{type}{techreport}
+    \field{year}{2012}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Maynilad2012b}{report}{}
+    \name{author}{1}{}{%
+      {{hash=M}{%
+         family={Maynilad},
+         familyi={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{M1}
+    \strng{fullhash}{M1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{note}{CI}
+    \field{title}{Incident Report - Defective Motorize Valve at MOV2 at Pagcor
+  PS}
+    \list{institution}{1}{%
+      {Maynilad}%
+    }
+    \verb{file}
+    \verb :Maynilad2012a.doc:Word
+    \endverb
+    \field{type}{techreport}
+    \field{year}{2012}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Maynilad2012a}{report}{}
+    \name{author}{1}{}{%
+      {{hash=M}{%
+         family={Maynilad},
+         familyi={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{M1}
+    \strng{fullhash}{M1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{note}{CI}
+    \field{title}{Incident Report - Shut-down of all VFD units at Pagcor PS}
+    \list{institution}{1}{%
+      {Maynilad}%
+    }
+    \verb{file}
+    \verb :Maynilad2012a.doc:Word
+    \endverb
+    \field{type}{techreport}
+    \field{year}{2012}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Maynilad2012c}{report}{}
+    \name{author}{1}{}{%
+      {{hash=M}{%
+         family={Maynilad},
+         familyi={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{M1}
+    \strng{fullhash}{M1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{note}{CI}
+    \field{title}{Incident Report for Pagcor Pumping Station(Damaged Load
+  Breaker Switch and GENSET2)}
+    \list{institution}{1}{%
+      {Maynilad}%
+    }
+    \verb{file}
+    \verb :Maynilad2012c.docx:Word 2007+
+    \endverb
+    \field{type}{techreport}
+    \field{year}{2012}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Pate-Cornell1984}{article}{}
+    \name{author}{1}{}{%
+      {{hash=PCME}{%
+         family={Pate-Cornell},
+         familyi={P\bibinithyphendelim C\bibinitperiod},
+         given={M.\bibnamedelima Elisabeth},
+         giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Blackwell Publishing Ltd}%
+    }
+    \keyw{Reliability, fault trees, event trees, risk analysis}
+    \strng{namehash}{PCME1}
+    \strng{fullhash}{PCME1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \verb{doi}
+    \verb 10.1111/j.1539-6924.1984.tb00137.x
+    \endverb
+    \field{issn}{1539-6924}
+    \field{number}{3}
+    \field{pages}{177\bibrangedash 186}
+    \field{title}{Fault Trees vs. Event Trees in Reliability Analysis}
+    \verb{url}
+    \verb http://dx.doi.org/10.1111/j.1539-6924.1984.tb00137.x
+    \endverb
+    \field{volume}{4}
+    \verb{file}
+    \verb Pate-Cornell1984.pdf:Pate-Cornell1984.pdf:PDF
+    \endverb
+    \field{journaltitle}{Risk Analysis}
+    \field{year}{1984}
+  \endentry
+\enddatalist
+\endinput

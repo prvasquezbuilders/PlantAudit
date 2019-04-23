@@ -1,0 +1,90 @@
+\documentclass[fleqn]{article}
+\usepackage{lipsum} 
+\usepackage{manyeqns}
+\usepackage{amsmath}
+\setlength{\mathindent}{0.5cm}
+\usepackage{soul}
+\usepackage{color}
+\usepackage{eurosym}
+\usepackage{natbib}
+\usepackage[sc]{mathpazo} % Use the Palatino font
+\usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+\linespread{1.05} % Line spacing - Palatino needs more space between lines
+\usepackage{microtype} % Slightly tweak font spacing for aesthetics
+\usepackage{rotating}
+\usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry} % Document margins
+\usepackage{multicol} % Used for the two-column layout of the document
+\usepackage{multirow}
+\usepackage{hyperref} % For hyperlinks in the PDF
+
+\usepackage[hang, small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under/above floats in tables or figures
+\usepackage{booktabs} % Horizontal rules in tables
+\usepackage{float} % Required for tables and figures in the multi-column environment - they need to be placed in specific locations with the [H] (e.g. \begin{table}[H])
+
+\usepackage{lettrine} % The lettrine is the first enlarged letter at the beginning of the text
+\usepackage{paralist} % Used for the compactitem environment which makes bullet points with less space between them
+
+\usepackage{graphicx}
+\usepackage[FIGBOTCAP]{subfigure}
+\usepackage{multirow, booktabs}
+
+\usepackage{abstract} 
+\renewcommand{\abstractnamefont}{\normalfont\bfseries} % Set the "Abstract" text to bold
+\renewcommand{\abstracttextfont}{\normalfont\small\itshape}
+%\citestyle{nSIE}
+
+\usepackage{titlesec} % Allows customization of titles
+\renewcommand\thesection{\Roman{section}}
+\titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} % Change the look of the section titles
+
+
+\usepackage{fancyhdr} % Headers and footers
+\pagestyle{fancy} % All pages have headers and footers
+\fancyhead{} % Blank out the default header
+\fancyfoot{} % Blank out the default footer
+\fancyhead[C]{Paper for review} % Custom header text
+\fancyfoot[RO,LE]{\thepage} % Custom footer text
+
+\begin{document}
+	
+	\title{\vspace{-5mm}\fontsize{14pt}{10pt}\selectfont\textbf{An Integrated Asset Management Approach for Determination of Optimal Intervention Strategies for Pump Stations}} % Article title
+	\author{
+		\large
+		\textrm{Nam Le$^{a}$}\thanks{Corresponding author: namlt@protonmail.ch} \hspace{2mm}  and \textrm{Hoang Q. Nguyen$^{b}$} and\hspace{2mm}\textrm{J\"{u}rgen Hackl$^{c}$} % Your name
+	}
+	\date{}
+	\maketitle
+	
+	\textrm{$^{a}$ PhD, Freelancer and Consultant at GHD Ply Ltd.} \\ % Your institution
+	\textrm{$^{b}$ Consultant at POM+ Consulting Ltd.} \\ % Your institution
+	\textrm{$^{c}$ M.eng, Research Associate, ETH Z\"{u}rich, Switzerland.} \\ % Your institution
+	
+	\thispagestyle{fancy}
+	
+	\begin{abstract}
+		Pump stations of a water distribution network in Megacities are designed to provide adequate level of services (LOS) of drinking water for millions of city dwellers. If a pump station fails to provide adequate LOS, negative impacts will incur to stakeholders. The revenue and profit generated from selling water for the Water Service Provider (WSP) will be reduced. The people and the public will have less to no water to consume for drinking and usage. Thus, the reliability and efficiency of pump stations are vital. In order to ensure pump stations are reliable, operating with maximum availability and efficiency possible, and with less breakdown, the WSP shall develop a preventive intervention program that consider long-term supply and demand of water and maximizing benefits for the society. 
+
+		This papers proposes an Integrated Asset Management (IAM) Approach to be used to determine optimal intervention strategy for pump stations. The approach is centralized on developing a set of suitable reliability models such as Fault Tree Analysis, hazard deterioration models, block and age replacement models for life cycle cost analysis. 
+		
+	%	The implementation of the approach requires asset managers to appropriate collect sufficient data over a certain time window
+		
+		\bigskip
+		
+		{\bf Keywords:} Integrated Asset Management, Optimal intervention strategy, Hazard Models, Block replacement model, Age Replacement Model, Fault Tree Analysis, Life Cycle Cost Analysis, Pump Stations, Drinking Water.\bigskip
+	\end{abstract}
+	
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	
+\input{sections/Methodology.tex}	
+	\bibliographystyle{plainnat} 
+	%\bibliographystyle{unsrt} 
+	\bibliography{plantaudit}
+
+
+	
+	%%%
+\end{document}
+
+
+
+

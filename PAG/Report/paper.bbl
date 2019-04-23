@@ -1,0 +1,96 @@
+\begin{thebibliography}{14}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Bellman and Dreyfus(1962)]{Bellman1962}
+R.E. Bellman and S.E. Dreyfus.
+\newblock \emph{Applied Dynamic Programing}.
+\newblock Princeton University Press, New Jersey, 1962.
+
+\bibitem[Dodson(2006)]{Dodson2006}
+Bryan Dodson.
+\newblock \emph{The Weibull Analysis Handbook}.
+\newblock Quality Press, American Society for Quality, 2006.
+
+\bibitem[Girdhar and Moniz(2005)]{Girdhar2005}
+Paresh Girdhar and Octo Moniz.
+\newblock \emph{Practical Centrifugal Pumps - Design Operation and
+  Maintenance}.
+\newblock Elsevier, 2005.
+
+\bibitem[Herz(1996{\natexlab{a}})]{Herz1996}
+Raimund Herz.
+\newblock Dégradation et renouvellement des infrastructures : un modèle de
+  survie par cohorte.
+\newblock \emph{FLUX}, \penalty0 (23):\penalty0 21--36, 1996{\natexlab{a}}.
+
+\bibitem[Herz(1996{\natexlab{b}})]{Herz1996a}
+Raimund Herz.
+\newblock Ageing processes and rehabilitation needs of drinking water.
+\newblock \emph{Journal of Water Supply: Research and Technology - AQUA},
+  5\penalty0 (45), 1996{\natexlab{b}}.
+
+\bibitem[Herz(1998)]{Herz1998}
+Raimund Herz.
+\newblock Exploring rehabilitation needs and strategies for drinking water
+  distribution networks.
+\newblock \emph{Journal of Water Supply: Research and Technology - AQUA},
+  74:\penalty0 275 -- 283, 1998.
+
+\bibitem[Jeff(2006)]{jeffgill}
+G.~Jeff.
+\newblock \emph{Bayesian Methods: A Social and Behavioral Sciences Approach}.
+\newblock Chapman and Hall/CRC Taylor and Francis Group, 2 edition, 2006.
+
+\bibitem[Kaio and Osaki(1984)]{Kaio1984}
+Naoko Kaio and Shunji Osaki.
+\newblock Extended block replacement models.
+\newblock \emph{Operations Research}, 18\penalty0 (1):\penalty0 59--70,
+  February 1984.
+
+\bibitem[Kobayashi et~al.(2010)Kobayashi, Kaito, and Lethanh]{Kobayashi2010a}
+Kiyoshi Kobayashi, Kiyoyuki Kaito, and Nam Lethanh.
+\newblock Deterioration forecasting model with multistage {Weibull} hazard
+  functions.
+\newblock \emph{Journal of Infrastructure Systems}, 16\penalty0 (4):\penalty0
+  282--291, 2010.
+\newblock \doi{10.1061/(ASCE)IS.1943-555X.0000033}.
+\newblock URL \url{http://link.aip.org/link/?QIS/16/282/1}.
+
+\bibitem[Kobayashi et~al.(2012)Kobayashi, Kaito, and Lethanh]{Kobayashi2012}
+Kiyoshi Kobayashi, Kiyoyuki Kaito, and Nam Lethanh.
+\newblock A bayesian estimation method to improve deterioration prediction for
+  infrastructure system with markov chain model.
+\newblock \emph{International Journal of Architecture, Engineering and
+  Construction}, 1\penalty0 (1):\penalty0 1--13, April 2012.
+
+\bibitem[Lancaster(1990)]{lancaster90}
+T.~Lancaster.
+\newblock \emph{The econometric analysis of transition data}.
+\newblock Cambridge University Press, 1990.
+
+\bibitem[Larsen(1974)]{Larsen1974}
+Waldermar~F. Larsen.
+\newblock Fault tree analysis.
+\newblock Technical Report 4556, Department of the Army, 1974.
+
+\bibitem[Lethanh(2009)]{Lethanh2009c}
+Nam Lethanh.
+\newblock \emph{Stochastic Optimization Methods for Infrastructure Management
+  with Incomplete Monitoring Data}.
+\newblock PhD thesis, Graduate School of Engineering, Kyoto University,
+  September 2009.
+\newblock URL \url{http://hdl.handle.net/2433/85384}.
+
+\bibitem[Pate-Cornell(1984)]{Pate-Cornell1984}
+M.~Elisabeth Pate-Cornell.
+\newblock Fault trees vs. event trees in reliability analysis.
+\newblock \emph{Risk Analysis}, 4\penalty0 (3):\penalty0 177--186, 1984.
+\newblock ISSN 1539-6924.
+\newblock \doi{10.1111/j.1539-6924.1984.tb00137.x}.
+\newblock URL \url{http://dx.doi.org/10.1111/j.1539-6924.1984.tb00137.x}.
+
+\end{thebibliography}
