@@ -49,27 +49,27 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Step 1: Locate and mark testing points}{9}{paragraph*.20}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Step 2: Prepare test point surfaces}{10}{paragraph*.24}
+\contentsline {paragraph}{Step 2: Prepare test point surfaces}{9}{paragraph*.24}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Step 3: Apply sufficient couplant on test point surface}{11}{paragraph*.25}
+\contentsline {paragraph}{Step 3: Apply sufficient couplant on test point surface}{10}{paragraph*.25}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Step 4: Set transducer probe on test point}{11}{paragraph*.26}
+\contentsline {paragraph}{Step 4: Set transducer probe on test point}{10}{paragraph*.26}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Step 5: Read and record value as indicated on module display}{11}{paragraph*.27}
+\contentsline {paragraph}{Step 5: Read and record value as indicated on module display}{10}{paragraph*.27}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Step 6: Clean test point after reading}{11}{paragraph*.29}
+\contentsline {paragraph}{Step 6: Clean test point after reading}{10}{paragraph*.29}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.3.1.2}Unit Flow Measurement}{11}{subsubsection.2.3.1.2}
+\contentsline {subsubsection}{\numberline {2.3.1.2}Unit Flow Measurement}{10}{subsubsection.2.3.1.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Step 1: Locate Sensor Position Point Area and mark all points to be taken.}{11}{paragraph*.30}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Step 2: Pipe Specification Input on the Flow Meter.}{12}{paragraph*.32}
+\contentsline {paragraph}{Step 2: Pipe Specification Input on the Flow Meter.}{11}{paragraph*.32}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Step 3: Prepare test point surfaces}{12}{paragraph*.33}
+\contentsline {paragraph}{Step 3: Prepare test point surfaces}{11}{paragraph*.33}
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Step 4: Install transducers at set points}{12}{paragraph*.34}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Step 5: Data gathering}{13}{paragraph*.37}
+\contentsline {paragraph}{Step 5: Data gathering}{12}{paragraph*.37}
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Step 6: Remove transducers and restore paints}{13}{paragraph*.39}
 \defcounter {refsection}{0}\relax 
@@ -81,7 +81,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Step 3: Reading the pressure}{13}{paragraph*.42}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Step 4: Restoring the earlier gauge}{14}{paragraph*.43}
+\contentsline {paragraph}{Step 4: Restoring the earlier gauge}{13}{paragraph*.43}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {2.3.1.4}Parameters}{14}{subsubsection.2.3.1.4}
 \defcounter {refsection}{0}\relax 
@@ -113,7 +113,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.3.3}Vibration and structural assessment}{15}{subsection.2.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Step 1: Test location identification}{16}{paragraph*.59}
+\contentsline {paragraph}{Step 1: Test location identification}{15}{paragraph*.59}
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Step 2: Set transducer probe on test point. Observe HIRAC for access to elevated positions}{16}{paragraph*.61}
 \defcounter {refsection}{0}\relax 
@@ -121,7 +121,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.3.4}Workplace environment management}{16}{subsection.2.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}Database}{17}{section.2.4}
+\contentsline {section}{\numberline {2.4}Database}{16}{section.2.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {3}Methodology}{19}{chapter.3}
 \defcounter {refsection}{0}\relax 
@@ -407,16 +407,18 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6.2}Recommendations}{85}{section.6.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Vibration Data}{87}{appendix.A}
+\contentsline {chapter}{Bibliography}{87}{chapter*.167}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}Recommended Maintenance Program}{109}{appendix.B}
+\contentsline {chapter}{\numberline {A}Vibration Data}{91}{appendix.A}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {C}Conceptual Design}{115}{appendix.C}
+\contentsline {chapter}{\numberline {B}Recommended Maintenance Program}{113}{appendix.B}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.1}Mechanical}{115}{section.C.1}
+\contentsline {chapter}{\numberline {C}Conceptual Design}{119}{appendix.C}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.2}WEM}{115}{section.C.2}
+\contentsline {section}{\numberline {C.1}Mechanical}{119}{section.C.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.3}FDAS}{115}{section.C.3}
+\contentsline {section}{\numberline {C.2}WEM}{119}{section.C.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.4}Bill of Quantity}{116}{section.C.4}
+\contentsline {section}{\numberline {C.3}FDAS}{119}{section.C.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {C.4}Bill of Quantity}{120}{section.C.4}
