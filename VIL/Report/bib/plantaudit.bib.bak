@@ -1,0 +1,1078 @@
+% Encoding: UTF-8
+
+@ARTICLE{Bashir2012,
+  author = {Bashir G.I and Yusuf Jibril and Laminu S. K},
+  title = {An Electrical Energy Audit of Water Pumping Machines},
+  journal = {International Journal of Energy Engineering 2012},
+  year = {2012},
+  volume = {2},
+  pages = {86-90},
+  number = {3},
+  file = {:Bashir2012.pdf:PDF}
+}
+
+@ARTICLE{Gerlach2015,
+  author = {Stefan Gerlach and Rita Ugarelli and Sveinung Sargrov},
+  title = {Analysis of a wastewater pumping station using an IAM-approach},
+  journal = {Vannforeningen},
+  year = {2015},
+  volume = {1},
+  pages = {45-53},
+  file = {:Gerlach2015.pdf:PDF}
+}
+
+@TECHREPORT{GHD2018b,
+  author = {GHD},
+  title = {Technical Presentation for Consultancy Services for the Plant Audit
+	in various Pump Stations and Reservoirs},
+  institution = {GHD},
+  year = {2018},
+  type = {Presentation},
+  number = {PRES-OP18REFCS03-GHD-1000-G002},
+  month = {\#oct\#},
+  file = {:E\:/OP18REFCS03/Project Management/Minutes/PRES-OP18REFCS03-GHD-1000-G002 Kick-off meeting.pptx:PowerPoint 2007+},
+  groups = {PRE},
+  owner = {GHD}
+}
+
+@TECHREPORT{GHD2018h,
+  author = {GHD},
+  title = {Kick-off Meeting Presentation for Consultancy Services for the Plant
+	Audit in various Pump Stations and Reservoirs},
+  institution = {GHD},
+  year = {2018},
+  type = {Presentation},
+  number = {PRES-OP18REFCS03-GHD-1000-G001},
+  month = {\#may\#},
+  file = {:E\:/OP18REFCS03/Project Management/Minutes/PRES-OP18REFCS03-GHD-1000-G001 Technical Presentation.pptx:PowerPoint 2007+},
+  groups = {PRE},
+  owner = {GHD}
+}
+
+@TECHREPORT{GHD2018c,
+  author = {GHD and Maynilad},
+  title = {Minutes - Kick-off Meeting},
+  institution = {GHD and Maynilad},
+  year = {2018},
+  type = {Minutes},
+  number = {OP18REFCS03-MOM-1000-G001A},
+  month = {\#oct\#},
+  file = {:E\:/OP18REFCS03/Project Management/Minutes/OP18REFCS03-MOM-1000-G001 Kick-off meeting.pdf:PDF},
+  groups = {MOM},
+  owner = {GHD-Maynilad}
+}
+
+@TECHREPORT{GHD2018d,
+  author = {GHD and Maynilad},
+  title = {Minutes - Project Meeting},
+  institution = {GHD and Maynilad},
+  year = {2018},
+  type = {Minutes},
+  number = {OP18REFCS03-MOM-1000-G002A},
+  month = {\#oct\#},
+  file = {:E\:/OP18REFCS03/Project Management/Minutes/OP18REFCS03-MOM-1000-G002A Minutes.pdf:PDF},
+  groups = {MOM},
+  owner = {GHD-Maynilad}
+}
+
+@TECHREPORT{GHD2018e,
+  author = {GHD and Maynilad},
+  title = {Minutes - Project Meeting for ITP of Villamor and Pagcor PSRs},
+  institution = {GHD and Maynilad},
+  year = {2018},
+  type = {Minutes},
+  number = {OP18REFCS03-MOM-1000-G003B},
+  month = {\#oct\#},
+  file = {:E\:/OP18REFCS03/Project Management/Minutes/OP18REFCS03-MOM-1000-G003B.pdf:PDF},
+  groups = {MOM},
+  owner = {GHD-Maynilad},
+  stations = {VIL}
+}
+
+@TechReport{GHD2018l,
+  author      = {GHD and Maynilad},
+  title       = {Minutes - Project Progress Meeting and Interview Session at Operation Center},
+  institution = {GHD and Maynilad},
+  year        = {2018},
+  type        = {Minutes},
+  number      = {OP18REFCS03-MOM-1000-G005B},
+  month       = {\#nov\#},
+  file        = {:E\:/OP18REFCS03/Project Management/Minutes/OP18REFCS03-MOM-1000-G006A.pdf:PDF},
+  groups      = {MOM},
+  owner       = {GHD-Maynilad},
+}
+
+@TECHREPORT{GHD2018g,
+  author = {GHD and Maynilad and APSI},
+  title = {Minutes - ITP for electrical tests for Villamor stations},
+  institution = {GHD and Maynilad},
+  year = {2018},
+  type = {Minutes},
+  number = {OP18REFCS03-MOM-1000-G004B},
+  month = {\#nov\#},
+  file = {:E\:/OP18REFCS03/Project Management/Minutes/OP18REFCS03-MOM-1000-G005B.pdf:PDF},
+  groups = {MOM},
+  owner = {GHD-Maynilad}
+}
+
+@TECHREPORT{GHD2018,
+  author = {GHD and RBSanchez and APSI},
+  title = {Inspection Testing Plan for Pagcor PSR},
+  institution = {GHD},
+  year = {2018},
+  number = {OP18REFCS03-ITP-VIL-G001B},
+  month = {\#nov\#},
+  file = {:E\:/OP18REFCS03/ITPs/OP18REFCS03-ITP-PAG-G001A Inspection Test Plan.pdf:PDF},
+  groups = {ITP},
+  owner = {GHD},
+  stations = {PAG}
+}
+
+@TECHREPORT{GHD2018a,
+  author = {GHD and RBSanchez and APSI},
+  title = {Inspection Testing Plan for Noveleta PSR},
+  institution = {GHD},
+  year = {2018},
+  number = {OP18REFCS03-ITP-NOV-G001A},
+  month = {\#nov\#},
+  file = {:E\:/OP18REFCS03/ITPs/OP18REFCS03-ITP-NVL-G001A Inspection Test Plan.pdf:PDF},
+  groups = {ITP},
+  owner = {GHD},
+  stations = {NOV}
+}
+
+@TECHREPORT{GHD2018i,
+  author = {GHD and RBSanchez and APSI},
+  title = {Inspection Testing Plan for Villamor PSR},
+  institution = {GHD},
+  year = {2018},
+  number = {OP18REFCS03-ITP-VIL-G001A},
+  month = {\#nov\#},
+  file = {:E\:/OP18REFCS03/ITPs/OP18REFCS03-ITP-VIL-G001B.pdf:PDF},
+  groups = {ITP},
+  owner = {GHD},
+  stations = {VIL}
+}
+
+@TECHREPORT{GHD2018j,
+  author = {GHD and RBSanchez and APSI},
+  title = {Inspection Testing Plan for Ayala Southvale PSR},
+  institution = {GHD},
+  year = {2018},
+  number = {OP18REFCS03-ITP-ASV-G001A},
+  month = {\#nov\#},
+  file = {:E\:/OP18REFCS03/ITPs/OP18REFCS03-ITP-ASV-G001A Inspection Test Plan.pdf:PDF},
+  groups = {ITP},
+  owner = {GHD},
+  stations = {ASV}
+}
+
+@TECHREPORT{GHD2018k,
+  author = {GHD and RBSanchez and APSI},
+  title = {Inspection Testing Plan for Ayala Alabang R1 PSR},
+  institution = {GHD},
+  year = {2018},
+  number = {OP18REFCS03-ITP-R1P-G001A},
+  month = {\#nov\#},
+  file = {:E\:/OP18REFCS03/ITPs/OP18REFCS03-ITP-R1P-G001B Inspection Test Plan.pdf:PDF},
+  groups = {ITP},
+  owner = {GHD}
+}
+
+@MASTERSTHESIS{Kiplangat2012,
+  author = {Tiony Calvin Kiplangat},
+  title = {An energy assessment of the water pumping systems at the Gigiri pumping
+	station},
+  school = {University of Nairobi},
+  year = {2012},
+  file = {:Kiplangat2012.pdf:PDF},
+  institution = {University of Nairobi}
+}
+
+@TECHREPORT{Larsen1974,
+  author = {Waldermar F. Larsen},
+  title = {Fault Tree Analysis},
+  institution = {Department of the Army},
+  year = {1974},
+  number = {4556},
+  file = {:Larsen1974 - Fault Tree Analysis.pdf:PDF;:Larsen1974.pdf:PDF}
+}
+
+@TechReport{Maynilad2016n,
+  author      = {Maynilad},
+  title       = {Corrective Maintenance Report - Replacement of a newly rewind 100HP motor of BP3 at R1P PS},
+  institution = {Maynilad},
+  year        = {2016},
+  month       = mar,
+  note        = {CI},
+  file        = {:Maynilad2016n.pdf:PDF},
+  groups      = {REP},
+  owner       = {Maynilad},
+  stations    = {R1P},
+  timestamp   = {2018.12.05},
+}
+
+@TECHREPORT{Maynilad2017,
+  author = {Maynilad},
+  title = {Corrective Maintenance Report - Replacement of BP3 Pump Inner and
+	Outer Bearing at Pagcor},
+  institution = {Maynilad},
+  year = {2017},
+  month = {\#oct\#},
+  note = {CI},
+  file = {:Maynilad2017.doc:Word},
+  groups = {REP},
+  owner = {Maynilad},
+  stations = {PAG},
+  timestamp = {2018.12.05}
+}
+
+@TECHREPORT{Maynilad2017a,
+  author = {Maynilad},
+  title = {Corrective Maintenance Report - Replacement of BP3 Pump Inner Bearing
+	and Mechanical Seal at Pagcor PS},
+  institution = {Maynilad},
+  year = {2017},
+  month = {\#oct\#},
+  note = {CI},
+  file = {:Maynilad2017a.pdf:PDF},
+  groups = {REP},
+  owner = {Maynilad},
+  stations = {PAG},
+  timestamp = {2018.12.05}
+}
+
+@TECHREPORT{Maynilad2017b,
+  author = {Maynilad},
+  title = {Corrective Maintenance Report - Replacement of Mechanical Seal Pump
+	2 Outer at Pagcor PS},
+  institution = {Maynilad},
+  year = {2017},
+  month = {\#oct\#},
+  note = {CI},
+  file = {:Maynilad2017b.pdf:PDF},
+  groups = {REP},
+  owner = {Maynilad},
+  stations = {PAG},
+  timestamp = {2018.12.05}
+}
+
+@TechReport{Maynilad2016r,
+  author      = {Maynilad},
+  title       = {Activity Report - PM of VFD and Soft Starter at Bacoor PS},
+  institution = {Maynilad},
+  year        = {2016},
+  note        = {PI},
+  file        = {:Maynilad2016r.pdf:PDF},
+  groups      = {REP},
+  owner       = {Maynilad},
+  stations    = {MOP},
+  timestamp   = {2018.12.05},
+}
+
+@TECHREPORT{Maynilad2017d,
+  author = {Maynilad},
+  title = {Corrective Maintenance Report - Replacement of BP1 Pump Outer Bearing
+	Pagcor PS},
+  institution = {Maynilad},
+  year = {2017},
+  month = {\#oct\#},
+  note = {CI},
+  file = {:Maynilad2017d.pdf:PDF},
+  groups = {REP},
+  owner = {Maynilad},
+  stations = {PAG},
+  timestamp = {2018.12.05}
+}
+
+@TECHREPORT{Maynilad2017e,
+  author = {Maynilad},
+  title = {Corrective Maintenance Report - Replacement of BP3 Pump Outer Mechanical
+	Seal and Bearing at Pagcor PS},
+  institution = {Maynilad},
+  year = {2017},
+  month = {\#oct\#},
+  note = {CI},
+  file = {:Maynilad2017e.pdf:PDF},
+  groups = {REP},
+  owner = {Maynilad},
+  stations = {PAG},
+  timestamp = {2018.12.05}
+}
+
+@TechReport{Maynilad2017f,
+  author      = {Maynilad},
+  title       = {Corrective Maintenance Report - Replacement of BP3 Pump Inner Bearing and Outer Bearing at Pagcor PS},
+  institution = {Maynilad},
+  year        = {2017},
+  month       = {\#oct\#},
+  note        = {CI},
+  components  = {Bearing},
+  file        = {:Maynilad2017f.pdf:PDF},
+  groups      = {REP},
+  owner       = {Maynilad},
+  stations    = {PAG},
+  timestamp   = {2018.12.05},
+}
+
+@TECHREPORT{Maynilad2016,
+  author = {Maynilad},
+  title = {Corrective Maintenance Report - Strong Vibration at Pump of SP1 at
+	Pagcor PSR},
+  institution = {Maynilad},
+  year = {2016},
+  month = {\#oct\#},
+  note = {CI},
+  file = {:Maynilad2016.pdf:PDF},
+  groups = {REP},
+  owner = {Maynilad},
+  stations = {PAG},
+  timestamp = {2018.12.05}
+}
+
+@TechReport{Maynilad2012c,
+  author      = {Maynilad},
+  title       = {Incident Report for Pagcor Pumping Station(Damaged Load Breaker Switch and GENSET2)},
+  institution = {Maynilad},
+  year        = {2012},
+  month       = {\#oct\#},
+  note        = {CI},
+  file        = {:Maynilad2012c.docx:Word 2007+},
+  groups      = {REP},
+  owner       = {Maynilad},
+  stations    = {PAG},
+  timestamp   = {2018.12.05},
+}
+
+@TECHREPORT{Maynilad2016c,
+  author = {Maynilad},
+  title = {Activity Report - Replacement of Defective MOV 5 800 mm Butterfly
+	Valve at Pagcor PS},
+  institution = {Maynilad},
+  year = {2016},
+  month = {\#jan\#},
+  note = {CI},
+  file = {:Maynilad2016c.pdf:PDF},
+  groups = {REP},
+  owner = {Maynilad},
+  stations = {PAG}
+}
+
+@TechReport{Maynilad2016d,
+  author      = {Maynilad},
+  title       = {Activity Report - Replacement of BP1 Coupling at Pagcor PS},
+  institution = {Maynilad},
+  year        = {2016},
+  month       = {\#jan\#},
+  note        = {CI},
+  components  = {Coupling},
+  file        = {:Maynilad2016d.pdf:PDF},
+  groups      = {REP},
+  owner       = {Maynilad},
+  stations    = {PAG},
+}
+
+@TECHREPORT{Maynilad2016e,
+  author = {Maynilad},
+  title = {Activity Report - Replacement of BP5 Coupling at Pagcor PS},
+  institution = {Maynilad},
+  year = {2016},
+  month = {\#oct\#},
+  note = {CI},
+  file = {:Maynilad2016e.pdf:PDF},
+  groups = {REP},
+  owner = {Maynilad},
+  stations = {PAG}
+}
+
+@TECHREPORT{Maynilad2016f,
+  author = {Maynilad},
+  title = {Corrective Maintenance Report - Replacement of SP1 Pump Outer Mechanical
+	Seal at Pagcor},
+  institution = {Maynilad},
+  year = {2016},
+  month = {\#oct\#},
+  note = {CI},
+  file = {:Maynilad2016f.doc:Word},
+  groups = {REP},
+  owner = {Maynilad},
+  stations = {PAG},
+  timestamp = {2018.12.05}
+}
+
+@TECHREPORT{Maynilad2016g,
+  author = {Maynilad},
+  title = {Corrective Maintenance Report - Replacement of SP2 Pump Mechanical
+	Seal at Pagcor},
+  institution = {Maynilad},
+  year = {2016},
+  month = {\#oct\#},
+  note = {CI},
+  file = {:Maynilad2016g.pdf:PDF},
+  groups = {REP},
+  owner = {Maynilad},
+  stations = {PAG},
+  timestamp = {2018.12.05}
+}
+
+@TECHREPORT{Maynilad2016h,
+  author = {Maynilad},
+  title = {Corrective Maintenance Report - Strong Vibration at SP2 at Pagcor
+	PS - Replacement of Pump Shalft Keyway and Lock},
+  institution = {Maynilad},
+  year = {2016},
+  month = {\#oct\#},
+  note = {CI},
+  file = {:Maynilad2016h.doc:Word},
+  groups = {REP},
+  owner = {Maynilad},
+  stations = {PAG},
+  timestamp = {2018.12.05}
+}
+
+@TECHREPORT{Maynilad2016i,
+  author = {Maynilad},
+  title = {Corrective Maintenance Report - Alignment of BP5 at Pagcor PS},
+  institution = {Maynilad},
+  year = {2016},
+  month = {\#oct\#},
+  note = {CI},
+  file = {:Maynilad2016i.doc:Word},
+  groups = {REP},
+  owner = {Maynilad},
+  stations = {PAG},
+  timestamp = {2018.12.05}
+}
+
+@TECHREPORT{Maynilad2016j,
+  author = {Maynilad},
+  title = {Corrective Maintenance Report - ACR Replacement of BP2 MVSS},
+  institution = {Maynilad},
+  year = {2016},
+  month = {\#oct\#},
+  note = {CI},
+  file = {:Maynilad2016j.pdf:PDF},
+  groups = {REP},
+  owner = {Maynilad},
+  stations = {VIL},
+  timestamp = {2018.12.05}
+}
+
+@TECHREPORT{Maynilad2016k,
+  author = {Maynilad},
+  title = {Activity Report - Replacement of Electrical Supply Cable of Motorized
+	Valve of SP2 at Villamor PS},
+  institution = {Maynilad},
+  year = {2016},
+  month = {\#oct\#},
+  note = {CI},
+  file = {:Maynilad2016k.pdf:PDF},
+  groups = {REP},
+  owner = {Maynilad},
+  stations = {VIL}
+}
+
+@TECHREPORT{Maynilad2015,
+  author = {Maynilad},
+  title = {Activity Report - Replacement of BP3 and BP4 Check Valve Assembly
+	at Pagcor PSR},
+  institution = {Maynilad},
+  year = {2015},
+  month = {\#oct\#},
+  note = {CI},
+  file = {:Maynilad2015.pdf:PDF},
+  groups = {REP},
+  owner = {Maynilad},
+  stations = {PAG}
+}
+
+@TECHREPORT{Maynilad2015a,
+  author = {Maynilad},
+  title = {Activity Report - Replacement of BP1, BP2, BP3, and BP4 Check Valve
+	Assembly at Pagcor PSR},
+  institution = {Maynilad},
+  year = {2015},
+  month = {\#oct\#},
+  note = {CI},
+  file = {:Maynilad2015a.doc:Word},
+  groups = {REP},
+  owner = {Maynilad},
+  stations = {PAG}
+}
+
+@TECHREPORT{Maynilad2014,
+  author = {Maynilad},
+  title = {Activity Report - Repair of VFD2},
+  institution = {Maynilad},
+  year = {2014},
+  month = {\#oct\#},
+  note = {CI},
+  file = {:Maynilad2014.docx:Word 2007+},
+  groups = {REP},
+  owner = {Maynilad},
+  stations = {PAG}
+}
+
+@TECHREPORT{Maynilad2014a,
+  author = {Maynilad},
+  title = {Activity Report - GENSET Controller Reconfiguration},
+  institution = {Maynilad},
+  year = {2014},
+  month = {\#oct\#},
+  note = {CI},
+  file = {:Maynilad2014a.pdf:PDF},
+  groups = {REP},
+  owner = {Maynilad},
+  stations = {PAG}
+}
+
+@TECHREPORT{MWH2009,
+  author = {MWH},
+  title = {HCM City Water Supply Project Energy Efficiency Audit},
+  institution = {MWH},
+  year = {2009},
+  file = {:MWH2009.pdf:PDF}
+}
+
+@TechReport{Maynilad2016a,
+  author      = {Maynilad},
+  title       = {Activity Report - Installation of Spare Medium Voltage Soft Starter Motor Drive at Pagcor PSR},
+  institution = {Maynilad},
+  year        = {2016},
+  month       = {\#oct\#},
+  note        = {CI},
+  file        = {:Maynilad2016a.pdf:PDF},
+  groups      = {REP},
+  owner       = {Maynilad},
+  stations    = {PAG},
+  timestamp   = {2018.12.05},
+}
+
+@TechReport{Maynilad2016l,
+  author      = {Maynilad},
+  title       = {Activity Report - Repair of BP2 MOV at Pagcor PS},
+  institution = {Maynilad},
+  year        = {2016},
+  month       = {\#oct\#},
+  note        = {CI},
+  file        = {:Maynilad2016l.pdf:PDF},
+  groups      = {REP},
+  owner       = {Maynilad},
+  stations    = {PAG},
+  timestamp   = {2018.12.05},
+}
+
+@TechReport{Maynilad2014c,
+  author      = {Maynilad},
+  title       = {Activity Report - Replacement of VCB Burnt Solenoid (BP2) at Pagcor PS},
+  institution = {Maynilad},
+  year        = {2014},
+  month       = {\#oct\#},
+  note        = {CI},
+  file        = {:Maynilad2014c.pdf:PDF},
+  groups      = {REP},
+  owner       = {Maynilad},
+  stations    = {PAG},
+  timestamp   = {2018.12.05},
+}
+
+@TechReport{KSB2010,
+  author      = {KSB},
+  title       = {Test Record for pump efficiency - Technical Specifications},
+  institution = {KSB AG},
+  year        = {2010},
+  month       = apr,
+  note        = {TEST},
+  groups      = {TEST},
+  owner       = {Maynilad},
+  stations    = {PAG},
+  timestamp   = {2018.12.05},
+}
+
+@TechReport{Maynilad2014b,
+  author      = {Maynilad},
+  title       = {Activity Report - Energization of High Voltage 2 at Pagcor PS},
+  institution = {Maynilad},
+  year        = {2014},
+  month       = {\#oct\#},
+  note        = {CI},
+  file        = {:Maynilad2018a.pdf:PDF},
+  groups      = {REP},
+  owner       = {Maynilad},
+  stations    = {PAG},
+  timestamp   = {2018.12.05},
+}
+
+@TechReport{Maynilad2014d,
+  author      = {Maynilad},
+  title       = {Activity Report - Replacement of OVVP board at Pagcor PS},
+  institution = {Maynilad},
+  year        = {2014},
+  month       = {\#oct\#},
+  note        = {CI},
+  file        = {:Maynilad2014d.pdf:PDF},
+  groups      = {REP},
+  owner       = {Maynilad},
+  stations    = {PAG},
+}
+
+@TechReport{Maynilad2018a,
+  author      = {Maynilad},
+  title       = {Activity Report - 15 Minutes Shutdown Activity at Pagcor PS},
+  institution = {Maynilad},
+  year        = {2018},
+  month       = {\#oct\#},
+  note        = {TEST},
+  file        = {:Maynilad2018a.pdf:PDF},
+  groups      = {REP},
+  owner       = {Maynilad},
+  stations    = {PAG},
+  timestamp   = {2018.12.05},
+}
+
+@TechReport{Maynilad2016m,
+  author      = {Maynilad},
+  title       = {Activity Report - SP1 unusual Sound and Strong Vibration at Pagcor PS},
+  institution = {Maynilad},
+  year        = {2016},
+  month       = {\#oct\#},
+  note        = {CI},
+  file        = {:Maynilad2016m.pdf:PDF},
+  groups      = {REP},
+  owner       = {Maynilad},
+  stations    = {PAG},
+  timestamp   = {2018.12.05},
+}
+
+@TechReport{Maynilad2012b,
+  author      = {Maynilad},
+  title       = {Incident Report - Defective Motorize Valve at MOV2 at Pagcor PS},
+  institution = {Maynilad},
+  year        = {2012},
+  month       = {\#oct\#},
+  note        = {CI},
+  file        = {:Maynilad2012a.doc:Word},
+  groups      = {REP},
+  owner       = {Maynilad},
+  stations    = {PAG},
+}
+
+@TechReport{Maynilad2012a,
+  author      = {Maynilad},
+  title       = {Incident Report - Shut-down of all VFD units at Pagcor PS},
+  institution = {Maynilad},
+  year        = {2012},
+  month       = {\#oct\#},
+  note        = {CI},
+  file        = {:Maynilad2012a.doc:Word},
+  groups      = {REP},
+  owner       = {Maynilad},
+  stations    = {PAG},
+}
+
+@TechReport{Maynilad2014e,
+  author      = {Maynilad},
+  title       = {Activity Report - Punchlisting and Energization of New In-line Booster at Cherry Inline PS},
+  institution = {Maynilad},
+  year        = {2014},
+  month       = {\#oct\#},
+  note        = {CI},
+  file        = {:Maynilad2014e.pdf:PDF},
+  groups      = {REP},
+  owner       = {Maynilad},
+  stations    = {CHE},
+  timestamp   = {2018.12.05},
+}
+
+@TechReport{Maynilad2016b,
+  author      = {Maynilad},
+  title       = {Corrective Maintenance Report - Trouble Shooting of VFD1 at Pagcor PSR},
+  institution = {Maynilad},
+  year        = {2016},
+  month       = {\#oct\#},
+  note        = {CI},
+  file        = {:Maynilad2016b.pdf:PDF},
+  groups      = {REP},
+  owner       = {Maynilad},
+  stations    = {PAG},
+  timestamp   = {2018.12.05},
+}
+
+@TechReport{Maynilad2017h,
+  author      = {Maynilad},
+  title       = {Corrective Maintenance Report - Interchange SP4 motor to SP3 and assist Danfoss personnel in repairing SP3 VFD},
+  institution = {Maynilad},
+  year        = {2017},
+  month       = jul,
+  note        = {CI},
+  file        = {:Maynilad2017h.pdf:PDF},
+  groups      = {REP},
+  owner       = {Maynilad},
+  stations    = {NOV},
+  timestamp   = {2018.12.05},
+}
+
+@TechReport{Maynilad2018,
+  author      = {Maynilad},
+  title       = {Corrective Maintenance Report - Replacement of Inner and Outer Motor Bearings of BP1 of Marcos Alvarez PS},
+  institution = {Maynilad},
+  year        = {2018},
+  month       = {\#oct\#},
+  note        = {CI},
+  file        = {:Maynilad2018.pdf:PDF},
+  groups      = {REP},
+  owner       = {Maynilad},
+  stations    = {MAV},
+  timestamp   = {2018.12.05},
+}
+
+@TechReport{Maynilad2017g,
+  author      = {Maynilad},
+  title       = {Corrective Maintenance Report - Pull-out of SP4 at Noveleta PS},
+  institution = {Maynilad},
+  year        = {2017},
+  month       = sep,
+  note        = {CI},
+  file        = {:Maynilad2017g.pdf:PDF},
+  groups      = {REP},
+  owner       = {Maynilad},
+  stations    = {NOV},
+  timestamp   = {2018.12.05},
+}
+
+@TechReport{Maynilad2016p,
+  author      = {Maynilad},
+  title       = {Activity Report - Noveleta PS and Reservoirs Motors Drives Preventive Maintenance by DANFOSS PHIL, Inc.},
+  institution = {Maynilad},
+  year        = {2016},
+  month       = mar,
+  note        = {PI},
+  file        = {:Maynilad2016p.pdf:PDF},
+  groups      = {REP},
+  owner       = {Maynilad},
+  stations    = {NOV},
+  timestamp   = {2018.12.05},
+}
+
+@TechReport{Maynilad2016o,
+  author      = {Maynilad},
+  title       = {Activity Report - Noveleta PS GENSET Preventive Maintenance by CUMMINS SALES and Service Philippines.},
+  institution = {Maynilad},
+  year        = {2016},
+  month       = sep,
+  note        = {CI},
+  file        = {:Maynilad2016o.pdf:PDF},
+  groups      = {REP},
+  owner       = {Maynilad},
+  stations    = {NOV},
+  timestamp   = {2018.12.05},
+}
+
+@TechReport{Maynilad2017c,
+  author      = {Maynilad},
+  title       = {Activity Report - Testing of Newly Purchased Motortonics Soft Starter},
+  institution = {Maynilad},
+  year        = {2017},
+  month       = {\#oct\#},
+  note        = {CI},
+  file        = {:Maynilad2017c.pdf:PDF},
+  groups      = {REP},
+  owner       = {Maynilad},
+  stations    = {PAG},
+  timestamp   = {2018.12.05},
+}
+
+@TechReport{Maynilad2014f,
+  author      = {Maynilad},
+  title       = {Activity Report - Meralco Power Energization of ATS at Bacoor PS},
+  institution = {Maynilad},
+  year        = {2014},
+  month       = {\#oct\#},
+  note        = {TEST},
+  file        = {:Maynilad2014f.pdf:PDF},
+  groups      = {REP},
+  owner       = {Maynilad},
+  stations    = {MOP},
+  timestamp   = {2018.12.05},
+}
+
+@TechReport{Maynilad2015b,
+  author      = {Maynilad},
+  title       = {Activity Report - Testing of ATS at Bacoor PS},
+  institution = {Maynilad},
+  year        = {2015},
+  month       = {\#oct\#},
+  note        = {TEST},
+  file        = {:Maynilad2015b.pdf:PDF},
+  groups      = {REP},
+  owner       = {Maynilad},
+  stations    = {MOP},
+  timestamp   = {2018.12.05},
+}
+
+@TechReport{Maynilad2016q,
+  author      = {Maynilad},
+  title       = {Activity Report - PMS of Motors at Bacoor PS},
+  institution = {Maynilad},
+  year        = {2016},
+  note        = {TEST},
+  file        = {:Maynilad2016q.pdf:PDF},
+  groups      = {REP},
+  owner       = {Maynilad},
+  stations    = {MOP},
+  timestamp   = {2018.12.05},
+}
+
+@Article{Herz1998,
+  author  = {Raimund Herz},
+  title   = {Exploring rehabilitation needs and strategies for drinking water distribution networks},
+  journal = {Journal of Water Supply: Research and Technology - AQUA},
+  year    = {1998},
+  volume  = {74},
+  pages   = {275 - 283},
+}
+
+@Article{Herz1996a,
+  author  = {Raimund Herz},
+  title   = {Ageing processes and rehabilitation needs of drinking water},
+  journal = {Journal of Water Supply: Research and Technology - AQUA},
+  year    = {1996},
+  volume  = {5},
+  number  = {45},
+}
+
+@Article{Herz1996,
+  author  = {Raimund Herz},
+  title   = {Dégradation et renouvellement des infrastructures : un modèle de survie par cohorte},
+  journal = {FLUX},
+  year    = {1996},
+  number  = {23},
+  pages   = {21-36},
+  file    = {:Herz1996.pdf:PDF},
+}
+
+@Article{Prasad2018,
+  author        = {Mahendra Prasad and V. Gopika and Arunkumar Sridharan and Smrutiranjan Parida},
+  title         = {Pipe wall thickness prediction with CFD based mass transfer coefficient and degradation feedback for flow accelerated corrosion},
+  journal       = {Progress in Nuclear Energy},
+  year          = {2018},
+  volume        = {107},
+  pages         = {205 - 214},
+  issn          = {0149-1970},
+  __markedentry = {[namlt:6]},
+  abstract      = {Pipe wall thickness reduction due to Flow Accelerated Corrosion (FAC) depends on mass transfer coefficient (MTC), temperature, pH and roughness. The purpose of this research work is to predict the wall thickness reduction due to FAC in bends and orifice. The paper proposes a model for temporal wall thickness prediction in pipe bend and orifice taking into account the positive feedback from FAC induced roughness and spatial MTC. This is applied for two geometrical configurations (i) FAC experiment performed on 58° carbon steel pipe bend (ii) FAC experiment in an orifice with gypsum. In the 58° carbon steel pipe, the predictions were in good comparison with the experimental values at different locations with percentage error between the predicted and experimental wall thickness in the range (−5%, +12%) at all locations on pipe extrados. For the orifice, the error was in the range of (−0.3 mm, +0.6 mm) at all measured locations. The MTC was estimated using computational fluid dynamics (CFD) with k-w SST (shear stress transport) model for both configurations. The comparison of predicted values of wall thickness with experimental values shows that errors in prediction are moderate to low.},
+  doi           = {https://doi.org/10.1016/j.pnucene.2018.04.024},
+  keywords      = {Flow accelerated corrosion, Mass transfer coefficient, Computational fluid dynamics, Pipe bend, Orifice},
+  url           = {http://www.sciencedirect.com/science/article/pii/S0149197018301100},
+}
+
+@Book{Girdhar2005,
+  title     = {Practical Centrifugal Pumps - Design Operation and Maintenance},
+  publisher = {Elsevier},
+  year      = {2005},
+  author    = {Paresh Girdhar and Octo Moniz},
+}
+
+@Book{lancaster90,
+  title     = {The econometric analysis of transition data},
+  publisher = {Cambridge University Press},
+  year      = {1990},
+  author    = {Lancaster, T.},
+}
+
+@Book{Dodson2006,
+  title     = {The Weibull Analysis Handbook},
+  publisher = {Quality Press, American Society for Quality},
+  year      = {2006},
+  author    = {Bryan Dodson},
+  owner     = {nlethanh},
+  timestamp = {2012.04.10},
+}
+
+@Article{Kobayashi2010a,
+  author    = {Kiyoshi Kobayashi and Kiyoyuki Kaito and Nam Lethanh},
+  title     = {Deterioration Forecasting Model with Multistage {Weibull} Hazard Functions},
+  journal   = {Journal of Infrastructure Systems},
+  year      = {2010},
+  volume    = {16},
+  number    = {4},
+  pages     = {282-291},
+  doi       = {10.1061/(ASCE)IS.1943-555X.0000033},
+  file      = {Kobayashi2010a.pdf:Kobayashi2010a.pdf:PDF},
+  keywords  = {Infrastructure; Stochastic models; Probability distribution; Reliability; Optimization; Predictions; Deterioration},
+  owner     = {namazu},
+  publisher = {ASCE},
+  timestamp = {2010.11.15},
+  url       = {http://link.aip.org/link/?QIS/16/282/1},
+}
+
+@PhdThesis{Lethanh2009c,
+  author    = {Nam Lethanh},
+  title     = {Stochastic Optimization Methods for Infrastructure Management with Incomplete Monitoring Data},
+  school    = {Graduate School of Engineering, Kyoto University},
+  year      = {2009},
+  month     = {September},
+  owner     = {namazu},
+  timestamp = {2010.11.10},
+  url       = {http://hdl.handle.net/2433/85384},
+}
+
+@Article{Kobayashi2012,
+  author    = {Kiyoshi Kobayashi and Kiyoyuki Kaito and Nam Lethanh},
+  title     = {A Bayesian Estimation Method to Improve Deterioration Prediction for Infrastructure System with Markov Chain Model},
+  journal   = {International Journal of Architecture, Engineering and Construction},
+  year      = {2012},
+  volume    = {1},
+  number    = {1},
+  pages     = {1-13},
+  month     = {April},
+  file      = {Kobayashi2012.pdf:Kobayashi2012.pdf:PDF},
+  owner     = {nlethanh},
+  timestamp = {2011.11.29},
+}
+
+@Book{jeffgill,
+  title     = {Bayesian Methods: A Social and Behavioral Sciences Approach},
+  publisher = {Chapman and Hall/CRC Taylor and Francis Group},
+  year      = {2006},
+  author    = {Jeff, G.},
+  edition   = {2},
+}
+
+@Article{Pate-Cornell1984,
+  author    = {Pate-Cornell, M. Elisabeth},
+  title     = {Fault Trees vs. Event Trees in Reliability Analysis},
+  journal   = {Risk Analysis},
+  year      = {1984},
+  volume    = {4},
+  number    = {3},
+  pages     = {177--186},
+  issn      = {1539-6924},
+  doi       = {10.1111/j.1539-6924.1984.tb00137.x},
+  file      = {Pate-Cornell1984.pdf:Pate-Cornell1984.pdf:PDF},
+  keywords  = {Reliability, fault trees, event trees, risk analysis},
+  owner     = {nlethanh},
+  publisher = {Blackwell Publishing Ltd},
+  timestamp = {2014.09.05},
+  url       = {http://dx.doi.org/10.1111/j.1539-6924.1984.tb00137.x},
+}
+
+@Book{Bellman1962,
+  title     = {Applied Dynamic Programing},
+  publisher = {Princeton University Press},
+  year      = {1962},
+  author    = {R.E. Bellman and S.E. Dreyfus},
+  address   = {New Jersey},
+  owner     = {nlethanh},
+  timestamp = {2013.02.14},
+}
+
+@Article{Kaio1986,
+  author    = {Naoto Kaio and Shunji Osaki},
+  title     = {Optimal inspection policies: A review and comparison},
+  journal   = {Journal of Mathematical Analysis and Applications},
+  year      = {1986},
+  volume    = {119},
+  number    = {1–2},
+  pages     = {3 - 20},
+  issn      = {0022-247X},
+  abstract  = {This paper discusses two models of inspection policies. First, the
+	nearly optimal inspection policies are discussed by introducing the
+	inspection density and are compared to the existing inspection policies
+	with numerical examples. Second, the inspection model with checking
+	time and system deterioration is discussed. The algorithms are given
+	by using the principle of optimality to seek the optimal inspection
+	policies minimizing the total expected discounted costs in two cases
+	without and with renewal. The numerical examples are finally presented
+	for illustration. },
+  doi       = {http://dx.doi.org/10.1016/0022-247X(86)90141-1},
+  file      = {Kaio1986.pdf:Kaio1986.pdf:PDF},
+  owner     = {Nam Lethanh},
+  timestamp = {2014.08.15},
+  url       = {http://www.sciencedirect.com/science/article/pii/0022247X86901411},
+}
+
+@Article{Kaio1984,
+  author    = {Naoko Kaio and Shunji Osaki},
+  title     = {Extended Block Replacement Models},
+  journal   = {Operations Research},
+  year      = {1984},
+  volume    = {18},
+  number    = {1},
+  pages     = {59-70},
+  month     = {February},
+  file      = {Kaio1984.pdf:Kaio1984.pdf:PDF},
+  owner     = {nlethanh},
+  timestamp = {2013.02.14},
+}
+
+@TechReport{GHD2018f,
+  author      = {GHD and Maynilad},
+  title       = {Minutes - Safety Induction Meeting},
+  institution = {GHD and Maynilad},
+  year        = {2018},
+  type        = {Minutes},
+  number      = {OP18REFCS03-MOM-1000-G004B},
+  month       = {\#nov\#},
+  file        = {:E\:/OP18REFCS03/Project Management/Minutes/OP18REFCS03-MOM-1000-G004B.pdf:PDF},
+  groups      = {MOM},
+  owner       = {GHD-Maynilad},
+}
+
+@TechReport{Berkman2015,
+  author      = {Berkman},
+  title       = {Workplace Environmental Measurement Report},
+  institution = {Berkman System Inc.},
+  year        = {2015},
+  groups      = {REP},
+  owner       = {Maynilad},
+  stations    = {PAG},
+  timestamp   = {2018.12.05},
+}
+
+@TechReport{Berkman2016,
+  author      = {Berkman},
+  title       = {Workplace Environmental Measurement Report},
+  institution = {Berkman System Inc.},
+  year        = {2016},
+  groups      = {REP},
+  owner       = {Maynilad},
+  stations    = {PAG},
+  timestamp   = {2018.12.05},
+}
+
+@TechReport{GHD2018m,
+  author      = {GHD and Maynilad},
+  title       = {Minutes - Project Progress Meeting and Technical Presentation on Report Structure and Asset Registry},
+  institution = {GHD and Maynilad},
+  year        = {2018},
+  type        = {Minutes},
+  number      = {OP18REFCS03-MOM-1000-G005B},
+  month       = {\#nov\#},
+  file        = {:E\:/OP18REFCS03/Project Management/Minutes/OP18REFCS03-MOM-1000-G007A.pdf:PDF},
+  groups      = {MOM},
+  owner       = {GHD-Maynilad},
+}
+
+@Book{DOLE2016,
+  title     = {Rule 1075.04 Illumination - Occupational Safety and Health Standards},
+  publisher = {DOLE},
+  year      = {2016},
+  author    = {DOLE},
+}
+
+@TechReport{Maynilad2012,
+  author      = {Maynilad},
+  title       = {Guidelines in Replacement of Bearing},
+  institution = {Maynilad},
+  year        = {2012},
+  month       = {\#oct\#},
+  note        = {CI},
+  file        = {:Maynilad2012.pdf:PDF},
+  groups      = {BRO},
+  owner       = {Maynilad},
+  stations    = {PAG},
+  timestamp   = {2018.12.05},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}

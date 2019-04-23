@@ -1,0 +1,349 @@
+\documentclass[fleqn]{article}
+\usepackage{lipsum} 
+\usepackage{manyeqns}
+\usepackage{amsmath}
+\setlength{\mathindent}{0.5cm}
+\usepackage{soul}
+\usepackage{color}
+\usepackage{eurosym}
+\usepackage{natbib}
+\usepackage[sc]{mathpazo} % Use the Palatino font
+\usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+\linespread{1.05} % Line spacing - Palatino needs more space between lines
+\usepackage{microtype} % Slightly tweak font spacing for aesthetics
+\usepackage{rotating}
+\usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry} % Document margins
+\usepackage{multicol} % Used for the two-column layout of the document
+\usepackage{multirow}
+\usepackage{hyperref} % For hyperlinks in the PDF
+
+\usepackage[hang, small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under/above floats in tables or figures
+\usepackage{booktabs} % Horizontal rules in tables
+\usepackage{float} % Required for tables and figures in the multi-column environment - they need to be placed in specific locations with the [H] (e.g. \begin{table}[H])
+
+\usepackage{lettrine} % The lettrine is the first enlarged letter at the beginning of the text
+\usepackage{paralist} % Used for the compactitem environment which makes bullet points with less space between them
+
+\usepackage{graphicx}
+\usepackage[FIGBOTCAP]{subfigure}
+\usepackage{multirow, booktabs}
+
+\usepackage{abstract} 
+\renewcommand{\abstractnamefont}{\normalfont\bfseries} % Set the "Abstract" text to bold
+\renewcommand{\abstracttextfont}{\normalfont\small\itshape}
+%\citestyle{nSIE}
+
+\usepackage{titlesec} % Allows customization of titles
+\renewcommand\thesection{\Roman{section}}
+\titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} % Change the look of the section titles
+
+
+\usepackage{fancyhdr} % Headers and footers
+\pagestyle{fancy} % All pages have headers and footers
+\fancyhead{} % Blank out the default header
+\fancyfoot{} % Blank out the default footer
+\fancyhead[C]{Paper for review} % Custom header text
+\fancyfoot[RO,LE]{\thepage} % Custom footer text
+
+\begin{document}
+	
+	\title{\vspace{-5mm}\fontsize{14pt}{10pt}\selectfont\textbf{A Quick Analysis on Weibull Parameters for Components of Pump Stations of Maynilad (PUT, PAG, and VIL)}} % Article title
+	\author{
+		\large
+		\textrm{Nam Le$^{a}$}\thanks{Corresponding author: namlt@protonmail.ch} \hspace{2mm}  and \textrm{Dario C. Vallejos $^{b}$} 
+	}
+	\date{}
+	\maketitle
+	
+	\textrm{$^{a}$ PhD, Freelancer and Consultant at GHD Ply Ltd.} \\ % Your institution
+	\textrm{$^{b}$ WSO Engineer, Maynilad Water Services Inc.} \\ % Your institution
+%	\textrm{$^{c}$ M.eng, Research Associate, ETH Z\"{u}rich, Switzerland.} \\ % Your institution
+	
+	\thispagestyle{fancy}
+	
+	\begin{abstract}
+		This paper provides a snapshot on the values of Weibull parameters obtained from available data provided by Maynilad. Analytical approach is to follow the Weibull analysis which is widely used in the field. We provide a brief on the data and the graphs that shows the data point along with the estimate of the value $\eta$ and $\beta$ of the model.
+		
+	%	The implementation of the approach requires asset managers to appropriate collect sufficient data over a certain time window
+		
+		\bigskip
+		
+		{\bf Keywords:} Failure probability, Weibull parameters, Weibull analysis.\bigskip
+	\end{abstract}
+	
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	
+
+\section{the model}
+Kindly refer to the book named "The Weibull Analysis Handbook" by Bryan Dodson   \cite{Dodson2006} or the manuscript of Abernethy et al (1983) \cite{Abernethy1983} as well as various internet resources on Weibull analysis to comprehend the estimation approach, particularly with the Graphical Approach and the Maximum Likelihood Estimation approaches.
+
+A brief on the models is given hereunder
+
+
+\subsection{Weibull model} \label{ch03:weibullmodel}
+
+In hazard analysis, the deterioration of element is subjected to follow a stochastic process \cite{lancaster90}. For binary state system, two condition level $0, 1$ are often used. When receiving a PI or CI, the CS from $1$ must be changed into $0$. In reliability study, this process is often regarded as renewal process. The renewal is carried out at alternative time $t_k$ $(k=0,1,2,...)$. In this way, the next renewal time is denoted as $t=t_0+\tau$, where $\tau$ indicating the elapsed time. The life span of an asset is expressed by a random variable $\zeta$. The probability distribution and probability density function of the failure occurrence are $F(\zeta)$ and $f(\zeta)$ respectively. The domain of the random variable $\zeta$ is $[0,\infty]$. The living probability (hereafter named as survival probability) expressed by survival function $\tilde{F}(\tau)$ can be defined according to the value of failure probability $F(\tau)$ in the following equation:
+
+\begin{eqnarray}
+&& \tilde{F}(\tau) = 1 - F(\tau). \label{funcbF5}
+\end{eqnarray}
+
+
+The probability, at which the asset performs in good shape until time $\tau$ and break down for the first time during an interval of 
+$\tau+\Delta\tau$ can be regarded as hazard rate and expressed in the following equation:
+
+\begin{eqnarray}
+&& \lambda_i(\tau) \Delta \tau = \frac{f(\tau)\Delta \tau}{\tilde{F}(\tau)}, \label{riskbF5}
+\end{eqnarray}
+
+where $\lambda(\tau)$ is the hazard function of the asset. In reality, the breakdown probability depends largely on the elapsed time of the asset since its beginning of operation. Thus, the hazard function should take into account the working duration of the asset (time-dependent). In another word, the memory of the system should be inherited. Weibull hazard function is satisfied in addressing the deterioration process \cite{Dodson2006, Kobayashi2010a}:
+
+\begin{eqnarray}
+&& \lambda(\tau)= \frac{1}{\eta} \beta \tau^{\beta-1}, \label{weibul}
+\end{eqnarray}
+
+where $\alpha$ is the parameter expressing the arrival density of the asset, and $m$ is the acceleration or shape parameter. The probability density function $f(\tau)$ and survival function $\tilde{F}(\tau)$ in the form of Weibull hazard function can be further expressed in equation (\ref{pdf}) and (\ref{survival}):
+\begin{eqnarray}
+&& f(\tau)=\frac{1}{\eta} \beta\tau^{\beta-1}\exp(-\frac{1}{\eta} \tau)^\beta, \label{pdf} \\
+&& \tilde{F}(\tau)=\exp(-\frac{1}{\eta} \tau)^\beta. \label{survival}
+\end{eqnarray}
+
+Estimation for Weibull's parameter is often with Maximum Likelihood Estimation (MLE) approach on historical data. Thus, the model's parameter is sensitive to how data behaves. We recommend to use this model only when there is sufficient data to be used.
+
+An example of source code for education purpose is given in Github site of Nam Le \footnote{\href{https://github.com/namkyodai/Models}{https://github.com/namkyodai/Models}}. The complete program is a copyright of Nam Le. 
+
+
+
+
+\section{Putatan PS}
+Counting data for this station is limited. Available information is only for the bearing of pump motors. Past data points representing the failure that can be summarized in following table.
+
+
+\begin{table}[!htb]
+	\centering
+	\caption{Failure data of pump motor bearing (PUT)}
+	\label{table_bearing_failure_bias}
+	%	\resizebox{\columnwidth}{!}{%
+	{\scriptsize
+\begin{tabular}{c|c|c}
+	\hline
+	Order & Hours & Remarks \\ 
+	\hline
+	1 & 120 & bias \\ 
+	2 & 7560 &  \\ 
+	3 & 5928 &  \\ 
+	4 & 216 & bias \\ 
+	5 & 4392 &  \\ 
+	\hline
+\end{tabular}
+		
+	}%}
+\end{table}
+
+
+\begin{figure}[!htb]
+	\begin{minipage}[b]{0.5\linewidth}
+		\centering
+		\includegraphics[width=\textwidth]{figures/temp/weibull-curve-bearing-bias}
+		\caption{Weibull graph - bias (PUT)}
+		\label{weibull-graph-vil-bearing-bias}
+	\end{minipage}
+	\hspace{0.05cm}
+	\begin{minipage}[b]{0.5\linewidth}
+		\centering
+		\includegraphics[width=\textwidth]{figures/temp/weibull-reliability-bearing-bias}
+		\caption{Reliability - bias (PUT)}
+		\label{weibull-graph-vil-reliability-bias}
+	\end{minipage}
+\end{figure}
+
+
+
+\begin{figure}[!htb]
+	\begin{minipage}[b]{0.5\linewidth}
+		\centering
+		\includegraphics[width=\textwidth]{figures/temp/weibull-curve-bearing-unbias}
+		\caption{Weibull graph - bias (PUT)}
+		\label{weibull-graph-vil-bearing-unbias}
+	\end{minipage}
+	\hspace{0.05cm}
+	\begin{minipage}[b]{0.5\linewidth}
+		\centering
+		\includegraphics[width=\textwidth]{figures/temp/weibull-reliability-bearing-unbias}
+		\caption{Reliability - unbias (PUT)}
+		\label{weibull-graph-vil-reliability-unbias}
+	\end{minipage}
+\end{figure}
+
+
+
+
+\section{VILLAMOR PS}
+
+Counting data for this station is limited. Available information is only for the bearing of pump motors. Past data points representing the failure that can be summarized in following table.
+
+
+\begin{table}[!htb]
+	\centering
+	\caption{Failure data of pump motor bearing (VIL)}
+	\label{table_bearing_failure_bias}
+	%	\resizebox{\columnwidth}{!}{%
+	{\scriptsize
+		\begin{tabular}{c|c|c}
+			\hline
+			Order & Hours & Remarks \\ 
+			\hline
+			1 & 4200 &  \\ 
+			2 & 8064 &  \\ 
+				\hline
+		\end{tabular}
+		
+	}%}
+\end{table}
+
+
+\begin{figure}[!htb]
+	\begin{minipage}[b]{0.5\linewidth}
+		\centering
+		\includegraphics[width=\textwidth]{figures/temp/vil-weibull-curve-bearing-unbias}
+		\caption{Weibull graph - unbias (VIL)}
+		\label{vil-weibull-graph-vil-bearing-unbias}
+	\end{minipage}
+	\hspace{0.05cm}
+	\begin{minipage}[b]{0.5\linewidth}
+		\centering
+		\includegraphics[width=\textwidth]{figures/temp/vil-weibull-reliability-bearing-unbias}
+		\caption{Reliability - unbias (VIL)}
+		\label{vil-weibull-graph-vil-reliability-unbias}
+	\end{minipage}
+\end{figure}
+
+\section{PAGCOR PS}
+
+
+Counting data for this station is limited. Available information is only for the bearing of pump motors. Past data points representing the failure that can be summarized in following table.
+
+
+\begin{table}[!htb]
+	\centering
+	\caption{Failure data of pump motor bearing (PAG)}
+	\label{table_bearing_failure_bias}
+	%	\resizebox{\columnwidth}{!}{%
+	{\scriptsize
+	\begin{tabular}{c|c|l|l|l|c}
+		\hline
+		Order & \multicolumn{4}{c|}{Hours} & Remarks \\ 
+		\hline
+		& Coupling & Mech Seal & Bearing & Shalf &  \\ 
+		\hline
+		1 & 24144 & 1992 & 1992 &  &  \\ 
+		2 & 2760 & 3408 & 1896 &  &  \\ 
+		3 & 264 & 1848 & 624 &  &  \\ 
+		4 &  & 1896 & 3408 &  &  \\ 
+		5 &  & 840 &  &  &  \\ 
+		\hline
+	\end{tabular}
+	
+		
+	}%}
+\end{table}
+
+
+\begin{figure}[!htb]
+	\begin{minipage}[b]{0.5\linewidth}
+		\centering
+		\includegraphics[width=\textwidth]{figures/temp/pag-weibull-curve-coupling-bias}
+		\caption{Weibull graph - bias (PAG)}
+		\label{vil-weibull-graph-vil-bearing-unbias}
+	\end{minipage}
+	\hspace{0.05cm}
+	\begin{minipage}[b]{0.5\linewidth}
+		\centering
+		\includegraphics[width=\textwidth]{figures/temp/pag-weibull-reliability-coupling-bias}
+		\caption{Reliability - bias (PAG)}
+		\label{vil-weibull-graph-vil-reliability-unbias}
+	\end{minipage}
+\end{figure}
+
+
+
+\begin{figure}[!htb]
+	\begin{minipage}[b]{0.5\linewidth}
+		\centering
+		\includegraphics[width=\textwidth]{figures/temp/pag-weibull-curve-mech-bias}
+		\caption{Weibull graph - bias (PAG)}
+		\label{vil-weibull-graph-vil-bearing-unbias}
+	\end{minipage}
+	\hspace{0.05cm}
+	\begin{minipage}[b]{0.5\linewidth}
+		\centering
+		\includegraphics[width=\textwidth]{figures/temp/pag-weibull-reliability-mech-bias}
+		\caption{Reliability - bias (PAG)}
+		\label{vil-weibull-graph-vil-reliability-unbias}
+	\end{minipage}
+\end{figure}
+
+
+
+\begin{figure}[!htb]
+	\begin{minipage}[b]{0.5\linewidth}
+		\centering
+		\includegraphics[width=\textwidth]{figures/temp/pag-weibull-curve-mech-unbias}
+		\caption{Weibull graph - bias (PAG)}
+		\label{vil-weibull-graph-vil-bearing-unbias}
+	\end{minipage}
+	\hspace{0.05cm}
+	\begin{minipage}[b]{0.5\linewidth}
+		\centering
+		\includegraphics[width=\textwidth]{figures/temp/pag-weibull-reliability-mech-unbias}
+		\caption{Reliability - bias (PAG)}
+		\label{vil-weibull-graph-vil-reliability-unbias}
+	\end{minipage}
+\end{figure}
+
+
+\begin{figure}[!htb]
+	\begin{minipage}[b]{0.5\linewidth}
+		\centering
+		\includegraphics[width=\textwidth]{figures/temp/pag-weibull-curve-bearing-bias}
+		\caption{Weibull graph - bias (PAG)}
+		\label{vil-weibull-graph-vil-bearing-unbias}
+	\end{minipage}
+	\hspace{0.05cm}
+	\begin{minipage}[b]{0.5\linewidth}
+		\centering
+		\includegraphics[width=\textwidth]{figures/temp/pag-weibull-reliability-bearing-bias}
+		\caption{Reliability - bias (PAG)}
+		\label{vil-weibull-graph-vil-reliability-unbias}
+	\end{minipage}
+\end{figure}
+
+\begin{figure}[!htb]
+	\begin{minipage}[b]{0.5\linewidth}
+		\centering
+		\includegraphics[width=\textwidth]{figures/temp/pag-weibull-curve-bearing-unbias}
+		\caption{Weibull graph - bias (PAG)}
+		\label{vil-weibull-graph-vil-bearing-unbias}
+	\end{minipage}
+	\hspace{0.05cm}
+	\begin{minipage}[b]{0.5\linewidth}
+		\centering
+		\includegraphics[width=\textwidth]{figures/temp/pag-weibull-reliability-bearing-unbias}
+		\caption{Reliability - bias (PAG)}
+		\label{vil-weibull-graph-vil-reliability-unbias}
+	\end{minipage}
+\end{figure}
+
+	
+	\bibliographystyle{plainnat} 
+	%\bibliographystyle{unsrt} 
+	\bibliography{plantaudit}
+
+
+	
+	%%%
+\end{document}
+
+
+
+
