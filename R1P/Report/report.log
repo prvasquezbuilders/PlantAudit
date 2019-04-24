@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.12.5)  23 APR 2019 10:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.12.5)  24 APR 2019 11:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1405,14 +1405,14 @@ Package biblatex Info: Data encoding 'utf8' specified.
 \openout3 = `report-blx.bib'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'report.bbl' not found.
-No file report.bbl.
+Package biblatex Info: ... file 'report.bbl' found.
+(./report.bbl)
 Package biblatex Info: Reference section=0 on input line 13.
 Package biblatex Info: Reference segment=0 on input line 13.
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
 (lastpage)             ! on input line 13.
-ABD: EveryShipout initializing macros
+ ABD: EveryShipout initializing macros
 Package hyperref Info: Link coloring OFF on input line 13.
 
 (e:/Softwares/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
@@ -1494,7 +1494,7 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 10.42007pt on input line 38.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 7.91925pt on input line 38.
-<figures/ghd.jpg, id=180, 71.26625pt x 76.285pt>
+<figures/ghd.jpg, id=221, 71.26625pt x 76.285pt>
 File: figures/ghd.jpg Graphic file (type jpg)
 <use figures/ghd.jpg>
 Package pdftex.def Info: figures/ghd.jpg  used on input line 38.
@@ -1520,22 +1520,27 @@ Overfull \hbox (2.91003pt too wide) in paragraph at lines 38--38
 ]
 LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <20.74> not available
 (Font)              Font shape `T1/pplx/b/n' tried instead on input line 23.
- (./report.toc)
+ (./report.toc [5
+
+
+])
 \tf@toc=\write6
 \openout6 = `report.toc'.
 
- [5
+LaTeX Font Info:    Font shape `T1/pplx/m/sl' in size <10.95> not available
+(Font)              Font shape `T1/pplx/m/it' tried instead on input line 26.
 
 
-] [6
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
 
-
-]
-(./sections/Introduction-elec.tex
+[6] (./sections/Introduction-elec.tex
 Chapter 1.
 LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/pplx/b/n' tried instead on input line 8.
-<figures/ch01_intro_psr_loc2.png, id=239, 859.71187pt x 543.53062pt>
+<figures/ch01_intro_psr_loc2.png, id=289, 859.71187pt x 543.53062pt>
 File: figures/ch01_intro_psr_loc2.png Graphic file (type png)
 <use figures/ch01_intro_psr_loc2.png>
 Package pdftex.def Info: figures/ch01_intro_psr_loc2.png  used on input line 17
@@ -1543,7 +1548,7 @@ Package pdftex.def Info: figures/ch01_intro_psr_loc2.png  used on input line 17
 (pdftex.def)             Requested size: 213.39568pt x 134.91196pt.
 LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <9> not available
 (Font)              Font shape `T1/pplx/b/n' tried instead on input line 18.
-<figures/ch01_intro_pump_gallery.png, id=240, 60.7725pt x 108.405pt>
+<figures/ch01_intro_pump_gallery.png, id=290, 60.7725pt x 108.405pt>
 File: figures/ch01_intro_pump_gallery.png Graphic file (type png)
 <use figures/ch01_intro_pump_gallery.png>
 Package pdftex.def Info: figures/ch01_intro_pump_gallery.png  used on input lin
@@ -1557,9 +1562,9 @@ Overfull \hbox (6.26262pt too wide) in paragraph at lines 15--28
 [1
 
 
+
+
  <./figures/ch01_intro_psr_loc2.png> <./figures/ch01_intro_pump_gallery.png>]
-LaTeX Font Info:    Font shape `T1/pplx/m/sl' in size <10.95> not available
-(Font)              Font shape `T1/pplx/m/it' tried instead on input line 86.
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -1650,13 +1655,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 36--36
  []
 
 ) (./figures/fig_ch04_elecaudit_visualinspection.tex
-<figures/R1P_visual/atspower.jpg, id=271, 307.1475pt x 409.53pt>
+<figures/R1P_visual/atspower.jpg, id=321, 307.1475pt x 409.53pt>
 File: figures/R1P_visual/atspower.jpg Graphic file (type jpg)
 <use figures/R1P_visual/atspower.jpg>
 Package pdftex.def Info: figures/R1P_visual/atspower.jpg  used on input line 4.
 
 (pdftex.def)             Requested size: 93.8946pt x 125.19078pt.
-<figures/R1P_visual/buildingservicedistribution.jpg, id=272, 292.09125pt x 517.
+<figures/R1P_visual/buildingservicedistribution.jpg, id=322, 292.09125pt x 517.
 935pt>
 File: figures/R1P_visual/buildingservicedistribution.jpg Graphic file (type jpg
 )
@@ -1664,7 +1669,7 @@ File: figures/R1P_visual/buildingservicedistribution.jpg Graphic file (type jpg
 Package pdftex.def Info: figures/R1P_visual/buildingservicedistribution.jpg  us
 ed on input line 11.
 (pdftex.def)             Requested size: 93.8946pt x 166.49336pt.
-<figures/R1P_visual/currenttransformer.jpg, id=273, 180.675pt x 240.9pt>
+<figures/R1P_visual/currenttransformer.jpg, id=323, 180.675pt x 240.9pt>
 File: figures/R1P_visual/currenttransformer.jpg Graphic file (type jpg)
 <use figures/R1P_visual/currenttransformer.jpg>
 Package pdftex.def Info: figures/R1P_visual/currenttransformer.jpg  used on inp
@@ -1675,57 +1680,57 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--20
 []|\T1/pplx/m/n/9 (c- Cur-rent trans-
  []
 
-<figures/R1P_visual/DP1-BA.jpg, id=274, 307.1475pt x 409.53pt>
+<figures/R1P_visual/DP1-BA.jpg, id=324, 307.1475pt x 409.53pt>
 File: figures/R1P_visual/DP1-BA.jpg Graphic file (type jpg)
 <use figures/R1P_visual/DP1-BA.jpg>
 Package pdftex.def Info: figures/R1P_visual/DP1-BA.jpg  used on input line 26.
 (pdftex.def)             Requested size: 93.8946pt x 125.19078pt.
-<figures/R1P_visual/ECB1200A.jpg, id=275, 292.09125pt x 517.935pt>
+<figures/R1P_visual/ECB1200A.jpg, id=325, 292.09125pt x 517.935pt>
 File: figures/R1P_visual/ECB1200A.jpg Graphic file (type jpg)
 <use figures/R1P_visual/ECB1200A.jpg>
 Package pdftex.def Info: figures/R1P_visual/ECB1200A.jpg  used on input line 33
 .
 (pdftex.def)             Requested size: 93.8946pt x 166.49336pt.
-<figures/R1P_visual/genset.jpg, id=276, 180.675pt x 240.9pt>
+<figures/R1P_visual/genset.jpg, id=326, 180.675pt x 240.9pt>
 File: figures/R1P_visual/genset.jpg Graphic file (type jpg)
 <use figures/R1P_visual/genset.jpg>
 Package pdftex.def Info: figures/R1P_visual/genset.jpg  used on input line 40.
 (pdftex.def)             Requested size: 93.8946pt x 125.19151pt.
-<figures/R1P_visual/harmonicsfilter.jpg, id=277, 307.1475pt x 409.53pt>
+<figures/R1P_visual/harmonicsfilter.jpg, id=327, 307.1475pt x 409.53pt>
 File: figures/R1P_visual/harmonicsfilter.jpg Graphic file (type jpg)
 <use figures/R1P_visual/harmonicsfilter.jpg>
 Package pdftex.def Info: figures/R1P_visual/harmonicsfilter.jpg  used on input 
 line 47.
 (pdftex.def)             Requested size: 93.8946pt x 125.19078pt.
-<figures/R1P_visual/lightingpanel.jpg, id=278, 307.1475pt x 409.53pt>
+<figures/R1P_visual/lightingpanel.jpg, id=328, 307.1475pt x 409.53pt>
 File: figures/R1P_visual/lightingpanel.jpg Graphic file (type jpg)
 <use figures/R1P_visual/lightingpanel.jpg>
 Package pdftex.def Info: figures/R1P_visual/lightingpanel.jpg  used on input li
 ne 54.
 (pdftex.def)             Requested size: 93.8946pt x 125.19078pt.
-<figures/R1P_visual/mcc.jpg, id=279, 292.09125pt x 517.935pt>
+<figures/R1P_visual/mcc.jpg, id=329, 292.09125pt x 517.935pt>
 File: figures/R1P_visual/mcc.jpg Graphic file (type jpg)
 <use figures/R1P_visual/mcc.jpg>
 Package pdftex.def Info: figures/R1P_visual/mcc.jpg  used on input line 61.
 (pdftex.def)             Requested size: 93.8946pt x 166.49336pt.
-<figures/R1P_visual/motor1.jpg, id=280, 409.53pt x 307.1475pt>
+<figures/R1P_visual/motor1.jpg, id=330, 409.53pt x 307.1475pt>
 File: figures/R1P_visual/motor1.jpg Graphic file (type jpg)
 <use figures/R1P_visual/motor1.jpg>
 Package pdftex.def Info: figures/R1P_visual/motor1.jpg  used on input line 68.
 (pdftex.def)             Requested size: 93.8946pt x 70.41747pt.
-<figures/R1P_visual/secodarycables.jpg, id=281, 292.09125pt x 517.935pt>
+<figures/R1P_visual/secodarycables.jpg, id=331, 292.09125pt x 517.935pt>
 File: figures/R1P_visual/secodarycables.jpg Graphic file (type jpg)
 <use figures/R1P_visual/secodarycables.jpg>
 Package pdftex.def Info: figures/R1P_visual/secodarycables.jpg  used on input l
 ine 75.
 (pdftex.def)             Requested size: 93.8946pt x 166.49336pt.
-<figures/R1P_visual/transformer.jpg, id=282, 409.53pt x 307.1475pt>
+<figures/R1P_visual/transformer.jpg, id=332, 409.53pt x 307.1475pt>
 File: figures/R1P_visual/transformer.jpg Graphic file (type jpg)
 <use figures/R1P_visual/transformer.jpg>
 Package pdftex.def Info: figures/R1P_visual/transformer.jpg  used on input line
  82.
 (pdftex.def)             Requested size: 93.8946pt x 70.41747pt.
-<figures/R1P_visual/UPS.jpg, id=283, 307.1475pt x 409.53pt>
+<figures/R1P_visual/UPS.jpg, id=333, 307.1475pt x 409.53pt>
 File: figures/R1P_visual/UPS.jpg Graphic file (type jpg)
 <use figures/R1P_visual/UPS.jpg>
 Package pdftex.def Info: figures/R1P_visual/UPS.jpg  used on input line 89.
@@ -1778,7 +1783,7 @@ Overfull \hbox (26.31367pt too wide) in paragraph at lines 7--29
 
 pdfTeX warning: pdflatex.exe (file ./figures/R1P_LG_short_circuit.pdf): PDF inc
 lusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures/R1P_LG_short_circuit.pdf, id=297, 873.45824pt x 564.38356pt>
+<figures/R1P_LG_short_circuit.pdf, id=348, 873.45824pt x 564.38356pt>
 File: figures/R1P_LG_short_circuit.pdf Graphic file (type pdf)
 <use figures/R1P_LG_short_circuit.pdf>
 Package pdftex.def Info: figures/R1P_LG_short_circuit.pdf  used on input line 3
@@ -1793,7 +1798,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 33--34
 
 pdfTeX warning: pdflatex.exe (file ./figures/R1P_3Pshortcircuit.pdf): PDF inclu
 sion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures/R1P_3Pshortcircuit.pdf, id=298, 902.26888pt x 564.38356pt>
+<figures/R1P_3Pshortcircuit.pdf, id=349, 902.26888pt x 564.38356pt>
 File: figures/R1P_3Pshortcircuit.pdf Graphic file (type pdf)
 <use figures/R1P_3Pshortcircuit.pdf>
 Package pdftex.def Info: figures/R1P_3Pshortcircuit.pdf  used on input line 39.
@@ -1916,7 +1921,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 21.
 
-<tables/tbl_ch04_elecaudit_load_flow_alertsetting01.png, id=356, 662.475pt x 58
+<tables/tbl_ch04_elecaudit_load_flow_alertsetting01.png, id=406, 662.475pt x 58
 9.20125pt>
 File: tables/tbl_ch04_elecaudit_load_flow_alertsetting01.png Graphic file (type
  png)
@@ -1932,7 +1937,7 @@ LaTeX Warning: No positions in optional float specifier.
 
 pdfTeX warning: pdflatex.exe (file ./figures/R1P_LF_analysis.pdf): PDF inclusio
 n: found PDF version <1.7>, but at most version <1.5> allowed
-<figures/R1P_LF_analysis.pdf, id=357, 856.00406pt x 564.38356pt>
+<figures/R1P_LF_analysis.pdf, id=407, 856.00406pt x 564.38356pt>
 File: figures/R1P_LF_analysis.pdf Graphic file (type pdf)
 <use figures/R1P_LF_analysis.pdf>
 Package pdftex.def Info: figures/R1P_LF_analysis.pdf  used on input line 30.
@@ -1951,7 +1956,7 @@ LaTeX Warning: No positions in optional float specifier.
 pdfTeX warning: pdflatex.exe (file ./tables/tbl_ch04_elecaudit_load_flow_analys
 is01.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> al
 lowed
-<tables/tbl_ch04_elecaudit_load_flow_analysis01.pdf, id=361, 369.22443pt x 220.
+<tables/tbl_ch04_elecaudit_load_flow_analysis01.pdf, id=411, 369.22443pt x 220.
 89226pt>
 File: tables/tbl_ch04_elecaudit_load_flow_analysis01.pdf Graphic file (type pdf
 )
@@ -1968,7 +1973,7 @@ LaTeX Warning: No positions in optional float specifier.
 pdfTeX warning: pdflatex.exe (file ./tables/tbl_ch04_elecaudit_load_flow_analys
 is02.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> al
 lowed
-<tables/tbl_ch04_elecaudit_load_flow_analysis02.pdf, id=362, 547.75539pt x 263.
+<tables/tbl_ch04_elecaudit_load_flow_analysis02.pdf, id=412, 547.75539pt x 263.
 0377pt>
 File: tables/tbl_ch04_elecaudit_load_flow_analysis02.pdf Graphic file (type pdf
 )
@@ -1985,7 +1990,7 @@ LaTeX Warning: No positions in optional float specifier.
 pdfTeX warning: pdflatex.exe (file ./tables/tbl_ch04_elecaudit_load_flow_analys
 is03.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> al
 lowed
-<tables/tbl_ch04_elecaudit_load_flow_analysis03.pdf, id=363, 452.90604pt x 131.
+<tables/tbl_ch04_elecaudit_load_flow_analysis03.pdf, id=413, 452.90604pt x 131.
 32663pt>
 File: tables/tbl_ch04_elecaudit_load_flow_analysis03.pdf Graphic file (type pdf
 )
@@ -1993,7 +1998,7 @@ File: tables/tbl_ch04_elecaudit_load_flow_analysis03.pdf Graphic file (type pdf
 Package pdftex.def Info: tables/tbl_ch04_elecaudit_load_flow_analysis03.pdf  us
 ed on input line 60.
 (pdftex.def)             Requested size: 426.79135pt x 123.76164pt.
-<figures/fig_ch04_elecaudit_load_flow_main.pdf, id=367, 534.79799pt x 730.87752
+<figures/fig_ch04_elecaudit_load_flow_main.pdf, id=417, 534.79799pt x 730.87752
 pt>
 File: figures/fig_ch04_elecaudit_load_flow_main.pdf Graphic file (type pdf)
 <use figures/fig_ch04_elecaudit_load_flow_main.pdf>
@@ -2009,7 +2014,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 80--81
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 85.
 
-<figures/fig_ch04_elecaudit_load_flow_vfd1.pdf, id=368, 531.18451pt x 728.47255
+<figures/fig_ch04_elecaudit_load_flow_vfd1.pdf, id=418, 531.18451pt x 728.47255
 pt>
 File: figures/fig_ch04_elecaudit_load_flow_vfd1.pdf Graphic file (type pdf)
 <use figures/fig_ch04_elecaudit_load_flow_vfd1.pdf>
@@ -2025,7 +2030,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 87--88
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 92.
 
-<figures/fig_ch04_elecaudit_load_flow_vfd2.pdf, id=369, 531.18451pt x 730.87752
+<figures/fig_ch04_elecaudit_load_flow_vfd2.pdf, id=419, 531.18451pt x 730.87752
 pt>
 File: figures/fig_ch04_elecaudit_load_flow_vfd2.pdf Graphic file (type pdf)
 <use figures/fig_ch04_elecaudit_load_flow_vfd2.pdf>
@@ -2037,7 +2042,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 94--95
 
  []
 
-<figures/fig_ch04_elecaudit_load_flow_softstarter.pdf, id=370, 527.70949pt x 72
+<figures/fig_ch04_elecaudit_load_flow_softstarter.pdf, id=420, 527.70949pt x 72
 9.52849pt>
 File: figures/fig_ch04_elecaudit_load_flow_softstarter.pdf Graphic file (type p
 df)
@@ -2050,19 +2055,102 @@ Underfull \hbox (badness 10000) in paragraph at lines 102--103
 
  []
 
-) (./sections/analysis-elec-determination-of-power-quality.tex
-<figures/fig_ch04_elecaudit_powerqualityanalyzer.png, id=372, 301.125pt x 301.1
-25pt>
-File: figures/fig_ch04_elecaudit_powerqualityanalyzer.png Graphic file (type pn
-g)
-<use figures/fig_ch04_elecaudit_powerqualityanalyzer.png>
-Package pdftex.def Info: figures/fig_ch04_elecaudit_powerqualityanalyzer.png  u
-sed on input line 8.
-(pdftex.def)             Requested size: 150.56212pt x 150.56212pt.
+) (./sections/analysis-elec-protection-coordination-study.tex
+(./tables/ch04_elecaudit_protectioncoordination01.tex
+<tables/ch04_elecaudit_protectioncoordination01.pdf, id=426, 482.42435pt x 325.
+46492pt>
+File: tables/ch04_elecaudit_protectioncoordination01.pdf Graphic file (type pdf
+)
+<use tables/ch04_elecaudit_protectioncoordination01.pdf>
+Package pdftex.def Info: tables/ch04_elecaudit_protectioncoordination01.pdf  us
+ed on input line 4.
+(pdftex.def)             Requested size: 426.79135pt x 287.9396pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
  []
+
+) (./tables/ch04_elecaudit_protectioncoordination02.tex
+<tables/ch04_elecaudit_protectioncoordination02.pdf, id=427, 408.0264pt x 248.6
+3892pt>
+File: tables/ch04_elecaudit_protectioncoordination02.pdf Graphic file (type pdf
+)
+<use tables/ch04_elecaudit_protectioncoordination02.pdf>
+Package pdftex.def Info: tables/ch04_elecaudit_protectioncoordination02.pdf  us
+ed on input line 4.
+(pdftex.def)             Requested size: 426.79135pt x 260.08835pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
+
+ []
+
+) (./tables/ch04_elecaudit_protectioncoordination03.tex
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 1.
+
+<tables/ch04_elecaudit_protectioncoordination03a.pdf, id=428, 411.11292pt x 317
+.24924pt>
+File: tables/ch04_elecaudit_protectioncoordination03a.pdf Graphic file (type pd
+f)
+<use tables/ch04_elecaudit_protectioncoordination03a.pdf>
+Package pdftex.def Info: tables/ch04_elecaudit_protectioncoordination03a.pdf  u
+sed on input line 5.
+(pdftex.def)             Requested size: 426.79135pt x 329.36018pt.
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 8.
+
+<tables/ch04_elecaudit_protectioncoordination03b.pdf, id=429, 394.7528pt x 312.
+49849pt>
+File: tables/ch04_elecaudit_protectioncoordination03b.pdf Graphic file (type pd
+f)
+<use tables/ch04_elecaudit_protectioncoordination03b.pdf>
+Package pdftex.def Info: tables/ch04_elecaudit_protectioncoordination03b.pdf  u
+sed on input line 12.
+(pdftex.def)             Requested size: 426.79135pt x 337.86049pt.
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 15.
+
+<tables/ch04_elecaudit_protectioncoordination03c.pdf, id=430, 395.95428pt x 282
+.70618pt>
+File: tables/ch04_elecaudit_protectioncoordination03c.pdf Graphic file (type pd
+f)
+<use tables/ch04_elecaudit_protectioncoordination03c.pdf>
+Package pdftex.def Info: tables/ch04_elecaudit_protectioncoordination03c.pdf  u
+sed on input line 19.
+(pdftex.def)             Requested size: 426.79135pt x 304.73145pt.
+)
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 15.
+
+
+
+pdfTeX warning: pdflatex.exe (file ./figures/fig_ch04_elecaudit_protection_coor
+dination01.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1
+.5> allowed
+<figures/fig_ch04_elecaudit_protection_coordination01.pdf, id=432, 701.52188pt 
+x 428.58217pt>
+File: figures/fig_ch04_elecaudit_protection_coordination01.pdf Graphic file (ty
+pe pdf)
+<use figures/fig_ch04_elecaudit_protection_coordination01.pdf>
+Package pdftex.def Info: figures/fig_ch04_elecaudit_protection_coordination01.p
+df  used on input line 17.
+(pdftex.def)             Requested size: 701.52017pt x 428.58112pt.
+
+Overfull \hbox (1.78976pt too wide) in paragraph at lines 17--18
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+
+ []
+
+
+LaTeX Warning: Float too large for page by 20.34077pt on input line 20.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2115,26 +2203,123 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [16 <./figures/fig_ch04_elecaudit_load_flow_softstarter.pdf>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[17 <./figures/fig_ch04_elecaudit_protection_coordination01.pdf>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[18 <./tables/ch04_elecaudit_protectioncoordination01.pdf> <./tables/ch04_eleca
+udit_protectioncoordination02.pdf>])
+(./sections/analysis-elec-harmonic-study.tex
+
+pdfTeX warning: pdflatex.exe (file ./figures/R1P_HA/R1P_HA_bus_waveform.pdf): P
+DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<figures/R1P_HA/R1P_HA_bus_waveform.pdf, id=675, 474.7326pt x 479.40102pt>
+File: figures/R1P_HA/R1P_HA_bus_waveform.pdf Graphic file (type pdf)
+<use figures/R1P_HA/R1P_HA_bus_waveform.pdf>
+Package pdftex.def Info: figures/R1P_HA/R1P_HA_bus_waveform.pdf  used on input 
+line 19.
+(pdftex.def)             Requested size: 284.84175pt x 287.64282pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./figures/R1P_HA/R1P_HA_cable_waveform.pdf):
+ PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<figures/R1P_HA/R1P_HA_cable_waveform.pdf, id=676, 474.7326pt x 475.00261pt>
+File: figures/R1P_HA/R1P_HA_cable_waveform.pdf Graphic file (type pdf)
+<use figures/R1P_HA/R1P_HA_cable_waveform.pdf>
+Package pdftex.def Info: figures/R1P_HA/R1P_HA_cable_waveform.pdf  used on inpu
+t line 26.
+(pdftex.def)             Requested size: 284.84175pt x 285.00377pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./figures/R1P_HA/fig_ch04_elecaudit_harmonic
+_load_flow.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1
+.5> allowed
+<figures/R1P_HA/fig_ch04_elecaudit_harmonic_load_flow.pdf, id=677, 886.55013pt 
+x 564.38356pt>
+File: figures/R1P_HA/fig_ch04_elecaudit_harmonic_load_flow.pdf Graphic file (ty
+pe pdf)
+<use figures/R1P_HA/fig_ch04_elecaudit_harmonic_load_flow.pdf>
+Package pdftex.def Info: figures/R1P_HA/fig_ch04_elecaudit_harmonic_load_flow.p
+df  used on input line 38.
+(pdftex.def)             Requested size: 620.58087pt x 395.0658pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--39
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[19 <./tables/ch04_elecaudit_protectioncoordination03a.pdf>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[20 <./tables/ch04_elecaudit_protectioncoordination03b.pdf> <./tables/ch04_elec
+audit_protectioncoordination03c.pdf>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[21 <./figures/R1P_HA/R1P_HA_bus_waveform.pdf> <./figures/R1P_HA/R1P_HA_cable_w
+aveform.pdf>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[22 <./figures/R1P_HA/fig_ch04_elecaudit_harmonic_load_flow.pdf>])
+(./sections/analysis-elec-determination-of-power-quality.tex
+<figures/fig_ch04_elecaudit_powerqualityanalyzer.png, id=879, 301.125pt x 301.1
+25pt>
+File: figures/fig_ch04_elecaudit_powerqualityanalyzer.png Graphic file (type pn
+g)
+<use figures/fig_ch04_elecaudit_powerqualityanalyzer.png>
+Package pdftex.def Info: figures/fig_ch04_elecaudit_powerqualityanalyzer.png  u
+sed on input line 8.
+(pdftex.def)             Requested size: 150.56212pt x 150.56212pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[23 <./figures/fig_ch04_elecaudit_powerqualityanalyzer.png>]
 LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/pplx/b/n' tried instead on input line 50.
 
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[17 <./figures/fig_ch04_elecaudit_powerqualityanalyzer.png>]
 (./tables/tbl_ch04_elecaudit_powerquality_rms.tex)
 (./tables/tbl_ch04_elecaudit_powerquality_voltageunbalance.tex)
-(./tables/tbl_ch04_elecaudit_powerquality_currentunbalance.tex)
+(./tables/tbl_ch04_elecaudit_powerquality_currentunbalance.tex
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[18] (./tables/tbl_ch04_elecaudit_powerquality_thdcompliance.tex)
+[24]) (./tables/tbl_ch04_elecaudit_powerquality_thdcompliance.tex)
 (./tables/tbl_ch04_elecaudit_powerquality_tddcompliance.tex)
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2142,7 +2327,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[19] (./tables/tbl_ch04_elecaudit_powerquality_frequency.tex)
+[25] (./tables/tbl_ch04_elecaudit_powerquality_frequency.tex)
 (./tables/tbl_ch04_elecaudit_powerquality_powerfactor.tex)
 (./tables/tbl_ch04_elecaudit_powerquality_flicker.tex)
 
@@ -2151,44 +2336,51 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[20]) (./sections/analysis-elec-analysis-and-validation-of-ground-system.tex
-<figures/R1P_grounding/grounding1.jpg, id=542, 292.09125pt x 517.935pt>
+[26]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[27]) (./sections/analysis-elec-analysis-and-validation-of-ground-system.tex
+<figures/R1P_grounding/grounding1.jpg, id=929, 292.09125pt x 517.935pt>
 File: figures/R1P_grounding/grounding1.jpg Graphic file (type jpg)
 <use figures/R1P_grounding/grounding1.jpg>
 Package pdftex.def Info: figures/R1P_grounding/grounding1.jpg  used on input li
 ne 9.
 (pdftex.def)             Requested size: 93.8946pt x 166.49336pt.
-<figures/R1P_grounding/grounding2.jpg, id=543, 292.09125pt x 517.935pt>
+<figures/R1P_grounding/grounding2.jpg, id=930, 292.09125pt x 517.935pt>
 File: figures/R1P_grounding/grounding2.jpg Graphic file (type jpg)
 <use figures/R1P_grounding/grounding2.jpg>
 Package pdftex.def Info: figures/R1P_grounding/grounding2.jpg  used on input li
 ne 16.
 (pdftex.def)             Requested size: 93.8946pt x 166.49336pt.
-<figures/R1P_grounding/grounding3.jpg, id=544, 292.09125pt x 517.935pt>
+<figures/R1P_grounding/grounding3.jpg, id=931, 292.09125pt x 517.935pt>
 File: figures/R1P_grounding/grounding3.jpg Graphic file (type jpg)
 <use figures/R1P_grounding/grounding3.jpg>
 Package pdftex.def Info: figures/R1P_grounding/grounding3.jpg  used on input li
 ne 24.
 (pdftex.def)             Requested size: 93.8946pt x 166.49336pt.
-<figures/R1P_grounding/grounding4.jpg, id=545, 292.09125pt x 517.935pt>
+<figures/R1P_grounding/grounding4.jpg, id=932, 292.09125pt x 517.935pt>
 File: figures/R1P_grounding/grounding4.jpg Graphic file (type jpg)
 <use figures/R1P_grounding/grounding4.jpg>
 Package pdftex.def Info: figures/R1P_grounding/grounding4.jpg  used on input li
 ne 31.
 (pdftex.def)             Requested size: 93.8946pt x 166.49336pt.
-<figures/R1P_grounding/reading1.jpg, id=546, 292.09125pt x 517.935pt>
+<figures/R1P_grounding/reading1.jpg, id=933, 292.09125pt x 517.935pt>
 File: figures/R1P_grounding/reading1.jpg Graphic file (type jpg)
 <use figures/R1P_grounding/reading1.jpg>
 Package pdftex.def Info: figures/R1P_grounding/reading1.jpg  used on input line
  38.
 (pdftex.def)             Requested size: 93.8946pt x 166.49336pt.
-<figures/R1P_grounding/reading2.jpg, id=547, 292.09125pt x 517.935pt>
+<figures/R1P_grounding/reading2.jpg, id=934, 292.09125pt x 517.935pt>
 File: figures/R1P_grounding/reading2.jpg Graphic file (type jpg)
 <use figures/R1P_grounding/reading2.jpg>
 Package pdftex.def Info: figures/R1P_grounding/reading2.jpg  used on input line
  45.
 (pdftex.def)             Requested size: 93.8946pt x 166.49336pt.
-<figures/R1P_grounding/reading3.jpg, id=548, 292.09125pt x 517.935pt>
+<figures/R1P_grounding/reading3.jpg, id=935, 292.09125pt x 517.935pt>
 File: figures/R1P_grounding/reading3.jpg Graphic file (type jpg)
 <use figures/R1P_grounding/reading3.jpg>
 Package pdftex.def Info: figures/R1P_grounding/reading3.jpg  used on input line
@@ -2199,13 +2391,7 @@ Underfull \hbox (badness 1688) in paragraph at lines 7--56
 [][]   []   []   []
  []
 
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[21] (./tables/tbl_ch04_elecaudit_groundsystem.tex
+(./tables/tbl_ch04_elecaudit_groundsystem.tex
 Overfull \hbox (2.76085pt too wide) in paragraph at lines 20--20
 []|\T1/pplx/m/n/8 Asset/Room| 
  []
@@ -2420,17 +2606,152 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--20
 \T1/pplx/m/n/8 GROUND
  []
 
-)) (./sections/analysis-elec-electrical-integrity-system.tex
+)) (./sections/analysis-elec-electrical-design-analysis.tex
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[22 <./figures/R1P_grounding/grounding1.jpg> <./figures/R1P_grounding/grounding
+[28 <./figures/R1P_grounding/grounding1.jpg> <./figures/R1P_grounding/grounding
 2.jpg> <./figures/R1P_grounding/grounding3.jpg> <./figures/R1P_grounding/ground
 ing4.jpg> <./figures/R1P_grounding/reading1.jpg> <./figures/R1P_grounding/readi
 ng2.jpg> <./figures/R1P_grounding/reading3.jpg>]
+(./tables/tbl_ch04_elecaudit_arcflash.tex)
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[29]
+<tables/tbl_ch04_elecaudit_shortcircuitsummary.pdf, id=960, 191.0337pt x 116.11
+38pt>
+File: tables/tbl_ch04_elecaudit_shortcircuitsummary.pdf Graphic file (type pdf)
+
+<use tables/tbl_ch04_elecaudit_shortcircuitsummary.pdf>
+Package pdftex.def Info: tables/tbl_ch04_elecaudit_shortcircuitsummary.pdf  use
+d on input line 53.
+(pdftex.def)             Requested size: 426.79135pt x 259.41277pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--54
+
+ []
+
+
+
+pdfTeX warning: pdflatex.exe (file ./figures/R1P_systemdesign/fig_ch04_elecaudi
+t_ARC1_SLD_Arc_Flash_Analysis.pdf): PDF inclusion: found PDF version <1.7>, but
+ at most version <1.5> allowed
+<figures/R1P_systemdesign/fig_ch04_elecaudit_ARC1_SLD_Arc_Flash_Analysis.pdf, i
+d=963, 898.11432pt x 556.10262pt>
+File: figures/R1P_systemdesign/fig_ch04_elecaudit_ARC1_SLD_Arc_Flash_Analysis.p
+df Graphic file (type pdf)
+<use figures/R1P_systemdesign/fig_ch04_elecaudit_ARC1_SLD_Arc_Flash_Analysis.pd
+f>
+Package pdftex.def Info: figures/R1P_systemdesign/fig_ch04_elecaudit_ARC1_SLD_A
+rc_Flash_Analysis.pdf  used on input line 63.
+(pdftex.def)             Requested size: 718.49243pt x 444.88269pt.
+
+Overfull \hbox (18.09134pt too wide) in paragraph at lines 63--64
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--64
+
+ []
+
+
+LaTeX Warning: Float too large for page by 37.31303pt on input line 66.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[30 <./tables/tbl_ch04_elecaudit_shortcircuitsummary.pdf>]
+<figures/R1P_systemdesign/fig_ch04_elecaudit_arflashlable01.pdf, id=981, 770.48
+251pt x 503.16182pt>
+File: figures/R1P_systemdesign/fig_ch04_elecaudit_arflashlable01.pdf Graphic fi
+le (type pdf)
+<use figures/R1P_systemdesign/fig_ch04_elecaudit_arflashlable01.pdf>
+Package pdftex.def Info: figures/R1P_systemdesign/fig_ch04_elecaudit_arflashlab
+le01.pdf  used on input line 85.
+(pdftex.def)             Requested size: 213.39568pt x 139.35649pt.
+<figures/R1P_systemdesign/fig_ch04_elecaudit_arflashlable02.pdf, id=982, 765.23
+49pt x 499.66174pt>
+File: figures/R1P_systemdesign/fig_ch04_elecaudit_arflashlable02.pdf Graphic fi
+le (type pdf)
+<use figures/R1P_systemdesign/fig_ch04_elecaudit_arflashlable02.pdf>
+Package pdftex.def Info: figures/R1P_systemdesign/fig_ch04_elecaudit_arflashlab
+le02.pdf  used on input line 90.
+(pdftex.def)             Requested size: 213.39568pt x 139.3325pt.
+<figures/R1P_systemdesign/fig_ch04_elecaudit_arflashlable03.pdf, id=983, 765.23
+593pt x 500.53699pt>
+File: figures/R1P_systemdesign/fig_ch04_elecaudit_arflashlable03.pdf Graphic fi
+le (type pdf)
+<use figures/R1P_systemdesign/fig_ch04_elecaudit_arflashlable03.pdf>
+Package pdftex.def Info: figures/R1P_systemdesign/fig_ch04_elecaudit_arflashlab
+le03.pdf  used on input line 95.
+(pdftex.def)             Requested size: 213.39568pt x 139.57658pt.
+<figures/R1P_systemdesign/fig_ch04_elecaudit_arflashlable04.pdf, id=984, 764.36
+064pt x 497.91118pt>
+File: figures/R1P_systemdesign/fig_ch04_elecaudit_arflashlable04.pdf Graphic fi
+le (type pdf)
+<use figures/R1P_systemdesign/fig_ch04_elecaudit_arflashlable04.pdf>
+Package pdftex.def Info: figures/R1P_systemdesign/fig_ch04_elecaudit_arflashlab
+le04.pdf  used on input line 100.
+(pdftex.def)             Requested size: 213.39568pt x 139.0039pt.
+<figures/R1P_systemdesign/fig_ch04_elecaudit_arflashlable05.pdf, id=985, 764.36
+064pt x 496.16167pt>
+File: figures/R1P_systemdesign/fig_ch04_elecaudit_arflashlable05.pdf Graphic fi
+le (type pdf)
+<use figures/R1P_systemdesign/fig_ch04_elecaudit_arflashlable05.pdf>
+Package pdftex.def Info: figures/R1P_systemdesign/fig_ch04_elecaudit_arflashlab
+le05.pdf  used on input line 105.
+(pdftex.def)             Requested size: 213.39568pt x 138.51549pt.
+<figures/R1P_systemdesign/fig_ch04_elecaudit_arflashlable06.pdf, id=986, 763.48
+634pt x 500.53699pt>
+File: figures/R1P_systemdesign/fig_ch04_elecaudit_arflashlable06.pdf Graphic fi
+le (type pdf)
+<use figures/R1P_systemdesign/fig_ch04_elecaudit_arflashlable06.pdf>
+Package pdftex.def Info: figures/R1P_systemdesign/fig_ch04_elecaudit_arflashlab
+le06.pdf  used on input line 110.
+(pdftex.def)             Requested size: 213.39568pt x 139.89735pt.
+<figures/R1P_systemdesign/fig_ch04_elecaudit_arflashlable07.pdf, id=987, 767.55
+759pt x 500.2108pt>
+File: figures/R1P_systemdesign/fig_ch04_elecaudit_arflashlable07.pdf Graphic fi
+le (type pdf)
+<use figures/R1P_systemdesign/fig_ch04_elecaudit_arflashlable07.pdf>
+Package pdftex.def Info: figures/R1P_systemdesign/fig_ch04_elecaudit_arflashlab
+le07.pdf  used on input line 115.
+(pdftex.def)             Requested size: 213.39568pt x 139.06583pt.
+<figures/R1P_systemdesign/fig_ch04_elecaudit_arflashlable08.pdf, id=988, 683.02
+676pt x 500.53699pt>
+File: figures/R1P_systemdesign/fig_ch04_elecaudit_arflashlable08.pdf Graphic fi
+le (type pdf)
+<use figures/R1P_systemdesign/fig_ch04_elecaudit_arflashlable08.pdf>
+Package pdftex.def Info: figures/R1P_systemdesign/fig_ch04_elecaudit_arflashlab
+le08.pdf  used on input line 120.
+(pdftex.def)             Requested size: 192.0548pt x 140.73749pt.
+
+Overfull \hbox (5.69345pt too wide) in paragraph at lines 83--122
+[][]   []
+ []
+
+
+Overfull \hbox (5.69345pt too wide) in paragraph at lines 83--122
+[]   []
+ []
+
+
+Overfull \hbox (5.69345pt too wide) in paragraph at lines 83--122
+[]   []
+ []
+
+) (./sections/analysis-elec-electrical-integrity-system.tex
 (./tables/tbl_ch04_elecaudit_integrity.tex
 Underfull \hbox (badness 1173) in paragraph at lines 12--12
 \T1/pplx/m/n/8 ca-ble from ECB 1250AT out-
@@ -2467,37 +2788,62 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[23]) (./figures/ch04_fig_fdas01.tex
-<figures/R1P_fdas/fdas_panel.jpg, id=569, 230.36063pt x 307.1475pt>
+[31]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[32 <./figures/R1P_systemdesign/fig_ch04_elecaudit_ARC1_SLD_Arc_Flash_Analysis.
+pdf>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[33 <./figures/R1P_systemdesign/fig_ch04_elecaudit_arflashlable01.pdf, page is 
+rotated 90 degrees> <./figures/R1P_systemdesign/fig_ch04_elecaudit_arflashlable
+02.pdf, page is rotated 90 degrees> <./figures/R1P_systemdesign/fig_ch04_elecau
+dit_arflashlable03.pdf, page is rotated 90 degrees> <./figures/R1P_systemdesign
+/fig_ch04_elecaudit_arflashlable04.pdf, page is rotated 90 degrees> <./figures/
+R1P_systemdesign/fig_ch04_elecaudit_arflashlable05.pdf, page is rotated 90 degr
+ees> <./figures/R1P_systemdesign/fig_ch04_elecaudit_arflashlable06.pdf, page is
+ rotated 90 degrees> <./figures/R1P_systemdesign/fig_ch04_elecaudit_arflashlabl
+e07.pdf, page is rotated 90 degrees> <./figures/R1P_systemdesign/fig_ch04_eleca
+udit_arflashlable08.pdf, page is rotated 90 degrees>])
+(./figures/ch04_fig_fdas01.tex
+<figures/R1P_fdas/fdas_panel.jpg, id=1148, 230.36063pt x 307.1475pt>
 File: figures/R1P_fdas/fdas_panel.jpg Graphic file (type jpg)
 <use figures/R1P_fdas/fdas_panel.jpg>
 Package pdftex.def Info: figures/R1P_fdas/fdas_panel.jpg  used on input line 4.
 
 (pdftex.def)             Requested size: 85.35696pt x 113.80682pt.
-<figures/R1P_fdas/manualpullstation.jpg, id=570, 289.08pt x 513.92pt>
+<figures/R1P_fdas/manualpullstation.jpg, id=1149, 289.08pt x 513.92pt>
 File: figures/R1P_fdas/manualpullstation.jpg Graphic file (type jpg)
 <use figures/R1P_fdas/manualpullstation.jpg>
 Package pdftex.def Info: figures/R1P_fdas/manualpullstation.jpg  used on input 
 line 11.
 (pdftex.def)             Requested size: 85.35696pt x 151.74623pt.
-<figures/R1P_fdas/bell.jpg, id=571, 289.08pt x 513.92pt>
+<figures/R1P_fdas/bell.jpg, id=1150, 289.08pt x 513.92pt>
 File: figures/R1P_fdas/bell.jpg Graphic file (type jpg)
 <use figures/R1P_fdas/bell.jpg>
 Package pdftex.def Info: figures/R1P_fdas/bell.jpg  used on input line 18.
 (pdftex.def)             Requested size: 85.35696pt x 151.74623pt.
-<figures/R1P_fdas/annunciator.jpg, id=572, 289.08pt x 513.92pt>
+<figures/R1P_fdas/annunciator.jpg, id=1151, 289.08pt x 513.92pt>
 File: figures/R1P_fdas/annunciator.jpg Graphic file (type jpg)
 <use figures/R1P_fdas/annunciator.jpg>
 Package pdftex.def Info: figures/R1P_fdas/annunciator.jpg  used on input line 2
 5.
 (pdftex.def)             Requested size: 85.35696pt x 151.74623pt.
-<figures/R1P_fdas/smokedetector.jpg, id=573, 289.08pt x 513.92pt>
+<figures/R1P_fdas/smokedetector.jpg, id=1152, 289.08pt x 513.92pt>
 File: figures/R1P_fdas/smokedetector.jpg Graphic file (type jpg)
 <use figures/R1P_fdas/smokedetector.jpg>
 Package pdftex.def Info: figures/R1P_fdas/smokedetector.jpg  used on input line
  32.
 (pdftex.def)             Requested size: 85.35696pt x 151.74623pt.
-<figures/R1P_fdas/sounder.jpg, id=574, 230.36063pt x 307.1475pt>
+<figures/R1P_fdas/sounder.jpg, id=1153, 230.36063pt x 307.1475pt>
 File: figures/R1P_fdas/sounder.jpg Graphic file (type jpg)
 <use figures/R1P_fdas/sounder.jpg>
 Package pdftex.def Info: figures/R1P_fdas/sounder.jpg  used on input line 39.
@@ -2508,45 +2854,45 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--43
  []
 
 ) (./figures/ch04_fig_fdas02.tex
-<figures/R1P_fdas/SD1.jpg, id=575, 289.08pt x 513.92pt>
+<figures/R1P_fdas/SD1.jpg, id=1154, 289.08pt x 513.92pt>
 File: figures/R1P_fdas/SD1.jpg Graphic file (type jpg)
 <use figures/R1P_fdas/SD1.jpg>
 Package pdftex.def Info: figures/R1P_fdas/SD1.jpg  used on input line 4.
 (pdftex.def)             Requested size: 85.35696pt x 151.74623pt.
-<figures/R1P_fdas/SD2.jpg, id=576, 289.08pt x 513.92pt>
+<figures/R1P_fdas/SD2.jpg, id=1155, 289.08pt x 513.92pt>
 File: figures/R1P_fdas/SD2.jpg Graphic file (type jpg)
 <use figures/R1P_fdas/SD2.jpg>
 Package pdftex.def Info: figures/R1P_fdas/SD2.jpg  used on input line 11.
 (pdftex.def)             Requested size: 85.35696pt x 151.74623pt.
-<figures/R1P_fdas/SD3.jpg, id=577, 289.08pt x 513.92pt>
+<figures/R1P_fdas/SD3.jpg, id=1156, 289.08pt x 513.92pt>
 File: figures/R1P_fdas/SD3.jpg Graphic file (type jpg)
 <use figures/R1P_fdas/SD3.jpg>
 Package pdftex.def Info: figures/R1P_fdas/SD3.jpg  used on input line 18.
 (pdftex.def)             Requested size: 85.35696pt x 151.74623pt.
-<figures/R1P_fdas/SD4.jpg, id=578, 289.08pt x 513.92pt>
+<figures/R1P_fdas/SD4.jpg, id=1157, 289.08pt x 513.92pt>
 File: figures/R1P_fdas/SD4.jpg Graphic file (type jpg)
 <use figures/R1P_fdas/SD4.jpg>
 Package pdftex.def Info: figures/R1P_fdas/SD4.jpg  used on input line 25.
 (pdftex.def)             Requested size: 106.69783pt x 189.68475pt.
-<figures/R1P_fdas/spraytest.jpg, id=579, 289.08pt x 513.92pt>
+<figures/R1P_fdas/spraytest.jpg, id=1158, 289.08pt x 513.92pt>
 File: figures/R1P_fdas/spraytest.jpg Graphic file (type jpg)
 <use figures/R1P_fdas/spraytest.jpg>
 Package pdftex.def Info: figures/R1P_fdas/spraytest.jpg  used on input line 32.
 
 (pdftex.def)             Requested size: 106.69783pt x 189.68475pt.
-<figures/R1P_fdas/fdasfunction.jpg, id=580, 289.08pt x 513.92pt>
+<figures/R1P_fdas/fdasfunction.jpg, id=1159, 289.08pt x 513.92pt>
 File: figures/R1P_fdas/fdasfunction.jpg Graphic file (type jpg)
 <use figures/R1P_fdas/fdasfunction.jpg>
 Package pdftex.def Info: figures/R1P_fdas/fdasfunction.jpg  used on input line 
 39.
 (pdftex.def)             Requested size: 106.69783pt x 189.68475pt.
-<figures/R1P_fdas/announciator1.jpg, id=581, 289.08pt x 513.92pt>
+<figures/R1P_fdas/announciator1.jpg, id=1160, 289.08pt x 513.92pt>
 File: figures/R1P_fdas/announciator1.jpg Graphic file (type jpg)
 <use figures/R1P_fdas/announciator1.jpg>
 Package pdftex.def Info: figures/R1P_fdas/announciator1.jpg  used on input line
  46.
 (pdftex.def)             Requested size: 106.69783pt x 189.68475pt.
-<figures/R1P_fdas/annunciator2.jpg, id=582, 289.08pt x 513.92pt>
+<figures/R1P_fdas/annunciator2.jpg, id=1161, 289.08pt x 513.92pt>
 File: figures/R1P_fdas/annunciator2.jpg Graphic file (type jpg)
 <use figures/R1P_fdas/annunciator2.jpg>
 Package pdftex.def Info: figures/R1P_fdas/annunciator2.jpg  used on input line 
@@ -2569,14 +2915,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[24]
+[34]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[25 <./figures/R1P_fdas/fdas_panel.jpg> <./figures/R1P_fdas/manualpullstation.j
+[35 <./figures/R1P_fdas/fdas_panel.jpg> <./figures/R1P_fdas/manualpullstation.j
 pg> <./figures/R1P_fdas/bell.jpg> <./figures/R1P_fdas/annunciator.jpg> <./figur
 es/R1P_fdas/smokedetector.jpg> <./figures/R1P_fdas/sounder.jpg>]
 
@@ -2585,23 +2931,25 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[26 <./figures/R1P_fdas/SD1.jpg> <./figures/R1P_fdas/SD2.jpg> <./figures/R1P_fd
+[36 <./figures/R1P_fdas/SD1.jpg> <./figures/R1P_fdas/SD2.jpg> <./figures/R1P_fd
 as/SD3.jpg> <./figures/R1P_fdas/SD4.jpg> <./figures/R1P_fdas/spraytest.jpg> <./
 figures/R1P_fdas/fdasfunction.jpg> <./figures/R1P_fdas/announciator1.jpg> <./fi
 gures/R1P_fdas/annunciator2.jpg>] (./figures/ch04_fig_fdas_lighting.tex
-<figures/R1P_lightning/grounding.jpg, id=602, 292.09125pt x 517.935pt>
+<figures/R1P_lightning/grounding.jpg, id=1179, 292.09125pt x 517.935pt>
 File: figures/R1P_lightning/grounding.jpg Graphic file (type jpg)
 <use figures/R1P_lightning/grounding.jpg>
 Package pdftex.def Info: figures/R1P_lightning/grounding.jpg  used on input lin
 e 4.
 (pdftex.def)             Requested size: 106.69783pt x 189.1988pt.
-<figures/R1P_lightning/lightningarrester.jpg, id=603, 292.09125pt x 517.935pt>
+<figures/R1P_lightning/lightningarrester.jpg, id=1180, 292.09125pt x 517.935pt>
+
 File: figures/R1P_lightning/lightningarrester.jpg Graphic file (type jpg)
 <use figures/R1P_lightning/lightningarrester.jpg>
 Package pdftex.def Info: figures/R1P_lightning/lightningarrester.jpg  used on i
 nput line 11.
 (pdftex.def)             Requested size: 106.69783pt x 189.1988pt.
-<figures/R1P_lightning/lightningrecorder.jpg, id=604, 292.09125pt x 517.935pt>
+<figures/R1P_lightning/lightningrecorder.jpg, id=1181, 292.09125pt x 517.935pt>
+
 File: figures/R1P_lightning/lightningrecorder.jpg Graphic file (type jpg)
 <use figures/R1P_lightning/lightningrecorder.jpg>
 Package pdftex.def Info: figures/R1P_lightning/lightningrecorder.jpg  used on i
@@ -2614,16 +2962,16 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[27]
+[37]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[28 <./figures/R1P_lightning/grounding.jpg> <./figures/R1P_lightning/lightninga
+[38 <./figures/R1P_lightning/grounding.jpg> <./figures/R1P_lightning/lightninga
 rrester.jpg> <./figures/R1P_lightning/lightningrecorder.jpg>]
-Overfull \hbox (8.23192pt too wide) in paragraph at lines 170--170
+Overfull \hbox (14.23192pt too wide) in paragraph at lines 170--170
 |[]\T1/pplx/b/n/12 Ground-Fault cir-cuit in-ter-rupter (GFCI) or elec-tric leak
 -age cir-cuit breaker
  []
@@ -2639,70 +2987,74 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--20
  []
 
 ) (./figures/ch04_fig_fdas_safety.tex
-<figures/R1P_safety/emergencyexitsignale01.jpg, id=624, 307.1475pt x 409.53pt>
+<figures/R1P_safety/emergencyexitsignale01.jpg, id=1202, 307.1475pt x 409.53pt>
+
 File: figures/R1P_safety/emergencyexitsignale01.jpg Graphic file (type jpg)
 <use figures/R1P_safety/emergencyexitsignale01.jpg>
 Package pdftex.def Info: figures/R1P_safety/emergencyexitsignale01.jpg  used on
  input line 4.
 (pdftex.def)             Requested size: 93.8946pt x 125.19078pt.
-<figures/R1P_safety/emergencyexitsignale02.jpg, id=625, 307.1475pt x 409.53pt>
+<figures/R1P_safety/emergencyexitsignale02.jpg, id=1203, 307.1475pt x 409.53pt>
+
 File: figures/R1P_safety/emergencyexitsignale02.jpg Graphic file (type jpg)
 <use figures/R1P_safety/emergencyexitsignale02.jpg>
 Package pdftex.def Info: figures/R1P_safety/emergencyexitsignale02.jpg  used on
  input line 11.
 (pdftex.def)             Requested size: 93.8946pt x 125.19078pt.
-<figures/R1P_safety/fex_no_update_tage.jpg, id=626, 289.08pt x 513.92pt>
+<figures/R1P_safety/fex_no_update_tage.jpg, id=1204, 289.08pt x 513.92pt>
 File: figures/R1P_safety/fex_no_update_tage.jpg Graphic file (type jpg)
 <use figures/R1P_safety/fex_no_update_tage.jpg>
 Package pdftex.def Info: figures/R1P_safety/fex_no_update_tage.jpg  used on inp
 ut line 18.
 (pdftex.def)             Requested size: 93.8946pt x 166.92007pt.
-<figures/R1P_safety/fire_exhtinguig_genset.jpg, id=627, 307.1475pt x 409.53pt>
+<figures/R1P_safety/fire_exhtinguig_genset.jpg, id=1205, 307.1475pt x 409.53pt>
+
 File: figures/R1P_safety/fire_exhtinguig_genset.jpg Graphic file (type jpg)
 <use figures/R1P_safety/fire_exhtinguig_genset.jpg>
 Package pdftex.def Info: figures/R1P_safety/fire_exhtinguig_genset.jpg  used on
  input line 24.
 (pdftex.def)             Requested size: 93.8946pt x 125.19078pt.
-<figures/R1P_safety/fireexting_checklisht.jpg, id=628, 307.1475pt x 409.53pt>
+<figures/R1P_safety/fireexting_checklisht.jpg, id=1206, 307.1475pt x 409.53pt>
 File: figures/R1P_safety/fireexting_checklisht.jpg Graphic file (type jpg)
 <use figures/R1P_safety/fireexting_checklisht.jpg>
 Package pdftex.def Info: figures/R1P_safety/fireexting_checklisht.jpg  used on 
 input line 30.
 (pdftex.def)             Requested size: 93.8946pt x 125.19078pt.
-<figures/R1P_safety/missing_fex.jpg, id=629, 289.08pt x 513.92pt>
+<figures/R1P_safety/missing_fex.jpg, id=1207, 289.08pt x 513.92pt>
 File: figures/R1P_safety/missing_fex.jpg Graphic file (type jpg)
 <use figures/R1P_safety/missing_fex.jpg>
 Package pdftex.def Info: figures/R1P_safety/missing_fex.jpg  used on input line
  36.
 (pdftex.def)             Requested size: 93.8946pt x 166.92007pt.
-<figures/R1P_safety/r1p_evacuation_plan.jpg, id=630, 230.36063pt x 307.1475pt>
+<figures/R1P_safety/r1p_evacuation_plan.jpg, id=1208, 230.36063pt x 307.1475pt>
+
 File: figures/R1P_safety/r1p_evacuation_plan.jpg Graphic file (type jpg)
 <use figures/R1P_safety/r1p_evacuation_plan.jpg>
 Package pdftex.def Info: figures/R1P_safety/r1p_evacuation_plan.jpg  used on in
 put line 42.
 (pdftex.def)             Requested size: 93.8946pt x 125.19078pt.
-<figures/R1P_safety/unprotected_stair_reservoir.jpg, id=631, 307.1475pt x 409.5
-3pt>
+<figures/R1P_safety/unprotected_stair_reservoir.jpg, id=1209, 307.1475pt x 409.
+53pt>
 File: figures/R1P_safety/unprotected_stair_reservoir.jpg Graphic file (type jpg
 )
 <use figures/R1P_safety/unprotected_stair_reservoir.jpg>
 Package pdftex.def Info: figures/R1P_safety/unprotected_stair_reservoir.jpg  us
 ed on input line 48.
 (pdftex.def)             Requested size: 93.8946pt x 125.19078pt.
-<figures/R1P_safety/manhole_no_signal.jpg, id=632, 409.53pt x 307.1475pt>
+<figures/R1P_safety/manhole_no_signal.jpg, id=1210, 409.53pt x 307.1475pt>
 File: figures/R1P_safety/manhole_no_signal.jpg Graphic file (type jpg)
 <use figures/R1P_safety/manhole_no_signal.jpg>
 Package pdftex.def Info: figures/R1P_safety/manhole_no_signal.jpg  used on inpu
 t line 54.
 (pdftex.def)             Requested size: 93.8946pt x 70.41747pt.
-<figures/R1P_safety/manhole_no_warning.jpg, id=633, 409.53pt x 307.1475pt>
+<figures/R1P_safety/manhole_no_warning.jpg, id=1211, 409.53pt x 307.1475pt>
 File: figures/R1P_safety/manhole_no_warning.jpg Graphic file (type jpg)
 <use figures/R1P_safety/manhole_no_warning.jpg>
 Package pdftex.def Info: figures/R1P_safety/manhole_no_warning.jpg  used on inp
 ut line 60.
 (pdftex.def)             Requested size: 93.8946pt x 70.41747pt.
-<figures/R1P_safety/nochecklist_emergengylight.jpg, id=634, 409.53pt x 307.1475
-pt>
+<figures/R1P_safety/nochecklist_emergengylight.jpg, id=1212, 409.53pt x 307.147
+5pt>
 File: figures/R1P_safety/nochecklist_emergengylight.jpg Graphic file (type jpg)
 
 <use figures/R1P_safety/nochecklist_emergengylight.jpg>
@@ -2719,12 +3071,7 @@ Underfull \hbox (badness 1412) in paragraph at lines 2--69
 []   []   []   []
  []
 
-)
-
-LaTeX Warning: Reference `ch04_tbl_fdas_safety01' on page 29 undefined on input
- line 187.
-
-))
+)))
 
 LaTeX Warning: Empty bibliography on input line 41.
 
@@ -2735,14 +3082,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[29]
+[39]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[30 <./figures/R1P_safety/emergencyexitsignale01.jpg> <./figures/R1P_safety/eme
+[40 <./figures/R1P_safety/emergencyexitsignale01.jpg> <./figures/R1P_safety/eme
 rgencyexitsignale02.jpg> <./figures/R1P_safety/fex_no_update_tage.jpg> <./figur
 es/R1P_safety/fire_exhtinguig_genset.jpg> <./figures/R1P_safety/fireexting_chec
 klisht.jpg> <./figures/R1P_safety/missing_fex.jpg> <./figures/R1P_safety/r1p_ev
@@ -2754,7 +3101,7 @@ Appendix A.
 
 pdfTeX warning: pdflatex.exe (file ./sections/app_lfsummary.pdf): PDF inclusion
 : found PDF version <1.7>, but at most version <1.5> allowed
-<sections/app_lfsummary.pdf, id=647, 614.295pt x 794.97pt>
+<sections/app_lfsummary.pdf, id=1226, 614.295pt x 794.97pt>
 File: sections/app_lfsummary.pdf Graphic file (type pdf)
 <use sections/app_lfsummary.pdf>
 Package pdftex.def Info: sections/app_lfsummary.pdf  used on input line 2.
@@ -2775,7 +3122,7 @@ pdfTeX warning: pdflatex.exe (file ./sections/app_lfsummary.pdf): PDF inclusion
 
 pdfTeX warning: pdflatex.exe (file ./sections/app_lfsummary.pdf): PDF inclusion
 : found PDF version <1.7>, but at most version <1.5> allowed
-<sections/app_lfsummary.pdf, id=650, page=1, 614.295pt x 794.97pt>
+<sections/app_lfsummary.pdf, id=1229, page=1, 614.295pt x 794.97pt>
 File: sections/app_lfsummary.pdf Graphic file (type pdf)
 <use sections/app_lfsummary.pdf, page 1>
 Package pdftex.def Info: sections/app_lfsummary.pdf , page1 used on input line 
@@ -2786,7 +3133,7 @@ File: sections/app_lfsummary.pdf Graphic file (type pdf)
 Package pdftex.def Info: sections/app_lfsummary.pdf , page1 used on input line 
 2.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-[31
+[41
 
 
 ]
@@ -2805,11 +3152,11 @@ File: sections/app_lfsummary.pdf Graphic file (type pdf)
 Package pdftex.def Info: sections/app_lfsummary.pdf , page1 used on input line 
 2.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [32 <./sections/app_lfsummary.pdf>]
+ [42 <./sections/app_lfsummary.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./sections/app_lfsummary.pdf): PDF inclusion
 : found PDF version <1.7>, but at most version <1.5> allowed
-<sections/app_lfsummary.pdf, id=673, page=2, 614.295pt x 794.97pt>
+<sections/app_lfsummary.pdf, id=1251, page=2, 614.295pt x 794.97pt>
 File: sections/app_lfsummary.pdf Graphic file (type pdf)
 <use sections/app_lfsummary.pdf, page 2>
 Package pdftex.def Info: sections/app_lfsummary.pdf , page2 used on input line 
@@ -2825,11 +3172,11 @@ File: sections/app_lfsummary.pdf Graphic file (type pdf)
 Package pdftex.def Info: sections/app_lfsummary.pdf , page2 used on input line 
 2.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-[33 <./sections/app_lfsummary.pdf>]
+[43 <./sections/app_lfsummary.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./sections/app_lfsummary.pdf): PDF inclusion
 : found PDF version <1.7>, but at most version <1.5> allowed
-<sections/app_lfsummary.pdf, id=678, page=3, 614.295pt x 794.97pt>
+<sections/app_lfsummary.pdf, id=1257, page=3, 614.295pt x 794.97pt>
 File: sections/app_lfsummary.pdf Graphic file (type pdf)
 <use sections/app_lfsummary.pdf, page 3>
 Package pdftex.def Info: sections/app_lfsummary.pdf , page3 used on input line 
@@ -2845,11 +3192,11 @@ File: sections/app_lfsummary.pdf Graphic file (type pdf)
 Package pdftex.def Info: sections/app_lfsummary.pdf , page3 used on input line 
 2.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-[34 <./sections/app_lfsummary.pdf>]
+[44 <./sections/app_lfsummary.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./sections/app_lfsummary.pdf): PDF inclusion
 : found PDF version <1.7>, but at most version <1.5> allowed
-<sections/app_lfsummary.pdf, id=683, page=4, 614.295pt x 794.97pt>
+<sections/app_lfsummary.pdf, id=1262, page=4, 614.295pt x 794.97pt>
 File: sections/app_lfsummary.pdf Graphic file (type pdf)
 <use sections/app_lfsummary.pdf, page 4>
 Package pdftex.def Info: sections/app_lfsummary.pdf , page4 used on input line 
@@ -2865,11 +3212,11 @@ File: sections/app_lfsummary.pdf Graphic file (type pdf)
 Package pdftex.def Info: sections/app_lfsummary.pdf , page4 used on input line 
 2.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-[35 <./sections/app_lfsummary.pdf>]
+[45 <./sections/app_lfsummary.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./sections/app_lfsummary.pdf): PDF inclusion
 : found PDF version <1.7>, but at most version <1.5> allowed
-<sections/app_lfsummary.pdf, id=688, page=5, 614.295pt x 794.97pt>
+<sections/app_lfsummary.pdf, id=1267, page=5, 614.295pt x 794.97pt>
 File: sections/app_lfsummary.pdf Graphic file (type pdf)
 <use sections/app_lfsummary.pdf, page 5>
 Package pdftex.def Info: sections/app_lfsummary.pdf , page5 used on input line 
@@ -2885,804 +3232,1044 @@ File: sections/app_lfsummary.pdf Graphic file (type pdf)
 Package pdftex.def Info: sections/app_lfsummary.pdf , page5 used on input line 
 2.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
-[36 <./sections/app_lfsummary.pdf>]) (./sections/app_pqa.tex
+[46 <./sections/app_lfsummary.pdf>]) (./sections/app_ha.tex
 Appendix B.
-<sections/app_pqa.pdf, id=693, 597.432pt x 845.07718pt>
-File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf>
-Package pdftex.def Info: sections/app_pqa.pdf  used on input line 2.
-(pdftex.def)             Requested size: 597.43054pt x 845.07512pt.
-File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf>
-Package pdftex.def Info: sections/app_pqa.pdf  used on input line 2.
-(pdftex.def)             Requested size: 597.43054pt x 845.07512pt.
-<sections/app_pqa.pdf, id=696, page=1, 597.432pt x 845.07718pt>
-File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 1>
-Package pdftex.def Info: sections/app_pqa.pdf , page1 used on input line 2.
-(pdftex.def)             Requested size: 597.43054pt x 845.07512pt.
-File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 1>
-Package pdftex.def Info: sections/app_pqa.pdf , page1 used on input line 2.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
-[37
+
+
+pdfTeX warning: pdflatex.exe (file ./sections/app_ha.pdf): PDF inclusion: found
+ PDF version <1.7>, but at most version <1.5> allowed
+<sections/app_ha.pdf, id=1272, 614.295pt x 794.97pt>
+File: sections/app_ha.pdf Graphic file (type pdf)
+<use sections/app_ha.pdf>
+Package pdftex.def Info: sections/app_ha.pdf  used on input line 2.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./sections/app_ha.pdf): PDF inclusion: found
+ PDF version <1.7>, but at most version <1.5> allowed
+File: sections/app_ha.pdf Graphic file (type pdf)
+<use sections/app_ha.pdf>
+Package pdftex.def Info: sections/app_ha.pdf  used on input line 2.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./sections/app_ha.pdf): PDF inclusion: found
+ PDF version <1.7>, but at most version <1.5> allowed
+
+
+pdfTeX warning: pdflatex.exe (file ./sections/app_ha.pdf): PDF inclusion: found
+ PDF version <1.7>, but at most version <1.5> allowed
+<sections/app_ha.pdf, id=1275, page=1, 614.295pt x 794.97pt>
+File: sections/app_ha.pdf Graphic file (type pdf)
+<use sections/app_ha.pdf, page 1>
+Package pdftex.def Info: sections/app_ha.pdf , page1 used on input line 2.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: sections/app_ha.pdf Graphic file (type pdf)
+<use sections/app_ha.pdf, page 1>
+Package pdftex.def Info: sections/app_ha.pdf , page1 used on input line 2.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+[47
 
 
 ]
-File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 1>
-Package pdftex.def Info: sections/app_pqa.pdf , page1 used on input line 2.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
-File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 1>
-Package pdftex.def Info: sections/app_pqa.pdf , page1 used on input line 2.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
-File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 1>
-Package pdftex.def Info: sections/app_pqa.pdf , page1 used on input line 2.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
- [38 <./sections/app_pqa.pdf>]
-<sections/app_pqa.pdf, id=714, page=2, 597.432pt x 845.07718pt>
-File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 2>
-Package pdftex.def Info: sections/app_pqa.pdf , page2 used on input line 2.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
-File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 2>
-Package pdftex.def Info: sections/app_pqa.pdf , page2 used on input line 2.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
-File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 2>
-Package pdftex.def Info: sections/app_pqa.pdf , page2 used on input line 2.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
- [39 <./sections/app_pqa.pdf>]
-<sections/app_pqa.pdf, id=724, page=3, 597.432pt x 845.07718pt>
-File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 3>
-Package pdftex.def Info: sections/app_pqa.pdf , page3 used on input line 2.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
-File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 3>
-Package pdftex.def Info: sections/app_pqa.pdf , page3 used on input line 2.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
-File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 3>
-Package pdftex.def Info: sections/app_pqa.pdf , page3 used on input line 2.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
- [40 <./sections/app_pqa.pdf>]
-<sections/app_pqa.pdf, id=734, page=4, 597.432pt x 845.07718pt>
-File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 4>
-Package pdftex.def Info: sections/app_pqa.pdf , page4 used on input line 2.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
-File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 4>
-Package pdftex.def Info: sections/app_pqa.pdf , page4 used on input line 2.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
-File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 4>
-Package pdftex.def Info: sections/app_pqa.pdf , page4 used on input line 2.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
- [41 <./sections/app_pqa.pdf>]
-<sections/app_pqa.pdf, id=742, page=5, 597.432pt x 845.07718pt>
-File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 5>
-Package pdftex.def Info: sections/app_pqa.pdf , page5 used on input line 2.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
-File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 5>
-Package pdftex.def Info: sections/app_pqa.pdf , page5 used on input line 2.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
-File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 5>
-Package pdftex.def Info: sections/app_pqa.pdf , page5 used on input line 2.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
- [42 <./sections/app_pqa.pdf>]
-<sections/app_pqa.pdf, id=751, page=6, 597.432pt x 845.07718pt>
-File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 6>
-Package pdftex.def Info: sections/app_pqa.pdf , page6 used on input line 2.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
-File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 6>
-Package pdftex.def Info: sections/app_pqa.pdf , page6 used on input line 2.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
-File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 6>
-Package pdftex.def Info: sections/app_pqa.pdf , page6 used on input line 2.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+File: sections/app_ha.pdf Graphic file (type pdf)
+<use sections/app_ha.pdf, page 1>
+Package pdftex.def Info: sections/app_ha.pdf , page1 used on input line 2.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: sections/app_ha.pdf Graphic file (type pdf)
+<use sections/app_ha.pdf, page 1>
+Package pdftex.def Info: sections/app_ha.pdf , page1 used on input line 2.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: sections/app_ha.pdf Graphic file (type pdf)
+<use sections/app_ha.pdf, page 1>
+Package pdftex.def Info: sections/app_ha.pdf , page1 used on input line 2.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [48 <./sections/app_ha.pdf>]
 
-[43 <./sections/app_pqa.pdf>]
-<sections/app_pqa.pdf, id=760, page=7, 597.432pt x 845.07718pt>
-File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 7>
-Package pdftex.def Info: sections/app_pqa.pdf , page7 used on input line 2.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
-File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 7>
-Package pdftex.def Info: sections/app_pqa.pdf , page7 used on input line 2.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
-File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 7>
-Package pdftex.def Info: sections/app_pqa.pdf , page7 used on input line 2.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
- [44 <./sections/app_pqa.pdf>]
-<sections/app_pqa.pdf, id=768, page=8, 597.432pt x 845.07718pt>
-File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 8>
-Package pdftex.def Info: sections/app_pqa.pdf , page8 used on input line 2.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
-File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 8>
-Package pdftex.def Info: sections/app_pqa.pdf , page8 used on input line 2.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
-File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 8>
-Package pdftex.def Info: sections/app_pqa.pdf , page8 used on input line 2.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
- [45 <./sections/app_pqa.pdf>]
-<sections/app_pqa.pdf, id=777, page=9, 597.432pt x 845.07718pt>
-File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 9>
-Package pdftex.def Info: sections/app_pqa.pdf , page9 used on input line 2.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
-File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 9>
-Package pdftex.def Info: sections/app_pqa.pdf , page9 used on input line 2.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
-File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 9>
-Package pdftex.def Info: sections/app_pqa.pdf , page9 used on input line 2.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
- [46 <./sections/app_pqa.pdf>]
-<sections/app_pqa.pdf, id=785, page=10, 597.432pt x 845.07718pt>
-File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 10>
-Package pdftex.def Info: sections/app_pqa.pdf , page10 used on input line 2.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
-File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 10>
-Package pdftex.def Info: sections/app_pqa.pdf , page10 used on input line 2.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
-File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 10>
-Package pdftex.def Info: sections/app_pqa.pdf , page10 used on input line 2.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
- [47 <./sections/app_pqa.pdf>]
-<sections/app_pqa.pdf, id=793, page=11, 597.432pt x 845.07718pt>
-File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 11>
-Package pdftex.def Info: sections/app_pqa.pdf , page11 used on input line 2.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
-File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 11>
-Package pdftex.def Info: sections/app_pqa.pdf , page11 used on input line 2.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
-File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 11>
-Package pdftex.def Info: sections/app_pqa.pdf , page11 used on input line 2.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
- [48 <./sections/app_pqa.pdf>]
-<sections/app_pqa.pdf, id=801, page=12, 597.432pt x 845.07718pt>
-File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 12>
-Package pdftex.def Info: sections/app_pqa.pdf , page12 used on input line 2.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
-File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 12>
-Package pdftex.def Info: sections/app_pqa.pdf , page12 used on input line 2.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
-File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 12>
-Package pdftex.def Info: sections/app_pqa.pdf , page12 used on input line 2.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
- [49 <./sections/app_pqa.pdf>]
-<sections/app_pqa.pdf, id=810, page=13, 597.432pt x 845.07718pt>
-File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 13>
-Package pdftex.def Info: sections/app_pqa.pdf , page13 used on input line 2.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
-File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 13>
-Package pdftex.def Info: sections/app_pqa.pdf , page13 used on input line 2.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
-File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 13>
-Package pdftex.def Info: sections/app_pqa.pdf , page13 used on input line 2.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
- [50 <./sections/app_pqa.pdf>]
-<sections/app_pqa.pdf, id=819, page=14, 597.432pt x 845.07718pt>
-File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 14>
-Package pdftex.def Info: sections/app_pqa.pdf , page14 used on input line 2.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
-File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 14>
-Package pdftex.def Info: sections/app_pqa.pdf , page14 used on input line 2.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
-File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 14>
-Package pdftex.def Info: sections/app_pqa.pdf , page14 used on input line 2.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
- [51 <./sections/app_pqa.pdf>]
-<sections/app_pqa.pdf, id=834, page=15, 597.432pt x 845.07718pt>
-File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 15>
-Package pdftex.def Info: sections/app_pqa.pdf , page15 used on input line 2.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
-File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 15>
-Package pdftex.def Info: sections/app_pqa.pdf , page15 used on input line 2.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
-File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 15>
-Package pdftex.def Info: sections/app_pqa.pdf , page15 used on input line 2.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
- [52 <./sections/app_pqa.pdf>]
-<sections/app_pqa.pdf, id=846, page=16, 597.432pt x 845.07718pt>
-File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 16>
-Package pdftex.def Info: sections/app_pqa.pdf , page16 used on input line 2.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
-File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 16>
-Package pdftex.def Info: sections/app_pqa.pdf , page16 used on input line 2.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
-File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 16>
-Package pdftex.def Info: sections/app_pqa.pdf , page16 used on input line 2.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
- [53 <./sections/app_pqa.pdf>]
-<sections/app_pqa.pdf, id=856, page=17, 597.432pt x 845.07718pt>
-File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 17>
-Package pdftex.def Info: sections/app_pqa.pdf , page17 used on input line 2.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
-File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 17>
-Package pdftex.def Info: sections/app_pqa.pdf , page17 used on input line 2.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
-File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 17>
-Package pdftex.def Info: sections/app_pqa.pdf , page17 used on input line 2.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
- [54 <./sections/app_pqa.pdf>]
-<sections/app_pqa.pdf, id=866, page=18, 597.432pt x 845.07718pt>
-File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 18>
-Package pdftex.def Info: sections/app_pqa.pdf , page18 used on input line 2.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
-File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 18>
-Package pdftex.def Info: sections/app_pqa.pdf , page18 used on input line 2.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
-File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 18>
-Package pdftex.def Info: sections/app_pqa.pdf , page18 used on input line 2.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
- [55 <./sections/app_pqa.pdf>]
-<sections/app_pqa.pdf, id=875, page=19, 597.432pt x 845.07718pt>
-File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 19>
-Package pdftex.def Info: sections/app_pqa.pdf , page19 used on input line 2.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
-File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 19>
-Package pdftex.def Info: sections/app_pqa.pdf , page19 used on input line 2.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
-File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 19>
-Package pdftex.def Info: sections/app_pqa.pdf , page19 used on input line 2.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+pdfTeX warning: pdflatex.exe (file ./sections/app_ha.pdf): PDF inclusion: found
+ PDF version <1.7>, but at most version <1.5> allowed
+<sections/app_ha.pdf, id=1297, page=2, 614.295pt x 794.97pt>
+File: sections/app_ha.pdf Graphic file (type pdf)
+<use sections/app_ha.pdf, page 2>
+Package pdftex.def Info: sections/app_ha.pdf , page2 used on input line 2.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: sections/app_ha.pdf Graphic file (type pdf)
+<use sections/app_ha.pdf, page 2>
+Package pdftex.def Info: sections/app_ha.pdf , page2 used on input line 2.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: sections/app_ha.pdf Graphic file (type pdf)
+<use sections/app_ha.pdf, page 2>
+Package pdftex.def Info: sections/app_ha.pdf , page2 used on input line 2.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+[49 <./sections/app_ha.pdf>]
 
-[56 <./sections/app_pqa.pdf>]
-<sections/app_pqa.pdf, id=883, page=20, 597.432pt x 845.07718pt>
+pdfTeX warning: pdflatex.exe (file ./sections/app_ha.pdf): PDF inclusion: found
+ PDF version <1.7>, but at most version <1.5> allowed
+<sections/app_ha.pdf, id=1303, page=3, 614.295pt x 794.97pt>
+File: sections/app_ha.pdf Graphic file (type pdf)
+<use sections/app_ha.pdf, page 3>
+Package pdftex.def Info: sections/app_ha.pdf , page3 used on input line 2.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: sections/app_ha.pdf Graphic file (type pdf)
+<use sections/app_ha.pdf, page 3>
+Package pdftex.def Info: sections/app_ha.pdf , page3 used on input line 2.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: sections/app_ha.pdf Graphic file (type pdf)
+<use sections/app_ha.pdf, page 3>
+Package pdftex.def Info: sections/app_ha.pdf , page3 used on input line 2.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+[50 <./sections/app_ha.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./sections/app_ha.pdf): PDF inclusion: found
+ PDF version <1.7>, but at most version <1.5> allowed
+<sections/app_ha.pdf, id=1308, page=4, 614.295pt x 794.97pt>
+File: sections/app_ha.pdf Graphic file (type pdf)
+<use sections/app_ha.pdf, page 4>
+Package pdftex.def Info: sections/app_ha.pdf , page4 used on input line 2.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: sections/app_ha.pdf Graphic file (type pdf)
+<use sections/app_ha.pdf, page 4>
+Package pdftex.def Info: sections/app_ha.pdf , page4 used on input line 2.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: sections/app_ha.pdf Graphic file (type pdf)
+<use sections/app_ha.pdf, page 4>
+Package pdftex.def Info: sections/app_ha.pdf , page4 used on input line 2.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+[51 <./sections/app_ha.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./sections/app_ha.pdf): PDF inclusion: found
+ PDF version <1.7>, but at most version <1.5> allowed
+<sections/app_ha.pdf, id=1313, page=5, 614.295pt x 794.97pt>
+File: sections/app_ha.pdf Graphic file (type pdf)
+<use sections/app_ha.pdf, page 5>
+Package pdftex.def Info: sections/app_ha.pdf , page5 used on input line 2.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: sections/app_ha.pdf Graphic file (type pdf)
+<use sections/app_ha.pdf, page 5>
+Package pdftex.def Info: sections/app_ha.pdf , page5 used on input line 2.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: sections/app_ha.pdf Graphic file (type pdf)
+<use sections/app_ha.pdf, page 5>
+Package pdftex.def Info: sections/app_ha.pdf , page5 used on input line 2.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+[52 <./sections/app_ha.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./sections/app_ha.pdf): PDF inclusion: found
+ PDF version <1.7>, but at most version <1.5> allowed
+<sections/app_ha.pdf, id=1318, page=6, 614.295pt x 794.97pt>
+File: sections/app_ha.pdf Graphic file (type pdf)
+<use sections/app_ha.pdf, page 6>
+Package pdftex.def Info: sections/app_ha.pdf , page6 used on input line 2.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: sections/app_ha.pdf Graphic file (type pdf)
+<use sections/app_ha.pdf, page 6>
+Package pdftex.def Info: sections/app_ha.pdf , page6 used on input line 2.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: sections/app_ha.pdf Graphic file (type pdf)
+<use sections/app_ha.pdf, page 6>
+Package pdftex.def Info: sections/app_ha.pdf , page6 used on input line 2.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+[53 <./sections/app_ha.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./sections/app_ha.pdf): PDF inclusion: found
+ PDF version <1.7>, but at most version <1.5> allowed
+<sections/app_ha.pdf, id=1323, page=7, 614.295pt x 794.97pt>
+File: sections/app_ha.pdf Graphic file (type pdf)
+<use sections/app_ha.pdf, page 7>
+Package pdftex.def Info: sections/app_ha.pdf , page7 used on input line 2.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: sections/app_ha.pdf Graphic file (type pdf)
+<use sections/app_ha.pdf, page 7>
+Package pdftex.def Info: sections/app_ha.pdf , page7 used on input line 2.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: sections/app_ha.pdf Graphic file (type pdf)
+<use sections/app_ha.pdf, page 7>
+Package pdftex.def Info: sections/app_ha.pdf , page7 used on input line 2.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+[54 <./sections/app_ha.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./sections/app_ha.pdf): PDF inclusion: found
+ PDF version <1.7>, but at most version <1.5> allowed
+<sections/app_ha.pdf, id=1328, page=8, 614.295pt x 794.97pt>
+File: sections/app_ha.pdf Graphic file (type pdf)
+<use sections/app_ha.pdf, page 8>
+Package pdftex.def Info: sections/app_ha.pdf , page8 used on input line 2.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: sections/app_ha.pdf Graphic file (type pdf)
+<use sections/app_ha.pdf, page 8>
+Package pdftex.def Info: sections/app_ha.pdf , page8 used on input line 2.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: sections/app_ha.pdf Graphic file (type pdf)
+<use sections/app_ha.pdf, page 8>
+Package pdftex.def Info: sections/app_ha.pdf , page8 used on input line 2.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+[55 <./sections/app_ha.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./sections/app_ha.pdf): PDF inclusion: found
+ PDF version <1.7>, but at most version <1.5> allowed
+<sections/app_ha.pdf, id=1334, page=9, 614.295pt x 794.97pt>
+File: sections/app_ha.pdf Graphic file (type pdf)
+<use sections/app_ha.pdf, page 9>
+Package pdftex.def Info: sections/app_ha.pdf , page9 used on input line 2.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: sections/app_ha.pdf Graphic file (type pdf)
+<use sections/app_ha.pdf, page 9>
+Package pdftex.def Info: sections/app_ha.pdf , page9 used on input line 2.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: sections/app_ha.pdf Graphic file (type pdf)
+<use sections/app_ha.pdf, page 9>
+Package pdftex.def Info: sections/app_ha.pdf , page9 used on input line 2.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+[56 <./sections/app_ha.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./sections/app_ha.pdf): PDF inclusion: found
+ PDF version <1.7>, but at most version <1.5> allowed
+<sections/app_ha.pdf, id=1339, page=10, 614.295pt x 794.97pt>
+File: sections/app_ha.pdf Graphic file (type pdf)
+<use sections/app_ha.pdf, page 10>
+Package pdftex.def Info: sections/app_ha.pdf , page10 used on input line 2.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: sections/app_ha.pdf Graphic file (type pdf)
+<use sections/app_ha.pdf, page 10>
+Package pdftex.def Info: sections/app_ha.pdf , page10 used on input line 2.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: sections/app_ha.pdf Graphic file (type pdf)
+<use sections/app_ha.pdf, page 10>
+Package pdftex.def Info: sections/app_ha.pdf , page10 used on input line 2.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+[57 <./sections/app_ha.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./sections/app_ha.pdf): PDF inclusion: found
+ PDF version <1.7>, but at most version <1.5> allowed
+<sections/app_ha.pdf, id=1344, page=11, 614.295pt x 794.97pt>
+File: sections/app_ha.pdf Graphic file (type pdf)
+<use sections/app_ha.pdf, page 11>
+Package pdftex.def Info: sections/app_ha.pdf , page11 used on input line 2.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: sections/app_ha.pdf Graphic file (type pdf)
+<use sections/app_ha.pdf, page 11>
+Package pdftex.def Info: sections/app_ha.pdf , page11 used on input line 2.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: sections/app_ha.pdf Graphic file (type pdf)
+<use sections/app_ha.pdf, page 11>
+Package pdftex.def Info: sections/app_ha.pdf , page11 used on input line 2.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+[58 <./sections/app_ha.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./sections/app_ha.pdf): PDF inclusion: found
+ PDF version <1.7>, but at most version <1.5> allowed
+<sections/app_ha.pdf, id=1349, page=12, 614.295pt x 794.97pt>
+File: sections/app_ha.pdf Graphic file (type pdf)
+<use sections/app_ha.pdf, page 12>
+Package pdftex.def Info: sections/app_ha.pdf , page12 used on input line 2.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: sections/app_ha.pdf Graphic file (type pdf)
+<use sections/app_ha.pdf, page 12>
+Package pdftex.def Info: sections/app_ha.pdf , page12 used on input line 2.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: sections/app_ha.pdf Graphic file (type pdf)
+<use sections/app_ha.pdf, page 12>
+Package pdftex.def Info: sections/app_ha.pdf , page12 used on input line 2.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+[59 <./sections/app_ha.pdf>]) (./sections/app_pqa.tex [60
+
+
+]
+Appendix C.
+<sections/app_pqa.pdf, id=1358, 597.432pt x 845.07718pt>
 File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 20>
-Package pdftex.def Info: sections/app_pqa.pdf , page20 used on input line 2.
+<use sections/app_pqa.pdf>
+Package pdftex.def Info: sections/app_pqa.pdf  used on input line 2.
+(pdftex.def)             Requested size: 597.43054pt x 845.07512pt.
+File: sections/app_pqa.pdf Graphic file (type pdf)
+<use sections/app_pqa.pdf>
+Package pdftex.def Info: sections/app_pqa.pdf  used on input line 2.
+(pdftex.def)             Requested size: 597.43054pt x 845.07512pt.
+<sections/app_pqa.pdf, id=1361, page=1, 597.432pt x 845.07718pt>
+File: sections/app_pqa.pdf Graphic file (type pdf)
+<use sections/app_pqa.pdf, page 1>
+Package pdftex.def Info: sections/app_pqa.pdf , page1 used on input line 2.
+(pdftex.def)             Requested size: 597.43054pt x 845.07512pt.
+File: sections/app_pqa.pdf Graphic file (type pdf)
+<use sections/app_pqa.pdf, page 1>
+Package pdftex.def Info: sections/app_pqa.pdf , page1 used on input line 2.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+[61]
+File: sections/app_pqa.pdf Graphic file (type pdf)
+<use sections/app_pqa.pdf, page 1>
+Package pdftex.def Info: sections/app_pqa.pdf , page1 used on input line 2.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 20>
-Package pdftex.def Info: sections/app_pqa.pdf , page20 used on input line 2.
+<use sections/app_pqa.pdf, page 1>
+Package pdftex.def Info: sections/app_pqa.pdf , page1 used on input line 2.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 20>
-Package pdftex.def Info: sections/app_pqa.pdf , page20 used on input line 2.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
- [57 <./sections/app_pqa.pdf>]
-<sections/app_pqa.pdf, id=891, page=21, 597.432pt x 845.07718pt>
-File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 21>
-Package pdftex.def Info: sections/app_pqa.pdf , page21 used on input line 2.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
-File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 21>
-Package pdftex.def Info: sections/app_pqa.pdf , page21 used on input line 2.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
-File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 21>
-Package pdftex.def Info: sections/app_pqa.pdf , page21 used on input line 2.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
- [58 <./sections/app_pqa.pdf>]
-<sections/app_pqa.pdf, id=899, page=22, 597.432pt x 845.07718pt>
-File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 22>
-Package pdftex.def Info: sections/app_pqa.pdf , page22 used on input line 2.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
-File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 22>
-Package pdftex.def Info: sections/app_pqa.pdf , page22 used on input line 2.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
-File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 22>
-Package pdftex.def Info: sections/app_pqa.pdf , page22 used on input line 2.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
- [59 <./sections/app_pqa.pdf>]
-<sections/app_pqa.pdf, id=909, page=23, 597.432pt x 845.07718pt>
-File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 23>
-Package pdftex.def Info: sections/app_pqa.pdf , page23 used on input line 2.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
-File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 23>
-Package pdftex.def Info: sections/app_pqa.pdf , page23 used on input line 2.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
-File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 23>
-Package pdftex.def Info: sections/app_pqa.pdf , page23 used on input line 2.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
- [60 <./sections/app_pqa.pdf>]
-<sections/app_pqa.pdf, id=917, page=24, 597.432pt x 845.07718pt>
-File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 24>
-Package pdftex.def Info: sections/app_pqa.pdf , page24 used on input line 2.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
-File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 24>
-Package pdftex.def Info: sections/app_pqa.pdf , page24 used on input line 2.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
-File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 24>
-Package pdftex.def Info: sections/app_pqa.pdf , page24 used on input line 2.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
- [61 <./sections/app_pqa.pdf>]
-<sections/app_pqa.pdf, id=926, page=25, 597.432pt x 845.07718pt>
-File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 25>
-Package pdftex.def Info: sections/app_pqa.pdf , page25 used on input line 2.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
-File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 25>
-Package pdftex.def Info: sections/app_pqa.pdf , page25 used on input line 2.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
-File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 25>
-Package pdftex.def Info: sections/app_pqa.pdf , page25 used on input line 2.
+<use sections/app_pqa.pdf, page 1>
+Package pdftex.def Info: sections/app_pqa.pdf , page1 used on input line 2.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
  [62 <./sections/app_pqa.pdf>]
-<sections/app_pqa.pdf, id=934, page=26, 597.432pt x 845.07718pt>
+<sections/app_pqa.pdf, id=1379, page=2, 597.432pt x 845.07718pt>
 File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 26>
-Package pdftex.def Info: sections/app_pqa.pdf , page26 used on input line 2.
+<use sections/app_pqa.pdf, page 2>
+Package pdftex.def Info: sections/app_pqa.pdf , page2 used on input line 2.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 26>
-Package pdftex.def Info: sections/app_pqa.pdf , page26 used on input line 2.
+<use sections/app_pqa.pdf, page 2>
+Package pdftex.def Info: sections/app_pqa.pdf , page2 used on input line 2.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 26>
-Package pdftex.def Info: sections/app_pqa.pdf , page26 used on input line 2.
+<use sections/app_pqa.pdf, page 2>
+Package pdftex.def Info: sections/app_pqa.pdf , page2 used on input line 2.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
  [63 <./sections/app_pqa.pdf>]
-<sections/app_pqa.pdf, id=942, page=27, 597.432pt x 845.07718pt>
+<sections/app_pqa.pdf, id=1390, page=3, 597.432pt x 845.07718pt>
 File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 27>
-Package pdftex.def Info: sections/app_pqa.pdf , page27 used on input line 2.
+<use sections/app_pqa.pdf, page 3>
+Package pdftex.def Info: sections/app_pqa.pdf , page3 used on input line 2.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 27>
-Package pdftex.def Info: sections/app_pqa.pdf , page27 used on input line 2.
+<use sections/app_pqa.pdf, page 3>
+Package pdftex.def Info: sections/app_pqa.pdf , page3 used on input line 2.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 27>
-Package pdftex.def Info: sections/app_pqa.pdf , page27 used on input line 2.
+<use sections/app_pqa.pdf, page 3>
+Package pdftex.def Info: sections/app_pqa.pdf , page3 used on input line 2.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
  [64 <./sections/app_pqa.pdf>]
-<sections/app_pqa.pdf, id=951, page=28, 597.432pt x 845.07718pt>
+<sections/app_pqa.pdf, id=1400, page=4, 597.432pt x 845.07718pt>
 File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 28>
-Package pdftex.def Info: sections/app_pqa.pdf , page28 used on input line 2.
+<use sections/app_pqa.pdf, page 4>
+Package pdftex.def Info: sections/app_pqa.pdf , page4 used on input line 2.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 28>
-Package pdftex.def Info: sections/app_pqa.pdf , page28 used on input line 2.
+<use sections/app_pqa.pdf, page 4>
+Package pdftex.def Info: sections/app_pqa.pdf , page4 used on input line 2.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 28>
-Package pdftex.def Info: sections/app_pqa.pdf , page28 used on input line 2.
+<use sections/app_pqa.pdf, page 4>
+Package pdftex.def Info: sections/app_pqa.pdf , page4 used on input line 2.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
  [65 <./sections/app_pqa.pdf>]
-<sections/app_pqa.pdf, id=966, page=29, 597.432pt x 845.07718pt>
+<sections/app_pqa.pdf, id=1408, page=5, 597.432pt x 845.07718pt>
 File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 29>
-Package pdftex.def Info: sections/app_pqa.pdf , page29 used on input line 2.
+<use sections/app_pqa.pdf, page 5>
+Package pdftex.def Info: sections/app_pqa.pdf , page5 used on input line 2.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 29>
-Package pdftex.def Info: sections/app_pqa.pdf , page29 used on input line 2.
+<use sections/app_pqa.pdf, page 5>
+Package pdftex.def Info: sections/app_pqa.pdf , page5 used on input line 2.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 29>
-Package pdftex.def Info: sections/app_pqa.pdf , page29 used on input line 2.
+<use sections/app_pqa.pdf, page 5>
+Package pdftex.def Info: sections/app_pqa.pdf , page5 used on input line 2.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
  [66 <./sections/app_pqa.pdf>]
-<sections/app_pqa.pdf, id=978, page=30, 597.432pt x 845.07718pt>
+<sections/app_pqa.pdf, id=1416, page=6, 597.432pt x 845.07718pt>
 File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 30>
-Package pdftex.def Info: sections/app_pqa.pdf , page30 used on input line 2.
+<use sections/app_pqa.pdf, page 6>
+Package pdftex.def Info: sections/app_pqa.pdf , page6 used on input line 2.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 30>
-Package pdftex.def Info: sections/app_pqa.pdf , page30 used on input line 2.
+<use sections/app_pqa.pdf, page 6>
+Package pdftex.def Info: sections/app_pqa.pdf , page6 used on input line 2.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 30>
-Package pdftex.def Info: sections/app_pqa.pdf , page30 used on input line 2.
+<use sections/app_pqa.pdf, page 6>
+Package pdftex.def Info: sections/app_pqa.pdf , page6 used on input line 2.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
- [67 <./sections/app_pqa.pdf>]
-<sections/app_pqa.pdf, id=991, page=31, 597.432pt x 845.07718pt>
+
+[67 <./sections/app_pqa.pdf>]
+<sections/app_pqa.pdf, id=1425, page=7, 597.432pt x 845.07718pt>
 File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 31>
-Package pdftex.def Info: sections/app_pqa.pdf , page31 used on input line 2.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
-File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 31>
-Package pdftex.def Info: sections/app_pqa.pdf , page31 used on input line 2.
+<use sections/app_pqa.pdf, page 7>
+Package pdftex.def Info: sections/app_pqa.pdf , page7 used on input line 2.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 31>
-Package pdftex.def Info: sections/app_pqa.pdf , page31 used on input line 2.
+<use sections/app_pqa.pdf, page 7>
+Package pdftex.def Info: sections/app_pqa.pdf , page7 used on input line 2.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+File: sections/app_pqa.pdf Graphic file (type pdf)
+<use sections/app_pqa.pdf, page 7>
+Package pdftex.def Info: sections/app_pqa.pdf , page7 used on input line 2.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
  [68 <./sections/app_pqa.pdf>]
-<sections/app_pqa.pdf, id=1001, page=32, 597.432pt x 845.07718pt>
+<sections/app_pqa.pdf, id=1433, page=8, 597.432pt x 845.07718pt>
 File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 32>
-Package pdftex.def Info: sections/app_pqa.pdf , page32 used on input line 2.
+<use sections/app_pqa.pdf, page 8>
+Package pdftex.def Info: sections/app_pqa.pdf , page8 used on input line 2.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 32>
-Package pdftex.def Info: sections/app_pqa.pdf , page32 used on input line 2.
+<use sections/app_pqa.pdf, page 8>
+Package pdftex.def Info: sections/app_pqa.pdf , page8 used on input line 2.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 32>
-Package pdftex.def Info: sections/app_pqa.pdf , page32 used on input line 2.
+<use sections/app_pqa.pdf, page 8>
+Package pdftex.def Info: sections/app_pqa.pdf , page8 used on input line 2.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
-
-[69 <./sections/app_pqa.pdf>]
-<sections/app_pqa.pdf, id=1011, page=33, 597.432pt x 845.07718pt>
+ [69 <./sections/app_pqa.pdf>]
+<sections/app_pqa.pdf, id=1442, page=9, 597.432pt x 845.07718pt>
 File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 33>
-Package pdftex.def Info: sections/app_pqa.pdf , page33 used on input line 2.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
-File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 33>
-Package pdftex.def Info: sections/app_pqa.pdf , page33 used on input line 2.
+<use sections/app_pqa.pdf, page 9>
+Package pdftex.def Info: sections/app_pqa.pdf , page9 used on input line 2.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 33>
-Package pdftex.def Info: sections/app_pqa.pdf , page33 used on input line 2.
+<use sections/app_pqa.pdf, page 9>
+Package pdftex.def Info: sections/app_pqa.pdf , page9 used on input line 2.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+File: sections/app_pqa.pdf Graphic file (type pdf)
+<use sections/app_pqa.pdf, page 9>
+Package pdftex.def Info: sections/app_pqa.pdf , page9 used on input line 2.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
  [70 <./sections/app_pqa.pdf>]
-<sections/app_pqa.pdf, id=1019, page=34, 597.432pt x 845.07718pt>
+<sections/app_pqa.pdf, id=1450, page=10, 597.432pt x 845.07718pt>
 File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 34>
-Package pdftex.def Info: sections/app_pqa.pdf , page34 used on input line 2.
+<use sections/app_pqa.pdf, page 10>
+Package pdftex.def Info: sections/app_pqa.pdf , page10 used on input line 2.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 34>
-Package pdftex.def Info: sections/app_pqa.pdf , page34 used on input line 2.
+<use sections/app_pqa.pdf, page 10>
+Package pdftex.def Info: sections/app_pqa.pdf , page10 used on input line 2.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 34>
-Package pdftex.def Info: sections/app_pqa.pdf , page34 used on input line 2.
+<use sections/app_pqa.pdf, page 10>
+Package pdftex.def Info: sections/app_pqa.pdf , page10 used on input line 2.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
  [71 <./sections/app_pqa.pdf>]
-<sections/app_pqa.pdf, id=1027, page=35, 597.432pt x 845.07718pt>
+<sections/app_pqa.pdf, id=1458, page=11, 597.432pt x 845.07718pt>
 File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 35>
-Package pdftex.def Info: sections/app_pqa.pdf , page35 used on input line 2.
+<use sections/app_pqa.pdf, page 11>
+Package pdftex.def Info: sections/app_pqa.pdf , page11 used on input line 2.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 35>
-Package pdftex.def Info: sections/app_pqa.pdf , page35 used on input line 2.
+<use sections/app_pqa.pdf, page 11>
+Package pdftex.def Info: sections/app_pqa.pdf , page11 used on input line 2.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 35>
-Package pdftex.def Info: sections/app_pqa.pdf , page35 used on input line 2.
+<use sections/app_pqa.pdf, page 11>
+Package pdftex.def Info: sections/app_pqa.pdf , page11 used on input line 2.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
  [72 <./sections/app_pqa.pdf>]
-<sections/app_pqa.pdf, id=1035, page=36, 597.432pt x 845.07718pt>
+<sections/app_pqa.pdf, id=1466, page=12, 597.432pt x 845.07718pt>
 File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 36>
-Package pdftex.def Info: sections/app_pqa.pdf , page36 used on input line 2.
+<use sections/app_pqa.pdf, page 12>
+Package pdftex.def Info: sections/app_pqa.pdf , page12 used on input line 2.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 36>
-Package pdftex.def Info: sections/app_pqa.pdf , page36 used on input line 2.
+<use sections/app_pqa.pdf, page 12>
+Package pdftex.def Info: sections/app_pqa.pdf , page12 used on input line 2.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 36>
-Package pdftex.def Info: sections/app_pqa.pdf , page36 used on input line 2.
+<use sections/app_pqa.pdf, page 12>
+Package pdftex.def Info: sections/app_pqa.pdf , page12 used on input line 2.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
  [73 <./sections/app_pqa.pdf>]
-<sections/app_pqa.pdf, id=1044, page=37, 597.432pt x 845.07718pt>
+<sections/app_pqa.pdf, id=1475, page=13, 597.432pt x 845.07718pt>
 File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 37>
-Package pdftex.def Info: sections/app_pqa.pdf , page37 used on input line 2.
+<use sections/app_pqa.pdf, page 13>
+Package pdftex.def Info: sections/app_pqa.pdf , page13 used on input line 2.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 37>
-Package pdftex.def Info: sections/app_pqa.pdf , page37 used on input line 2.
+<use sections/app_pqa.pdf, page 13>
+Package pdftex.def Info: sections/app_pqa.pdf , page13 used on input line 2.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 37>
-Package pdftex.def Info: sections/app_pqa.pdf , page37 used on input line 2.
+<use sections/app_pqa.pdf, page 13>
+Package pdftex.def Info: sections/app_pqa.pdf , page13 used on input line 2.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
  [74 <./sections/app_pqa.pdf>]
-<sections/app_pqa.pdf, id=1053, page=38, 597.432pt x 845.07718pt>
+<sections/app_pqa.pdf, id=1484, page=14, 597.432pt x 845.07718pt>
 File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 38>
-Package pdftex.def Info: sections/app_pqa.pdf , page38 used on input line 2.
+<use sections/app_pqa.pdf, page 14>
+Package pdftex.def Info: sections/app_pqa.pdf , page14 used on input line 2.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 38>
-Package pdftex.def Info: sections/app_pqa.pdf , page38 used on input line 2.
+<use sections/app_pqa.pdf, page 14>
+Package pdftex.def Info: sections/app_pqa.pdf , page14 used on input line 2.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 38>
-Package pdftex.def Info: sections/app_pqa.pdf , page38 used on input line 2.
+<use sections/app_pqa.pdf, page 14>
+Package pdftex.def Info: sections/app_pqa.pdf , page14 used on input line 2.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
  [75 <./sections/app_pqa.pdf>]
-<sections/app_pqa.pdf, id=1061, page=39, 597.432pt x 845.07718pt>
+<sections/app_pqa.pdf, id=1499, page=15, 597.432pt x 845.07718pt>
 File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 39>
-Package pdftex.def Info: sections/app_pqa.pdf , page39 used on input line 2.
+<use sections/app_pqa.pdf, page 15>
+Package pdftex.def Info: sections/app_pqa.pdf , page15 used on input line 2.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 39>
-Package pdftex.def Info: sections/app_pqa.pdf , page39 used on input line 2.
+<use sections/app_pqa.pdf, page 15>
+Package pdftex.def Info: sections/app_pqa.pdf , page15 used on input line 2.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 39>
-Package pdftex.def Info: sections/app_pqa.pdf , page39 used on input line 2.
+<use sections/app_pqa.pdf, page 15>
+Package pdftex.def Info: sections/app_pqa.pdf , page15 used on input line 2.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
  [76 <./sections/app_pqa.pdf>]
-<sections/app_pqa.pdf, id=1070, page=40, 597.432pt x 845.07718pt>
+<sections/app_pqa.pdf, id=1511, page=16, 597.432pt x 845.07718pt>
 File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 40>
-Package pdftex.def Info: sections/app_pqa.pdf , page40 used on input line 2.
+<use sections/app_pqa.pdf, page 16>
+Package pdftex.def Info: sections/app_pqa.pdf , page16 used on input line 2.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 40>
-Package pdftex.def Info: sections/app_pqa.pdf , page40 used on input line 2.
+<use sections/app_pqa.pdf, page 16>
+Package pdftex.def Info: sections/app_pqa.pdf , page16 used on input line 2.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 40>
-Package pdftex.def Info: sections/app_pqa.pdf , page40 used on input line 2.
+<use sections/app_pqa.pdf, page 16>
+Package pdftex.def Info: sections/app_pqa.pdf , page16 used on input line 2.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
  [77 <./sections/app_pqa.pdf>]
-<sections/app_pqa.pdf, id=1078, page=41, 597.432pt x 845.07718pt>
+<sections/app_pqa.pdf, id=1521, page=17, 597.432pt x 845.07718pt>
 File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 41>
-Package pdftex.def Info: sections/app_pqa.pdf , page41 used on input line 2.
+<use sections/app_pqa.pdf, page 17>
+Package pdftex.def Info: sections/app_pqa.pdf , page17 used on input line 2.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 41>
-Package pdftex.def Info: sections/app_pqa.pdf , page41 used on input line 2.
+<use sections/app_pqa.pdf, page 17>
+Package pdftex.def Info: sections/app_pqa.pdf , page17 used on input line 2.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 41>
-Package pdftex.def Info: sections/app_pqa.pdf , page41 used on input line 2.
+<use sections/app_pqa.pdf, page 17>
+Package pdftex.def Info: sections/app_pqa.pdf , page17 used on input line 2.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
  [78 <./sections/app_pqa.pdf>]
-<sections/app_pqa.pdf, id=1086, page=42, 597.432pt x 845.07718pt>
+<sections/app_pqa.pdf, id=1531, page=18, 597.432pt x 845.07718pt>
 File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 42>
-Package pdftex.def Info: sections/app_pqa.pdf , page42 used on input line 2.
+<use sections/app_pqa.pdf, page 18>
+Package pdftex.def Info: sections/app_pqa.pdf , page18 used on input line 2.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 42>
-Package pdftex.def Info: sections/app_pqa.pdf , page42 used on input line 2.
+<use sections/app_pqa.pdf, page 18>
+Package pdftex.def Info: sections/app_pqa.pdf , page18 used on input line 2.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 42>
-Package pdftex.def Info: sections/app_pqa.pdf , page42 used on input line 2.
+<use sections/app_pqa.pdf, page 18>
+Package pdftex.def Info: sections/app_pqa.pdf , page18 used on input line 2.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
  [79 <./sections/app_pqa.pdf>]
-<sections/app_pqa.pdf, id=1096, page=43, 597.432pt x 845.07718pt>
+<sections/app_pqa.pdf, id=1540, page=19, 597.432pt x 845.07718pt>
 File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 43>
-Package pdftex.def Info: sections/app_pqa.pdf , page43 used on input line 2.
+<use sections/app_pqa.pdf, page 19>
+Package pdftex.def Info: sections/app_pqa.pdf , page19 used on input line 2.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 43>
-Package pdftex.def Info: sections/app_pqa.pdf , page43 used on input line 2.
+<use sections/app_pqa.pdf, page 19>
+Package pdftex.def Info: sections/app_pqa.pdf , page19 used on input line 2.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 43>
-Package pdftex.def Info: sections/app_pqa.pdf , page43 used on input line 2.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
- [80 <./sections/app_pqa.pdf>]
-<sections/app_pqa.pdf, id=1111, page=44, 597.432pt x 845.07718pt>
-File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 44>
-Package pdftex.def Info: sections/app_pqa.pdf , page44 used on input line 2.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
-File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 44>
-Package pdftex.def Info: sections/app_pqa.pdf , page44 used on input line 2.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
-File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 44>
-Package pdftex.def Info: sections/app_pqa.pdf , page44 used on input line 2.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
- [81 <./sections/app_pqa.pdf>]
-<sections/app_pqa.pdf, id=1121, page=45, 597.432pt x 845.07718pt>
-File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 45>
-Package pdftex.def Info: sections/app_pqa.pdf , page45 used on input line 2.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
-File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 45>
-Package pdftex.def Info: sections/app_pqa.pdf , page45 used on input line 2.
-(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
-File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 45>
-Package pdftex.def Info: sections/app_pqa.pdf , page45 used on input line 2.
+<use sections/app_pqa.pdf, page 19>
+Package pdftex.def Info: sections/app_pqa.pdf , page19 used on input line 2.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 
-[82 <./sections/app_pqa.pdf>]
-<sections/app_pqa.pdf, id=1131, page=46, 597.432pt x 845.07718pt>
+[80 <./sections/app_pqa.pdf>]
+<sections/app_pqa.pdf, id=1549, page=20, 597.432pt x 845.07718pt>
 File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 46>
-Package pdftex.def Info: sections/app_pqa.pdf , page46 used on input line 2.
+<use sections/app_pqa.pdf, page 20>
+Package pdftex.def Info: sections/app_pqa.pdf , page20 used on input line 2.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 46>
-Package pdftex.def Info: sections/app_pqa.pdf , page46 used on input line 2.
+<use sections/app_pqa.pdf, page 20>
+Package pdftex.def Info: sections/app_pqa.pdf , page20 used on input line 2.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 46>
-Package pdftex.def Info: sections/app_pqa.pdf , page46 used on input line 2.
+<use sections/app_pqa.pdf, page 20>
+Package pdftex.def Info: sections/app_pqa.pdf , page20 used on input line 2.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+ [81 <./sections/app_pqa.pdf>]
+<sections/app_pqa.pdf, id=1557, page=21, 597.432pt x 845.07718pt>
+File: sections/app_pqa.pdf Graphic file (type pdf)
+<use sections/app_pqa.pdf, page 21>
+Package pdftex.def Info: sections/app_pqa.pdf , page21 used on input line 2.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+File: sections/app_pqa.pdf Graphic file (type pdf)
+<use sections/app_pqa.pdf, page 21>
+Package pdftex.def Info: sections/app_pqa.pdf , page21 used on input line 2.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+File: sections/app_pqa.pdf Graphic file (type pdf)
+<use sections/app_pqa.pdf, page 21>
+Package pdftex.def Info: sections/app_pqa.pdf , page21 used on input line 2.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+ [82 <./sections/app_pqa.pdf>]
+<sections/app_pqa.pdf, id=1565, page=22, 597.432pt x 845.07718pt>
+File: sections/app_pqa.pdf Graphic file (type pdf)
+<use sections/app_pqa.pdf, page 22>
+Package pdftex.def Info: sections/app_pqa.pdf , page22 used on input line 2.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+File: sections/app_pqa.pdf Graphic file (type pdf)
+<use sections/app_pqa.pdf, page 22>
+Package pdftex.def Info: sections/app_pqa.pdf , page22 used on input line 2.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+File: sections/app_pqa.pdf Graphic file (type pdf)
+<use sections/app_pqa.pdf, page 22>
+Package pdftex.def Info: sections/app_pqa.pdf , page22 used on input line 2.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
  [83 <./sections/app_pqa.pdf>]
-<sections/app_pqa.pdf, id=1139, page=47, 597.432pt x 845.07718pt>
+<sections/app_pqa.pdf, id=1574, page=23, 597.432pt x 845.07718pt>
 File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 47>
-Package pdftex.def Info: sections/app_pqa.pdf , page47 used on input line 2.
+<use sections/app_pqa.pdf, page 23>
+Package pdftex.def Info: sections/app_pqa.pdf , page23 used on input line 2.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 47>
-Package pdftex.def Info: sections/app_pqa.pdf , page47 used on input line 2.
+<use sections/app_pqa.pdf, page 23>
+Package pdftex.def Info: sections/app_pqa.pdf , page23 used on input line 2.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 47>
-Package pdftex.def Info: sections/app_pqa.pdf , page47 used on input line 2.
+<use sections/app_pqa.pdf, page 23>
+Package pdftex.def Info: sections/app_pqa.pdf , page23 used on input line 2.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
  [84 <./sections/app_pqa.pdf>]
-<sections/app_pqa.pdf, id=1147, page=48, 597.432pt x 845.07718pt>
+<sections/app_pqa.pdf, id=1582, page=24, 597.432pt x 845.07718pt>
 File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 48>
-Package pdftex.def Info: sections/app_pqa.pdf , page48 used on input line 2.
+<use sections/app_pqa.pdf, page 24>
+Package pdftex.def Info: sections/app_pqa.pdf , page24 used on input line 2.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 48>
-Package pdftex.def Info: sections/app_pqa.pdf , page48 used on input line 2.
+<use sections/app_pqa.pdf, page 24>
+Package pdftex.def Info: sections/app_pqa.pdf , page24 used on input line 2.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 48>
-Package pdftex.def Info: sections/app_pqa.pdf , page48 used on input line 2.
+<use sections/app_pqa.pdf, page 24>
+Package pdftex.def Info: sections/app_pqa.pdf , page24 used on input line 2.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
  [85 <./sections/app_pqa.pdf>]
-<sections/app_pqa.pdf, id=1156, page=49, 597.432pt x 845.07718pt>
+<sections/app_pqa.pdf, id=1591, page=25, 597.432pt x 845.07718pt>
 File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 49>
-Package pdftex.def Info: sections/app_pqa.pdf , page49 used on input line 2.
+<use sections/app_pqa.pdf, page 25>
+Package pdftex.def Info: sections/app_pqa.pdf , page25 used on input line 2.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 49>
-Package pdftex.def Info: sections/app_pqa.pdf , page49 used on input line 2.
+<use sections/app_pqa.pdf, page 25>
+Package pdftex.def Info: sections/app_pqa.pdf , page25 used on input line 2.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 49>
-Package pdftex.def Info: sections/app_pqa.pdf , page49 used on input line 2.
+<use sections/app_pqa.pdf, page 25>
+Package pdftex.def Info: sections/app_pqa.pdf , page25 used on input line 2.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
  [86 <./sections/app_pqa.pdf>]
-<sections/app_pqa.pdf, id=1164, page=50, 597.432pt x 845.07718pt>
+<sections/app_pqa.pdf, id=1599, page=26, 597.432pt x 845.07718pt>
 File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 50>
-Package pdftex.def Info: sections/app_pqa.pdf , page50 used on input line 2.
+<use sections/app_pqa.pdf, page 26>
+Package pdftex.def Info: sections/app_pqa.pdf , page26 used on input line 2.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 50>
-Package pdftex.def Info: sections/app_pqa.pdf , page50 used on input line 2.
+<use sections/app_pqa.pdf, page 26>
+Package pdftex.def Info: sections/app_pqa.pdf , page26 used on input line 2.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 50>
-Package pdftex.def Info: sections/app_pqa.pdf , page50 used on input line 2.
+<use sections/app_pqa.pdf, page 26>
+Package pdftex.def Info: sections/app_pqa.pdf , page26 used on input line 2.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
  [87 <./sections/app_pqa.pdf>]
-<sections/app_pqa.pdf, id=1173, page=51, 597.432pt x 845.07718pt>
+<sections/app_pqa.pdf, id=1607, page=27, 597.432pt x 845.07718pt>
 File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 51>
-Package pdftex.def Info: sections/app_pqa.pdf , page51 used on input line 2.
+<use sections/app_pqa.pdf, page 27>
+Package pdftex.def Info: sections/app_pqa.pdf , page27 used on input line 2.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 51>
-Package pdftex.def Info: sections/app_pqa.pdf , page51 used on input line 2.
+<use sections/app_pqa.pdf, page 27>
+Package pdftex.def Info: sections/app_pqa.pdf , page27 used on input line 2.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 51>
-Package pdftex.def Info: sections/app_pqa.pdf , page51 used on input line 2.
+<use sections/app_pqa.pdf, page 27>
+Package pdftex.def Info: sections/app_pqa.pdf , page27 used on input line 2.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
  [88 <./sections/app_pqa.pdf>]
-<sections/app_pqa.pdf, id=1181, page=52, 597.432pt x 845.07718pt>
+<sections/app_pqa.pdf, id=1616, page=28, 597.432pt x 845.07718pt>
 File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 52>
-Package pdftex.def Info: sections/app_pqa.pdf , page52 used on input line 2.
+<use sections/app_pqa.pdf, page 28>
+Package pdftex.def Info: sections/app_pqa.pdf , page28 used on input line 2.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 52>
-Package pdftex.def Info: sections/app_pqa.pdf , page52 used on input line 2.
+<use sections/app_pqa.pdf, page 28>
+Package pdftex.def Info: sections/app_pqa.pdf , page28 used on input line 2.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 52>
-Package pdftex.def Info: sections/app_pqa.pdf , page52 used on input line 2.
+<use sections/app_pqa.pdf, page 28>
+Package pdftex.def Info: sections/app_pqa.pdf , page28 used on input line 2.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
  [89 <./sections/app_pqa.pdf>]
-<sections/app_pqa.pdf, id=1189, page=53, 597.432pt x 845.07718pt>
+<sections/app_pqa.pdf, id=1631, page=29, 597.432pt x 845.07718pt>
 File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 53>
-Package pdftex.def Info: sections/app_pqa.pdf , page53 used on input line 2.
+<use sections/app_pqa.pdf, page 29>
+Package pdftex.def Info: sections/app_pqa.pdf , page29 used on input line 2.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 53>
-Package pdftex.def Info: sections/app_pqa.pdf , page53 used on input line 2.
+<use sections/app_pqa.pdf, page 29>
+Package pdftex.def Info: sections/app_pqa.pdf , page29 used on input line 2.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 53>
-Package pdftex.def Info: sections/app_pqa.pdf , page53 used on input line 2.
+<use sections/app_pqa.pdf, page 29>
+Package pdftex.def Info: sections/app_pqa.pdf , page29 used on input line 2.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
  [90 <./sections/app_pqa.pdf>]
-<sections/app_pqa.pdf, id=1197, page=54, 597.432pt x 845.07718pt>
+<sections/app_pqa.pdf, id=1643, page=30, 597.432pt x 845.07718pt>
 File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 54>
-Package pdftex.def Info: sections/app_pqa.pdf , page54 used on input line 2.
+<use sections/app_pqa.pdf, page 30>
+Package pdftex.def Info: sections/app_pqa.pdf , page30 used on input line 2.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 54>
-Package pdftex.def Info: sections/app_pqa.pdf , page54 used on input line 2.
+<use sections/app_pqa.pdf, page 30>
+Package pdftex.def Info: sections/app_pqa.pdf , page30 used on input line 2.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 54>
-Package pdftex.def Info: sections/app_pqa.pdf , page54 used on input line 2.
+<use sections/app_pqa.pdf, page 30>
+Package pdftex.def Info: sections/app_pqa.pdf , page30 used on input line 2.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
  [91 <./sections/app_pqa.pdf>]
-<sections/app_pqa.pdf, id=1206, page=55, 597.432pt x 845.07718pt>
+<sections/app_pqa.pdf, id=1656, page=31, 597.432pt x 845.07718pt>
 File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 55>
-Package pdftex.def Info: sections/app_pqa.pdf , page55 used on input line 2.
+<use sections/app_pqa.pdf, page 31>
+Package pdftex.def Info: sections/app_pqa.pdf , page31 used on input line 2.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 55>
-Package pdftex.def Info: sections/app_pqa.pdf , page55 used on input line 2.
+<use sections/app_pqa.pdf, page 31>
+Package pdftex.def Info: sections/app_pqa.pdf , page31 used on input line 2.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
 File: sections/app_pqa.pdf Graphic file (type pdf)
-<use sections/app_pqa.pdf, page 55>
-Package pdftex.def Info: sections/app_pqa.pdf , page55 used on input line 2.
+<use sections/app_pqa.pdf, page 31>
+Package pdftex.def Info: sections/app_pqa.pdf , page31 used on input line 2.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
  [92 <./sections/app_pqa.pdf>]
-<sections/app_pqa.pdf, id=1215, page=56, 597.432pt x 845.07718pt>
+<sections/app_pqa.pdf, id=1666, page=32, 597.432pt x 845.07718pt>
+File: sections/app_pqa.pdf Graphic file (type pdf)
+<use sections/app_pqa.pdf, page 32>
+Package pdftex.def Info: sections/app_pqa.pdf , page32 used on input line 2.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+File: sections/app_pqa.pdf Graphic file (type pdf)
+<use sections/app_pqa.pdf, page 32>
+Package pdftex.def Info: sections/app_pqa.pdf , page32 used on input line 2.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+File: sections/app_pqa.pdf Graphic file (type pdf)
+<use sections/app_pqa.pdf, page 32>
+Package pdftex.def Info: sections/app_pqa.pdf , page32 used on input line 2.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+
+[93 <./sections/app_pqa.pdf>]
+<sections/app_pqa.pdf, id=1676, page=33, 597.432pt x 845.07718pt>
+File: sections/app_pqa.pdf Graphic file (type pdf)
+<use sections/app_pqa.pdf, page 33>
+Package pdftex.def Info: sections/app_pqa.pdf , page33 used on input line 2.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+File: sections/app_pqa.pdf Graphic file (type pdf)
+<use sections/app_pqa.pdf, page 33>
+Package pdftex.def Info: sections/app_pqa.pdf , page33 used on input line 2.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+File: sections/app_pqa.pdf Graphic file (type pdf)
+<use sections/app_pqa.pdf, page 33>
+Package pdftex.def Info: sections/app_pqa.pdf , page33 used on input line 2.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+ [94 <./sections/app_pqa.pdf>]
+<sections/app_pqa.pdf, id=1684, page=34, 597.432pt x 845.07718pt>
+File: sections/app_pqa.pdf Graphic file (type pdf)
+<use sections/app_pqa.pdf, page 34>
+Package pdftex.def Info: sections/app_pqa.pdf , page34 used on input line 2.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+File: sections/app_pqa.pdf Graphic file (type pdf)
+<use sections/app_pqa.pdf, page 34>
+Package pdftex.def Info: sections/app_pqa.pdf , page34 used on input line 2.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+File: sections/app_pqa.pdf Graphic file (type pdf)
+<use sections/app_pqa.pdf, page 34>
+Package pdftex.def Info: sections/app_pqa.pdf , page34 used on input line 2.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+ [95 <./sections/app_pqa.pdf>]
+<sections/app_pqa.pdf, id=1692, page=35, 597.432pt x 845.07718pt>
+File: sections/app_pqa.pdf Graphic file (type pdf)
+<use sections/app_pqa.pdf, page 35>
+Package pdftex.def Info: sections/app_pqa.pdf , page35 used on input line 2.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+File: sections/app_pqa.pdf Graphic file (type pdf)
+<use sections/app_pqa.pdf, page 35>
+Package pdftex.def Info: sections/app_pqa.pdf , page35 used on input line 2.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+File: sections/app_pqa.pdf Graphic file (type pdf)
+<use sections/app_pqa.pdf, page 35>
+Package pdftex.def Info: sections/app_pqa.pdf , page35 used on input line 2.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+ [96 <./sections/app_pqa.pdf>]
+<sections/app_pqa.pdf, id=1700, page=36, 597.432pt x 845.07718pt>
+File: sections/app_pqa.pdf Graphic file (type pdf)
+<use sections/app_pqa.pdf, page 36>
+Package pdftex.def Info: sections/app_pqa.pdf , page36 used on input line 2.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+File: sections/app_pqa.pdf Graphic file (type pdf)
+<use sections/app_pqa.pdf, page 36>
+Package pdftex.def Info: sections/app_pqa.pdf , page36 used on input line 2.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+File: sections/app_pqa.pdf Graphic file (type pdf)
+<use sections/app_pqa.pdf, page 36>
+Package pdftex.def Info: sections/app_pqa.pdf , page36 used on input line 2.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+ [97 <./sections/app_pqa.pdf>]
+<sections/app_pqa.pdf, id=1710, page=37, 597.432pt x 845.07718pt>
+File: sections/app_pqa.pdf Graphic file (type pdf)
+<use sections/app_pqa.pdf, page 37>
+Package pdftex.def Info: sections/app_pqa.pdf , page37 used on input line 2.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+File: sections/app_pqa.pdf Graphic file (type pdf)
+<use sections/app_pqa.pdf, page 37>
+Package pdftex.def Info: sections/app_pqa.pdf , page37 used on input line 2.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+File: sections/app_pqa.pdf Graphic file (type pdf)
+<use sections/app_pqa.pdf, page 37>
+Package pdftex.def Info: sections/app_pqa.pdf , page37 used on input line 2.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+ [98 <./sections/app_pqa.pdf>]
+<sections/app_pqa.pdf, id=1719, page=38, 597.432pt x 845.07718pt>
+File: sections/app_pqa.pdf Graphic file (type pdf)
+<use sections/app_pqa.pdf, page 38>
+Package pdftex.def Info: sections/app_pqa.pdf , page38 used on input line 2.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+File: sections/app_pqa.pdf Graphic file (type pdf)
+<use sections/app_pqa.pdf, page 38>
+Package pdftex.def Info: sections/app_pqa.pdf , page38 used on input line 2.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+File: sections/app_pqa.pdf Graphic file (type pdf)
+<use sections/app_pqa.pdf, page 38>
+Package pdftex.def Info: sections/app_pqa.pdf , page38 used on input line 2.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+ [99 <./sections/app_pqa.pdf>]
+<sections/app_pqa.pdf, id=1727, page=39, 597.432pt x 845.07718pt>
+File: sections/app_pqa.pdf Graphic file (type pdf)
+<use sections/app_pqa.pdf, page 39>
+Package pdftex.def Info: sections/app_pqa.pdf , page39 used on input line 2.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+File: sections/app_pqa.pdf Graphic file (type pdf)
+<use sections/app_pqa.pdf, page 39>
+Package pdftex.def Info: sections/app_pqa.pdf , page39 used on input line 2.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+File: sections/app_pqa.pdf Graphic file (type pdf)
+<use sections/app_pqa.pdf, page 39>
+Package pdftex.def Info: sections/app_pqa.pdf , page39 used on input line 2.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+ [100 <./sections/app_pqa.pdf>]
+<sections/app_pqa.pdf, id=1735, page=40, 597.432pt x 845.07718pt>
+File: sections/app_pqa.pdf Graphic file (type pdf)
+<use sections/app_pqa.pdf, page 40>
+Package pdftex.def Info: sections/app_pqa.pdf , page40 used on input line 2.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+File: sections/app_pqa.pdf Graphic file (type pdf)
+<use sections/app_pqa.pdf, page 40>
+Package pdftex.def Info: sections/app_pqa.pdf , page40 used on input line 2.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+File: sections/app_pqa.pdf Graphic file (type pdf)
+<use sections/app_pqa.pdf, page 40>
+Package pdftex.def Info: sections/app_pqa.pdf , page40 used on input line 2.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+ [101 <./sections/app_pqa.pdf>]
+<sections/app_pqa.pdf, id=1743, page=41, 597.432pt x 845.07718pt>
+File: sections/app_pqa.pdf Graphic file (type pdf)
+<use sections/app_pqa.pdf, page 41>
+Package pdftex.def Info: sections/app_pqa.pdf , page41 used on input line 2.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+File: sections/app_pqa.pdf Graphic file (type pdf)
+<use sections/app_pqa.pdf, page 41>
+Package pdftex.def Info: sections/app_pqa.pdf , page41 used on input line 2.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+File: sections/app_pqa.pdf Graphic file (type pdf)
+<use sections/app_pqa.pdf, page 41>
+Package pdftex.def Info: sections/app_pqa.pdf , page41 used on input line 2.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+ [102 <./sections/app_pqa.pdf>]
+<sections/app_pqa.pdf, id=1751, page=42, 597.432pt x 845.07718pt>
+File: sections/app_pqa.pdf Graphic file (type pdf)
+<use sections/app_pqa.pdf, page 42>
+Package pdftex.def Info: sections/app_pqa.pdf , page42 used on input line 2.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+File: sections/app_pqa.pdf Graphic file (type pdf)
+<use sections/app_pqa.pdf, page 42>
+Package pdftex.def Info: sections/app_pqa.pdf , page42 used on input line 2.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+File: sections/app_pqa.pdf Graphic file (type pdf)
+<use sections/app_pqa.pdf, page 42>
+Package pdftex.def Info: sections/app_pqa.pdf , page42 used on input line 2.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+ [103 <./sections/app_pqa.pdf>]
+<sections/app_pqa.pdf, id=1761, page=43, 597.432pt x 845.07718pt>
+File: sections/app_pqa.pdf Graphic file (type pdf)
+<use sections/app_pqa.pdf, page 43>
+Package pdftex.def Info: sections/app_pqa.pdf , page43 used on input line 2.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+File: sections/app_pqa.pdf Graphic file (type pdf)
+<use sections/app_pqa.pdf, page 43>
+Package pdftex.def Info: sections/app_pqa.pdf , page43 used on input line 2.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+File: sections/app_pqa.pdf Graphic file (type pdf)
+<use sections/app_pqa.pdf, page 43>
+Package pdftex.def Info: sections/app_pqa.pdf , page43 used on input line 2.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+ [104 <./sections/app_pqa.pdf>]
+<sections/app_pqa.pdf, id=1776, page=44, 597.432pt x 845.07718pt>
+File: sections/app_pqa.pdf Graphic file (type pdf)
+<use sections/app_pqa.pdf, page 44>
+Package pdftex.def Info: sections/app_pqa.pdf , page44 used on input line 2.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+File: sections/app_pqa.pdf Graphic file (type pdf)
+<use sections/app_pqa.pdf, page 44>
+Package pdftex.def Info: sections/app_pqa.pdf , page44 used on input line 2.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+File: sections/app_pqa.pdf Graphic file (type pdf)
+<use sections/app_pqa.pdf, page 44>
+Package pdftex.def Info: sections/app_pqa.pdf , page44 used on input line 2.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+ [105 <./sections/app_pqa.pdf>]
+<sections/app_pqa.pdf, id=1786, page=45, 597.432pt x 845.07718pt>
+File: sections/app_pqa.pdf Graphic file (type pdf)
+<use sections/app_pqa.pdf, page 45>
+Package pdftex.def Info: sections/app_pqa.pdf , page45 used on input line 2.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+File: sections/app_pqa.pdf Graphic file (type pdf)
+<use sections/app_pqa.pdf, page 45>
+Package pdftex.def Info: sections/app_pqa.pdf , page45 used on input line 2.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+File: sections/app_pqa.pdf Graphic file (type pdf)
+<use sections/app_pqa.pdf, page 45>
+Package pdftex.def Info: sections/app_pqa.pdf , page45 used on input line 2.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+[106 <./sections/app_pqa.pdf>]
+<sections/app_pqa.pdf, id=1796, page=46, 597.432pt x 845.07718pt>
+File: sections/app_pqa.pdf Graphic file (type pdf)
+<use sections/app_pqa.pdf, page 46>
+Package pdftex.def Info: sections/app_pqa.pdf , page46 used on input line 2.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+File: sections/app_pqa.pdf Graphic file (type pdf)
+<use sections/app_pqa.pdf, page 46>
+Package pdftex.def Info: sections/app_pqa.pdf , page46 used on input line 2.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+File: sections/app_pqa.pdf Graphic file (type pdf)
+<use sections/app_pqa.pdf, page 46>
+Package pdftex.def Info: sections/app_pqa.pdf , page46 used on input line 2.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+ [107 <./sections/app_pqa.pdf>]
+<sections/app_pqa.pdf, id=1804, page=47, 597.432pt x 845.07718pt>
+File: sections/app_pqa.pdf Graphic file (type pdf)
+<use sections/app_pqa.pdf, page 47>
+Package pdftex.def Info: sections/app_pqa.pdf , page47 used on input line 2.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+File: sections/app_pqa.pdf Graphic file (type pdf)
+<use sections/app_pqa.pdf, page 47>
+Package pdftex.def Info: sections/app_pqa.pdf , page47 used on input line 2.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+File: sections/app_pqa.pdf Graphic file (type pdf)
+<use sections/app_pqa.pdf, page 47>
+Package pdftex.def Info: sections/app_pqa.pdf , page47 used on input line 2.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+ [108 <./sections/app_pqa.pdf>]
+<sections/app_pqa.pdf, id=1812, page=48, 597.432pt x 845.07718pt>
+File: sections/app_pqa.pdf Graphic file (type pdf)
+<use sections/app_pqa.pdf, page 48>
+Package pdftex.def Info: sections/app_pqa.pdf , page48 used on input line 2.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+File: sections/app_pqa.pdf Graphic file (type pdf)
+<use sections/app_pqa.pdf, page 48>
+Package pdftex.def Info: sections/app_pqa.pdf , page48 used on input line 2.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+File: sections/app_pqa.pdf Graphic file (type pdf)
+<use sections/app_pqa.pdf, page 48>
+Package pdftex.def Info: sections/app_pqa.pdf , page48 used on input line 2.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+ [109 <./sections/app_pqa.pdf>]
+<sections/app_pqa.pdf, id=1821, page=49, 597.432pt x 845.07718pt>
+File: sections/app_pqa.pdf Graphic file (type pdf)
+<use sections/app_pqa.pdf, page 49>
+Package pdftex.def Info: sections/app_pqa.pdf , page49 used on input line 2.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+File: sections/app_pqa.pdf Graphic file (type pdf)
+<use sections/app_pqa.pdf, page 49>
+Package pdftex.def Info: sections/app_pqa.pdf , page49 used on input line 2.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+File: sections/app_pqa.pdf Graphic file (type pdf)
+<use sections/app_pqa.pdf, page 49>
+Package pdftex.def Info: sections/app_pqa.pdf , page49 used on input line 2.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+ [110 <./sections/app_pqa.pdf>]
+<sections/app_pqa.pdf, id=1829, page=50, 597.432pt x 845.07718pt>
+File: sections/app_pqa.pdf Graphic file (type pdf)
+<use sections/app_pqa.pdf, page 50>
+Package pdftex.def Info: sections/app_pqa.pdf , page50 used on input line 2.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+File: sections/app_pqa.pdf Graphic file (type pdf)
+<use sections/app_pqa.pdf, page 50>
+Package pdftex.def Info: sections/app_pqa.pdf , page50 used on input line 2.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+File: sections/app_pqa.pdf Graphic file (type pdf)
+<use sections/app_pqa.pdf, page 50>
+Package pdftex.def Info: sections/app_pqa.pdf , page50 used on input line 2.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+
+[111 <./sections/app_pqa.pdf>]
+<sections/app_pqa.pdf, id=1838, page=51, 597.432pt x 845.07718pt>
+File: sections/app_pqa.pdf Graphic file (type pdf)
+<use sections/app_pqa.pdf, page 51>
+Package pdftex.def Info: sections/app_pqa.pdf , page51 used on input line 2.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+File: sections/app_pqa.pdf Graphic file (type pdf)
+<use sections/app_pqa.pdf, page 51>
+Package pdftex.def Info: sections/app_pqa.pdf , page51 used on input line 2.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+File: sections/app_pqa.pdf Graphic file (type pdf)
+<use sections/app_pqa.pdf, page 51>
+Package pdftex.def Info: sections/app_pqa.pdf , page51 used on input line 2.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+ [112 <./sections/app_pqa.pdf>]
+<sections/app_pqa.pdf, id=1846, page=52, 597.432pt x 845.07718pt>
+File: sections/app_pqa.pdf Graphic file (type pdf)
+<use sections/app_pqa.pdf, page 52>
+Package pdftex.def Info: sections/app_pqa.pdf , page52 used on input line 2.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+File: sections/app_pqa.pdf Graphic file (type pdf)
+<use sections/app_pqa.pdf, page 52>
+Package pdftex.def Info: sections/app_pqa.pdf , page52 used on input line 2.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+File: sections/app_pqa.pdf Graphic file (type pdf)
+<use sections/app_pqa.pdf, page 52>
+Package pdftex.def Info: sections/app_pqa.pdf , page52 used on input line 2.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+ [113 <./sections/app_pqa.pdf>]
+<sections/app_pqa.pdf, id=1854, page=53, 597.432pt x 845.07718pt>
+File: sections/app_pqa.pdf Graphic file (type pdf)
+<use sections/app_pqa.pdf, page 53>
+Package pdftex.def Info: sections/app_pqa.pdf , page53 used on input line 2.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+File: sections/app_pqa.pdf Graphic file (type pdf)
+<use sections/app_pqa.pdf, page 53>
+Package pdftex.def Info: sections/app_pqa.pdf , page53 used on input line 2.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+File: sections/app_pqa.pdf Graphic file (type pdf)
+<use sections/app_pqa.pdf, page 53>
+Package pdftex.def Info: sections/app_pqa.pdf , page53 used on input line 2.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+ [114 <./sections/app_pqa.pdf>]
+<sections/app_pqa.pdf, id=1863, page=54, 597.432pt x 845.07718pt>
+File: sections/app_pqa.pdf Graphic file (type pdf)
+<use sections/app_pqa.pdf, page 54>
+Package pdftex.def Info: sections/app_pqa.pdf , page54 used on input line 2.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+File: sections/app_pqa.pdf Graphic file (type pdf)
+<use sections/app_pqa.pdf, page 54>
+Package pdftex.def Info: sections/app_pqa.pdf , page54 used on input line 2.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+File: sections/app_pqa.pdf Graphic file (type pdf)
+<use sections/app_pqa.pdf, page 54>
+Package pdftex.def Info: sections/app_pqa.pdf , page54 used on input line 2.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+ [115 <./sections/app_pqa.pdf>]
+<sections/app_pqa.pdf, id=1872, page=55, 597.432pt x 845.07718pt>
+File: sections/app_pqa.pdf Graphic file (type pdf)
+<use sections/app_pqa.pdf, page 55>
+Package pdftex.def Info: sections/app_pqa.pdf , page55 used on input line 2.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+File: sections/app_pqa.pdf Graphic file (type pdf)
+<use sections/app_pqa.pdf, page 55>
+Package pdftex.def Info: sections/app_pqa.pdf , page55 used on input line 2.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+File: sections/app_pqa.pdf Graphic file (type pdf)
+<use sections/app_pqa.pdf, page 55>
+Package pdftex.def Info: sections/app_pqa.pdf , page55 used on input line 2.
+(pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
+
+[116 <./sections/app_pqa.pdf>]
+<sections/app_pqa.pdf, id=1881, page=56, 597.432pt x 845.07718pt>
 File: sections/app_pqa.pdf Graphic file (type pdf)
 <use sections/app_pqa.pdf, page 56>
 Package pdftex.def Info: sections/app_pqa.pdf , page56 used on input line 2.
@@ -3695,25 +4282,297 @@ File: sections/app_pqa.pdf Graphic file (type pdf)
 <use sections/app_pqa.pdf, page 56>
 Package pdftex.def Info: sections/app_pqa.pdf , page56 used on input line 2.
 (pdftex.def)             Requested size: 597.45789pt x 845.1138pt.
- [93 <./sections/app_pqa.pdf>])
+ [117 <./sections/app_pqa.pdf>])
+(./sections/app_drawings.tex [118
+
+
+]
+Appendix D.
+
+
+pdfTeX warning: pdflatex.exe (file e:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R
+1P-EE01-FDAS.pdf): PDF inclusion: found PDF version <1.6>, but at most version 
+<1.5> allowed
+<E:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE01-FDAS.pdf, id=1900, 1195.46
+625pt x 845.1575pt>
+File: E:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE01-FDAS.pdf Graphic file
+ (type pdf)
+<use E:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE01-FDAS.pdf>
+Package pdftex.def Info: E:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE01-FD
+AS.pdf  used on input line 30.
+(pdftex.def)             Requested size: 1195.46333pt x 845.15544pt.
+
+
+pdfTeX warning: pdflatex.exe (file e:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R
+1P-EE01-FDAS.pdf): PDF inclusion: found PDF version <1.6>, but at most version 
+<1.5> allowed
+File: E:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE01-FDAS.pdf Graphic file
+ (type pdf)
+<use E:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE01-FDAS.pdf>
+Package pdftex.def Info: E:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE01-FD
+AS.pdf  used on input line 30.
+(pdftex.def)             Requested size: 1195.46333pt x 845.15544pt.
+
+
+pdfTeX warning: pdflatex.exe (file e:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R
+1P-EE01-FDAS.pdf): PDF inclusion: found PDF version <1.6>, but at most version 
+<1.5> allowed
+
+
+pdfTeX warning: pdflatex.exe (file e:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R
+1P-EE01-FDAS.pdf): PDF inclusion: found PDF version <1.6>, but at most version 
+<1.5> allowed
+<E:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE01-FDAS.pdf, id=1903, page=1,
+ 1195.46625pt x 845.1575pt>
+File: E:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE01-FDAS.pdf Graphic file
+ (type pdf)
+<use E:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE01-FDAS.pdf, page 1>
+Package pdftex.def Info: E:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE01-FD
+AS.pdf , page1 used on input line 30.
+(pdftex.def)             Requested size: 1195.46333pt x 845.15544pt.
+File: E:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE01-FDAS.pdf Graphic file
+ (type pdf)
+<use E:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE01-FDAS.pdf, page 1>
+Package pdftex.def Info: E:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE01-FD
+AS.pdf , page1 used on input line 30.
+(pdftex.def)             Requested size: 1195.68222pt x 845.31018pt.
+[119]
+File: E:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE01-FDAS.pdf Graphic file
+ (type pdf)
+<use E:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE01-FDAS.pdf, page 1>
+Package pdftex.def Info: E:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE01-FD
+AS.pdf , page1 used on input line 30.
+(pdftex.def)             Requested size: 1195.68222pt x 845.31018pt.
+File: E:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE01-FDAS.pdf Graphic file
+ (type pdf)
+<use E:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE01-FDAS.pdf, page 1>
+Package pdftex.def Info: E:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE01-FD
+AS.pdf , page1 used on input line 30.
+(pdftex.def)             Requested size: 1195.68222pt x 845.31018pt.
+File: E:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE01-FDAS.pdf Graphic file
+ (type pdf)
+<use E:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE01-FDAS.pdf, page 1>
+Package pdftex.def Info: E:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE01-FD
+AS.pdf , page1 used on input line 30.
+(pdftex.def)             Requested size: 1195.68222pt x 845.31018pt.
+ [120 <e:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE01-FDAS.pdf, page is ro
+tated 270 degrees>]
+
+pdfTeX warning: pdflatex.exe (file e:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R
+1P-EE02-SD.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1
+.5> allowed
+<E:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE02-SD.pdf, id=1937, 1195.4662
+5pt x 845.1575pt>
+File: E:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE02-SD.pdf Graphic file (
+type pdf)
+<use E:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE02-SD.pdf>
+Package pdftex.def Info: E:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE02-SD
+.pdf  used on input line 32.
+(pdftex.def)             Requested size: 1195.46333pt x 845.15544pt.
+
+
+pdfTeX warning: pdflatex.exe (file e:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R
+1P-EE02-SD.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1
+.5> allowed
+File: E:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE02-SD.pdf Graphic file (
+type pdf)
+<use E:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE02-SD.pdf>
+Package pdftex.def Info: E:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE02-SD
+.pdf  used on input line 32.
+(pdftex.def)             Requested size: 1195.46333pt x 845.15544pt.
+
+
+pdfTeX warning: pdflatex.exe (file e:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R
+1P-EE02-SD.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1
+.5> allowed
+
+
+pdfTeX warning: pdflatex.exe (file e:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R
+1P-EE02-SD.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1
+.5> allowed
+<E:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE02-SD.pdf, id=1940, page=1, 1
+195.46625pt x 845.1575pt>
+File: E:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE02-SD.pdf Graphic file (
+type pdf)
+<use E:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE02-SD.pdf, page 1>
+Package pdftex.def Info: E:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE02-SD
+.pdf , page1 used on input line 32.
+(pdftex.def)             Requested size: 1195.46333pt x 845.15544pt.
+File: E:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE02-SD.pdf Graphic file (
+type pdf)
+<use E:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE02-SD.pdf, page 1>
+Package pdftex.def Info: E:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE02-SD
+.pdf , page1 used on input line 32.
+(pdftex.def)             Requested size: 1195.68222pt x 845.31018pt.
+File: E:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE02-SD.pdf Graphic file (
+type pdf)
+<use E:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE02-SD.pdf, page 1>
+Package pdftex.def Info: E:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE02-SD
+.pdf , page1 used on input line 32.
+(pdftex.def)             Requested size: 1195.68222pt x 845.31018pt.
+File: E:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE02-SD.pdf Graphic file (
+type pdf)
+<use E:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE02-SD.pdf, page 1>
+Package pdftex.def Info: E:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE02-SD
+.pdf , page1 used on input line 32.
+(pdftex.def)             Requested size: 1195.68222pt x 845.31018pt.
+File: E:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE02-SD.pdf Graphic file (
+type pdf)
+<use E:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE02-SD.pdf, page 1>
+Package pdftex.def Info: E:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE02-SD
+.pdf , page1 used on input line 32.
+(pdftex.def)             Requested size: 1195.68222pt x 845.31018pt.
+[121 <e:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE02-SD.pdf, page is rotat
+ed 270 degrees>]
+
+pdfTeX warning: pdflatex.exe (file e:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R
+1P-EE03-GND.pdf): PDF inclusion: found PDF version <1.6>, but at most version <
+1.5> allowed
+<E:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE03-GND.pdf, id=1976, 1195.466
+25pt x 845.1575pt>
+File: E:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE03-GND.pdf Graphic file 
+(type pdf)
+<use E:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE03-GND.pdf>
+Package pdftex.def Info: E:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE03-GN
+D.pdf  used on input line 34.
+(pdftex.def)             Requested size: 1195.46333pt x 845.15544pt.
+
+
+pdfTeX warning: pdflatex.exe (file e:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R
+1P-EE03-GND.pdf): PDF inclusion: found PDF version <1.6>, but at most version <
+1.5> allowed
+File: E:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE03-GND.pdf Graphic file 
+(type pdf)
+<use E:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE03-GND.pdf>
+Package pdftex.def Info: E:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE03-GN
+D.pdf  used on input line 34.
+(pdftex.def)             Requested size: 1195.46333pt x 845.15544pt.
+
+
+pdfTeX warning: pdflatex.exe (file e:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R
+1P-EE03-GND.pdf): PDF inclusion: found PDF version <1.6>, but at most version <
+1.5> allowed
+
+
+pdfTeX warning: pdflatex.exe (file e:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R
+1P-EE03-GND.pdf): PDF inclusion: found PDF version <1.6>, but at most version <
+1.5> allowed
+<E:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE03-GND.pdf, id=1979, page=1, 
+1195.46625pt x 845.1575pt>
+File: E:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE03-GND.pdf Graphic file 
+(type pdf)
+<use E:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE03-GND.pdf, page 1>
+Package pdftex.def Info: E:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE03-GN
+D.pdf , page1 used on input line 34.
+(pdftex.def)             Requested size: 1195.46333pt x 845.15544pt.
+File: E:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE03-GND.pdf Graphic file 
+(type pdf)
+<use E:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE03-GND.pdf, page 1>
+Package pdftex.def Info: E:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE03-GN
+D.pdf , page1 used on input line 34.
+(pdftex.def)             Requested size: 1195.68222pt x 845.31018pt.
+File: E:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE03-GND.pdf Graphic file 
+(type pdf)
+<use E:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE03-GND.pdf, page 1>
+Package pdftex.def Info: E:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE03-GN
+D.pdf , page1 used on input line 34.
+(pdftex.def)             Requested size: 1195.68222pt x 845.31018pt.
+File: E:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE03-GND.pdf Graphic file 
+(type pdf)
+<use E:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE03-GND.pdf, page 1>
+Package pdftex.def Info: E:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE03-GN
+D.pdf , page1 used on input line 34.
+(pdftex.def)             Requested size: 1195.68222pt x 845.31018pt.
+File: E:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE03-GND.pdf Graphic file 
+(type pdf)
+<use E:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE03-GND.pdf, page 1>
+Package pdftex.def Info: E:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE03-GN
+D.pdf , page1 used on input line 34.
+(pdftex.def)             Requested size: 1195.68222pt x 845.31018pt.
+[122 <e:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE03-GND.pdf, page is rota
+ted 270 degrees>]
+
+pdfTeX warning: pdflatex.exe (file e:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R
+1P-EE04-LIGHTING.pdf): PDF inclusion: found PDF version <1.6>, but at most vers
+ion <1.5> allowed
+<E:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE04-LIGHTING.pdf, id=2039, 119
+5.46625pt x 845.1575pt>
+File: E:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE04-LIGHTING.pdf Graphic 
+file (type pdf)
+<use E:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE04-LIGHTING.pdf>
+Package pdftex.def Info: E:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE04-LI
+GHTING.pdf  used on input line 36.
+(pdftex.def)             Requested size: 1195.46333pt x 845.15544pt.
+
+
+pdfTeX warning: pdflatex.exe (file e:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R
+1P-EE04-LIGHTING.pdf): PDF inclusion: found PDF version <1.6>, but at most vers
+ion <1.5> allowed
+File: E:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE04-LIGHTING.pdf Graphic 
+file (type pdf)
+<use E:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE04-LIGHTING.pdf>
+Package pdftex.def Info: E:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE04-LI
+GHTING.pdf  used on input line 36.
+(pdftex.def)             Requested size: 1195.46333pt x 845.15544pt.
+
+
+pdfTeX warning: pdflatex.exe (file e:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R
+1P-EE04-LIGHTING.pdf): PDF inclusion: found PDF version <1.6>, but at most vers
+ion <1.5> allowed
+
+
+pdfTeX warning: pdflatex.exe (file e:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R
+1P-EE04-LIGHTING.pdf): PDF inclusion: found PDF version <1.6>, but at most vers
+ion <1.5> allowed
+<E:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE04-LIGHTING.pdf, id=2042, pag
+e=1, 1195.46625pt x 845.1575pt>
+File: E:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE04-LIGHTING.pdf Graphic 
+file (type pdf)
+<use E:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE04-LIGHTING.pdf, page 1>
+Package pdftex.def Info: E:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE04-LI
+GHTING.pdf , page1 used on input line 36.
+(pdftex.def)             Requested size: 1195.46333pt x 845.15544pt.
+File: E:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE04-LIGHTING.pdf Graphic 
+file (type pdf)
+<use E:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE04-LIGHTING.pdf, page 1>
+Package pdftex.def Info: E:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE04-LI
+GHTING.pdf , page1 used on input line 36.
+(pdftex.def)             Requested size: 1195.68222pt x 845.31018pt.
+File: E:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE04-LIGHTING.pdf Graphic 
+file (type pdf)
+<use E:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE04-LIGHTING.pdf, page 1>
+Package pdftex.def Info: E:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE04-LI
+GHTING.pdf , page1 used on input line 36.
+(pdftex.def)             Requested size: 1195.68222pt x 845.31018pt.
+File: E:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE04-LIGHTING.pdf Graphic 
+file (type pdf)
+<use E:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE04-LIGHTING.pdf, page 1>
+Package pdftex.def Info: E:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE04-LI
+GHTING.pdf , page1 used on input line 36.
+(pdftex.def)             Requested size: 1195.68222pt x 845.31018pt.
+File: E:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE04-LIGHTING.pdf Graphic 
+file (type pdf)
+<use E:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE04-LIGHTING.pdf, page 1>
+Package pdftex.def Info: E:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE04-LI
+GHTING.pdf , page1 used on input line 36.
+(pdftex.def)             Requested size: 1195.68222pt x 845.31018pt.
+[123 <e:/PlantAudit/R1P/Drawings/PDF/OP18REFCS03-R1P-EE04-LIGHTING.pdf, page is
+ rotated 270 degrees>])
 \tf@thm=\write7
 \openout7 = `report.thm'.
 
  
 AED: lastpage setting LastPage
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 56.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 56.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 55.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 55.
 (./report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 56.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 56.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 55.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 55.
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 338A1CF3C4644795A7137C8A2F74608B;2626.
+(rerunfilecheck)             Checksum: BA7E23BA76A4EFFAAB81482A54E068EE;3335.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
-
-LaTeX Warning: There were undefined references.
 
 Package logreq Info: Writing requests to 'report.run.xml'.
 \openout1 = `report.run.xml'.
@@ -3724,13 +4583,13 @@ Package logreq Info: Writing requests to 'report.run.xml'.
 ### simple group (level 1) entered at line 2 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 37401 strings out of 492639
- 712977 string characters out of 6133088
+ 37692 strings out of 492639
+ 725066 string characters out of 6133088
  1225059 words of memory out of 5000000
- 40335 multiletter control sequences out of 15000+600000
+ 40505 multiletter control sequences out of 15000+600000
  602823 words of font info for 144 fonts, out of 8000000 for 9000
  1146 hyphenation exceptions out of 8191
- 64i,18n,80p,921b,2334s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 64i,18n,80p,921b,2412s stack positions out of 5000i,500n,10000p,200000b,80000s
 {e:/Softwares/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.e
 nc}{e:/Softwares/texlive/2018/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.e
 nc}<e:/Softwares/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.
@@ -3741,10 +4600,10 @@ pfb><e:/Softwares/texlive/2018/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb
 00.pfb><e:/Softwares/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplb8a.pf
 b><e:/Softwares/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><e:
 /Softwares/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on report.pdf (99 pages, 7963660 bytes).
+Output written on report.pdf (129 pages, 12257915 bytes).
 PDF statistics:
- 1305 PDF objects out of 1440 (max. 8388607)
- 933 compressed objects within 10 object streams
- 195 named destinations out of 1000 (max. 500000)
- 1031 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2187 PDF objects out of 2487 (max. 8388607)
+ 1542 compressed objects within 16 object streams
+ 258 named destinations out of 1000 (max. 500000)
+ 1361 words of extra memory for PDF output out of 10000 (max. 10000000)
 

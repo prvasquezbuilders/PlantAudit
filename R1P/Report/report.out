@@ -16,19 +16,29 @@
 \BOOKMARK [1][-]{section.2.4}{2.4 Load flow study}{chapter.2}% 16
 \BOOKMARK [2][-]{subsection.2.4.1}{2.4.1 Analysis based on design}{section.2.4}% 17
 \BOOKMARK [2][-]{subsection.2.4.2}{2.4.2 Analysis based on measured data from the PQA}{section.2.4}% 18
-\BOOKMARK [1][-]{section.2.5}{2.5 Power quality analysis}{chapter.2}% 19
-\BOOKMARK [2][-]{subsection.2.5.1}{2.5.1 Objectives and expected outcomes}{section.2.5}% 20
-\BOOKMARK [2][-]{subsection.2.5.2}{2.5.2 Basic}{section.2.5}% 21
-\BOOKMARK [2][-]{subsection.2.5.3}{2.5.3 Results}{section.2.5}% 22
-\BOOKMARK [2][-]{subsection.2.5.4}{2.5.4 Conclusion and Recommendations}{section.2.5}% 23
-\BOOKMARK [1][-]{section.2.6}{2.6 Grounding system study}{chapter.2}% 24
-\BOOKMARK [1][-]{section.2.7}{2.7 Electrical Integrity}{chapter.2}% 25
-\BOOKMARK [2][-]{subsection.2.7.1}{2.7.1 Basic for testing}{section.2.7}% 26
-\BOOKMARK [2][-]{subsection.2.7.2}{2.7.2 Results}{section.2.7}% 27
-\BOOKMARK [1][-]{section.2.8}{2.8 Fire protection and safety \(FDAS\) audit}{chapter.2}% 28
-\BOOKMARK [2][-]{subsection.2.8.1}{2.8.1 Fire alarm and detection system}{section.2.8}% 29
-\BOOKMARK [2][-]{subsection.2.8.2}{2.8.2 Lighting protection system}{section.2.8}% 30
-\BOOKMARK [2][-]{subsection.2.8.3}{2.8.3 Ground-Fault circuit interrupter \(GFCI\) or electric leakage circuit breaker \(ELCB\) or Residual circuit devices \(RCD\)}{section.2.8}% 31
-\BOOKMARK [2][-]{subsection.2.8.4}{2.8.4 Electrical safety and protective devices}{section.2.8}% 32
-\BOOKMARK [0][-]{appendix.A}{A Load Flow Analysis}{}% 33
-\BOOKMARK [0][-]{appendix.B}{B Power Quality Study}{}% 34
+\BOOKMARK [1][-]{section.2.5}{2.5 Protection coordination study}{chapter.2}% 19
+\BOOKMARK [1][-]{section.2.6}{2.6 Harmonic study}{chapter.2}% 20
+\BOOKMARK [2][-]{subsection.2.6.1}{2.6.1 As per design}{section.2.6}% 21
+\BOOKMARK [2][-]{subsection.2.6.2}{2.6.2 Per actual}{section.2.6}% 22
+\BOOKMARK [1][-]{section.2.7}{2.7 Power quality analysis}{chapter.2}% 23
+\BOOKMARK [2][-]{subsection.2.7.1}{2.7.1 Objectives and expected outcomes}{section.2.7}% 24
+\BOOKMARK [2][-]{subsection.2.7.2}{2.7.2 Basic}{section.2.7}% 25
+\BOOKMARK [2][-]{subsection.2.7.3}{2.7.3 Results}{section.2.7}% 26
+\BOOKMARK [2][-]{subsection.2.7.4}{2.7.4 Conclusion and Recommendations}{section.2.7}% 27
+\BOOKMARK [1][-]{section.2.8}{2.8 Grounding system study}{chapter.2}% 28
+\BOOKMARK [1][-]{section.2.9}{2.9 Electrical system design and analysis}{chapter.2}% 29
+\BOOKMARK [2][-]{subsection.2.9.1}{2.9.1 Basics}{section.2.9}% 30
+\BOOKMARK [2][-]{subsection.2.9.2}{2.9.2 Results}{section.2.9}% 31
+\BOOKMARK [2][-]{subsection.2.9.3}{2.9.3 Recommendations}{section.2.9}% 32
+\BOOKMARK [1][-]{section.2.10}{2.10 Electrical Integrity}{chapter.2}% 33
+\BOOKMARK [2][-]{subsection.2.10.1}{2.10.1 Basic for testing}{section.2.10}% 34
+\BOOKMARK [2][-]{subsection.2.10.2}{2.10.2 Results}{section.2.10}% 35
+\BOOKMARK [1][-]{section.2.11}{2.11 Fire protection and safety \(FDAS\) audit}{chapter.2}% 36
+\BOOKMARK [2][-]{subsection.2.11.1}{2.11.1 Fire alarm and detection system}{section.2.11}% 37
+\BOOKMARK [2][-]{subsection.2.11.2}{2.11.2 Lighting protection system}{section.2.11}% 38
+\BOOKMARK [2][-]{subsection.2.11.3}{2.11.3 Ground-Fault circuit interrupter \(GFCI\) or electric leakage circuit breaker \(ELCB\) or Residual circuit devices \(RCD\)}{section.2.11}% 39
+\BOOKMARK [2][-]{subsection.2.11.4}{2.11.4 Electrical safety and protective devices}{section.2.11}% 40
+\BOOKMARK [0][-]{appendix.A}{A Load Flow Analysis}{}% 41
+\BOOKMARK [0][-]{appendix.B}{B Harmonic Analysis}{}% 42
+\BOOKMARK [0][-]{appendix.C}{C Power Quality Study}{}% 43
+\BOOKMARK [0][-]{appendix.D}{D Drawings}{}% 44

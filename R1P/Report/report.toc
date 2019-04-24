@@ -47,70 +47,100 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.4.2}Analysis based on measured data from the PQA}{10}{subsection.2.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.5}Power quality analysis}{10}{section.2.5}
+\contentsline {section}{\numberline {2.5}Protection coordination study}{10}{section.2.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5.1}Objectives and expected outcomes}{10}{subsection.2.5.1}
+\contentsline {section}{\numberline {2.6}Harmonic study}{19}{section.2.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5.2}Basic}{17}{subsection.2.5.2}
+\contentsline {subsection}{\numberline {2.6.1}As per design}{19}{subsection.2.6.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5.3}Results}{17}{subsection.2.5.3}
+\contentsline {subsection}{\numberline {2.6.2}Per actual}{19}{subsection.2.6.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.5.3.1}RMS Voltage compliance}{18}{subsubsection.2.5.3.1}
+\contentsline {section}{\numberline {2.7}Power quality analysis}{23}{section.2.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.5.3.2}Voltage unbalance compliance}{18}{subsubsection.2.5.3.2}
+\contentsline {subsection}{\numberline {2.7.1}Objectives and expected outcomes}{23}{subsection.2.7.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.5.3.3}Current unbalance compliance}{18}{subsubsection.2.5.3.3}
+\contentsline {subsection}{\numberline {2.7.2}Basic}{24}{subsection.2.7.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.5.3.4}Harmonic - THD compliance}{19}{subsubsection.2.5.3.4}
+\contentsline {subsection}{\numberline {2.7.3}Results}{24}{subsection.2.7.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.5.3.5}Harmonic - TDD compliance}{19}{subsubsection.2.5.3.5}
+\contentsline {subsubsection}{\numberline {2.7.3.1}RMS Voltage compliance}{24}{subsubsection.2.7.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.5.3.6}100\% Power frequency (HZ) compliance}{20}{subsubsection.2.5.3.6}
+\contentsline {subsubsection}{\numberline {2.7.3.2}Voltage unbalance compliance}{24}{subsubsection.2.7.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.5.3.7}Power factor}{20}{subsubsection.2.5.3.7}
+\contentsline {subsubsection}{\numberline {2.7.3.3}Current unbalance compliance}{25}{subsubsection.2.7.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.5.3.8}Flicker}{20}{subsubsection.2.5.3.8}
+\contentsline {subsubsection}{\numberline {2.7.3.4}Harmonic - THD compliance}{25}{subsubsection.2.7.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5.4}Conclusion and Recommendations}{21}{subsection.2.5.4}
+\contentsline {subsubsection}{\numberline {2.7.3.5}Harmonic - TDD compliance}{25}{subsubsection.2.7.3.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.6}Grounding system study}{22}{section.2.6}
+\contentsline {subsubsection}{\numberline {2.7.3.6}100\% Power frequency (HZ) compliance}{26}{subsubsection.2.7.3.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.7}Electrical Integrity}{22}{section.2.7}
+\contentsline {subsubsection}{\numberline {2.7.3.7}Power factor}{26}{subsubsection.2.7.3.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.7.1}Basic for testing}{22}{subsection.2.7.1}
+\contentsline {subsubsection}{\numberline {2.7.3.8}Flicker}{26}{subsubsection.2.7.3.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.7.2}Results}{23}{subsection.2.7.2}
+\contentsline {subsection}{\numberline {2.7.4}Conclusion and Recommendations}{27}{subsection.2.7.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.8}Fire protection and safety (FDAS) audit}{24}{section.2.8}
+\contentsline {section}{\numberline {2.8}Grounding system study}{28}{section.2.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.8.1}Fire alarm and detection system}{24}{subsection.2.8.1}
+\contentsline {section}{\numberline {2.9}Electrical system design and analysis}{29}{section.2.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.8.1.1}Data and analysis}{24}{subsubsection.2.8.1.1}
+\contentsline {subsection}{\numberline {2.9.1}Basics}{29}{subsection.2.9.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\relax $\@@underline {\hbox {Recommendations}}\mathsurround \z@ $\relax }{27}{paragraph*.41}
+\contentsline {subsection}{\numberline {2.9.2}Results}{30}{subsection.2.9.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\relax $\@@underline {\hbox {System Testing }}\mathsurround \z@ $\relax }{27}{paragraph*.42}
+\contentsline {subsubsection}{\numberline {2.9.2.1}Types, ratings, and trip settings of overload protective device}{30}{subsubsection.2.9.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\relax $\@@underline {\hbox {Records }}\mathsurround \z@ $\relax }{27}{paragraph*.43}
+\contentsline {subsubsection}{\numberline {2.9.2.2}Calculation of voltage drops }{30}{subsubsection.2.9.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.8.2}Lighting protection system}{27}{subsection.2.8.2}
+\contentsline {subsubsection}{\numberline {2.9.2.3}Calculation of short circuit current 3-PHASE}{30}{subsubsection.2.9.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.8.2.1}Data and testing}{27}{subsubsection.2.8.2.1}
+\contentsline {subsubsection}{\numberline {2.9.2.4}Protection coordination of overcurrent protective devices}{30}{subsubsection.2.9.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.8.2.2}Recommendations}{27}{subsubsection.2.8.2.2}
+\contentsline {subsubsection}{\numberline {2.9.2.5}Arc-flash Hazard Analysis }{31}{subsubsection.2.9.2.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\relax $\@@underline {\hbox {Short term Recommendations}}\mathsurround \z@ $\relax }{27}{paragraph*.45}
+\contentsline {subsection}{\numberline {2.9.3}Recommendations}{31}{subsection.2.9.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\relax $\@@underline {\hbox {Long term Recommendations}}\mathsurround \z@ $\relax }{28}{paragraph*.46}
+\contentsline {section}{\numberline {2.10}Electrical Integrity}{31}{section.2.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.8.3}Ground-Fault circuit interrupter (GFCI) or electric leakage circuit breaker (ELCB) or Residual circuit devices (RCD)}{29}{subsection.2.8.3}
+\contentsline {subsection}{\numberline {2.10.1}Basic for testing}{31}{subsection.2.10.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.8.3.1}Data and analysis}{29}{subsubsection.2.8.3.1}
+\contentsline {subsection}{\numberline {2.10.2}Results}{31}{subsection.2.10.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.8.4}Electrical safety and protective devices}{29}{subsection.2.8.4}
+\contentsline {section}{\numberline {2.11}Fire protection and safety (FDAS) audit}{34}{section.2.11}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.8.4.1}Data and analysis}{29}{subsubsection.2.8.4.1}
+\contentsline {subsection}{\numberline {2.11.1}Fire alarm and detection system}{34}{subsection.2.11.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Load Flow Analysis}{31}{appendix.A}
+\contentsline {subsubsection}{\numberline {2.11.1.1}Data and analysis}{34}{subsubsection.2.11.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}Power Quality Study}{37}{appendix.B}
+\contentsline {paragraph}{\relax $\@@underline {\hbox {Recommendations}}\mathsurround \z@ $\relax }{37}{paragraph*.53}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\relax $\@@underline {\hbox {System Testing }}\mathsurround \z@ $\relax }{37}{paragraph*.54}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\relax $\@@underline {\hbox {Records }}\mathsurround \z@ $\relax }{37}{paragraph*.55}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.11.2}Lighting protection system}{37}{subsection.2.11.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.11.2.1}Data and testing}{37}{subsubsection.2.11.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.11.2.2}Recommendations}{37}{subsubsection.2.11.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\relax $\@@underline {\hbox {Short term Recommendations}}\mathsurround \z@ $\relax }{37}{paragraph*.57}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\relax $\@@underline {\hbox {Long term Recommendations}}\mathsurround \z@ $\relax }{38}{paragraph*.58}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.11.3}Ground-Fault circuit interrupter (GFCI) or electric leakage circuit breaker (ELCB) or Residual circuit devices (RCD)}{39}{subsection.2.11.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.11.3.1}Data and analysis}{39}{subsubsection.2.11.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.11.4}Electrical safety and protective devices}{39}{subsection.2.11.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.11.4.1}Data and analysis}{39}{subsubsection.2.11.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}Load Flow Analysis}{41}{appendix.A}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {B}Harmonic Analysis}{47}{appendix.B}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {C}Power Quality Study}{61}{appendix.C}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {D}Drawings}{119}{appendix.D}
