@@ -3,12 +3,9 @@
 \section{Energy management audit}
 \label{46}
 \subsection{Production and power data}
-Production data for this station has been recorded in excel files. Each file represents a month with 24 hours of daily records. Maynilad provided this set of data from 2015 to 2018 per GHD' request. Initial verification on this set was conducted with following conclusions
+Production data for this station has been recorded in excel files. Each file represents a month with 24 hours of daily records. Maynilad provided this set of data of 2018 per GHD' request. Initial verification on this set was conducted with following conclusions
 
 \begin{itemize}
-	\item Data of 2015 and 2016 are excluded as the set belongs to the past prior to major rehabilitation, thus probabilistically, not representing the recent trend in power consumption vs production;
-	
-	\item Data of 2017 and 2018 contain a vast number that might not be correct (extremely small or extremely large);
 	
 	\item The structure of data is not homogeneous with numerical errors. This problem is due to the fact that excel file is not suitable for recording a large volume of data, particularly cells are not set up to reject string and value outside the lower and upper bounds.
 	content.
@@ -16,7 +13,7 @@ Production data for this station has been recorded in excel files. Each file rep
 
 %When excluding the data of 2012 and 2013, the set used for compilation has following statistics
 
-In order to compile such a huge data set, it is not possible with manual inputting, instead, GHD has developed a hybrid program consisting of Visual Basic (VBA) Code and MySQL code for fast compilation. VBA code is used to add header, fill up missing information in excel file, and ignore rows and columns that should not exist with regard to database structure. MySQL codes are used to eliminate measurement errors and bring together all individual files to one file that allows statistical analysis with R.
+In order to compile such a data set, it is not possible with manual inputting, instead, GHD has developed a hybrid program consisting of Visual Basic (VBA) Code and MySQL code for fast compilation. VBA code is used to add header, fill up missing information in excel file, and ignore rows and columns that should not exist with regard to database structure. MySQL codes are used to eliminate measurement errors and bring together all individual files to one file that allows statistical analysis with R.
 \subsection{Measurement errors}
 Following measurement errors are with the provided excel files
 \begin{itemize}
@@ -48,41 +45,59 @@ Figure \ref{ch05_fig_energy_correlation} shows the statistical correlation betwe
 	\label{ch05_fig_energy_correlation} 
 \end{figure}
 
-Figure \ref{ch05_fig_energy_production} shows a trend in time series production since 2017. It can be seen from the graph that the production was recorded abnormally. In the first quarter of 2017, the production in ML was observed to be averagely less than 0.5 ML. However, abruptly, there was a period in the middle of 2017 to the first quarter of 2018, the production became averagely 5 ML, which was almost 10 times than that observed previously. Then production level has dropped to less than 0.5 ML again in the 3rd and 4th quarters of 2018. 
+Figure \ref{ch05_fig_energy_analysis} shows a trend in time series production, power, and its ration in 2018. Whilst, Figure \ref{ch05_fig_energy_distribution} presents the distributions.
+
 
 \begin{figure}[!htb]
-	\includegraphics[scale=0.6]{figures/ch05_fig_energy_production} \\
-	\caption{Time series production/hour}
-	\label{ch05_fig_energy_production} 
+	\includegraphics[width=\textwidth]{figures/ch05_fig_energy_analysis} \\
+	\caption{Time series analysis}
+	\label{ch05_fig_energy_analysis} 
 \end{figure}
-
-Figure \ref{ch05_fig_energy_power} shows a trend in time series power consumption since 2017. It can be seen from the graph that the power has been abnormally recorded. 
 
 \begin{figure}[!htb]
-	\includegraphics[scale=0.6]{figures/ch05_fig_energy_power} \\
-	\caption{Time series power/hour}
-	\label{ch05_fig_energy_power} 
+	\begin{minipage}[b]{0.3\linewidth}
+		\centering
+		\includegraphics[width=\textwidth]{figures/distribution_production}
+		\caption*{a - Production}
+		%		\label{pagcorlocation}
+	\end{minipage}
+	\hspace{0.05cm}
+	\begin{minipage}[b]{0.3\linewidth}
+		\centering
+		\includegraphics[width=\textwidth]{figures/distribution_power}
+		\caption*{b - Power}
+		%		\label{ch01_pumpgallery}
+	\end{minipage}
+	\hspace{0.05cm}
+	\begin{minipage}[b]{0.3\linewidth}
+		\centering
+		\includegraphics[width=\textwidth]{figures/distribution_ratio}
+		\caption*{c - Ratio}
+		%		\label{ch01_pumpgallery}
+	\end{minipage}
+	\caption{Density distribution}
+	\label{ch05_fig_energy_distribution}
 \end{figure}
-Figure \ref{ch05_fig_energy_ratio} shows time  of ratio between power and production. If investing only the period of 1st quarter of 2017, the value of ratio kept decreasing on average, indicating more efficiency in saving energy. This trends could be also observed in 3rd and 4th of 2018. This could be due to the fact that the plant was renovated and thus able to operate more efficient.
+
+It can be seen from the time series and distribution graphs that the values of the three parameters are randomly distribute without clear trends. This explains the reason why the value of correlation is about 0.3. The shapes of distribution graphs have some distortion at their tails. In normal operation condition, it is expected that when there is high energy consumed, there will be higher production. However, in many cases, the production was lower than average but the energy was not proportional decreasing. This issue could be a result of low water level in the reservoir causing more power as the pumps were still in need of operations or even more. In order to minimize this impact, it is important to maintain the water level in the reservoir chambers from the source.
+
+
 
 %As the production decreases and power increase, the ratio keeps increasing over time. 
 
-\begin{figure}[!htb]
-	
-	\includegraphics[scale=0.6]{figures/ch05_fig_energy_ratio} \\
-	\caption{Time series ratio between production and power}
-	\label{ch05_fig_energy_ratio} 
-\end{figure}
 
 Interpretation from these graphs can be summarized as follows
 
 \begin{itemize}
-	\item There is almost no correlation between the production and power, which has been contributed by abnormal recording which might due to the failure of reading devices;
+	\item There is almost low level of correlation between the production and power, which has been contributed by a certain abnormal trend in the graphs which might due to the failure of reading devices;
 %	\item There has been a few number of peaks at which the ratio between power and production were significantly high compared to average value. These peaks seem to be repeated at least one in a year. The reason causing that peaks are unknown;
-	\item There are too much outliers on the recorded data. THis data set is not reliable for a complete energy audit;
+%	\item There are too much outliers on the recorded data. THis data set is not reliable for a complete energy audit;
 	
 %	\item There was a high peak in ratio in the first quarter of 2018. The ratio has reached between 300 and 400 for 3 months period, inferring an abnormal operation.
 	%\item Power pressure of suction
+	\item Average daily production could be in between of 0.45 to 0.6 MLD;
+	\item Average daily power consumption could be in the range from 30 to 35;
+	\item Average ratio between power and production is between 60 to 70. It is believed that the benchmark ratio should be at least equal to the average or better. Optimistically, the benchmark ratio could be 70.
 \end{itemize}
 
 \subsection{Recommendation}

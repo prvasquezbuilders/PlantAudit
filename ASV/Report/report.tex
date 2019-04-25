@@ -26,7 +26,7 @@
 \pagenumbering{arabic} %use arabic page numbering in the mainmatter
 \input{sections/Introduction}
 \input{sections/Review}
-%\input{sections/Methodology}
+\input{sections/Methodology}
 \input{sections/Analysis}
 \input{sections/DesignLCC.tex}
 %%\input{sections/Conclusion.tex}
@@ -35,21 +35,21 @@
 \label{bib:mybiblio}
 
 \appendix
-%\input{sections/app_maintenanceprogram}
-%\input{sections/app_vibration}
+\input{sections/app_maintenanceprogram}
+\input{sections/app_vibration}
 
 \input{sections/app_lfsummary}
 \input{sections/app_pqa}
 
-
 \input{sections/app_drawings}
+\pagebreak
+\setlength\paperheight{297mm}
+\setlength\paperwidth{210mm}
+\setlength\pdfpageheight{\paperheight}
+\setlength\pdfpagewidth{\paperwidth}
+
 \input{sections/app_boq}
-%\input{sections/app1.tex}
-%\input{sections/app2.tex}
 
-%\input{sections/app3.tex}
-%\input{sections/app4.tex}
-%\input{sections/app5.tex}
+\includepdf[pages=-]{backcover.pdf}
 
-%\input{sections/app7.tex}
 \end{document}

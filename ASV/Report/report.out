@@ -20,60 +20,80 @@
 \BOOKMARK [2][-]{subsection.2.3.4}{2.3.4 Fire protection and safety \(FDAS\) audit}{section.2.3}% 20
 \BOOKMARK [1][-]{section.2.4}{2.4 Electrical Audit}{chapter.2}% 21
 \BOOKMARK [1][-]{section.2.5}{2.5 Database}{chapter.2}% 22
-\BOOKMARK [0][-]{chapter.3}{3 Data and Analysis}{}% 23
-\BOOKMARK [1][-]{section.3.1}{3.1 Qualitative and Operational Analysis}{chapter.3}% 24
-\BOOKMARK [2][-]{subsection.3.1.1}{3.1.1 Facts and Data}{section.3.1}% 25
-\BOOKMARK [2][-]{subsection.3.1.2}{3.1.2 Way forward/Recommendations}{section.3.1}% 26
-\BOOKMARK [1][-]{section.3.2}{3.2 Pump discharge and suction pipe - thickness}{chapter.3}% 27
-\BOOKMARK [2][-]{subsection.3.2.1}{3.2.1 Data and measurement}{section.3.2}% 28
-\BOOKMARK [2][-]{subsection.3.2.2}{3.2.2 Analysis}{section.3.2}% 29
-\BOOKMARK [1][-]{section.3.3}{3.3 Visual Inspection on Pipe, valves, fittings, supports, expansions, and appurtenances}{chapter.3}% 30
-\BOOKMARK [2][-]{subsection.3.3.1}{3.3.1 Highlights}{section.3.3}% 31
-\BOOKMARK [1][-]{section.3.4}{3.4 Vibration and structural assessment}{chapter.3}% 32
-\BOOKMARK [2][-]{subsection.3.4.1}{3.4.1 Measurement and spectrum reading}{section.3.4}% 33
-\BOOKMARK [2][-]{subsection.3.4.2}{3.4.2 Data and analysis}{section.3.4}% 34
-\BOOKMARK [2][-]{subsection.3.4.3}{3.4.3 Recommendations}{section.3.4}% 35
-\BOOKMARK [1][-]{section.3.5}{3.5 Workplace environment management}{chapter.3}% 36
-\BOOKMARK [2][-]{subsection.3.5.1}{3.5.1 Temperature and relative humidity}{section.3.5}% 37
-\BOOKMARK [2][-]{subsection.3.5.2}{3.5.2 Air quality}{section.3.5}% 38
-\BOOKMARK [2][-]{subsection.3.5.3}{3.5.3 Illumination}{section.3.5}% 39
-\BOOKMARK [2][-]{subsection.3.5.4}{3.5.4 Industrial ventilation}{section.3.5}% 40
-\BOOKMARK [2][-]{subsection.3.5.5}{3.5.5 Housekeeping}{section.3.5}% 41
-\BOOKMARK [2][-]{subsection.3.5.6}{3.5.6 Noise}{section.3.5}% 42
-\BOOKMARK [1][-]{section.3.6}{3.6 Visual inspection on electrical assets}{chapter.3}% 43
-\BOOKMARK [1][-]{section.3.7}{3.7 Short circuit calculations and evaluation}{chapter.3}% 44
-\BOOKMARK [2][-]{subsection.3.7.1}{3.7.1 Short circuit calculation}{section.3.7}% 45
-\BOOKMARK [2][-]{subsection.3.7.2}{3.7.2 Evaluation of protective devices and bus bars}{section.3.7}% 46
-\BOOKMARK [1][-]{section.3.8}{3.8 Voltage drop calculation}{chapter.3}% 47
-\BOOKMARK [1][-]{section.3.9}{3.9 Load flow study}{chapter.3}% 48
-\BOOKMARK [2][-]{subsection.3.9.1}{3.9.1 Analysis based on design}{section.3.9}% 49
-\BOOKMARK [2][-]{subsection.3.9.2}{3.9.2 Analysis based on measured data from the PQA}{section.3.9}% 50
-\BOOKMARK [1][-]{section.3.10}{3.10 Protection coordination study}{chapter.3}% 51
-\BOOKMARK [1][-]{section.3.11}{3.11 Harmonic study}{chapter.3}% 52
-\BOOKMARK [2][-]{subsection.3.11.1}{3.11.1 As per design}{section.3.11}% 53
-\BOOKMARK [2][-]{subsection.3.11.2}{3.11.2 Per actual}{section.3.11}% 54
-\BOOKMARK [1][-]{section.3.12}{3.12 Power quality analysis}{chapter.3}% 55
-\BOOKMARK [2][-]{subsection.3.12.1}{3.12.1 Objectives and expected outcomes}{section.3.12}% 56
-\BOOKMARK [2][-]{subsection.3.12.2}{3.12.2 Basic}{section.3.12}% 57
-\BOOKMARK [2][-]{subsection.3.12.3}{3.12.3 Results}{section.3.12}% 58
-\BOOKMARK [2][-]{subsection.3.12.4}{3.12.4 Conclusion and Recommendations}{section.3.12}% 59
-\BOOKMARK [1][-]{section.3.13}{3.13 Grounding system study}{chapter.3}% 60
-\BOOKMARK [1][-]{section.3.14}{3.14 Electrical system design and analysis}{chapter.3}% 61
-\BOOKMARK [2][-]{subsection.3.14.1}{3.14.1 Basics}{section.3.14}% 62
-\BOOKMARK [2][-]{subsection.3.14.2}{3.14.2 Results}{section.3.14}% 63
-\BOOKMARK [2][-]{subsection.3.14.3}{3.14.3 Recommendations}{section.3.14}% 64
-\BOOKMARK [1][-]{section.3.15}{3.15 Fire protection and safety \(FDAS\) audit}{chapter.3}% 65
-\BOOKMARK [2][-]{subsection.3.15.1}{3.15.1 Fire alarm and detection system}{section.3.15}% 66
-\BOOKMARK [2][-]{subsection.3.15.2}{3.15.2 Lighting protection system}{section.3.15}% 67
-\BOOKMARK [2][-]{subsection.3.15.3}{3.15.3 Ground-Fault circuit interrupter \(GFCI\) or electric leakage circuit breaker \(ELCB\) or Residual circuit devices \(RCD\)}{section.3.15}% 68
-\BOOKMARK [2][-]{subsection.3.15.4}{3.15.4 Electrical safety and protective devices}{section.3.15}% 69
-\BOOKMARK [0][-]{chapter.4}{4 Conceptual Design and Reliability Study}{}% 70
-\BOOKMARK [1][-]{section.4.1}{4.1 Basis of Design}{chapter.4}% 71
-\BOOKMARK [2][-]{subsection.4.1.1}{4.1.1 As-built drawings}{section.4.1}% 72
-\BOOKMARK [2][-]{subsection.4.1.2}{4.1.2 Electrical design}{section.4.1}% 73
-\BOOKMARK [1][-]{section.4.2}{4.2 Bill of Materials}{chapter.4}% 74
-\BOOKMARK [0][-]{chapter*.139}{Bibliography}{}% 75
-\BOOKMARK [0][-]{appendix.A}{A Load Flow Analysis}{}% 76
-\BOOKMARK [0][-]{appendix.B}{B Power Quality Study}{}% 77
-\BOOKMARK [0][-]{appendix.C}{C Drawings}{}% 78
-\BOOKMARK [0][-]{appendix.D}{D Bill of Quantity}{}% 79
+\BOOKMARK [0][-]{chapter.3}{3 Methodology}{}% 23
+\BOOKMARK [1][-]{section.3.1}{3.1 The Integrated Asset Management Approach \(IAM\)}{chapter.3}% 24
+\BOOKMARK [1][-]{section.3.2}{3.2 Deterioration process and rating index}{chapter.3}% 25
+\BOOKMARK [1][-]{section.3.3}{3.3 Condition State \(CS\) definition}{chapter.3}% 26
+\BOOKMARK [1][-]{section.3.4}{3.4 Technical efficiency}{chapter.3}% 27
+\BOOKMARK [1][-]{section.3.5}{3.5 Reliability}{chapter.3}% 28
+\BOOKMARK [2][-]{subsection.3.5.1}{3.5.1 Qualitative and Operational Analysis}{section.3.5}% 29
+\BOOKMARK [2][-]{subsection.3.5.2}{3.5.2 Weibull model}{section.3.5}% 30
+\BOOKMARK [2][-]{subsection.3.5.3}{3.5.3 Markov model}{section.3.5}% 31
+\BOOKMARK [1][-]{section.3.6}{3.6 Intervention Strategy \(IS\)}{chapter.3}% 32
+\BOOKMARK [1][-]{section.3.7}{3.7 Determination of optimal intervention strategy}{chapter.3}% 33
+\BOOKMARK [2][-]{subsection.3.7.1}{3.7.1 Block Replacement Model}{section.3.7}% 34
+\BOOKMARK [2][-]{subsection.3.7.2}{3.7.2 Time-dependent replacement model}{section.3.7}% 35
+\BOOKMARK [0][-]{chapter.4}{4 Data and Analysis}{}% 36
+\BOOKMARK [1][-]{section.4.1}{4.1 Qualitative and Operational Analysis}{chapter.4}% 37
+\BOOKMARK [2][-]{subsection.4.1.1}{4.1.1 Facts and Data}{section.4.1}% 38
+\BOOKMARK [2][-]{subsection.4.1.2}{4.1.2 Way forward/Recommendations}{section.4.1}% 39
+\BOOKMARK [1][-]{section.4.2}{4.2 Pump discharge and suction pipe - thickness}{chapter.4}% 40
+\BOOKMARK [2][-]{subsection.4.2.1}{4.2.1 Data and measurement}{section.4.2}% 41
+\BOOKMARK [2][-]{subsection.4.2.2}{4.2.2 Analysis}{section.4.2}% 42
+\BOOKMARK [1][-]{section.4.3}{4.3 Visual Inspection on Pipe, valves, fittings, supports, expansions, and appurtenances}{chapter.4}% 43
+\BOOKMARK [2][-]{subsection.4.3.1}{4.3.1 Highlights}{section.4.3}% 44
+\BOOKMARK [1][-]{section.4.4}{4.4 Vibration and structural assessment}{chapter.4}% 45
+\BOOKMARK [2][-]{subsection.4.4.1}{4.4.1 Measurement and spectrum reading}{section.4.4}% 46
+\BOOKMARK [2][-]{subsection.4.4.2}{4.4.2 Data and analysis}{section.4.4}% 47
+\BOOKMARK [2][-]{subsection.4.4.3}{4.4.3 Recommendations}{section.4.4}% 48
+\BOOKMARK [1][-]{section.4.5}{4.5 Energy management audit}{chapter.4}% 49
+\BOOKMARK [2][-]{subsection.4.5.1}{4.5.1 Production and power data}{section.4.5}% 50
+\BOOKMARK [2][-]{subsection.4.5.2}{4.5.2 Measurement errors}{section.4.5}% 51
+\BOOKMARK [2][-]{subsection.4.5.3}{4.5.3 Data compilation for analysis}{section.4.5}% 52
+\BOOKMARK [2][-]{subsection.4.5.4}{4.5.4 Analysis}{section.4.5}% 53
+\BOOKMARK [2][-]{subsection.4.5.5}{4.5.5 Recommendation}{section.4.5}% 54
+\BOOKMARK [1][-]{section.4.6}{4.6 Workplace environment management}{chapter.4}% 55
+\BOOKMARK [2][-]{subsection.4.6.1}{4.6.1 Temperature and relative humidity}{section.4.6}% 56
+\BOOKMARK [2][-]{subsection.4.6.2}{4.6.2 Air quality}{section.4.6}% 57
+\BOOKMARK [2][-]{subsection.4.6.3}{4.6.3 Illumination}{section.4.6}% 58
+\BOOKMARK [2][-]{subsection.4.6.4}{4.6.4 Industrial ventilation}{section.4.6}% 59
+\BOOKMARK [2][-]{subsection.4.6.5}{4.6.5 Housekeeping}{section.4.6}% 60
+\BOOKMARK [2][-]{subsection.4.6.6}{4.6.6 Noise}{section.4.6}% 61
+\BOOKMARK [1][-]{section.4.7}{4.7 Visual inspection on electrical assets}{chapter.4}% 62
+\BOOKMARK [1][-]{section.4.8}{4.8 Short circuit calculations and evaluation}{chapter.4}% 63
+\BOOKMARK [2][-]{subsection.4.8.1}{4.8.1 Short circuit calculation}{section.4.8}% 64
+\BOOKMARK [2][-]{subsection.4.8.2}{4.8.2 Evaluation of protective devices and bus bars}{section.4.8}% 65
+\BOOKMARK [1][-]{section.4.9}{4.9 Voltage drop calculation}{chapter.4}% 66
+\BOOKMARK [1][-]{section.4.10}{4.10 Load flow study}{chapter.4}% 67
+\BOOKMARK [2][-]{subsection.4.10.1}{4.10.1 Analysis based on design}{section.4.10}% 68
+\BOOKMARK [2][-]{subsection.4.10.2}{4.10.2 Analysis based on measured data from the PQA}{section.4.10}% 69
+\BOOKMARK [1][-]{section.4.11}{4.11 Protection coordination study}{chapter.4}% 70
+\BOOKMARK [1][-]{section.4.12}{4.12 Harmonic study}{chapter.4}% 71
+\BOOKMARK [2][-]{subsection.4.12.1}{4.12.1 As per design}{section.4.12}% 72
+\BOOKMARK [2][-]{subsection.4.12.2}{4.12.2 Per actual}{section.4.12}% 73
+\BOOKMARK [1][-]{section.4.13}{4.13 Power quality analysis}{chapter.4}% 74
+\BOOKMARK [2][-]{subsection.4.13.1}{4.13.1 Objectives and expected outcomes}{section.4.13}% 75
+\BOOKMARK [2][-]{subsection.4.13.2}{4.13.2 Basic}{section.4.13}% 76
+\BOOKMARK [2][-]{subsection.4.13.3}{4.13.3 Results}{section.4.13}% 77
+\BOOKMARK [2][-]{subsection.4.13.4}{4.13.4 Conclusion and Recommendations}{section.4.13}% 78
+\BOOKMARK [1][-]{section.4.14}{4.14 Grounding system study}{chapter.4}% 79
+\BOOKMARK [1][-]{section.4.15}{4.15 Electrical system design and analysis}{chapter.4}% 80
+\BOOKMARK [2][-]{subsection.4.15.1}{4.15.1 Basics}{section.4.15}% 81
+\BOOKMARK [2][-]{subsection.4.15.2}{4.15.2 Results}{section.4.15}% 82
+\BOOKMARK [2][-]{subsection.4.15.3}{4.15.3 Recommendations}{section.4.15}% 83
+\BOOKMARK [1][-]{section.4.16}{4.16 Fire protection and safety \(FDAS\) audit}{chapter.4}% 84
+\BOOKMARK [2][-]{subsection.4.16.1}{4.16.1 Fire alarm and detection system}{section.4.16}% 85
+\BOOKMARK [2][-]{subsection.4.16.2}{4.16.2 Lighting protection system}{section.4.16}% 86
+\BOOKMARK [2][-]{subsection.4.16.3}{4.16.3 Ground-Fault circuit interrupter \(GFCI\) or electric leakage circuit breaker \(ELCB\) or Residual circuit devices \(RCD\)}{section.4.16}% 87
+\BOOKMARK [2][-]{subsection.4.16.4}{4.16.4 Electrical safety and protective devices}{section.4.16}% 88
+\BOOKMARK [0][-]{chapter.5}{5 Conceptual Design and Reliability Study}{}% 89
+\BOOKMARK [1][-]{section.5.1}{5.1 Basis of Design}{chapter.5}% 90
+\BOOKMARK [2][-]{subsection.5.1.1}{5.1.1 Drawings}{section.5.1}% 91
+\BOOKMARK [1][-]{section.5.2}{5.2 Bill of Materials}{chapter.5}% 92
+\BOOKMARK [0][-]{chapter*.150}{Bibliography}{}% 93
+\BOOKMARK [0][-]{appendix.A}{A Recommended Maintenance Program}{}% 94
+\BOOKMARK [0][-]{appendix.B}{B Vibration Data}{}% 95
+\BOOKMARK [0][-]{appendix.C}{C Load Flow Analysis}{}% 96
+\BOOKMARK [0][-]{appendix.D}{D Power Quality Study}{}% 97
+\BOOKMARK [0][-]{appendix.E}{E Drawings}{}% 98
+\BOOKMARK [0][-]{appendix.F}{F Bill of Quantity}{}% 99
