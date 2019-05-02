@@ -41,7 +41,7 @@
   >
 ]>
 <requests version="1.0">
-  <internal package="biblatex" priority="9" active="1">
+  <internal package="biblatex" priority="9" active="0">
     <generic>latex</generic>
     <provides type="dynamic">
       <file>report.aux</file>
@@ -84,7 +84,7 @@
       <file>report-blx.bib</file>
     </requires>
     <requires type="editable">
-      <file>bib/plantaudit</file>
+      <file>E:/OP18REFCS03/References/plantaudit</file>
     </requires>
     <requires type="static">
       <file>biblatex.bst</file>

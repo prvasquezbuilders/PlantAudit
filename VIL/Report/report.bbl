@@ -475,29 +475,6 @@
     \field{year}{2010}
   \endentry
 
-  \entry{KSB2010}{report}{}
-    \name{author}{1}{}{%
-      {{hash=K}{%
-         family={KSB},
-         familyi={K\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{K1}
-    \strng{fullhash}{K1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{K}
-    \field{sortinithash}{K}
-    \field{note}{TEST}
-    \field{title}{Test Record for pump efficiency - Technical Specifications}
-    \list{institution}{1}{%
-      {KSB AG}%
-    }
-    \field{type}{techreport}
-    \field{month}{04}
-    \field{year}{2010}
-  \endentry
-
   \entry{lancaster90}{book}{}
     \name{author}{1}{}{%
       {{hash=LT}{%

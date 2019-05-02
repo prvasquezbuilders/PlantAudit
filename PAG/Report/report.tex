@@ -8,7 +8,6 @@
 \input{setup/macros.tex}% my new macros
 %\newwatermark[allpages,color=red!10,angle=45,scale=3,xpos=0,ypos=0]{Preliminary}
 
-
 \begin{document}
 %frontmatter
 \pagestyle{empty} %disable headers and footers
@@ -44,4 +43,9 @@
 %\input{sections/app5.tex}
 \input{sections/app6.tex}
 \input{sections/app7.tex}
+
+\pagebreak
+\includepdf[pages=-]{backcover.pdf}
+
+
 \end{document}

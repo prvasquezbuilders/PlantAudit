@@ -537,8 +537,8 @@
       {KSB AG}%
     }
     \field{type}{techreport}
-    \field{month}{04}
     \field{year}{2010}
+    \warn{\item Invalid format of field 'month'}
   \endentry
 
   \entry{lancaster90}{book}{}
@@ -770,7 +770,7 @@
       {Maynilad}%
     }
     \verb{file}
-    \verb :Maynilad2015a.doc:Word
+    \verb Maynilad2015a.doc:Maynilad2015a.doc:Word
     \endverb
     \field{type}{techreport}
     \field{year}{2015}

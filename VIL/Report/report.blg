@@ -18,47 +18,49 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: report-blx.bib
 Database file #2: bib/plantaudit.bib
+Warning--I didn't find a database entry for "Kubota2010"
 Biblatex version: 3.11
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 21 entries,
+You've used 20 entries,
             6304 wiz_defined-function locations,
-            1328 strings with 12204 characters,
-and the built_in function-call counts, 97153 in all, are:
-= -- 5965
-> -- 2403
-< -- 846
-+ -- 1996
-- -- 793
-* -- 6441
-:= -- 8545
+            1324 strings with 12139 characters,
+and the built_in function-call counts, 93863 in all, are:
+= -- 5819
+> -- 2307
+< -- 812
++ -- 1949
+- -- 767
+* -- 6235
+:= -- 8316
 add.period$ -- 0
-call.type$ -- 21
-change.case$ -- 496
-chr.to.int$ -- 47
-cite$ -- 40
-duplicate$ -- 10726
-empty$ -- 9179
-format.name$ -- 1223
-if$ -- 20842
+call.type$ -- 20
+change.case$ -- 480
+chr.to.int$ -- 41
+cite$ -- 38
+duplicate$ -- 10322
+empty$ -- 8828
+format.name$ -- 1176
+if$ -- 20124
 int.to.chr$ -- 0
-int.to.str$ -- 66
+int.to.str$ -- 63
 missing$ -- 0
-newline$ -- 601
-num.names$ -- 1192
-pop$ -- 6703
+newline$ -- 578
+num.names$ -- 1142
+pop$ -- 6382
 preamble$ -- 1
-purify$ -- 572
+purify$ -- 554
 quote$ -- 0
-skip$ -- 4121
+skip$ -- 3956
 stack$ -- 0
-substring$ -- 8244
-swap$ -- 3056
-text.length$ -- 570
-text.prefix$ -- 20
+substring$ -- 8114
+swap$ -- 2923
+text.length$ -- 544
+text.prefix$ -- 19
 top$ -- 1
-type$ -- 683
+type$ -- 650
 warning$ -- 0
-while$ -- 1179
+while$ -- 1143
 width$ -- 0
-write$ -- 581
+write$ -- 559
+(There was 1 warning)
