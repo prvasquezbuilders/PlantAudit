@@ -539,66 +539,249 @@ No. & Assets/ Description & Code & CS & Status & Remarks & Refer/ Figure \\
 %\end{figure}
 
 
-\subsection{Pump efficiency} \label{ch04mech03}
-Data on flow and head were measured for each pump. However, there was no measured data of motor/pump assembly regarding power ratings of all pumps. This was due to the fact that electrical audit is not part of the scope of work.
 
-GHD/RBSanchez did verify on the provided electrical audit to see if there is available power rating for individual motor/pump assembly. However, the electrical audit does not include measured data for individual pump. Thus, cannot be used as a reference to more or less correlate with measured flow and head for computation of pump efficiency as desired.
+\section{Pump efficiency} \label{ch04mech03}
 
-\subsubsection{Unit flow measurement} \label{ch04mech04}
-Data on measured flow (Q) was recorded with min and max values is shown in Table \ref{ch04_tbl_flow01} for each pumps. Raw data is provided in the Appendix \ref{appflow}.
+Data on flow and head were measured for each pump. However, there was no measured data of motor/pump assembly regarding power ratings of all pumps. 
+This was due to the fact that electrical audit is not part of the scope of work. GHD/RBSanchez did verify on the provided electrical audit to see if 
+there is available power rating for individual motor/pump assembly. However, the electrical audit does not include measured data for individual pump. 
+Thus, cannot be used as a reference to more or less correlate with measured flow and head for computation of pump efficiency as desired. As such, as agreed with Maynilad Team, 
+data from control panel specifically VFDs' current and voltage ratings will then be used to get the instantaneous power 
+ratings of Pump and Motor during the course of operation.
+Such values, on the other hand, might not be equivalent to the values of power during the time of testing thus might affect the result of the analysis.
+
+
+\subsection{Unit flow measurement} \label{ch04mech04}
+
+Data on measured flow (Q) was recorded with min and max values is shown in Table \ref{ch04_tbl_flow01} for each pumps. %Raw data is provided in the Appendix \ref{appflow}.
+
+
 
 \begin{table}[!h]
+
 	\caption{Unit flow measurement (cubic meter per second - cms).}
+
 	\label{ch04_tbl_flow01}
+
 	{\footnotesize
+
 \begin{tabular}{c|c|c|c|c|c|l}
+
 	\hline
+
 	Assets & $\Phi$  & \multicolumn{4}{c|}{Flow Q (cms)} & Remarks \\ 
+
 	\cline{3-6}
+
 	& (mm) & Design & \multicolumn{3}{c|}{Measure} &  \\ 
+
 	\cline{4-6}
+
 	&  &  & Min & Max & Ave. &  \\ 
+
 	\hline
+
 	BP1 & 700 & 0.6365 & 0.3407 & 0.3533 & 0.3470  &  \\ 
+
 	BP2 & 700 & 0.6365 & 0.3028 & 0.3343 & 0.3186  &  \\ 
+
 	BP3 & 700 & 0.6365 & 0.5930 & 0.6119 & 0.6024  &  \\ 
+
 	BP4 & 700 & 0.6365 & 0.5110 & 0.5614 & 0.5362  &  \\ 
+
 	BP5 & 700 & 0.6365 & 0.6939 & 0.7128 & 0.7034  &  \\ 
+
 	BP6 & 700 & 0.6365 & 0.6119 & 0.6561 & 0.6340  &  \\ 
+
 	SP1 & 600 & 0.5324 & 0.3583 & 0.3659 & 0.3621  &  \\ 
+
 	SP2 & 600 & 0.5324 & 0.3785 & 0.3848 & 0.3817  &  \\ 
+
 	\hline
+
 \end{tabular}
+
 	}
+
 \end{table}
 
-\subsubsection{Pressure measurement} \label{ch04pressure}
 
-Data on measured flow (Q) was recorded with min and max values is shown in Table \ref{ch04_tbl_flow02} for each pumps. Raw data is provided in the Appendix \ref{appflow}.
+
+\subsection{Pressure measurement} \label{ch04pressure}
+
+
+
+Data on measured flow (Q) was recorded with min and max values is shown in Table \ref{ch04_tbl_flow02} for each pumps. %Raw data is provided in the Appendix \ref{appflow}.
+
+
 
 \begin{table}[!h]
+
 	\caption{Head ($mH_2O$).}
+
 	\label{ch04_tbl_flow02}
+
 	{\footnotesize
+
 \begin{tabular}{c|c|c|c|l}
+
 	\hline
+
 	Assets & \multicolumn{3}{c|}{Head (H - $mH_2O$)} & Remarks \\ 
+
 	\cline{2-4}
+
 	& Design & Discharge & Suction &  \\ 
+
 	\hline
+
 	BP1 & 40 & 42.1581 & 2.4592 &  \\ 
+
 	BP2 & 40 & 42.1581 & 2.7403 &  \\ 
+
 	BP3 & 40 & 42.1581 & 2.4592 &  \\ 
+
 	BP4 & 40 & 40.7529 & 2.7403 &  \\ 
+
 	BP5 & 40 & 42.1581 & 2.9511 &  \\ 
+
 	BP6 & 40 & 40.7529 & 2.8105 &  \\ 
+
 	SP1 & 50 & 37.8088 & 0.7026 &  \\ 
+
 	SP2 & 50 & 36.5371 & 0.7026 &  \\ 
+
 	\hline
+
 \end{tabular}
 
 	}
+
 \end{table}
+
+
+
+
+
+\subsection{Efficiency}
+
+
+
+Pump efficiency is computed based on the flow/head measurement and the assumed value of power rating (Table \ref{ch05_tbl_efficiency}). 
+
+\begin{table}[!h]
+
+	\caption{Pump efficiency (\%).}
+
+	\label{ch05_tbl_efficiency}
+
+	{\footnotesize
+
+
+	\begin{tabular}{c|c|c|c|c|c|l|l}
+\hline
+Assets & Flow & Head & Input Power & Water Power & \multicolumn{3}{c}{Efficiency (\%)} \\ 
+\cline{6-8}
+ & $m^3/s$ & $mH_2O$ & kW & kW & Tested & Design & Diff. \\ 
+\hline
+BP1 & 0.347 & 41.68 & 279.41 & 142 & - & \multicolumn{1}{c|}{85.67} & \multicolumn{1}{c}{-} \\ 
+BP2 & 0.319 & 41.4 & 280.47 & 129 & - & \multicolumn{1}{c|}{85.67} & \multicolumn{1}{c}{-} \\ 
+BP3 & 0.602 & 41.68 & 325.70 & 246 & 75.53 & \multicolumn{1}{c|}{85.67} & \multicolumn{1}{c}{-10.14} \\ 
+BP4 & 0.536 & 40 & 325.70 & 210 & 64.48 & \multicolumn{1}{c|}{85.67} & \multicolumn{1}{c}{-21.19} \\ 
+BP5 & 0.703 & 41.19 & 295.00 & 242 & - & \multicolumn{1}{c|}{85.67} & \multicolumn{1}{c}{-} \\ 
+BP6 & 0.634 & 39.93 & 293.87 & 248 & 84.39 & \multicolumn{1}{c|}{85.67} & \multicolumn{1}{c}{-1.28} \\ 
+SP1 & 0.362 & 45.33 & 214.24 & 161 & 75.15 & \multicolumn{1}{c|}{86.89} & \multicolumn{1}{c}{-11.74} \\ 
+SP2 & 0.382 & 44.06 & 209.15 & 165 & 78.89 & \multicolumn{1}{c|}{86.89} & \multicolumn{1}{c}{-8.00} \\ 
+\hline
+\end{tabular}
+
+	}
+
+\end{table}
+
+
+
+It is important to note that the values of input power is a measured value, however on a separate day and so different working condition thus might not perfectly reflect 
+the actual value during the data gathering which is one of the limitations of the study.
+The design pump efficiencies are taken from the test report of
+KSB \cite{KSB2010}. 
+
+
+
+In Table \ref{ch05_tbl_efficiency}, efficiencies for BP1, BP2 and BP5 were not estimated due to the fact that BP1 and BP2 have been operated in an underflow 
+conditions while BP5 in an overflow condition.
+
+These infer that the pumps have been operated inappropriately pursuant to their design specifications. As a consequence, their operations might have already incurred more power 
+than they should be. 
+If operated continuously on the same manner,high likely that the failure probability will increase for these pumps.
+
+Figure \ref{ch04_efficiencycurves}-a, and \ref{ch04_efficiencycurves}-b presents the efficiency curves for booster pumps and storage pumps, respectively. 
+The curves are created based on the recorded data provided in the test record of KSB \cite{KSB2010}. 
+
+\begin{figure}[!htb]
+
+	\begin{minipage}[b]{0.5\linewidth}
+
+		\centering
+
+		\includegraphics[width=\textwidth]{figures/ch04_fig_efficiency01}
+
+		\caption*{a - Booster pumps}% \label{peter1}
+
+	\end{minipage}
+
+	\hspace{0.05cm}
+
+	\begin{minipage}[b]{0.5\linewidth}
+
+		\centering
+
+		\includegraphics[width=\textwidth]{figures/ch04_fig_efficiency02}
+
+		\caption*{b -Storage Pumps} %\label{peter2}
+
+	\end{minipage}
+
+		\caption{Efficiency curves}
+
+		\label{ch04_efficiencycurves}
+
+\end{figure}
+
+
+
+Figure \ref{ch04_efficiencycurves}-a shows that BP1 and BP2 deviates away from the curve. In this case, BP1 and BP2 possibly operates at underflow condition, 
+and at higher friction loss. These also constitute to the “fair” condition of the pumps with possible cavitation at the suction head. On the other hand, BP3, BP5, and BP6 operate under the 10% tolerance BEP range, thereby
+operating at considerably good operating point although BP5 has overflow-measured flow. On the contrary, these pumps were diagnosed to have a “fair” pump condition state. 
+This is due to pump possible cavitation from the suction and carried throughout the discharged side of the pump.
+BP4 deviates slightly away to the curve with its operating point barely making the 20% tolerance BEP range. The pump operates at
+lower head and possibly in underflow condition where its efficiency is lowest compared to BP3 and BP6. On a positive note, the pump have a diagnosis of having a good
+pump health that means lower vibration and possible cavitation.
+
+Figure \ref{ch04_efficiencycurves}-b shows that the operating points of both SP1 and SP2 deviate away from the pump curve. These might means that both pumps  
+operate at higher friction head and either overflow and underflow. Operating points of both pumps are within the 20\% tolerance range (shaded region) 
+based on the best GPM point with a corresponding increase in pressure head. In terms of efficiency, SP1 and SP2  have a value of 75.15\% and 78.89\%, respectively even 
+operating at deviated operation conditions, which is a good indication. In the long run however, it would affect the system performance which might be 
+the reason also why their initial diagnosis are both "fair" in terms of vibration analysis.
+
+Generally, VFD controlled-pumps deviates greatly away to the curve than the fixed-speed pumps (BP3 to BP6). This could possibly means that the operating duty points 
+of the pumps when controlled by VFD is out of the best efficiency range of the pumps, thereby may incur higher power consumptions. 
+
+
+\paragraph{\underline{Recommendations}}
+
+
+\begin{itemize}
+
+\item	Proper operating condition shall be established for the VFD Pumps in a given time to avoid them operating beyond their BEP for a long period of time. 
+Also include the proper combinations of running pumps in a given time.
+
+\item	Regular pump performance monitoring and analysis shall be conducted to have a profiling of pump in relation to actual operating conditions, a major tool for pump performance
+ optimization. In addition, multiple tests and conditions shall be implemented during testing to have a holistic approach on the pump assessment.
+
+\item	Provision for installation of testing points in measuring pump performance shall also be included in the modifications  (refer to the conceptual design in Chapter \ref{Chapter6}).
+
+\end{itemize}
 
 
 
