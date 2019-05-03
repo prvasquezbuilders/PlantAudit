@@ -1,5 +1,8 @@
-\section{Pump efficiency} \label{ch04mech03}
-Data on flow and head were measured for each pump. However, there was no measured data of motor/pump assembly regarding power ratings of all pumps as of this writing since the GHD/APSI testing for the station is yet to be conducted. Thus, assumptions will be made for the computations of the power ratings of the Pump and Motor.
+\section{Pump efficiency} \label{ch04mech03}\section{Pump efficiency} \label{ch04mech03}
+Data on flow and head were measured for each pump. However, there was no measured data of motor/pump assembly regarding power ratings of all pumps 
+as of this writing since the GHD/APSI testing for the station is yet to be conducted. 
+Thus, as agreed with Maynilad Team, data from control panel specifically VFDs' current and voltage ratings will then be used to get the instantaneous power ratings of Pump and Motor during the course of operation.
+However, such values might not be equivalent to the values of power during the time of testing thus might affect the result of the analysis.
 
 \subsection{Unit flow measurement} \label{ch04mech04}
 Data on measured flow (Q) was recorded with min and max values is shown in Table \ref{ch04_tbl_flow01} for each pumps. %Raw data is provided in the Appendix \ref{appflow}.
@@ -60,26 +63,34 @@ Pump efficiency is computed based on the flow/head measurement and the assumed v
 	\caption{Pump efficiency (\%).}
 	\label{ch05_tbl_efficiency}
 	{\footnotesize
-\begin{tabular}{c|c|c|c|c|c|l|l}
-	\hline
+
+		
+	\begin{tabular}{c|c|c|c|c|c|l|l}
+\hline
 Assets & Flow & Head & Input Power & Water Power & \multicolumn{3}{c}{Efficiency (\%)} \\ 
 \cline{6-8}
  & $m^3/s$ & $mH_2O$ & kW & kW & Tested & Design & Diff. \\ 
 \hline
-BP1 & 0.492 & 51.581 & 385 & 249 & 64.54 & \multicolumn{1}{c|}{80} & \multicolumn{1}{c}{-15.46} \\ 
-BP2 & 0.492 & 52.635 & 385 & 254 & 65.86 & \multicolumn{1}{c|}{80} & \multicolumn{1}{c}{-14.14} \\ 
-BP4 & 0.536 & 53.338 & 385 & 280 & 72.73 & \multicolumn{1}{c|}{80} & \multicolumn{1}{c}{-7.27} \\ 
-SP1 & 0.362 & 50.364 & 200 & 179 & - & \multicolumn{1}{c|}{83.2} & \multicolumn{1}{c}{-} \\ 
-SP2 & 0.362 & 50.926 & 200 & 181 & - & \multicolumn{1}{c|}{83.2} & \multicolumn{1}{c}{-} \\ 
+BP1 & 0.492 & 51.581 & 375.5 & 249 & 66.3 & \multicolumn{1}{c|}{80} & \multicolumn{1}{c}{-13.7} \\ 
+BP2 & 0.492 & 52.635 & 394.5 & 254 & 64 & \multicolumn{1}{c|}{80} & \multicolumn{1}{c}{-16} \\ 
+BP4 & 0.536 & 53.338 & 394.5 & 280 & 71 & \multicolumn{1}{c|}{80} & \multicolumn{1}{c}{-9} \\ 
+SP1 & 0.362 & 50.364 & 129.1 & 179 & - & \multicolumn{1}{c|}{83.2} & \multicolumn{1}{c}{-} \\ 
+SP2 & 0.362 & 50.926 & 129.1 & 181 & - & \multicolumn{1}{c|}{83.2} & \multicolumn{1}{c}{-} \\ 
 \hline
 \end{tabular}
+
 
 	}
 \end{table}
 
-It is important to note that the values of input power is an assumed values which might not perfectly reflect the actual value in actual situation. This assumption is a limitation of the study, particularly for this station, since the electrical audit is yet to be conducted. The design pump efficiencies are taken from the test report of Kubota Corporation \cite{Kubota2010}. 
+It is important to note that the values of input power is a measured value, however on a separate day and so different working condition thus might not perfectly reflect 
+the actual value during the data gathering. This case is one of the limitations of the study.
+The design pump efficiencies are taken from the test report of Kubota Corporation \cite{Kubota2010}. 
 
-In Table \ref{ch05_tbl_efficiency}, efficiencies for SP1 and SP2 were not estimated due to the fact that the measured flow are beyond the maximum allowable flow of the pumps. These might infers that the pumps have been operated inappropriately pursuant to their design specifications, a case that could be associated to VFD operated pumps, aside from the fact that the viable measuring points of the flow is near the elbow at the discharge side. With that, the operation of the pumps might not be the optimum and as a result incurred more power than they should be. 
+In Table \ref{ch05_tbl_efficiency}, efficiencies for SP1 and SP2 were not estimated due to the fact that the measured flow are beyond the maximum allowable flow of the pumps. 
+These might infers that the pumps have been operated inappropriately pursuant to their design specifications, 
+a case that could be associated to VFD operated pumps, aside from the fact that the viable measuring points of the flow is near the elbow at the discharge side. 
+With that, the operation of the pumps might not be the optimum and as a result incurred more power than they should be. 
 
 Figure \ref{ch04_efficiencycurves}-a, and \ref{ch04_efficiencycurves}-b presents the efficiency curves for booster pumps and storage pumps, respectively. The curves are created based on the recorded data provided in the test record of Kubota Corporation \cite{Kubota2010}. 
 
@@ -115,5 +126,4 @@ As shown in Figure \ref{ch04_efficiencycurves}-b, the storage pumps operate at a
 \item	Regular pump performance monitoring and analysis shall be conducted to have a profiling of pump in relation to actual operating conditions, a major tool for pump performance optimization. In addition, multiple tests and conditions shall be implemented during testing to have a holistic approach on the pump assessment.
 \item	Provision for installation of testing points in measuring pump performance, such as thermodynamic method, shall also be included in the modifications  (refer to the conceptual design in Chapter \ref{Chapter6}).
 \end{itemize}
-
 
